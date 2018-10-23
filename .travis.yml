@@ -9,3 +9,9 @@ script:
   - npm run build
 deploy:
   provider: heroku
+  api_key:
+    secure: lxBRqVspF663o2Vp+vv1sN9JxogmtdTRhTWtpLRjF8hMl+iDYfUFfzx7aSrHe9L4tepCtWjFWOdHvkn9W8oK9RnONy5du3Ei82UkJGE5azFS3lj/bw6qUwRnACnjnHJgB7EbIExeiLMxHsqxni2xOAE6uB1QtMd1ojs/diNCi4LGspyO6rubX6HO3kEdZqWVgFDJFT7DHW7SZqrVqPvpxEASmrajrGZ7nKEmwGcxhHQENBil4GIYGvvvEx2KdzIzW5Z8DMnul9eD2YhTrwwkAxPqkGdpl7lpYZLjnJK3Z+SDJ+6+loezL+qJmJwEtpII3Yw3MqOhHgP6ZFfQ0cTd4EYwusmNl/n86Jy+IxCZxQ8dYewHygILae/bhMyVGGFEjvuL32cyLS9VcZJMzkC+8s3eb4YVfnWLxy9kW6zy0BShwNNgbsyeJi92c3D2sD0fUPRHzejKV7t2IKKlffXFyI1JuUPF/ipdr1s267/xzhUdci+6TW0sWqsm5wV7ry+a+ehrMay5uREAKlWm3L7wbzr40K8KUL5ewriu8KRTF9HHkn4t9UC1YjYs+t90RGv1r686lGZbHVjk6U19lBkhmEgUuUqpcpupM5ljyo+jbnbupdDA3fHJP530WU7/FkUhM8JqHf1E2eiBG338WhnXJi3x4dlESa1OEXRnnnXeJHo=
+  app: informant-lobby
+  skip_cleanup: true
+  on:
+    branch: master
