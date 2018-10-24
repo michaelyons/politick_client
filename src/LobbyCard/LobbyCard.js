@@ -1,8 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 const LobbyCard = () => {
-  return <div>Hi</div>;
+  return <h4>Hi</h4>;
 };
 
 export default LobbyCard;

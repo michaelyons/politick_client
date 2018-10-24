@@ -6,7 +6,12 @@ const CardContainer = ({ recentTopics }) => {
   const lobbyCard = recentTopics.map((topic, index) => (
     <LobbyCard {...topic} key={index} />
   ));
-  return <div className="lobby-card">{lobbyCard}</div>;
+  return (
+    <div className="lobby-card">
+      HI
+      {lobbyCard}
+    </div>
+  );
 };
 
 CardContainer.propTypes = {
