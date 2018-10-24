@@ -10,6 +10,7 @@ class App extends Component {
       recentTopics: []
     };
   }
+
   render() {
     return (
       <div className="App">
