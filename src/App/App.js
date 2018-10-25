@@ -15,11 +15,16 @@ class App extends Component {
     };
   }
 
+  componentDidMount() {
+    this.setInitialState();
+  }
+
   setInitialState = async () => {
     if (!this.state.recentTopics.length) {
       try {
-        const data = await initialFetchCall();
-        this.setState({ recentTopics: data });
+        const recentTopics = await initialFetchCall();
+        console.log(recentTopics);
+        this.setState({ recentTopics });
       } catch (error) {
         this.setState({ errors: error.message });
       }
