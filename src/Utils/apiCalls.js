@@ -18,11 +18,11 @@ const cleanInitialFetch = data => {
       return person.name;
     });
     return {
-      FilingId: object.filing_id,
-      ClientName: object.client.name,
-      Topic: object.issue,
-      Lobbyists: cleanLobbyists,
-      Register: object.registrant.name
+      filingId: object.filing_id,
+      clientName: object.client.name,
+      topic: object.issue.slice(2, object.issue.length - 2),
+      lobbyists: cleanLobbyists,
+      register: object.registrant.name
     };
   });
 };

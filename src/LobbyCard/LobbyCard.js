@@ -1,13 +1,24 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
-const LobbyCard = ({ name, filing_id, issue, lobbyists, registrant }) => {
+const LobbyCard = ({ clientName, filingId, lobbyists, register, topic }) => {
   return (
     <div>
-      <p>ID: {filing_id}</p>
-      <p>Name: {issue}</p>
+      <p>ID: {filingId}</p>
+      <p>Name: {clientName}</p>
+      <p>Topic: {topic}</p>
+      <p>Lobbyists: {lobbyists}</p>
+      <p>Registrar: {register}</p>
     </div>
   );
+};
+
+LobbyCard.propTypes = {
+  clientName: PropTypes.string,
+  filingId: PropTypes.number,
+  lobbyists: PropTypes.array,
+  register: PropTypes.string,
+  topic: PropTypes.string
 };
 
 export default LobbyCard;
