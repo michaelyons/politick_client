@@ -1,11 +1,10 @@
 import React from 'react';
-
+// import { Route, Switch } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
   return (
     <div className="header-wrapper">
-      <h4>Number of Votes Today: 140</h4>
       <h1>Informant Lobby</h1>
     </div>
   );

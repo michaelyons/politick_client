@@ -5,6 +5,13 @@ export const initialFetchCall = async () => {
   return cleanInitialFetch(data);
 };
 
+export const lobbyistFetchCall = async id => {
+  const url = `https://whispering-fjord-31037.herokuapp.com/api/v1/lobbying_representations?lobbyists=${id}`;
+  const response = await fetch(url);
+  const data = await response.json();
+  return data;
+};
+
 const cleanInitialFetch = data => {
   return data.map(object => {
     const removeDupLobbyists = object.lobbyists.filter(

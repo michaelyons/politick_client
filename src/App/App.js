@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import CardContainer from '../CardContainer/CardContainer';
 import Header from '../Header/Header';
+// import { Route, Switch } from 'react-router-dom';
 
 import { initialFetchCall } from '../Utils/apiCalls';
 
@@ -11,6 +12,7 @@ class App extends Component {
     super();
     this.state = {
       recentTopics: [],
+      uniqueLobbyistTopics: [],
       errors: ''
     };
   }
