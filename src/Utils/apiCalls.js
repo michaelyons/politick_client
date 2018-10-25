@@ -1,5 +1,5 @@
 export const initialFetchCall = async () => {
-  const url = `https://whispering-fjord-31037.herokuapp.com/api/v1/lobbying_representations`;
+  const url = `https://whispering-fjord-31037.herokuapp.com/api/v1/lobbying_representations?start=0&end=30`;
   const response = await fetch(url);
   const data = await response.json();
   return cleanInitialFetch(data);

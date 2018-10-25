@@ -1,0 +1,19 @@
+.lobby-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  border-radius: 5px;
+  color: #020202;
+  background-color: rgba(250, 250, 250, 0.7);
+
+  -webkit-box-shadow: 10px 10px 62px -22px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 62px -22px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 62px -22px rgba(0, 0, 0, 0.75);
+}
+
+.lobby-cards:hover {
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.6);
+  transform: translateY(-1px);
+  background-color: rgba(250, 250, 250, 0.9);
+}

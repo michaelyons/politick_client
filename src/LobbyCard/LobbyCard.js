@@ -1,9 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import './LobbyCard.css';
+
 const LobbyCard = ({ clientName, filingId, lobbyists, register, topic }) => {
   return (
-    <div>
+    <div className="lobby-cards">
       <p>ID: {filingId}</p>
       <p>Name: {clientName}</p>
       <p>Topic: {topic}</p>
