@@ -7,11 +7,22 @@ export const initialFetchCall = async () => {
 
 const cleanInitialFetch = data => {
   return data.map(object => {
+    const removeDupLobbyists = object.lobbyists.filter(
+      (person, index, self) =>
+        index ===
+        self.findIndex(
+          item => item.place === person.place && item.name === person.name
+        )
+    );
+    const cleanLobbyists = removeDupLobbyists.map(person => {
+      return person.name;
+    });
     return {
       FilingId: object.filing_id,
       ClientName: object.client.name,
       Topic: object.issue,
-      Lobbyists: object.lobbyists
+      Lobbyists: cleanLobbyists,
+      Register: object.registrant.name
     };
   });
 };
