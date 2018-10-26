@@ -5,10 +5,11 @@ export const initialFetchCall = async () => {
   return cleanInitialFetch(data);
 };
 
-export const lobbyistFetchCall = async id => {
-  const url = `https://whispering-fjord-31037.herokuapp.com/api/v1/lobbying_representations?lobbyists=${id}`;
+export const lobbyistFetchCall = async () => {
+  const url = `https://whispering-fjord-31037.herokuapp.com/api/v1/lobbying_representations?lobbyists`;
   const response = await fetch(url);
   const data = await response.json();
+  console.log(data);
   return data;
 };
 

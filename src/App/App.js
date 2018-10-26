@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import CardContainer from '../CardContainer/CardContainer';
 import Header from '../Header/Header';
-// import { Route, Switch } from 'react-router-dom';
-
-import { initialFetchCall } from '../Utils/apiCalls';
+import { Route, Switch } from 'react-router-dom';
+import Navigation from '../Navigation/Navigation';
+import { initialFetchCall, lobbyistFetchCall } from '../Utils/apiCalls';
 
 import './App.css';
 
@@ -12,13 +12,14 @@ class App extends Component {
     super();
     this.state = {
       recentTopics: [],
-      uniqueLobbyistTopics: [],
+      lobbyistList: [],
       errors: ''
     };
   }
 
   componentDidMount() {
     this.setInitialState();
+    this.fetchLobbyistsf();
   }
 
   setInitialState = async () => {
@@ -32,11 +33,45 @@ class App extends Component {
     }
   };
 
+  fetchLobbyists = async () => {
+    if (!this.state.lobbyistList.length) {
+      try {
+        const lobbyists = await lobbyistFetchCall();
+        this.setState({ lobbyistList: lobbyists });
+      } catch (error) {
+        this.setState({ error: error.message });
+      }
+    }
+  };
+
   render() {
     return (
-      <div className="App">
+      <div className="app">
         <Header />
-        <CardContainer recentTopics={this.state.recentTopics} />
+        <Navigation />
+        <main>
+          <div>
+            <Switch>
+              <Route
+                path="/"
+                render={() => {
+                  return (
+                    <CardContainer recentTopics={this.state.recentTopics} />
+                  );
+                }}
+              />
+              <Route
+                path="/lobbyists"
+                render={() => {
+                  this.fetchLobbyists();
+                  return (
+                    <CardContainer lobbyistList={this.state.lobbyistList} />
+                  );
+                }}
+              />
+            </Switch>
+          </div>
+        </main>
       </div>
     );
   }
