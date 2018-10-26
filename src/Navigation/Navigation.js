@@ -6,10 +6,10 @@ const Navigation = () => {
     <header>
       <nav>
         <NavLink exact to="/">
-          Recent
+          View Recent
         </NavLink>
         <NavLink exact to="/lobbyists">
-          Lobbyists
+          View Lobbyists
         </NavLink>
       </nav>
     </header>
