@@ -19,7 +19,7 @@ class App extends Component {
 
   componentDidMount() {
     this.setInitialState();
-    this.fetchLobbyists();
+    this.fetchLobbyistsf();
   }
 
   setInitialState = async () => {
