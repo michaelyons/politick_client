@@ -6,7 +6,7 @@ a {
   margin-right: 0.625%;
   text-align: center;
   line-height: 3;
-  color: black;
+  color: whitesmoke;
 }
 
 li:last-child a {
@@ -16,11 +16,11 @@ li:last-child a {
 a:link,
 a:visited,
 a:focus {
-  background: grey;
+  background: blue;
 }
 
 a:hover {
-  background: orange;
+  background: red;
 }
 
 a:active {

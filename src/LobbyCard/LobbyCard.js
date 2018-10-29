@@ -1,16 +1,30 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 import './LobbyCard.css';
 
-const LobbyCard = ({ clientName, filingId, lobbyists, register, topic }) => {
+const LobbyCard = ({
+  clientName,
+  filingId,
+  lobbyists,
+  register,
+  topic,
+  setCurrentId
+}) => {
+  const lobbyistLinks = lobbyists.map(person => (
+    <Link key={person.id} to={`/lobbyists/${person.id}`} onClick={setCurrentId}>
+      {person.name}
+    </Link>
+  ));
+
   return (
     <div className="lobby-cards">
-      <p>ID: {filingId}</p>
-      <p>Name: {clientName}</p>
+      <p>Lobby ID: {filingId}</p>
+      <p>Lobby Firm: {clientName}</p>
       <p>Topic: {topic}</p>
-      <p>Lobbyists: {lobbyists}</p>
-      <p>Registrar: {register}</p>
+      <p>Lobbyists: {lobbyistLinks}</p>
+      <p>Registering Firm: {register}</p>
     </div>
   );
 };
@@ -20,7 +34,8 @@ LobbyCard.propTypes = {
   filingId: PropTypes.number,
   lobbyists: PropTypes.array,
   register: PropTypes.string,
-  topic: PropTypes.string
+  topic: PropTypes.string,
+  setCurrentId: PropTypes.func
 };
 
 export default LobbyCard;

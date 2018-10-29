@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
-import CardContainer from '../CardContainer/CardContainer';
+import RecentTopicsContainer from '../RecentTopicsContainer/RecentTopicsContainer';
+import LobbyistListContainer from '../LobbyistListContainer/LobbyistListContainer';
+import LobbyistShow from '../LobbyistShow/LobbyistShow';
 import { Route, Switch } from 'react-router-dom';
 import Navigation from '../Navigation/Navigation';
 import {
   initialFetchCall,
   lobbyistFetchCall,
-  wordCloudFetch
+  wordCloudFetch,
+  lobbyistListFetchCall
 } from '../Utils/apiCalls';
 import WordCloud from 'react-d3-cloud';
 
@@ -18,14 +21,10 @@ class App extends Component {
       recentTopics: [],
       lobbyistList: [],
       wordCloud: [],
+      showLobbyists: [],
+      currentId: '',
       errors: ''
     };
-  }
-
-  componentDidMount() {
-    this.setInitialState();
-    this.fetchLobbyists();
-    this.setWordCloud();
   }
 
   setInitialState = async () => {
@@ -50,44 +49,89 @@ class App extends Component {
     }
   };
 
+  setCurrentId = () => {
+    setTimeout(() => {
+      const { pathname } = window.location;
+      this.setState({ currentId: pathname.split('/').pop() });
+    }, 1);
+  };
+
   fetchLobbyists = async () => {
     if (!this.state.lobbyistList.length) {
       try {
-        const lobbyists = await lobbyistFetchCall();
-        this.setState({ lobbyistList: lobbyists });
+        const lobbyistList = await lobbyistFetchCall();
+        this.setState({ lobbyistList });
       } catch (error) {
         this.setState({ error: error.message });
       }
     }
   };
 
+  fetchLobbyistList = async id => {
+    try {
+      const showLobbyists = await lobbyistListFetchCall(id);
+      this.setState({
+        showLobbyists
+      });
+    } catch (error) {
+      this.setState({ error: error.message });
+    }
+  };
+
   render() {
-    const fontSizeMapper = word => Math.log2(word.value) * 3;
+    const fontSizeMapper = word => Math.log2(word.value) * 2;
     return (
       <div className="app">
+        <h1>Informat Lobby</h1>
         <Navigation />
-        <WordCloud
-          data={this.state.wordCloud}
-          fontSizeMapper={fontSizeMapper}
-        />
         <main>
           <div>
             <Switch>
               <Route
+                exact
                 path="/"
                 render={() => {
+                  this.setInitialState();
                   return (
-                    <CardContainer recentTopics={this.state.recentTopics} />
+                    <RecentTopicsContainer
+                      recentTopicsCategory={this.state.recentTopics}
+                      setCurrentId={this.setCurrentId}
+                    />
                   );
                 }}
               />
               <Route
+                exact
                 path="/lobbyists"
                 render={() => {
                   this.fetchLobbyists();
                   return (
-                    <CardContainer lobbyistList={this.state.lobbyistList} />
+                    <LobbyistListContainer
+                      lobbyistListCategory={this.state.lobbyistList}
+                    />
                   );
+                }}
+              />
+              <Route
+                exact
+                path="/issues"
+                render={() => {
+                  this.setWordCloud();
+                  return (
+                    <WordCloud
+                      data={this.state.wordCloud}
+                      fontSizeMapper={fontSizeMapper}
+                    />
+                  );
+                }}
+              />
+              <Route
+                exact
+                path={`/lobbyists/${this.state.currentId}`}
+                render={() => {
+                  this.fetchLobbyistList(this.state.currentId);
+                  const { showLobbyists } = this.state;
+                  return <LobbyistShow lobbyist={showLobbyists} />;
                 }}
               />
             </Switch>
