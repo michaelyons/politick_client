@@ -49,6 +49,13 @@ class App extends Component {
     }
   };
 
+  setCurrentId = () => {
+    setTimeout(() => {
+      const { pathname } = window.location;
+      this.setState({ currentId: pathname.split('/').pop() });
+    }, 1);
+  };
+
   fetchLobbyists = async () => {
     if (!this.state.lobbyistList.length) {
       try {
@@ -61,23 +68,14 @@ class App extends Component {
   };
 
   fetchLobbyistList = async id => {
-    if (!this.state.showLobbyists.length) {
-      try {
-        const showLobbyists = await lobbyistListFetchCall(id);
-        this.setState({
-          showLobbyists
-        });
-      } catch (error) {
-        this.setState({ error: error.message });
-      }
+    try {
+      const showLobbyists = await lobbyistListFetchCall(id);
+      this.setState({
+        showLobbyists
+      });
+    } catch (error) {
+      this.setState({ error: error.message });
     }
-  };
-
-  setCurrentId = () => {
-    setTimeout(() => {
-      const { pathname } = window.location;
-      this.setState({ currentId: pathname[pathname.length - 1] });
-    }, 1);
   };
 
   render() {
