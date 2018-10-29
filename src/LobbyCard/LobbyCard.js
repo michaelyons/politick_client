@@ -10,10 +10,15 @@ const LobbyCard = ({
   lobbyists,
   register,
   topic,
-  setCurrentId
+  setCurrentId,
+  fetchLobbyData
 }) => {
+  const handleClick = async () => {
+    const id = await setCurrentId();
+    await fetchLobbyData(id);
+  };
   const lobbyistLinks = lobbyists.map(person => (
-    <Link key={person.id} to={`/lobbyists/${person.id}`} onClick={setCurrentId}>
+    <Link key={person.id} to={`/lobbyists/${person.id}`} onClick={handleClick}>
       {person.name}
     </Link>
   ));
