@@ -13,7 +13,7 @@ export const lobbyistFetchCall = async () => {
 };
 
 export const lobbyistListFetchCall = async id => {
-  const url = `https://whispering-fjord-31037.herokuapp.com/api/v1/lobbyists/${id}`;
+  const url = `https://whispering-fjord-31037.herokuapp.com/api/v1/lobbying_representations?lobbyist=${id}`;
   const response = await fetch(url);
   const data = await response.json();
   return data;

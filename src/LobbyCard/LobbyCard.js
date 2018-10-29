@@ -34,7 +34,8 @@ LobbyCard.propTypes = {
   filingId: PropTypes.number,
   lobbyists: PropTypes.array,
   register: PropTypes.string,
-  topic: PropTypes.string
+  topic: PropTypes.string,
+  setCurrentId: PropTypes.func
 };
 
 export default LobbyCard;

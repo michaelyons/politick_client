@@ -10,7 +10,8 @@ const RecentTopicsContainer = ({ recentTopicsCategory, setCurrentId }) => {
 };
 
 RecentTopicsContainer.propTypes = {
-  recentTopicsCategory: PropTypes.array
+  recentTopicsCategory: PropTypes.array,
+  setCurrentId: PropTypes.func
 };
 
 export default RecentTopicsContainer;

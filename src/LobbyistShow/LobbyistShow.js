@@ -4,8 +4,15 @@ import PropTypes from 'prop-types';
 const LobbyistShow = ({ lobbyist }) => {
   if (!lobbyist.length) {
     return <h1>Nothing Found</h1>;
+  } else {
+    return lobbyist.map((item, index) => (
+      <div key={index}>
+        <p>{item.filing_id}</p>
+        <p>{item.client.name}</p>
+        <p>{item.issue}</p>
+      </div>
+    ));
   }
-  return <h1>{lobbyist[0].id}</h1>;
 };
 
 LobbyistShow.propTypes = {

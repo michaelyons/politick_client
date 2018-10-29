@@ -38,13 +38,6 @@ class App extends Component {
     }
   };
 
-  setCurrentId = () => {
-    setTimeout(() => {
-      const { pathname } = window.location;
-      this.setState({ currentId: pathname[pathname.length - 1] });
-    }, 1);
-  };
-
   setWordCloud = async () => {
     if (!this.state.wordCloud.length) {
       try {
@@ -72,7 +65,7 @@ class App extends Component {
       try {
         const showLobbyists = await lobbyistListFetchCall(id);
         this.setState({
-          showLobbyists: showLobbyists.lobbying_representations
+          showLobbyists
         });
       } catch (error) {
         this.setState({ error: error.message });
@@ -80,8 +73,15 @@ class App extends Component {
     }
   };
 
+  setCurrentId = () => {
+    setTimeout(() => {
+      const { pathname } = window.location;
+      this.setState({ currentId: pathname[pathname.length - 1] });
+    }, 1);
+  };
+
   render() {
-    const fontSizeMapper = word => Math.log2(word.value) * 5;
+    const fontSizeMapper = word => Math.log2(word.value) * 2;
     return (
       <div className="app">
         <h1>Informat Lobby</h1>
@@ -130,7 +130,7 @@ class App extends Component {
               <Route
                 exact
                 path={`/lobbyists/${this.state.currentId}`}
-                render={({ match }) => {
+                render={() => {
                   this.fetchLobbyistList(this.state.currentId);
                   const { showLobbyists } = this.state;
                   return <LobbyistShow lobbyist={showLobbyists} />;
