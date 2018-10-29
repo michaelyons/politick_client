@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import LobbistListCard from '../LobbistListCard/LobbistListCard';
 
 const LobbistListContainer = ({ lobbyistListCategory }) => {
-  // console.log(lobbyistListCategory);
+  console.log(lobbyistListCategory);
   const lobbistListCard = lobbyistListCategory.map((list, index) => (
     <LobbistListCard {...list} key={index} />
   ));

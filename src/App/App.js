@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import RecentTopicsContainer from '../RecentTopicsContainer/RecentTopicsContainer';
 import LobbyistListContainer from '../LobbyistListContainer/LobbyistListContainer';
+import LobbyistShow from '../LobbyistShow/LobbyistShow';
 import { Route, Switch } from 'react-router-dom';
 import Navigation from '../Navigation/Navigation';
 import {
@@ -31,6 +32,8 @@ class App extends Component {
       } catch (error) {
         this.setState({ errors: error.message });
       }
+    } else {
+      return;
     }
   };
 
@@ -42,6 +45,8 @@ class App extends Component {
       } catch (error) {
         this.setState({ errors: error.message });
       }
+    } else {
+      return;
     }
   };
 
@@ -53,6 +58,8 @@ class App extends Component {
       } catch (error) {
         this.setState({ error: error.message });
       }
+    } else {
+      return;
     }
   };
 
@@ -60,6 +67,7 @@ class App extends Component {
     const fontSizeMapper = word => Math.log2(word.value) * 5;
     return (
       <div className="app">
+        <h1>Informat Lobby</h1>
         <Navigation />
         <main>
           <div>
@@ -99,6 +107,17 @@ class App extends Component {
                       fontSizeMapper={fontSizeMapper}
                     />
                   );
+                }}
+              />
+              <Route
+                exact
+                path="/lobbyists/:id"
+                render={({ match }) => {
+                  const { lobbyistList } = this.state;
+                  const lobbyist = lobbyistList.find(
+                    lobbyist => lobbyist.id === match.params.id
+                  );
+                  return <LobbyistShow lobbyist={lobbyist} />;
                 }}
               />
             </Switch>

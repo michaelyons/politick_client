@@ -29,7 +29,7 @@ const cleanInitialFetch = data => {
         )
     );
     const cleanLobbyists = removeDupLobbyists.map(person => {
-      return person.name;
+      return { name: person.name, id: person.id };
     });
     return {
       filingId: object.filing_id,
