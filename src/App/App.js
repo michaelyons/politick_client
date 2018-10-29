@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import CardContainer from '../CardContainer/CardContainer';
+import RecentTopicsContainer from '../RecentTopicsContainer/RecentTopicsContainer';
 import { Route, Switch } from 'react-router-dom';
 import Navigation from '../Navigation/Navigation';
 import {
@@ -56,7 +56,7 @@ class App extends Component {
   };
 
   render() {
-    const fontSizeMapper = word => Math.log2(word.value) * 3;
+    const fontSizeMapper = word => Math.log2(word.value) * 5;
     return (
       <div className="app">
         <Navigation />
@@ -67,10 +67,11 @@ class App extends Component {
                 exact
                 path="/"
                 render={() => {
-                  console.log('hiiii');
                   this.setInitialState();
                   return (
-                    <CardContainer currentCategory={this.state.recentTopics} />
+                    <RecentTopicsContainer
+                      currentCategory={this.state.recentTopics}
+                    />
                   );
                 }}
               />
@@ -80,7 +81,9 @@ class App extends Component {
                 render={() => {
                   this.fetchLobbyists();
                   return (
-                    <CardContainer currentCategory={this.state.lobbyistList} />
+                    <RecentTopicsContainer
+                      currentCategory={this.state.lobbyistList}
+                    />
                   );
                 }}
               />

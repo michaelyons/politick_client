@@ -6,11 +6,11 @@ import './LobbyCard.css';
 const LobbyCard = ({ clientName, filingId, lobbyists, register, topic }) => {
   return (
     <div className="lobby-cards">
-      <p>ID: {filingId}</p>
-      <p>Name: {clientName}</p>
+      <p>Lobby ID: {filingId}</p>
+      <p>Lobby Firm: {clientName}</p>
       <p>Topic: {topic}</p>
       <p>Lobbyists: {lobbyists}</p>
-      <p>Registrar: {register}</p>
+      <p>Registering Firm: {register}</p>
     </div>
   );
 };

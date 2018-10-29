@@ -12,24 +12,6 @@ export const lobbyistFetchCall = async () => {
   return data;
 };
 
-// export const setCurrentData = async (currentCategory, data) => {
-//   let currentData;
-//   switch (currentCategory) {
-//     case '/':
-//       currentData = await initialFetchCall(data);
-//       break;
-//     case '/lobbyists':
-//       currentData = await lobbyistFetchCall(data);
-//       break;
-//     case '/issues':
-//       currentData = wordCloudFetch(data);
-//       break;
-//     default:
-//       break;
-//   }
-//   return currentData;
-// };
-
 export const wordCloudFetch = async () => {
   const url = `https://informant-words-staging.herokuapp.com/api/v1/common_words`;
   const response = await fetch(url);
