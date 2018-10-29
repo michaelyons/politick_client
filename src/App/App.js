@@ -68,13 +68,15 @@ class App extends Component {
   };
 
   fetchLobbyistList = async id => {
-    try {
-      const showLobbyists = await lobbyistListFetchCall(id);
-      this.setState({
-        showLobbyists
-      });
-    } catch (error) {
-      this.setState({ error: error.message });
+    if (!this.state.showLobbyists.length) {
+      try {
+        const showLobbyists = await lobbyistListFetchCall(id);
+        this.setState({
+          showLobbyists
+        });
+      } catch (error) {
+        this.setState({ error: error.message });
+      }
     }
   };
 
