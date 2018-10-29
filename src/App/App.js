@@ -22,12 +22,6 @@ class App extends Component {
     };
   }
 
-  componentDidMount() {
-    this.setInitialState();
-    this.fetchLobbyists();
-    this.setWordCloud();
-  }
-
   setInitialState = async () => {
     if (!this.state.recentTopics.length) {
       try {
@@ -53,8 +47,8 @@ class App extends Component {
   fetchLobbyists = async () => {
     if (!this.state.lobbyistList.length) {
       try {
-        const lobbyists = await lobbyistFetchCall();
-        this.setState({ lobbyistList: lobbyists });
+        const lobbyistList = await lobbyistFetchCall();
+        this.setState({ lobbyistList });
       } catch (error) {
         this.setState({ error: error.message });
       }
@@ -66,27 +60,40 @@ class App extends Component {
     return (
       <div className="app">
         <Navigation />
-        <WordCloud
-          data={this.state.wordCloud}
-          fontSizeMapper={fontSizeMapper}
-        />
         <main>
           <div>
             <Switch>
               <Route
+                exact
                 path="/"
                 render={() => {
+                  console.log('hiiii');
+                  this.setInitialState();
                   return (
-                    <CardContainer recentTopics={this.state.recentTopics} />
+                    <CardContainer currentCategory={this.state.recentTopics} />
                   );
                 }}
               />
               <Route
+                exact
                 path="/lobbyists"
                 render={() => {
                   this.fetchLobbyists();
                   return (
-                    <CardContainer lobbyistList={this.state.lobbyistList} />
+                    <CardContainer currentCategory={this.state.lobbyistList} />
+                  );
+                }}
+              />
+              <Route
+                exact
+                path="/issues"
+                render={() => {
+                  this.setWordCloud();
+                  return (
+                    <WordCloud
+                      data={this.state.wordCloud}
+                      fontSizeMapper={fontSizeMapper}
+                    />
                   );
                 }}
               />

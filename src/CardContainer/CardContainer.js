@@ -2,15 +2,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import LobbyCard from '../LobbyCard/LobbyCard';
 
-const CardContainer = ({ recentTopics }) => {
-  const lobbyCard = recentTopics.map((topic, index) => (
+const CardContainer = ({ currentCategory }) => {
+  const lobbyCard = currentCategory.map((topic, index) => (
     <LobbyCard {...topic} key={index} />
   ));
   return <div>{lobbyCard}</div>;
 };
 
 CardContainer.propTypes = {
-  recentTopics: PropTypes.array
+  currentCategory: PropTypes.array
 };
 
 export default CardContainer;
