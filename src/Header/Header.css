@@ -1,6 +1,9 @@
 .header-wrapper {
   display: flex;
   justify-content: space-evenly;
-  background: mediumaquamarine;
+  background: url(https://www.deseretnews.com/images/article/hires/1839249/1839249.jpg);
+  background-size: 100%;
+  width: 100vw;
+  height: 100vh;
   margin-bottom: 0.5rem;
 }

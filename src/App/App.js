@@ -65,7 +65,6 @@ class App extends Component {
 
   render() {
     const fontSizeMapper = word => Math.log2(word.value) * 5;
-    const rotate = word => word.value % 360;
     return (
       <div className="app">
         <Header />
@@ -73,7 +72,6 @@ class App extends Component {
         <WordCloud
           data={this.state.wordCloud}
           fontSizeMapper={fontSizeMapper}
-          rotate={rotate}
         />
         ,
         <main>
