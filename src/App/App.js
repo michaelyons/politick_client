@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import RecentTopicsContainer from '../RecentTopicsContainer/RecentTopicsContainer';
+import LobbyistListContainer from '../LobbyistListContainer/LobbyistListContainer';
 import { Route, Switch } from 'react-router-dom';
 import Navigation from '../Navigation/Navigation';
 import {
@@ -70,7 +71,7 @@ class App extends Component {
                   this.setInitialState();
                   return (
                     <RecentTopicsContainer
-                      currentCategory={this.state.recentTopics}
+                      recentTopicsCategory={this.state.recentTopics}
                     />
                   );
                 }}
@@ -81,8 +82,8 @@ class App extends Component {
                 render={() => {
                   this.fetchLobbyists();
                   return (
-                    <RecentTopicsContainer
-                      currentCategory={this.state.lobbyistList}
+                    <LobbyistListContainer
+                      lobbyistListCategory={this.state.lobbyistList}
                     />
                   );
                 }}
