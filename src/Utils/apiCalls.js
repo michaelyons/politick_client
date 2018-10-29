@@ -9,7 +9,13 @@ export const lobbyistFetchCall = async () => {
   const url = `https://whispering-fjord-31037.herokuapp.com/api/v1/lobbying_representations?lobbyists`;
   const response = await fetch(url);
   const data = await response.json();
-  console.log(data);
+  return data;
+};
+
+export const wordCloudFetch = async () => {
+  const url = `https://informant-words-staging.herokuapp.com/api/v1/common_words`;
+  const response = await fetch(url);
+  const data = await response.json();
   return data;
 };
 

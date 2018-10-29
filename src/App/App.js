@@ -3,7 +3,13 @@ import CardContainer from '../CardContainer/CardContainer';
 import Header from '../Header/Header';
 import { Route, Switch } from 'react-router-dom';
 import Navigation from '../Navigation/Navigation';
-import { initialFetchCall, lobbyistFetchCall } from '../Utils/apiCalls';
+import {
+  initialFetchCall,
+  lobbyistFetchCall,
+  wordCloudFetch
+} from '../Utils/apiCalls';
+import { render } from 'react-dom';
+import WordCloud from 'react-d3-cloud';
 
 import './App.css';
 
@@ -13,13 +19,15 @@ class App extends Component {
     this.state = {
       recentTopics: [],
       lobbyistList: [],
+      wordCloud: [],
       errors: ''
     };
   }
 
   componentDidMount() {
     this.setInitialState();
-    this.fetchLobbyistsf();
+    this.fetchLobbyists();
+    this.setWordCloud();
   }
 
   setInitialState = async () => {
@@ -27,6 +35,17 @@ class App extends Component {
       try {
         const recentTopics = await initialFetchCall();
         this.setState({ recentTopics });
+      } catch (error) {
+        this.setState({ errors: error.message });
+      }
+    }
+  };
+
+  setWordCloud = async () => {
+    if (!this.state.wordCloud.length) {
+      try {
+        const wordCloud = await wordCloudFetch();
+        this.setState({ wordCloud });
       } catch (error) {
         this.setState({ errors: error.message });
       }
@@ -45,10 +64,18 @@ class App extends Component {
   };
 
   render() {
+    const fontSizeMapper = word => Math.log2(word.value) * 5;
+    const rotate = word => word.value % 360;
     return (
       <div className="app">
         <Header />
         <Navigation />
+        <WordCloud
+          data={this.state.wordCloud}
+          fontSizeMapper={fontSizeMapper}
+          rotate={rotate}
+        />
+        ,
         <main>
           <div>
             <Switch>
