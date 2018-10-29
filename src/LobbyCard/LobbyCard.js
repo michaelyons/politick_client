@@ -4,9 +4,16 @@ import { Link } from 'react-router-dom';
 
 import './LobbyCard.css';
 
-const LobbyCard = ({ clientName, filingId, lobbyists, register, topic }) => {
+const LobbyCard = ({
+  clientName,
+  filingId,
+  lobbyists,
+  register,
+  topic,
+  setCurrentId
+}) => {
   const lobbyistLinks = lobbyists.map(person => (
-    <Link key={person.id} to={`/lobbyists/${person.id}`}>
+    <Link key={person.id} to={`/lobbyists/${person.id}`} onClick={setCurrentId}>
       {person.name}
     </Link>
   ));

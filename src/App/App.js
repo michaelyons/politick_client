@@ -7,7 +7,8 @@ import Navigation from '../Navigation/Navigation';
 import {
   initialFetchCall,
   lobbyistFetchCall,
-  wordCloudFetch
+  wordCloudFetch,
+  lobbyistListFetchCall
 } from '../Utils/apiCalls';
 import WordCloud from 'react-d3-cloud';
 
@@ -20,6 +21,8 @@ class App extends Component {
       recentTopics: [],
       lobbyistList: [],
       wordCloud: [],
+      showLobbyists: [],
+      currentId: '',
       errors: ''
     };
   }
@@ -32,9 +35,14 @@ class App extends Component {
       } catch (error) {
         this.setState({ errors: error.message });
       }
-    } else {
-      return;
     }
+  };
+
+  setCurrentId = () => {
+    setTimeout(() => {
+      const { pathname } = window.location;
+      this.setState({ currentId: pathname[pathname.length - 1] });
+    }, 1);
   };
 
   setWordCloud = async () => {
@@ -45,8 +53,6 @@ class App extends Component {
       } catch (error) {
         this.setState({ errors: error.message });
       }
-    } else {
-      return;
     }
   };
 
@@ -58,8 +64,19 @@ class App extends Component {
       } catch (error) {
         this.setState({ error: error.message });
       }
-    } else {
-      return;
+    }
+  };
+
+  fetchLobbyistList = async id => {
+    if (!this.state.showLobbyists.length) {
+      try {
+        const showLobbyists = await lobbyistListFetchCall(id);
+        this.setState({
+          showLobbyists: showLobbyists.lobbying_representations
+        });
+      } catch (error) {
+        this.setState({ error: error.message });
+      }
     }
   };
 
@@ -80,6 +97,7 @@ class App extends Component {
                   return (
                     <RecentTopicsContainer
                       recentTopicsCategory={this.state.recentTopics}
+                      setCurrentId={this.setCurrentId}
                     />
                   );
                 }}
@@ -111,13 +129,11 @@ class App extends Component {
               />
               <Route
                 exact
-                path="/lobbyists/:id"
+                path={`/lobbyists/${this.state.currentId}`}
                 render={({ match }) => {
-                  const { lobbyistList } = this.state;
-                  const lobbyist = lobbyistList.find(
-                    lobbyist => lobbyist.id === match.params.id
-                  );
-                  return <LobbyistShow lobbyist={lobbyist} />;
+                  this.fetchLobbyistList(this.state.currentId);
+                  const { showLobbyists } = this.state;
+                  return <LobbyistShow lobbyist={showLobbyists} />;
                 }}
               />
             </Switch>

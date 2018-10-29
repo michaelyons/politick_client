@@ -12,6 +12,13 @@ export const lobbyistFetchCall = async () => {
   return data;
 };
 
+export const lobbyistListFetchCall = async id => {
+  const url = `https://whispering-fjord-31037.herokuapp.com/api/v1/lobbyists/${id}`;
+  const response = await fetch(url);
+  const data = await response.json();
+  return data;
+};
+
 export const wordCloudFetch = async () => {
   const url = `https://informant-words-staging.herokuapp.com/api/v1/common_words`;
   const response = await fetch(url);
