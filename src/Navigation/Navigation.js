@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import './Navigation.css';
 
 const Navigation = () => {
   return (
@@ -10,6 +11,9 @@ const Navigation = () => {
         </NavLink>
         <NavLink exact to="/lobbyists">
           View Lobbyists
+        </NavLink>
+        <NavLink exact to="/issues">
+          View Issues
         </NavLink>
       </nav>
     </header>

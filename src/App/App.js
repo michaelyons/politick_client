@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import CardContainer from '../CardContainer/CardContainer';
-import Header from '../Header/Header';
 import { Route, Switch } from 'react-router-dom';
 import Navigation from '../Navigation/Navigation';
 import {
@@ -8,7 +7,6 @@ import {
   lobbyistFetchCall,
   wordCloudFetch
 } from '../Utils/apiCalls';
-import { render } from 'react-dom';
 import WordCloud from 'react-d3-cloud';
 
 import './App.css';
@@ -64,16 +62,14 @@ class App extends Component {
   };
 
   render() {
-    const fontSizeMapper = word => Math.log2(word.value) * 5;
+    const fontSizeMapper = word => Math.log2(word.value) * 3;
     return (
       <div className="app">
-        <Header />
         <Navigation />
         <WordCloud
           data={this.state.wordCloud}
           fontSizeMapper={fontSizeMapper}
         />
-        ,
         <main>
           <div>
             <Switch>
