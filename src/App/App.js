@@ -24,7 +24,8 @@ class App extends Component {
       showLobbyists: [],
       showWords: [],
       currentId: '',
-      errors: ''
+      errors: '',
+      active: false
     };
   }
 
@@ -80,18 +81,26 @@ class App extends Component {
     }
   };
 
+  toggleClass = () => {
+    const currentState = this.state.active;
+    this.setState({ active: !currentState });
+  };
+
+  fontSizeMapper = word => Math.log2(word.value) * 9;
+
+  onWordClick = async word => {
+    try {
+      const showWords = await specificWordFetch(word.text);
+      this.setState({
+        showWords
+      });
+    } catch (error) {
+      this.setState({ error: error.message });
+    }
+    this.toggleClass();
+  };
+
   render() {
-    const fontSizeMapper = word => Math.log2(word.value) * 12;
-    const onWordClick = async word => {
-      try {
-        const showWords = await specificWordFetch(word.text);
-        this.setState({
-          showWords
-        });
-      } catch (error) {
-        this.setState({ error: error.message });
-      }
-    };
     return (
       <section className="hero is-primary is-medium">
         <div className="hero-head">
@@ -99,10 +108,7 @@ class App extends Component {
             <div className="container">
               <div className="navbar-brand">
                 <a className="navbar-item">
-                  <img
-                    src="https://media.giphy.com/media/5WISDYhQLq8ZnR3v0Q/giphy.gif"
-                    alt="Logo"
-                  />
+                  <h1>INFORMANT</h1>
                 </a>
                 <span
                   className="navbar-burger burger"
@@ -115,7 +121,7 @@ class App extends Component {
               </div>
               <div id="navbarMenuHeroA" className="navbar-menu">
                 <div className="navbar-end">
-                  <a className="navbar-item is-active">
+                  <a className="navbar-item">
                     <NavLink exact to="/">
                       View Recent
                     </NavLink>
@@ -182,10 +188,10 @@ class App extends Component {
                   return (
                     <WordCloud
                       data={this.state.wordCloud}
-                      fontSizeMapper={fontSizeMapper}
+                      fontSizeMapper={this.fontSizeMapper}
                       width={1320}
                       height={900}
-                      onWordClick={onWordClick}
+                      onWordClick={this.onWordClick}
                       padding={5}
                     />
                   );
@@ -200,6 +206,14 @@ class App extends Component {
                 }}
               />
             </Switch>
+          </div>
+          <div
+            className={`modal ${this.state.active ? 'is-active' : ''}`}
+            onClick={this.toggleClass}
+          >
+            <div className="modal-background" />
+            <div className="modal-content" />
+            <button className="modal-close is-large" aria-label="close" />
           </div>
         </div>
         <div className="hero-foot">
