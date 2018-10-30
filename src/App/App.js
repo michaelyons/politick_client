@@ -108,7 +108,9 @@ class App extends Component {
             <div className="container">
               <div className="navbar-brand">
                 <a className="navbar-item">
-                  <h1>INFORMANT</h1>
+                  <NavLink exact to="/">
+                    INFORMANT
+                  </NavLink>
                 </a>
                 <span
                   className="navbar-burger burger"
@@ -122,7 +124,7 @@ class App extends Component {
               <div id="navbarMenuHeroA" className="navbar-menu">
                 <div className="navbar-end">
                   <a className="navbar-item">
-                    <NavLink exact to="/">
+                    <NavLink exact to="/most_recent">
                       View Recent
                     </NavLink>
                   </a>
@@ -137,11 +139,14 @@ class App extends Component {
                     </NavLink>
                   </a>
                   <span className="navbar-item">
-                    <a className="button is-primary is-inverted">
+                    <a
+                      className="button is-primary is-inverted"
+                      href="https://www.propublica.org/"
+                    >
                       <span className="icon">
-                        <i className="fab fa-github" />
+                        <i className="fab fa-product-hunt" />
                       </span>
-                      <span>Download</span>
+                      <span>ProPublica</span>
                     </a>
                   </span>
                 </div>
@@ -151,12 +156,22 @@ class App extends Component {
         </div>
         <div className="hero-body">
           <div className="container has-text-centered">
-            <h1 className="title">INFORMANT</h1>
-            <h2 className="subtitle">MIKE, JOHN, CONNER</h2>
             <Switch>
               <Route
                 exact
                 path="/"
+                render={() => {
+                  return (
+                    <h1>
+                      Welcome to informant lobby, the premier location for
+                      current and historical lobbying representations in America
+                    </h1>
+                  );
+                }}
+              />
+              <Route
+                exact
+                path="/most_recent"
                 render={() => {
                   this.setInitialState();
                   return (
