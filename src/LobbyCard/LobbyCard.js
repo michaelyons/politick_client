@@ -30,15 +30,8 @@ const LobbyCard = ({
         <p className="title">{topic}</p>
         <p className="subtitle">{filingId}</p>
         <p className="subtitle">{clientName}</p>
-        <p className="subtitle">{lobbyistLinks}</p>
         <p className="subtitle">{register}</p>
-        {/* </div>
-    <div className="lobby-cards">
-      <p>Lobby ID: {filingId}</p>
-      <p>Lobby Firm: {clientName}</p>
-      <p>Topic: {topic}</p>
-      <p>Lobbyists: {lobbyistLinks}</p>
-      <p>Registering Firm: {register}</p> */}
+        <p className="subtitle">{lobbyistLinks}</p>
       </div>
     </div>
   );
