@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import RecentTopicsContainer from '../RecentTopicsContainer/RecentTopicsContainer';
 import LobbyistListContainer from '../LobbyistListContainer/LobbyistListContainer';
 import LobbyistShow from '../LobbyistShow/LobbyistShow';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, NavLink } from 'react-router-dom';
 import Navigation from '../Navigation/Navigation';
 import {
   initialFetchCall,
@@ -82,7 +82,7 @@ class App extends Component {
   };
 
   render() {
-    const fontSizeMapper = word => Math.log2(word.value) * 4;
+    const fontSizeMapper = word => Math.log2(word.value) * 12;
     const onWordClick = async word => {
       try {
         const showWords = await specificWordFetch(word.text);
@@ -94,11 +94,60 @@ class App extends Component {
       }
     };
     return (
-      <div className="container">
-        <h1 className="title app-header">Informat Lobby</h1>
-        <Navigation />
-        <main>
-          <div>
+      <section className="hero is-primary is-medium">
+        <div className="hero-head">
+          <nav className="navbar">
+            <div className="container">
+              <div className="navbar-brand">
+                <a className="navbar-item">
+                  <img
+                    src="https://media.giphy.com/media/5WISDYhQLq8ZnR3v0Q/giphy.gif"
+                    alt="Logo"
+                  />
+                </a>
+                <span
+                  className="navbar-burger burger"
+                  data-target="navbarMenuHeroA"
+                >
+                  <span />
+                  <span />
+                  <span />
+                </span>
+              </div>
+              <div id="navbarMenuHeroA" className="navbar-menu">
+                <div className="navbar-end">
+                  <a className="navbar-item is-active">
+                    <NavLink exact to="/">
+                      View Recent
+                    </NavLink>
+                  </a>
+                  <a className="navbar-item">
+                    <NavLink exact to="/lobbyists">
+                      View Lobbyists
+                    </NavLink>
+                  </a>
+                  <a className="navbar-item">
+                    <NavLink exact to="/issues">
+                      View Issues
+                    </NavLink>
+                  </a>
+                  <span className="navbar-item">
+                    <a className="button is-primary is-inverted">
+                      <span className="icon">
+                        <i className="fab fa-github" />
+                      </span>
+                      <span>Download</span>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div className="hero-body">
+          <div className="container has-text-centered">
+            <h1 className="title">INFORMANT</h1>
+            <h2 className="subtitle">MIKE, JOHN, CONNER</h2>
             <Switch>
               <Route
                 exact
@@ -153,8 +202,34 @@ class App extends Component {
               />
             </Switch>
           </div>
-        </main>
-      </div>
+        </div>
+        <div className="hero-foot">
+          <nav className="tabs">
+            <div className="container">
+              <ul>
+                <li className="is-active">
+                  <a>Overview</a>
+                </li>
+                <li>
+                  <a>Modifiers</a>
+                </li>
+                <li>
+                  <a>Grid</a>
+                </li>
+                <li>
+                  <a>Elements</a>
+                </li>
+                <li>
+                  <a>Components</a>
+                </li>
+                <li>
+                  <a>Layout</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </section>
     );
   }
 }
