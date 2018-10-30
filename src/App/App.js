@@ -8,7 +8,8 @@ import {
   initialFetchCall,
   lobbyistFetchCall,
   wordCloudFetch,
-  lobbyistListFetchCall
+  lobbyistListFetchCall,
+  specificWordFetch
 } from '../Utils/apiCalls';
 import WordCloud from 'react-d3-cloud';
 
@@ -22,6 +23,7 @@ class App extends Component {
       lobbyistList: [],
       wordCloud: [],
       showLobbyists: [],
+      showWords: [],
       currentId: '',
       errors: ''
     };
@@ -80,8 +82,17 @@ class App extends Component {
   };
 
   render() {
-    const fontSizeMapper = word => Math.log2(word.value) * 3.5;
-    const onWordClick = word => console.log(word);
+    const fontSizeMapper = word => Math.log2(word.value) * 4;
+    const onWordClick = async word => {
+      try {
+        const showWords = await specificWordFetch(word.text);
+        this.setState({
+          showWords
+        });
+      } catch (error) {
+        this.setState({ error: error.message });
+      }
+    };
     return (
       <div className="container">
         <h1 className="title app-header">Informat Lobby</h1>
@@ -124,8 +135,8 @@ class App extends Component {
                     <WordCloud
                       data={this.state.wordCloud}
                       fontSizeMapper={fontSizeMapper}
-                      width={900}
-                      height={800}
+                      width={1320}
+                      height={900}
                       onWordClick={onWordClick}
                       padding={5}
                     />

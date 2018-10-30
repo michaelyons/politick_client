@@ -26,6 +26,13 @@ export const wordCloudFetch = async () => {
   return data;
 };
 
+export const specificWordFetch = async word => {
+  const url = `https://informant-words-staging.herokuapp.com/api/v1/lobbying_representations?word=${word}`;
+  const response = await fetch(url);
+  const data = await response.json();
+  return data;
+};
+
 const cleanInitialFetch = data => {
   return data.map(object => {
     const removeDupLobbyists = object.lobbyists.filter(
