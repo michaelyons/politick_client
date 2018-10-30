@@ -5,3 +5,7 @@
   font-family: 'Shadows Into Light', cursive;
   font-size: 4rem;
 }
+
+.card-content {
+  margin-bottom: 1rem;
+}
