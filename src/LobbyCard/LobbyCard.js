@@ -19,7 +19,12 @@ const LobbyCard = ({
   };
 
   const lobbyistLinks = lobbyists.map(person => (
-    <Link key={person.id} to={`/lobbyists/${person.id}`} onClick={handleClick}>
+    <Link
+      className="lobbyist-name"
+      key={person.id}
+      to={`/lobbyists/${person.id}`}
+      onClick={handleClick}
+    >
       {person.name}
     </Link>
   ));
@@ -27,12 +32,27 @@ const LobbyCard = ({
   return (
     <div className="card">
       <div className="card-content">
-        <p>{topic}</p>
-        <p>{filingId}</p>
-        <p>{clientName}</p>
-        <p>{register}</p>
-        <p>{lobbyistLinks}</p>
+        <p className="title">{topic}</p>
+        <p className="subtitle">{filingId}</p>
+        <p className="subtitle">{clientName}</p>
+        <p className="subtitle">{register}</p>
+        <p className="subtitle">{lobbyistLinks}</p>
       </div>
+      <footer className="card-footer">
+        <p className="card-footer-item">
+          <span>
+            View on{' '}
+            <a href="https://twitter.com/codinghorror/status/506010907021828096">
+              Twitter
+            </a>
+          </span>
+        </p>
+        <p className="card-footer-item">
+          <span>
+            Share on <a href="#">Facebook</a>
+          </span>
+        </p>
+      </footer>
     </div>
   );
 };
