@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import LobbyCard from '../LobbyCard/LobbyCard';
 
+import './RecentTopicsContainer.css';
+
 const RecentTopicsContainer = ({
   recentTopicsCategory,
   setCurrentId,

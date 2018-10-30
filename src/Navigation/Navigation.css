@@ -15,6 +15,7 @@ a {
   line-height: 3;
   color: whitesmoke;
   border-radius: 20px;
+  text-decoration: none;
 }
 
 li:last-child a {
@@ -28,7 +29,7 @@ a:focus {
 }
 
 a:hover {
-  background: antiquewhite;
+  background: cornflowerblue;
 }
 
 a:active {

@@ -69,7 +69,6 @@ class App extends Component {
   };
 
   fetchLobbyistList = async id => {
-    // if (!this.state.showLobbyists.length) {
     try {
       const showLobbyists = await lobbyistListFetchCall(id);
       this.setState({
@@ -79,10 +78,10 @@ class App extends Component {
       this.setState({ error: error.message });
     }
   };
-  // };
 
   render() {
     const fontSizeMapper = word => Math.log2(word.value) * 2;
+    const onWordClick = word => console.log(word);
     return (
       <div className="container">
         <h1 className="title app-header">Informat Lobby</h1>
@@ -125,6 +124,9 @@ class App extends Component {
                     <WordCloud
                       data={this.state.wordCloud}
                       fontSizeMapper={fontSizeMapper}
+                      width={900}
+                      height={800}
+                      onWordClick={onWordClick}
                     />
                   );
                 }}
@@ -133,7 +135,6 @@ class App extends Component {
                 exact
                 path={`/lobbyists/${this.state.currentId}`}
                 render={() => {
-                  // this.fetchLobbyistList(this.state.currentId);
                   const { showLobbyists } = this.state;
                   return <LobbyistShow lobbyist={showLobbyists} />;
                 }}

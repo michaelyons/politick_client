@@ -31,7 +31,7 @@ const LobbyCard = ({
         <p className="subtitle">{filingId}</p>
         <p className="subtitle">{clientName}</p>
         <p className="subtitle">{register}</p>
-        <p className="subtitle">{lobbyistLinks}</p>
+        <p className="button-link">{lobbyistLinks}</p>
       </div>
     </div>
   );
