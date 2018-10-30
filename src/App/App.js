@@ -10,6 +10,7 @@ import {
   lobbyistListFetchCall,
   specificWordFetch
 } from '../Utils/apiCalls';
+import ModalCard from '../ModalCard/ModalCard';
 import WordCloud from 'react-d3-cloud';
 
 import './App.css';
@@ -227,7 +228,10 @@ class App extends Component {
             onClick={this.toggleClass}
           >
             <div className="modal-background" />
-            <div className="modal-content" />
+            <div className="modal-content">
+              <ModalCard modal={this.state.showWords} />
+            </div>
+
             <button className="modal-close is-large" aria-label="close" />
           </div>
         </div>
