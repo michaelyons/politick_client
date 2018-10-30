@@ -3,7 +3,6 @@ import RecentTopicsContainer from '../RecentTopicsContainer/RecentTopicsContaine
 import LobbyistListContainer from '../LobbyistListContainer/LobbyistListContainer';
 import LobbyistShow from '../LobbyistShow/LobbyistShow';
 import { Route, Switch, NavLink } from 'react-router-dom';
-import Navigation from '../Navigation/Navigation';
 import {
   initialFetchCall,
   lobbyistFetchCall,

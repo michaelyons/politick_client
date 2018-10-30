@@ -27,11 +27,11 @@ const LobbyCard = ({
   return (
     <div className="card">
       <div className="card-content">
-        <p className="title">{topic}</p>
-        <p className="subtitle">{filingId}</p>
-        <p className="subtitle">{clientName}</p>
-        <p className="subtitle">{register}</p>
-        <p className="button-link">{lobbyistLinks}</p>
+        <p>{topic}</p>
+        <p>{filingId}</p>
+        <p>{clientName}</p>
+        <p>{register}</p>
+        <p>{lobbyistLinks}</p>
       </div>
     </div>
   );
