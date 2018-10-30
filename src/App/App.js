@@ -80,7 +80,7 @@ class App extends Component {
   };
 
   render() {
-    const fontSizeMapper = word => Math.log2(word.value) * 2;
+    const fontSizeMapper = word => Math.log2(word.value) * 3.5;
     const onWordClick = word => console.log(word);
     return (
       <div className="container">
@@ -127,6 +127,7 @@ class App extends Component {
                       width={900}
                       height={800}
                       onWordClick={onWordClick}
+                      padding={5}
                     />
                   );
                 }}

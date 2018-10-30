@@ -3,6 +3,7 @@ nav {
   align-content: space-around;
   justify-content: center;
   flex-direction: row;
+  margin-bottom: 1rem;
 }
 
 a {
