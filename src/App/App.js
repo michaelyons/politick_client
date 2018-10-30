@@ -50,9 +50,10 @@ class App extends Component {
   };
 
   setCurrentId = () => {
-    setTimeout(() => {
+    return setTimeout(() => {
       const { pathname } = window.location;
-      this.setState({ currentId: pathname.split('/').pop() });
+      const pathValue = pathname.split('/').pop();
+      this.setState({ currentId: pathValue }, () => pathValue);
     }, 1);
   };
 
@@ -68,6 +69,7 @@ class App extends Component {
   };
 
   fetchLobbyistList = async id => {
+    // if (!this.state.showLobbyists.length) {
     try {
       const showLobbyists = await lobbyistListFetchCall(id);
       this.setState({
@@ -77,6 +79,7 @@ class App extends Component {
       this.setState({ error: error.message });
     }
   };
+  // };
 
   render() {
     const fontSizeMapper = word => Math.log2(word.value) * 2;
@@ -96,6 +99,7 @@ class App extends Component {
                     <RecentTopicsContainer
                       recentTopicsCategory={this.state.recentTopics}
                       setCurrentId={this.setCurrentId}
+                      fetchLobbyData={this.fetchLobbyistList}
                     />
                   );
                 }}
@@ -129,7 +133,7 @@ class App extends Component {
                 exact
                 path={`/lobbyists/${this.state.currentId}`}
                 render={() => {
-                  this.fetchLobbyistList(this.state.currentId);
+                  // this.fetchLobbyistList(this.state.currentId);
                   const { showLobbyists } = this.state;
                   return <LobbyistShow lobbyist={showLobbyists} />;
                 }}

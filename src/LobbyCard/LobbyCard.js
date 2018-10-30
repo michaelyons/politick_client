@@ -10,21 +10,29 @@ const LobbyCard = ({
   lobbyists,
   register,
   topic,
-  setCurrentId
+  setCurrentId,
+  fetchLobbyData
 }) => {
+  const handleClick = async () => {
+    const id = await setCurrentId();
+    await fetchLobbyData(id);
+  };
+
   const lobbyistLinks = lobbyists.map(person => (
-    <Link key={person.id} to={`/lobbyists/${person.id}`} onClick={setCurrentId}>
+    <Link key={person.id} to={`/lobbyists/${person.id}`} onClick={handleClick}>
       {person.name}
     </Link>
   ));
 
   return (
-    <div className="lobby-cards">
-      <p>Lobby ID: {filingId}</p>
-      <p>Lobby Firm: {clientName}</p>
-      <p>Topic: {topic}</p>
-      <p>Lobbyists: {lobbyistLinks}</p>
-      <p>Registering Firm: {register}</p>
+    <div className="card">
+      <div className="card-content">
+        <p className="title">{topic}</p>
+        <p className="subtitle">{filingId}</p>
+        <p className="subtitle">{clientName}</p>
+        <p className="subtitle">{register}</p>
+        <p className="subtitle">{lobbyistLinks}</p>
+      </div>
     </div>
   );
 };
@@ -35,7 +43,8 @@ LobbyCard.propTypes = {
   lobbyists: PropTypes.array,
   register: PropTypes.string,
   topic: PropTypes.string,
-  setCurrentId: PropTypes.func
+  setCurrentId: PropTypes.func,
+  fetchLobbyData: PropTypes.func
 };
 
 export default LobbyCard;

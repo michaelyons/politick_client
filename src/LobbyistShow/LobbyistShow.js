@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const LobbyistShow = ({ lobbyist }) => {
-  console.log(lobbyist);
   if (!lobbyist.length) {
     return <h1>Nothing Found</h1>;
   } else {
