@@ -1,12 +1,22 @@
-/* a {
+nav {
+  display: flex;
+  align-content: space-around;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+
+a {
   outline: none;
   text-decoration: none;
   display: inline-block;
   width: 19.5%;
-  margin-right: 0.625%;
+  margin-right: 0.5rem;
   text-align: center;
   line-height: 3;
   color: whitesmoke;
+  border-radius: 20px;
+  text-decoration: none;
 }
 
 li:last-child a {
@@ -16,14 +26,14 @@ li:last-child a {
 a:link,
 a:visited,
 a:focus {
-  background: blue;
+  background: teal;
 }
 
 a:hover {
-  background: red;
+  background: cornflowerblue;
 }
 
 a:active {
-  background: red;
+  background: lightcoral;
   color: white;
-} */
+}

@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import LobbyCard from '../LobbyCard/LobbyCard';
 
+import './RecentTopicsContainer.css';
+
 const RecentTopicsContainer = ({
   recentTopicsCategory,
   setCurrentId,
@@ -15,7 +17,11 @@ const RecentTopicsContainer = ({
       fetchLobbyData={fetchLobbyData}
     />
   ));
-  return <div>{lobbyCard}</div>;
+  return (
+    <div className="container is-fluid">
+      <div className="notification">{lobbyCard}</div>
+    </div>
+  );
 };
 
 RecentTopicsContainer.propTypes = {
