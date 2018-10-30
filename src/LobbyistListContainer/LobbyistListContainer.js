@@ -6,7 +6,11 @@ const LobbistListContainer = ({ lobbyistListCategory }) => {
   const lobbistListCard = lobbyistListCategory.map((list, index) => (
     <LobbistListCard {...list} key={index} />
   ));
-  return <div>{lobbistListCard}</div>;
+  return (
+    <div className="container is-fluid">
+      <div className="notification">{lobbistListCard}</div>
+    </div>
+  );
 };
 
 LobbistListContainer.propTypes = {

@@ -15,7 +15,11 @@ const RecentTopicsContainer = ({
       fetchLobbyData={fetchLobbyData}
     />
   ));
-  return <div>{lobbyCard}</div>;
+  return (
+    <div className="container is-fluid">
+      <div className="notification">{lobbyCard}</div>
+    </div>
+  );
 };
 
 RecentTopicsContainer.propTypes = {

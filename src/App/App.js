@@ -84,8 +84,8 @@ class App extends Component {
   render() {
     const fontSizeMapper = word => Math.log2(word.value) * 2;
     return (
-      <div className="app">
-        <h1>Informat Lobby</h1>
+      <div className="container">
+        <h1 className="title app-header">Informat Lobby</h1>
         <Navigation />
         <main>
           <div>
