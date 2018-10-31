@@ -19,19 +19,35 @@ const LobbyCard = ({
   };
 
   const lobbyistLinks = lobbyists.map(person => (
-    <Link key={person.id} to={`/lobbyists/${person.id}`} onClick={handleClick}>
+    <Link
+      className="lobbyist-name"
+      key={person.id}
+      to={`/lobbyists/${person.id}`}
+      onClick={handleClick}
+    >
       {person.name}
     </Link>
   ));
 
   return (
     <div className="card">
-      <div className="card-content">
-        <p className="title">{topic}</p>
-        <p className="subtitle">{filingId}</p>
-        <p className="subtitle">{clientName}</p>
-        <p className="subtitle">{register}</p>
-        <p className="button-link">{lobbyistLinks}</p>
+      <header className="card-header">
+        <p className="card-header-title">Filing ID: {filingId}</p>
+        <a href="#" className="card-header-icon" aria-label="more options">
+          <span className="icon">
+            <i className="fas fa-angle-down" aria-hidden="true" />
+          </span>
+        </a>
+      </header>
+      <div className="media">
+        <div className="card-content">
+          <div className="media-content">
+            <p className="title is-size-6">Lobbyist(s): {lobbyistLinks}</p>
+            <p className="subtitle">{clientName}</p>
+            <p className="subtitle">{register}</p>
+          </div>
+          <div className="content">{topic}</div>
+        </div>
       </div>
     </div>
   );

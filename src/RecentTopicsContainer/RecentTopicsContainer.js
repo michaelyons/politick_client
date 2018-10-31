@@ -19,6 +19,7 @@ const RecentTopicsContainer = ({
   ));
   return (
     <div className="container is-fluid">
+      <h1>Most Recent Lobby Issues</h1>
       <div className="notification">{lobbyCard}</div>
     </div>
   );
