@@ -56,14 +56,13 @@ class App extends Component {
     }
   };
 
-  filterWordCloud = async (event) => {
-    console.log(this.state.wordCloud.length)
+  filterWordCloud = async event => {
     let text = event.target.value;
     let filteredWordCloud = [];
-    if(text != "") {
-      this.state.wordCloud.forEach(function (word) {
-        if(typeof word == "object") {
-          if(word.text.includes(text)) {
+    if (text !== '') {
+      this.state.wordCloud.forEach(function(word) {
+        if (typeof word === 'object') {
+          if (word.text.includes(text)) {
             filteredWordCloud.push(word);
           }
         }
@@ -71,8 +70,8 @@ class App extends Component {
     } else {
       filteredWordCloud = this.state.wordCloud;
     }
-    this.setState({ filteredWordCloud, loading: false} );
-  }
+    this.setState({ filteredWordCloud, loading: false });
+  };
 
   setCurrentId = () => {
     return setTimeout(() => {
@@ -209,8 +208,13 @@ class App extends Component {
                             Click on a word to view lobbyist filings sorted by
                             most recent
                           </h1>
+                          <input
+                            type="text"
+                            onChange={this.filterWordCloud}
+                            placeholder="Filter words"
+                          />
                           <WordCloud
-                            data={this.state.wordCloud}
+                            data={this.state.filteredWordCloud}
                             fontSizeMapper={this.fontSizeMapper}
                             width={1320}
                             height={900}
@@ -259,7 +263,11 @@ class App extends Component {
                           <h1 className="subtitle">
                             Click on a word to view related lobbying filings
                           </h1>
-                          <input type="text" onChange={this.filterWordCloud} placeholder="Filter words"></input>
+                          <input
+                            type="text"
+                            onChange={this.filterWordCloud}
+                            placeholder="Filter words"
+                          />
                           <WordCloud
                             data={this.state.filteredWordCloud}
                             fontSizeMapper={this.fontSizeMapper}
