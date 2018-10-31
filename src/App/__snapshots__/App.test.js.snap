@@ -35,6 +35,7 @@ ShallowWrapper {
                 >
                   <a
                     className="navbar-item"
+                    href="http://localhost:3000/"
                   >
                     <NavLink
                       activeClassName="active"
@@ -63,6 +64,7 @@ ShallowWrapper {
                   >
                     <a
                       className="navbar-item"
+                      href="http://localhost:3000/issues"
                     >
                       <NavLink
                         activeClassName="active"
@@ -75,6 +77,7 @@ ShallowWrapper {
                     </a>
                     <a
                       className="navbar-item"
+                      href="http://localhost:3000/most_recent"
                     >
                       <NavLink
                         activeClassName="active"
@@ -87,6 +90,7 @@ ShallowWrapper {
                     </a>
                     <a
                       className="navbar-item"
+                      href="http://localhost:3000/lobbyists"
                     >
                       <NavLink
                         activeClassName="active"
@@ -207,6 +211,7 @@ ShallowWrapper {
                 >
                   <a
                     className="navbar-item"
+                    href="http://localhost:3000/"
                   >
                     <NavLink
                       activeClassName="active"
@@ -235,6 +240,7 @@ ShallowWrapper {
                   >
                     <a
                       className="navbar-item"
+                      href="http://localhost:3000/issues"
                     >
                       <NavLink
                         activeClassName="active"
@@ -247,6 +253,7 @@ ShallowWrapper {
                     </a>
                     <a
                       className="navbar-item"
+                      href="http://localhost:3000/most_recent"
                     >
                       <NavLink
                         activeClassName="active"
@@ -259,6 +266,7 @@ ShallowWrapper {
                     </a>
                     <a
                       className="navbar-item"
+                      href="http://localhost:3000/lobbyists"
                     >
                       <NavLink
                         activeClassName="active"
@@ -312,6 +320,7 @@ ShallowWrapper {
                 >
                   <a
                     className="navbar-item"
+                    href="http://localhost:3000/"
                   >
                     <NavLink
                       activeClassName="active"
@@ -340,6 +349,7 @@ ShallowWrapper {
                   >
                     <a
                       className="navbar-item"
+                      href="http://localhost:3000/issues"
                     >
                       <NavLink
                         activeClassName="active"
@@ -352,6 +362,7 @@ ShallowWrapper {
                     </a>
                     <a
                       className="navbar-item"
+                      href="http://localhost:3000/most_recent"
                     >
                       <NavLink
                         activeClassName="active"
@@ -364,6 +375,7 @@ ShallowWrapper {
                     </a>
                     <a
                       className="navbar-item"
+                      href="http://localhost:3000/lobbyists"
                     >
                       <NavLink
                         activeClassName="active"
@@ -413,6 +425,7 @@ ShallowWrapper {
                 >
                   <a
                     className="navbar-item"
+                    href="http://localhost:3000/"
                   >
                     <NavLink
                       activeClassName="active"
@@ -441,6 +454,7 @@ ShallowWrapper {
                   >
                     <a
                       className="navbar-item"
+                      href="http://localhost:3000/issues"
                     >
                       <NavLink
                         activeClassName="active"
@@ -453,6 +467,7 @@ ShallowWrapper {
                     </a>
                     <a
                       className="navbar-item"
+                      href="http://localhost:3000/most_recent"
                     >
                       <NavLink
                         activeClassName="active"
@@ -465,6 +480,7 @@ ShallowWrapper {
                     </a>
                     <a
                       className="navbar-item"
+                      href="http://localhost:3000/lobbyists"
                     >
                       <NavLink
                         activeClassName="active"
@@ -511,6 +527,7 @@ ShallowWrapper {
                   >
                     <a
                       className="navbar-item"
+                      href="http://localhost:3000/"
                     >
                       <NavLink
                         activeClassName="active"
@@ -539,6 +556,7 @@ ShallowWrapper {
                     >
                       <a
                         className="navbar-item"
+                        href="http://localhost:3000/issues"
                       >
                         <NavLink
                           activeClassName="active"
@@ -551,6 +569,7 @@ ShallowWrapper {
                       </a>
                       <a
                         className="navbar-item"
+                        href="http://localhost:3000/most_recent"
                       >
                         <NavLink
                           activeClassName="active"
@@ -563,6 +582,7 @@ ShallowWrapper {
                       </a>
                       <a
                         className="navbar-item"
+                        href="http://localhost:3000/lobbyists"
                       >
                         <NavLink
                           activeClassName="active"
@@ -607,6 +627,7 @@ ShallowWrapper {
                     "children": Array [
                       <a
                         className="navbar-item"
+                        href="http://localhost:3000/"
                       >
                         <NavLink
                           activeClassName="active"
@@ -644,6 +665,7 @@ ShallowWrapper {
                           INFORMANT
                         </NavLink>,
                         "className": "navbar-item",
+                        "href": "http://localhost:3000/",
                       },
                       "ref": null,
                       "rendered": Object {
@@ -721,6 +743,7 @@ ShallowWrapper {
                     >
                       <a
                         className="navbar-item"
+                        href="http://localhost:3000/issues"
                       >
                         <NavLink
                           activeClassName="active"
@@ -733,6 +756,7 @@ ShallowWrapper {
                       </a>
                       <a
                         className="navbar-item"
+                        href="http://localhost:3000/most_recent"
                       >
                         <NavLink
                           activeClassName="active"
@@ -745,6 +769,7 @@ ShallowWrapper {
                       </a>
                       <a
                         className="navbar-item"
+                        href="http://localhost:3000/lobbyists"
                       >
                         <NavLink
                           activeClassName="active"
@@ -787,6 +812,7 @@ ShallowWrapper {
                       "children": Array [
                         <a
                           className="navbar-item"
+                          href="http://localhost:3000/issues"
                         >
                           <NavLink
                             activeClassName="active"
@@ -799,6 +825,7 @@ ShallowWrapper {
                         </a>,
                         <a
                           className="navbar-item"
+                          href="http://localhost:3000/most_recent"
                         >
                           <NavLink
                             activeClassName="active"
@@ -811,6 +838,7 @@ ShallowWrapper {
                         </a>,
                         <a
                           className="navbar-item"
+                          href="http://localhost:3000/lobbyists"
                         >
                           <NavLink
                             activeClassName="active"
@@ -859,6 +887,7 @@ ShallowWrapper {
                             View Issues
                           </NavLink>,
                           "className": "navbar-item",
+                          "href": "http://localhost:3000/issues",
                         },
                         "ref": null,
                         "rendered": Object {
@@ -892,6 +921,7 @@ ShallowWrapper {
                             View Recent
                           </NavLink>,
                           "className": "navbar-item",
+                          "href": "http://localhost:3000/most_recent",
                         },
                         "ref": null,
                         "rendered": Object {
@@ -925,6 +955,7 @@ ShallowWrapper {
                             View Lobbyists
                           </NavLink>,
                           "className": "navbar-item",
+                          "href": "http://localhost:3000/lobbyists",
                         },
                         "ref": null,
                         "rendered": Object {
@@ -1482,6 +1513,7 @@ ShallowWrapper {
                   >
                     <a
                       className="navbar-item"
+                      href="http://localhost:3000/"
                     >
                       <NavLink
                         activeClassName="active"
@@ -1510,6 +1542,7 @@ ShallowWrapper {
                     >
                       <a
                         className="navbar-item"
+                        href="http://localhost:3000/issues"
                       >
                         <NavLink
                           activeClassName="active"
@@ -1522,6 +1555,7 @@ ShallowWrapper {
                       </a>
                       <a
                         className="navbar-item"
+                        href="http://localhost:3000/most_recent"
                       >
                         <NavLink
                           activeClassName="active"
@@ -1534,6 +1568,7 @@ ShallowWrapper {
                       </a>
                       <a
                         className="navbar-item"
+                        href="http://localhost:3000/lobbyists"
                       >
                         <NavLink
                           activeClassName="active"
@@ -1654,6 +1689,7 @@ ShallowWrapper {
                   >
                     <a
                       className="navbar-item"
+                      href="http://localhost:3000/"
                     >
                       <NavLink
                         activeClassName="active"
@@ -1682,6 +1718,7 @@ ShallowWrapper {
                     >
                       <a
                         className="navbar-item"
+                        href="http://localhost:3000/issues"
                       >
                         <NavLink
                           activeClassName="active"
@@ -1694,6 +1731,7 @@ ShallowWrapper {
                       </a>
                       <a
                         className="navbar-item"
+                        href="http://localhost:3000/most_recent"
                       >
                         <NavLink
                           activeClassName="active"
@@ -1706,6 +1744,7 @@ ShallowWrapper {
                       </a>
                       <a
                         className="navbar-item"
+                        href="http://localhost:3000/lobbyists"
                       >
                         <NavLink
                           activeClassName="active"
@@ -1759,6 +1798,7 @@ ShallowWrapper {
                   >
                     <a
                       className="navbar-item"
+                      href="http://localhost:3000/"
                     >
                       <NavLink
                         activeClassName="active"
@@ -1787,6 +1827,7 @@ ShallowWrapper {
                     >
                       <a
                         className="navbar-item"
+                        href="http://localhost:3000/issues"
                       >
                         <NavLink
                           activeClassName="active"
@@ -1799,6 +1840,7 @@ ShallowWrapper {
                       </a>
                       <a
                         className="navbar-item"
+                        href="http://localhost:3000/most_recent"
                       >
                         <NavLink
                           activeClassName="active"
@@ -1811,6 +1853,7 @@ ShallowWrapper {
                       </a>
                       <a
                         className="navbar-item"
+                        href="http://localhost:3000/lobbyists"
                       >
                         <NavLink
                           activeClassName="active"
@@ -1860,6 +1903,7 @@ ShallowWrapper {
                   >
                     <a
                       className="navbar-item"
+                      href="http://localhost:3000/"
                     >
                       <NavLink
                         activeClassName="active"
@@ -1888,6 +1932,7 @@ ShallowWrapper {
                     >
                       <a
                         className="navbar-item"
+                        href="http://localhost:3000/issues"
                       >
                         <NavLink
                           activeClassName="active"
@@ -1900,6 +1945,7 @@ ShallowWrapper {
                       </a>
                       <a
                         className="navbar-item"
+                        href="http://localhost:3000/most_recent"
                       >
                         <NavLink
                           activeClassName="active"
@@ -1912,6 +1958,7 @@ ShallowWrapper {
                       </a>
                       <a
                         className="navbar-item"
+                        href="http://localhost:3000/lobbyists"
                       >
                         <NavLink
                           activeClassName="active"
@@ -1958,6 +2005,7 @@ ShallowWrapper {
                     >
                       <a
                         className="navbar-item"
+                        href="http://localhost:3000/"
                       >
                         <NavLink
                           activeClassName="active"
@@ -1986,6 +2034,7 @@ ShallowWrapper {
                       >
                         <a
                           className="navbar-item"
+                          href="http://localhost:3000/issues"
                         >
                           <NavLink
                             activeClassName="active"
@@ -1998,6 +2047,7 @@ ShallowWrapper {
                         </a>
                         <a
                           className="navbar-item"
+                          href="http://localhost:3000/most_recent"
                         >
                           <NavLink
                             activeClassName="active"
@@ -2010,6 +2060,7 @@ ShallowWrapper {
                         </a>
                         <a
                           className="navbar-item"
+                          href="http://localhost:3000/lobbyists"
                         >
                           <NavLink
                             activeClassName="active"
@@ -2054,6 +2105,7 @@ ShallowWrapper {
                       "children": Array [
                         <a
                           className="navbar-item"
+                          href="http://localhost:3000/"
                         >
                           <NavLink
                             activeClassName="active"
@@ -2091,6 +2143,7 @@ ShallowWrapper {
                             INFORMANT
                           </NavLink>,
                           "className": "navbar-item",
+                          "href": "http://localhost:3000/",
                         },
                         "ref": null,
                         "rendered": Object {
@@ -2168,6 +2221,7 @@ ShallowWrapper {
                       >
                         <a
                           className="navbar-item"
+                          href="http://localhost:3000/issues"
                         >
                           <NavLink
                             activeClassName="active"
@@ -2180,6 +2234,7 @@ ShallowWrapper {
                         </a>
                         <a
                           className="navbar-item"
+                          href="http://localhost:3000/most_recent"
                         >
                           <NavLink
                             activeClassName="active"
@@ -2192,6 +2247,7 @@ ShallowWrapper {
                         </a>
                         <a
                           className="navbar-item"
+                          href="http://localhost:3000/lobbyists"
                         >
                           <NavLink
                             activeClassName="active"
@@ -2234,6 +2290,7 @@ ShallowWrapper {
                         "children": Array [
                           <a
                             className="navbar-item"
+                            href="http://localhost:3000/issues"
                           >
                             <NavLink
                               activeClassName="active"
@@ -2246,6 +2303,7 @@ ShallowWrapper {
                           </a>,
                           <a
                             className="navbar-item"
+                            href="http://localhost:3000/most_recent"
                           >
                             <NavLink
                               activeClassName="active"
@@ -2258,6 +2316,7 @@ ShallowWrapper {
                           </a>,
                           <a
                             className="navbar-item"
+                            href="http://localhost:3000/lobbyists"
                           >
                             <NavLink
                               activeClassName="active"
@@ -2306,6 +2365,7 @@ ShallowWrapper {
                               View Issues
                             </NavLink>,
                             "className": "navbar-item",
+                            "href": "http://localhost:3000/issues",
                           },
                           "ref": null,
                           "rendered": Object {
@@ -2339,6 +2399,7 @@ ShallowWrapper {
                               View Recent
                             </NavLink>,
                             "className": "navbar-item",
+                            "href": "http://localhost:3000/most_recent",
                           },
                           "ref": null,
                           "rendered": Object {
@@ -2372,6 +2433,7 @@ ShallowWrapper {
                               View Lobbyists
                             </NavLink>,
                             "className": "navbar-item",
+                            "href": "http://localhost:3000/lobbyists",
                           },
                           "ref": null,
                           "rendered": Object {
