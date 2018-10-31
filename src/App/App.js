@@ -46,7 +46,6 @@ class App extends Component {
     if (!this.state.wordCloud.length) {
       try {
         const wordCloud = await wordCloudFetch();
-        console.log(wordCloud);
         this.setState({ wordCloud, loading: false });
       } catch (error) {
         this.setState({ errors: error.message });

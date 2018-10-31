@@ -1,7 +1,7 @@
 import React from 'react';
 import App from './App';
 import { shallow } from 'enzyme';
-import { mockRecentTopicsFetch } from '../mockData';
+// import { mockRecentTopicsFetch, mockWordCloudFetch } from '../mockData';
 
 describe('App Component', () => {
   let wrapper;
