@@ -112,7 +112,7 @@ class App extends Component {
             <nav className="navbar">
               <div className="container">
                 <div className="navbar-brand">
-                  <a className="navbar-item">
+                  <a href="http://localhost:3000/" className="navbar-item">
                     <NavLink exact to="/">
                       INFORMANT
                     </NavLink>
@@ -128,17 +128,26 @@ class App extends Component {
                 </div>
                 <div id="navbarMenuHeroA" className="navbar-menu">
                   <div className="navbar-end">
-                    <a className="navbar-item">
+                    <a
+                      href="http://localhost:3000/issues"
+                      className="navbar-item"
+                    >
                       <NavLink exact to="/issues">
                         View Issues
                       </NavLink>
                     </a>
-                    <a className="navbar-item">
+                    <a
+                      href="http://localhost:3000/most_recent"
+                      className="navbar-item"
+                    >
                       <NavLink exact to="/most_recent">
                         View Recent
                       </NavLink>
                     </a>
-                    <a className="navbar-item">
+                    <a
+                      href="http://localhost:3000/lobbyists"
+                      className="navbar-item"
+                    >
                       <NavLink exact to="/lobbyists">
                         View Lobbyists
                       </NavLink>
