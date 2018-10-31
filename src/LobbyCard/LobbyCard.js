@@ -37,11 +37,7 @@ const LobbyCard = ({
           href="http://localhost:3000/issues"
           className="card-header-icon"
           aria-label="more options"
-        >
-          <span className="icon">
-            <i className="fas fa-angle-down" aria-hidden="true" />
-          </span>
-        </a>
+        />
       </header>
       <div className="media">
         <div className="card-content">

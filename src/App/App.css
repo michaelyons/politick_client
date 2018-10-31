@@ -5,3 +5,8 @@ text {
 div .hero-body {
   padding-top: 0.5rem;
 }
+
+.modal-content {
+  color: black;
+  background-color: whitesmoke;
+}

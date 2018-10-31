@@ -1,5 +1,5 @@
 export const recentTopicsFetchCall = async () => {
-  const url = `https://whispering-fjord-31037.herokuapp.com/api/v1/lobbying_representations?start=0&end=30`;
+  const url = `https://whispering-fjord-31037.herokuapp.com/api/v1/lobbying_representations?start=0&end=60`;
   const response = await fetch(url);
   const data = await response.json();
   return cleanInitialFetch(data);
@@ -30,7 +30,7 @@ export const specificWordFetch = async word => {
   const url = `https://whispering-fjord-31037.herokuapp.com/api/v1/lobbying_representations?word=${word}`;
   const response = await fetch(url);
   const data = await response.json();
-  return data;
+  return cleanWordFetch(data);
 };
 
 const cleanInitialFetch = data => {
@@ -50,6 +50,17 @@ const cleanInitialFetch = data => {
       clientName: object.client.name,
       topic: object.issue.slice(2, object.issue.length - 2),
       lobbyists: cleanLobbyists,
+      register: object.registrant.name
+    };
+  });
+};
+
+const cleanWordFetch = data => {
+  return data.map(object => {
+    return {
+      filingId: object.filing_id,
+      clientName: object.client.name,
+      topic: object.issue.slice(2, object.issue.length - 2),
       register: object.registrant.name
     };
   });
