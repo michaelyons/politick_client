@@ -1,0 +1,2927 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component snapshot should match the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <section
+          className="hero is-primary is-small"
+        >
+          <div
+            className="hero-head"
+          >
+            <nav
+              className="navbar"
+            >
+              <div
+                className="container"
+              >
+                <div
+                  className="navbar-brand"
+                >
+                  <a
+                    className="navbar-item"
+                  >
+                    <NavLink
+                      activeClassName="active"
+                      aria-current="page"
+                      exact={true}
+                      to="/"
+                    >
+                      INFORMANT
+                    </NavLink>
+                  </a>
+                  <span
+                    className="navbar-burger burger"
+                    data-target="navbarMenuHeroA"
+                  >
+                    <span />
+                    <span />
+                    <span />
+                  </span>
+                </div>
+                <div
+                  className="navbar-menu"
+                  id="navbarMenuHeroA"
+                >
+                  <div
+                    className="navbar-end"
+                  >
+                    <a
+                      className="navbar-item"
+                    >
+                      <NavLink
+                        activeClassName="active"
+                        aria-current="page"
+                        exact={true}
+                        to="/issues"
+                      >
+                        View Issues
+                      </NavLink>
+                    </a>
+                    <a
+                      className="navbar-item"
+                    >
+                      <NavLink
+                        activeClassName="active"
+                        aria-current="page"
+                        exact={true}
+                        to="/most_recent"
+                      >
+                        View Recent
+                      </NavLink>
+                    </a>
+                    <a
+                      className="navbar-item"
+                    >
+                      <NavLink
+                        activeClassName="active"
+                        aria-current="page"
+                        exact={true}
+                        to="/lobbyists"
+                      >
+                        View Lobbyists
+                      </NavLink>
+                    </a>
+                    <span
+                      className="navbar-item"
+                    >
+                      <a
+                        className="button is-primary is-inverted"
+                        href="https://www.propublica.org/"
+                      >
+                        <span
+                          className="icon"
+                        >
+                          <i
+                            className="fab fa-product-hunt"
+                          />
+                        </span>
+                        <span>
+                          ProPublica
+                        </span>
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </section>,
+        <section
+          className="hero is-fullheight"
+        >
+          <div
+            className="hero-body"
+          >
+            <div
+              className="hero-body"
+            >
+              <div
+                className="container has-text-centered"
+              >
+                <Switch>
+                  <Route
+                    exact={true}
+                    path="/"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/most_recent"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/lobbyists"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/issues"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/lobbyists/"
+                    render={[Function]}
+                  />
+                </Switch>
+              </div>
+              <div
+                className="modal "
+                onClick={[Function]}
+              >
+                <div
+                  className="modal-background"
+                />
+                <div
+                  className="modal-content"
+                >
+                  <ModalContainer
+                    modal={Array []}
+                  />
+                </div>
+                <button
+                  aria-label="close"
+                  className="modal-close is-large"
+                />
+              </div>
+            </div>
+          </div>
+        </section>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="hero-head"
+          >
+            <nav
+              className="navbar"
+            >
+              <div
+                className="container"
+              >
+                <div
+                  className="navbar-brand"
+                >
+                  <a
+                    className="navbar-item"
+                  >
+                    <NavLink
+                      activeClassName="active"
+                      aria-current="page"
+                      exact={true}
+                      to="/"
+                    >
+                      INFORMANT
+                    </NavLink>
+                  </a>
+                  <span
+                    className="navbar-burger burger"
+                    data-target="navbarMenuHeroA"
+                  >
+                    <span />
+                    <span />
+                    <span />
+                  </span>
+                </div>
+                <div
+                  className="navbar-menu"
+                  id="navbarMenuHeroA"
+                >
+                  <div
+                    className="navbar-end"
+                  >
+                    <a
+                      className="navbar-item"
+                    >
+                      <NavLink
+                        activeClassName="active"
+                        aria-current="page"
+                        exact={true}
+                        to="/issues"
+                      >
+                        View Issues
+                      </NavLink>
+                    </a>
+                    <a
+                      className="navbar-item"
+                    >
+                      <NavLink
+                        activeClassName="active"
+                        aria-current="page"
+                        exact={true}
+                        to="/most_recent"
+                      >
+                        View Recent
+                      </NavLink>
+                    </a>
+                    <a
+                      className="navbar-item"
+                    >
+                      <NavLink
+                        activeClassName="active"
+                        aria-current="page"
+                        exact={true}
+                        to="/lobbyists"
+                      >
+                        View Lobbyists
+                      </NavLink>
+                    </a>
+                    <span
+                      className="navbar-item"
+                    >
+                      <a
+                        className="button is-primary is-inverted"
+                        href="https://www.propublica.org/"
+                      >
+                        <span
+                          className="icon"
+                        >
+                          <i
+                            className="fab fa-product-hunt"
+                          />
+                        </span>
+                        <span>
+                          ProPublica
+                        </span>
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>,
+          "className": "hero is-primary is-small",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <nav
+              className="navbar"
+            >
+              <div
+                className="container"
+              >
+                <div
+                  className="navbar-brand"
+                >
+                  <a
+                    className="navbar-item"
+                  >
+                    <NavLink
+                      activeClassName="active"
+                      aria-current="page"
+                      exact={true}
+                      to="/"
+                    >
+                      INFORMANT
+                    </NavLink>
+                  </a>
+                  <span
+                    className="navbar-burger burger"
+                    data-target="navbarMenuHeroA"
+                  >
+                    <span />
+                    <span />
+                    <span />
+                  </span>
+                </div>
+                <div
+                  className="navbar-menu"
+                  id="navbarMenuHeroA"
+                >
+                  <div
+                    className="navbar-end"
+                  >
+                    <a
+                      className="navbar-item"
+                    >
+                      <NavLink
+                        activeClassName="active"
+                        aria-current="page"
+                        exact={true}
+                        to="/issues"
+                      >
+                        View Issues
+                      </NavLink>
+                    </a>
+                    <a
+                      className="navbar-item"
+                    >
+                      <NavLink
+                        activeClassName="active"
+                        aria-current="page"
+                        exact={true}
+                        to="/most_recent"
+                      >
+                        View Recent
+                      </NavLink>
+                    </a>
+                    <a
+                      className="navbar-item"
+                    >
+                      <NavLink
+                        activeClassName="active"
+                        aria-current="page"
+                        exact={true}
+                        to="/lobbyists"
+                      >
+                        View Lobbyists
+                      </NavLink>
+                    </a>
+                    <span
+                      className="navbar-item"
+                    >
+                      <a
+                        className="button is-primary is-inverted"
+                        href="https://www.propublica.org/"
+                      >
+                        <span
+                          className="icon"
+                        >
+                          <i
+                            className="fab fa-product-hunt"
+                          />
+                        </span>
+                        <span>
+                          ProPublica
+                        </span>
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </nav>,
+            "className": "hero-head",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="container"
+              >
+                <div
+                  className="navbar-brand"
+                >
+                  <a
+                    className="navbar-item"
+                  >
+                    <NavLink
+                      activeClassName="active"
+                      aria-current="page"
+                      exact={true}
+                      to="/"
+                    >
+                      INFORMANT
+                    </NavLink>
+                  </a>
+                  <span
+                    className="navbar-burger burger"
+                    data-target="navbarMenuHeroA"
+                  >
+                    <span />
+                    <span />
+                    <span />
+                  </span>
+                </div>
+                <div
+                  className="navbar-menu"
+                  id="navbarMenuHeroA"
+                >
+                  <div
+                    className="navbar-end"
+                  >
+                    <a
+                      className="navbar-item"
+                    >
+                      <NavLink
+                        activeClassName="active"
+                        aria-current="page"
+                        exact={true}
+                        to="/issues"
+                      >
+                        View Issues
+                      </NavLink>
+                    </a>
+                    <a
+                      className="navbar-item"
+                    >
+                      <NavLink
+                        activeClassName="active"
+                        aria-current="page"
+                        exact={true}
+                        to="/most_recent"
+                      >
+                        View Recent
+                      </NavLink>
+                    </a>
+                    <a
+                      className="navbar-item"
+                    >
+                      <NavLink
+                        activeClassName="active"
+                        aria-current="page"
+                        exact={true}
+                        to="/lobbyists"
+                      >
+                        View Lobbyists
+                      </NavLink>
+                    </a>
+                    <span
+                      className="navbar-item"
+                    >
+                      <a
+                        className="button is-primary is-inverted"
+                        href="https://www.propublica.org/"
+                      >
+                        <span
+                          className="icon"
+                        >
+                          <i
+                            className="fab fa-product-hunt"
+                          />
+                        </span>
+                        <span>
+                          ProPublica
+                        </span>
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>,
+              "className": "navbar",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="navbar-brand"
+                  >
+                    <a
+                      className="navbar-item"
+                    >
+                      <NavLink
+                        activeClassName="active"
+                        aria-current="page"
+                        exact={true}
+                        to="/"
+                      >
+                        INFORMANT
+                      </NavLink>
+                    </a>
+                    <span
+                      className="navbar-burger burger"
+                      data-target="navbarMenuHeroA"
+                    >
+                      <span />
+                      <span />
+                      <span />
+                    </span>
+                  </div>,
+                  <div
+                    className="navbar-menu"
+                    id="navbarMenuHeroA"
+                  >
+                    <div
+                      className="navbar-end"
+                    >
+                      <a
+                        className="navbar-item"
+                      >
+                        <NavLink
+                          activeClassName="active"
+                          aria-current="page"
+                          exact={true}
+                          to="/issues"
+                        >
+                          View Issues
+                        </NavLink>
+                      </a>
+                      <a
+                        className="navbar-item"
+                      >
+                        <NavLink
+                          activeClassName="active"
+                          aria-current="page"
+                          exact={true}
+                          to="/most_recent"
+                        >
+                          View Recent
+                        </NavLink>
+                      </a>
+                      <a
+                        className="navbar-item"
+                      >
+                        <NavLink
+                          activeClassName="active"
+                          aria-current="page"
+                          exact={true}
+                          to="/lobbyists"
+                        >
+                          View Lobbyists
+                        </NavLink>
+                      </a>
+                      <span
+                        className="navbar-item"
+                      >
+                        <a
+                          className="button is-primary is-inverted"
+                          href="https://www.propublica.org/"
+                        >
+                          <span
+                            className="icon"
+                          >
+                            <i
+                              className="fab fa-product-hunt"
+                            />
+                          </span>
+                          <span>
+                            ProPublica
+                          </span>
+                        </a>
+                      </span>
+                    </div>
+                  </div>,
+                ],
+                "className": "container",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <a
+                        className="navbar-item"
+                      >
+                        <NavLink
+                          activeClassName="active"
+                          aria-current="page"
+                          exact={true}
+                          to="/"
+                        >
+                          INFORMANT
+                        </NavLink>
+                      </a>,
+                      <span
+                        className="navbar-burger burger"
+                        data-target="navbarMenuHeroA"
+                      >
+                        <span />
+                        <span />
+                        <span />
+                      </span>,
+                    ],
+                    "className": "navbar-brand",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <NavLink
+                          activeClassName="active"
+                          aria-current="page"
+                          exact={true}
+                          to="/"
+                        >
+                          INFORMANT
+                        </NavLink>,
+                        "className": "navbar-item",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {
+                          "activeClassName": "active",
+                          "aria-current": "page",
+                          "children": "INFORMANT",
+                          "exact": true,
+                          "to": "/",
+                        },
+                        "ref": null,
+                        "rendered": "INFORMANT",
+                        "type": [Function],
+                      },
+                      "type": "a",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <span />,
+                          <span />,
+                          <span />,
+                        ],
+                        "className": "navbar-burger burger",
+                        "data-target": "navbarMenuHeroA",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {},
+                          "ref": null,
+                          "rendered": null,
+                          "type": "span",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {},
+                          "ref": null,
+                          "rendered": null,
+                          "type": "span",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {},
+                          "ref": null,
+                          "rendered": null,
+                          "type": "span",
+                        },
+                      ],
+                      "type": "span",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      className="navbar-end"
+                    >
+                      <a
+                        className="navbar-item"
+                      >
+                        <NavLink
+                          activeClassName="active"
+                          aria-current="page"
+                          exact={true}
+                          to="/issues"
+                        >
+                          View Issues
+                        </NavLink>
+                      </a>
+                      <a
+                        className="navbar-item"
+                      >
+                        <NavLink
+                          activeClassName="active"
+                          aria-current="page"
+                          exact={true}
+                          to="/most_recent"
+                        >
+                          View Recent
+                        </NavLink>
+                      </a>
+                      <a
+                        className="navbar-item"
+                      >
+                        <NavLink
+                          activeClassName="active"
+                          aria-current="page"
+                          exact={true}
+                          to="/lobbyists"
+                        >
+                          View Lobbyists
+                        </NavLink>
+                      </a>
+                      <span
+                        className="navbar-item"
+                      >
+                        <a
+                          className="button is-primary is-inverted"
+                          href="https://www.propublica.org/"
+                        >
+                          <span
+                            className="icon"
+                          >
+                            <i
+                              className="fab fa-product-hunt"
+                            />
+                          </span>
+                          <span>
+                            ProPublica
+                          </span>
+                        </a>
+                      </span>
+                    </div>,
+                    "className": "navbar-menu",
+                    "id": "navbarMenuHeroA",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <a
+                          className="navbar-item"
+                        >
+                          <NavLink
+                            activeClassName="active"
+                            aria-current="page"
+                            exact={true}
+                            to="/issues"
+                          >
+                            View Issues
+                          </NavLink>
+                        </a>,
+                        <a
+                          className="navbar-item"
+                        >
+                          <NavLink
+                            activeClassName="active"
+                            aria-current="page"
+                            exact={true}
+                            to="/most_recent"
+                          >
+                            View Recent
+                          </NavLink>
+                        </a>,
+                        <a
+                          className="navbar-item"
+                        >
+                          <NavLink
+                            activeClassName="active"
+                            aria-current="page"
+                            exact={true}
+                            to="/lobbyists"
+                          >
+                            View Lobbyists
+                          </NavLink>
+                        </a>,
+                        <span
+                          className="navbar-item"
+                        >
+                          <a
+                            className="button is-primary is-inverted"
+                            href="https://www.propublica.org/"
+                          >
+                            <span
+                              className="icon"
+                            >
+                              <i
+                                className="fab fa-product-hunt"
+                              />
+                            </span>
+                            <span>
+                              ProPublica
+                            </span>
+                          </a>
+                        </span>,
+                      ],
+                      "className": "navbar-end",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <NavLink
+                            activeClassName="active"
+                            aria-current="page"
+                            exact={true}
+                            to="/issues"
+                          >
+                            View Issues
+                          </NavLink>,
+                          "className": "navbar-item",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "activeClassName": "active",
+                            "aria-current": "page",
+                            "children": "View Issues",
+                            "exact": true,
+                            "to": "/issues",
+                          },
+                          "ref": null,
+                          "rendered": "View Issues",
+                          "type": [Function],
+                        },
+                        "type": "a",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <NavLink
+                            activeClassName="active"
+                            aria-current="page"
+                            exact={true}
+                            to="/most_recent"
+                          >
+                            View Recent
+                          </NavLink>,
+                          "className": "navbar-item",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "activeClassName": "active",
+                            "aria-current": "page",
+                            "children": "View Recent",
+                            "exact": true,
+                            "to": "/most_recent",
+                          },
+                          "ref": null,
+                          "rendered": "View Recent",
+                          "type": [Function],
+                        },
+                        "type": "a",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <NavLink
+                            activeClassName="active"
+                            aria-current="page"
+                            exact={true}
+                            to="/lobbyists"
+                          >
+                            View Lobbyists
+                          </NavLink>,
+                          "className": "navbar-item",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "activeClassName": "active",
+                            "aria-current": "page",
+                            "children": "View Lobbyists",
+                            "exact": true,
+                            "to": "/lobbyists",
+                          },
+                          "ref": null,
+                          "rendered": "View Lobbyists",
+                          "type": [Function],
+                        },
+                        "type": "a",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <a
+                            className="button is-primary is-inverted"
+                            href="https://www.propublica.org/"
+                          >
+                            <span
+                              className="icon"
+                            >
+                              <i
+                                className="fab fa-product-hunt"
+                              />
+                            </span>
+                            <span>
+                              ProPublica
+                            </span>
+                          </a>,
+                          "className": "navbar-item",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <span
+                                className="icon"
+                              >
+                                <i
+                                  className="fab fa-product-hunt"
+                                />
+                              </span>,
+                              <span>
+                                ProPublica
+                              </span>,
+                            ],
+                            "className": "button is-primary is-inverted",
+                            "href": "https://www.propublica.org/",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": <i
+                                  className="fab fa-product-hunt"
+                                />,
+                                "className": "icon",
+                              },
+                              "ref": null,
+                              "rendered": Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "className": "fab fa-product-hunt",
+                                },
+                                "ref": null,
+                                "rendered": null,
+                                "type": "i",
+                              },
+                              "type": "span",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "ProPublica",
+                              },
+                              "ref": null,
+                              "rendered": "ProPublica",
+                              "type": "span",
+                            },
+                          ],
+                          "type": "a",
+                        },
+                        "type": "span",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            "type": "nav",
+          },
+          "type": "div",
+        },
+        "type": "section",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="hero-body"
+          >
+            <div
+              className="hero-body"
+            >
+              <div
+                className="container has-text-centered"
+              >
+                <Switch>
+                  <Route
+                    exact={true}
+                    path="/"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/most_recent"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/lobbyists"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/issues"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/lobbyists/"
+                    render={[Function]}
+                  />
+                </Switch>
+              </div>
+              <div
+                className="modal "
+                onClick={[Function]}
+              >
+                <div
+                  className="modal-background"
+                />
+                <div
+                  className="modal-content"
+                >
+                  <ModalContainer
+                    modal={Array []}
+                  />
+                </div>
+                <button
+                  aria-label="close"
+                  className="modal-close is-large"
+                />
+              </div>
+            </div>
+          </div>,
+          "className": "hero is-fullheight",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="hero-body"
+            >
+              <div
+                className="container has-text-centered"
+              >
+                <Switch>
+                  <Route
+                    exact={true}
+                    path="/"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/most_recent"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/lobbyists"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/issues"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/lobbyists/"
+                    render={[Function]}
+                  />
+                </Switch>
+              </div>
+              <div
+                className="modal "
+                onClick={[Function]}
+              >
+                <div
+                  className="modal-background"
+                />
+                <div
+                  className="modal-content"
+                >
+                  <ModalContainer
+                    modal={Array []}
+                  />
+                </div>
+                <button
+                  aria-label="close"
+                  className="modal-close is-large"
+                />
+              </div>
+            </div>,
+            "className": "hero-body",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="container has-text-centered"
+                >
+                  <Switch>
+                    <Route
+                      exact={true}
+                      path="/"
+                      render={[Function]}
+                    />
+                    <Route
+                      exact={true}
+                      path="/most_recent"
+                      render={[Function]}
+                    />
+                    <Route
+                      exact={true}
+                      path="/lobbyists"
+                      render={[Function]}
+                    />
+                    <Route
+                      exact={true}
+                      path="/issues"
+                      render={[Function]}
+                    />
+                    <Route
+                      exact={true}
+                      path="/lobbyists/"
+                      render={[Function]}
+                    />
+                  </Switch>
+                </div>,
+                <div
+                  className="modal "
+                  onClick={[Function]}
+                >
+                  <div
+                    className="modal-background"
+                  />
+                  <div
+                    className="modal-content"
+                  >
+                    <ModalContainer
+                      modal={Array []}
+                    />
+                  </div>
+                  <button
+                    aria-label="close"
+                    className="modal-close is-large"
+                  />
+                </div>,
+              ],
+              "className": "hero-body",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Switch>
+                    <Route
+                      exact={true}
+                      path="/"
+                      render={[Function]}
+                    />
+                    <Route
+                      exact={true}
+                      path="/most_recent"
+                      render={[Function]}
+                    />
+                    <Route
+                      exact={true}
+                      path="/lobbyists"
+                      render={[Function]}
+                    />
+                    <Route
+                      exact={true}
+                      path="/issues"
+                      render={[Function]}
+                    />
+                    <Route
+                      exact={true}
+                      path="/lobbyists/"
+                      render={[Function]}
+                    />
+                  </Switch>,
+                  "className": "container has-text-centered",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <Route
+                        exact={true}
+                        path="/"
+                        render={[Function]}
+                      />,
+                      <Route
+                        exact={true}
+                        path="/most_recent"
+                        render={[Function]}
+                      />,
+                      <Route
+                        exact={true}
+                        path="/lobbyists"
+                        render={[Function]}
+                      />,
+                      <Route
+                        exact={true}
+                        path="/issues"
+                        render={[Function]}
+                      />,
+                      <Route
+                        exact={true}
+                        path="/lobbyists/"
+                        render={[Function]}
+                      />,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "exact": true,
+                        "path": "/",
+                        "render": [Function],
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "exact": true,
+                        "path": "/most_recent",
+                        "render": [Function],
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "exact": true,
+                        "path": "/lobbyists",
+                        "render": [Function],
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "exact": true,
+                        "path": "/issues",
+                        "render": [Function],
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "exact": true,
+                        "path": "/lobbyists/",
+                        "render": [Function],
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="modal-background"
+                    />,
+                    <div
+                      className="modal-content"
+                    >
+                      <ModalContainer
+                        modal={Array []}
+                      />
+                    </div>,
+                    <button
+                      aria-label="close"
+                      className="modal-close is-large"
+                    />,
+                  ],
+                  "className": "modal ",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "modal-background",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <ModalContainer
+                        modal={Array []}
+                      />,
+                      "className": "modal-content",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "modal": Array [],
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "aria-label": "close",
+                      "className": "modal-close is-large",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "button",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "div",
+        },
+        "type": "section",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <section
+            className="hero is-primary is-small"
+          >
+            <div
+              className="hero-head"
+            >
+              <nav
+                className="navbar"
+              >
+                <div
+                  className="container"
+                >
+                  <div
+                    className="navbar-brand"
+                  >
+                    <a
+                      className="navbar-item"
+                    >
+                      <NavLink
+                        activeClassName="active"
+                        aria-current="page"
+                        exact={true}
+                        to="/"
+                      >
+                        INFORMANT
+                      </NavLink>
+                    </a>
+                    <span
+                      className="navbar-burger burger"
+                      data-target="navbarMenuHeroA"
+                    >
+                      <span />
+                      <span />
+                      <span />
+                    </span>
+                  </div>
+                  <div
+                    className="navbar-menu"
+                    id="navbarMenuHeroA"
+                  >
+                    <div
+                      className="navbar-end"
+                    >
+                      <a
+                        className="navbar-item"
+                      >
+                        <NavLink
+                          activeClassName="active"
+                          aria-current="page"
+                          exact={true}
+                          to="/issues"
+                        >
+                          View Issues
+                        </NavLink>
+                      </a>
+                      <a
+                        className="navbar-item"
+                      >
+                        <NavLink
+                          activeClassName="active"
+                          aria-current="page"
+                          exact={true}
+                          to="/most_recent"
+                        >
+                          View Recent
+                        </NavLink>
+                      </a>
+                      <a
+                        className="navbar-item"
+                      >
+                        <NavLink
+                          activeClassName="active"
+                          aria-current="page"
+                          exact={true}
+                          to="/lobbyists"
+                        >
+                          View Lobbyists
+                        </NavLink>
+                      </a>
+                      <span
+                        className="navbar-item"
+                      >
+                        <a
+                          className="button is-primary is-inverted"
+                          href="https://www.propublica.org/"
+                        >
+                          <span
+                            className="icon"
+                          >
+                            <i
+                              className="fab fa-product-hunt"
+                            />
+                          </span>
+                          <span>
+                            ProPublica
+                          </span>
+                        </a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </section>,
+          <section
+            className="hero is-fullheight"
+          >
+            <div
+              className="hero-body"
+            >
+              <div
+                className="hero-body"
+              >
+                <div
+                  className="container has-text-centered"
+                >
+                  <Switch>
+                    <Route
+                      exact={true}
+                      path="/"
+                      render={[Function]}
+                    />
+                    <Route
+                      exact={true}
+                      path="/most_recent"
+                      render={[Function]}
+                    />
+                    <Route
+                      exact={true}
+                      path="/lobbyists"
+                      render={[Function]}
+                    />
+                    <Route
+                      exact={true}
+                      path="/issues"
+                      render={[Function]}
+                    />
+                    <Route
+                      exact={true}
+                      path="/lobbyists/"
+                      render={[Function]}
+                    />
+                  </Switch>
+                </div>
+                <div
+                  className="modal "
+                  onClick={[Function]}
+                >
+                  <div
+                    className="modal-background"
+                  />
+                  <div
+                    className="modal-content"
+                  >
+                    <ModalContainer
+                      modal={Array []}
+                    />
+                  </div>
+                  <button
+                    aria-label="close"
+                    className="modal-close is-large"
+                  />
+                </div>
+              </div>
+            </div>
+          </section>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="hero-head"
+            >
+              <nav
+                className="navbar"
+              >
+                <div
+                  className="container"
+                >
+                  <div
+                    className="navbar-brand"
+                  >
+                    <a
+                      className="navbar-item"
+                    >
+                      <NavLink
+                        activeClassName="active"
+                        aria-current="page"
+                        exact={true}
+                        to="/"
+                      >
+                        INFORMANT
+                      </NavLink>
+                    </a>
+                    <span
+                      className="navbar-burger burger"
+                      data-target="navbarMenuHeroA"
+                    >
+                      <span />
+                      <span />
+                      <span />
+                    </span>
+                  </div>
+                  <div
+                    className="navbar-menu"
+                    id="navbarMenuHeroA"
+                  >
+                    <div
+                      className="navbar-end"
+                    >
+                      <a
+                        className="navbar-item"
+                      >
+                        <NavLink
+                          activeClassName="active"
+                          aria-current="page"
+                          exact={true}
+                          to="/issues"
+                        >
+                          View Issues
+                        </NavLink>
+                      </a>
+                      <a
+                        className="navbar-item"
+                      >
+                        <NavLink
+                          activeClassName="active"
+                          aria-current="page"
+                          exact={true}
+                          to="/most_recent"
+                        >
+                          View Recent
+                        </NavLink>
+                      </a>
+                      <a
+                        className="navbar-item"
+                      >
+                        <NavLink
+                          activeClassName="active"
+                          aria-current="page"
+                          exact={true}
+                          to="/lobbyists"
+                        >
+                          View Lobbyists
+                        </NavLink>
+                      </a>
+                      <span
+                        className="navbar-item"
+                      >
+                        <a
+                          className="button is-primary is-inverted"
+                          href="https://www.propublica.org/"
+                        >
+                          <span
+                            className="icon"
+                          >
+                            <i
+                              className="fab fa-product-hunt"
+                            />
+                          </span>
+                          <span>
+                            ProPublica
+                          </span>
+                        </a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            </div>,
+            "className": "hero is-primary is-small",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <nav
+                className="navbar"
+              >
+                <div
+                  className="container"
+                >
+                  <div
+                    className="navbar-brand"
+                  >
+                    <a
+                      className="navbar-item"
+                    >
+                      <NavLink
+                        activeClassName="active"
+                        aria-current="page"
+                        exact={true}
+                        to="/"
+                      >
+                        INFORMANT
+                      </NavLink>
+                    </a>
+                    <span
+                      className="navbar-burger burger"
+                      data-target="navbarMenuHeroA"
+                    >
+                      <span />
+                      <span />
+                      <span />
+                    </span>
+                  </div>
+                  <div
+                    className="navbar-menu"
+                    id="navbarMenuHeroA"
+                  >
+                    <div
+                      className="navbar-end"
+                    >
+                      <a
+                        className="navbar-item"
+                      >
+                        <NavLink
+                          activeClassName="active"
+                          aria-current="page"
+                          exact={true}
+                          to="/issues"
+                        >
+                          View Issues
+                        </NavLink>
+                      </a>
+                      <a
+                        className="navbar-item"
+                      >
+                        <NavLink
+                          activeClassName="active"
+                          aria-current="page"
+                          exact={true}
+                          to="/most_recent"
+                        >
+                          View Recent
+                        </NavLink>
+                      </a>
+                      <a
+                        className="navbar-item"
+                      >
+                        <NavLink
+                          activeClassName="active"
+                          aria-current="page"
+                          exact={true}
+                          to="/lobbyists"
+                        >
+                          View Lobbyists
+                        </NavLink>
+                      </a>
+                      <span
+                        className="navbar-item"
+                      >
+                        <a
+                          className="button is-primary is-inverted"
+                          href="https://www.propublica.org/"
+                        >
+                          <span
+                            className="icon"
+                          >
+                            <i
+                              className="fab fa-product-hunt"
+                            />
+                          </span>
+                          <span>
+                            ProPublica
+                          </span>
+                        </a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </nav>,
+              "className": "hero-head",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="container"
+                >
+                  <div
+                    className="navbar-brand"
+                  >
+                    <a
+                      className="navbar-item"
+                    >
+                      <NavLink
+                        activeClassName="active"
+                        aria-current="page"
+                        exact={true}
+                        to="/"
+                      >
+                        INFORMANT
+                      </NavLink>
+                    </a>
+                    <span
+                      className="navbar-burger burger"
+                      data-target="navbarMenuHeroA"
+                    >
+                      <span />
+                      <span />
+                      <span />
+                    </span>
+                  </div>
+                  <div
+                    className="navbar-menu"
+                    id="navbarMenuHeroA"
+                  >
+                    <div
+                      className="navbar-end"
+                    >
+                      <a
+                        className="navbar-item"
+                      >
+                        <NavLink
+                          activeClassName="active"
+                          aria-current="page"
+                          exact={true}
+                          to="/issues"
+                        >
+                          View Issues
+                        </NavLink>
+                      </a>
+                      <a
+                        className="navbar-item"
+                      >
+                        <NavLink
+                          activeClassName="active"
+                          aria-current="page"
+                          exact={true}
+                          to="/most_recent"
+                        >
+                          View Recent
+                        </NavLink>
+                      </a>
+                      <a
+                        className="navbar-item"
+                      >
+                        <NavLink
+                          activeClassName="active"
+                          aria-current="page"
+                          exact={true}
+                          to="/lobbyists"
+                        >
+                          View Lobbyists
+                        </NavLink>
+                      </a>
+                      <span
+                        className="navbar-item"
+                      >
+                        <a
+                          className="button is-primary is-inverted"
+                          href="https://www.propublica.org/"
+                        >
+                          <span
+                            className="icon"
+                          >
+                            <i
+                              className="fab fa-product-hunt"
+                            />
+                          </span>
+                          <span>
+                            ProPublica
+                          </span>
+                        </a>
+                      </span>
+                    </div>
+                  </div>
+                </div>,
+                "className": "navbar",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="navbar-brand"
+                    >
+                      <a
+                        className="navbar-item"
+                      >
+                        <NavLink
+                          activeClassName="active"
+                          aria-current="page"
+                          exact={true}
+                          to="/"
+                        >
+                          INFORMANT
+                        </NavLink>
+                      </a>
+                      <span
+                        className="navbar-burger burger"
+                        data-target="navbarMenuHeroA"
+                      >
+                        <span />
+                        <span />
+                        <span />
+                      </span>
+                    </div>,
+                    <div
+                      className="navbar-menu"
+                      id="navbarMenuHeroA"
+                    >
+                      <div
+                        className="navbar-end"
+                      >
+                        <a
+                          className="navbar-item"
+                        >
+                          <NavLink
+                            activeClassName="active"
+                            aria-current="page"
+                            exact={true}
+                            to="/issues"
+                          >
+                            View Issues
+                          </NavLink>
+                        </a>
+                        <a
+                          className="navbar-item"
+                        >
+                          <NavLink
+                            activeClassName="active"
+                            aria-current="page"
+                            exact={true}
+                            to="/most_recent"
+                          >
+                            View Recent
+                          </NavLink>
+                        </a>
+                        <a
+                          className="navbar-item"
+                        >
+                          <NavLink
+                            activeClassName="active"
+                            aria-current="page"
+                            exact={true}
+                            to="/lobbyists"
+                          >
+                            View Lobbyists
+                          </NavLink>
+                        </a>
+                        <span
+                          className="navbar-item"
+                        >
+                          <a
+                            className="button is-primary is-inverted"
+                            href="https://www.propublica.org/"
+                          >
+                            <span
+                              className="icon"
+                            >
+                              <i
+                                className="fab fa-product-hunt"
+                              />
+                            </span>
+                            <span>
+                              ProPublica
+                            </span>
+                          </a>
+                        </span>
+                      </div>
+                    </div>,
+                  ],
+                  "className": "container",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <a
+                          className="navbar-item"
+                        >
+                          <NavLink
+                            activeClassName="active"
+                            aria-current="page"
+                            exact={true}
+                            to="/"
+                          >
+                            INFORMANT
+                          </NavLink>
+                        </a>,
+                        <span
+                          className="navbar-burger burger"
+                          data-target="navbarMenuHeroA"
+                        >
+                          <span />
+                          <span />
+                          <span />
+                        </span>,
+                      ],
+                      "className": "navbar-brand",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <NavLink
+                            activeClassName="active"
+                            aria-current="page"
+                            exact={true}
+                            to="/"
+                          >
+                            INFORMANT
+                          </NavLink>,
+                          "className": "navbar-item",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "activeClassName": "active",
+                            "aria-current": "page",
+                            "children": "INFORMANT",
+                            "exact": true,
+                            "to": "/",
+                          },
+                          "ref": null,
+                          "rendered": "INFORMANT",
+                          "type": [Function],
+                        },
+                        "type": "a",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <span />,
+                            <span />,
+                            <span />,
+                          ],
+                          "className": "navbar-burger burger",
+                          "data-target": "navbarMenuHeroA",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {},
+                            "ref": null,
+                            "rendered": null,
+                            "type": "span",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {},
+                            "ref": null,
+                            "rendered": null,
+                            "type": "span",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {},
+                            "ref": null,
+                            "rendered": null,
+                            "type": "span",
+                          },
+                        ],
+                        "type": "span",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <div
+                        className="navbar-end"
+                      >
+                        <a
+                          className="navbar-item"
+                        >
+                          <NavLink
+                            activeClassName="active"
+                            aria-current="page"
+                            exact={true}
+                            to="/issues"
+                          >
+                            View Issues
+                          </NavLink>
+                        </a>
+                        <a
+                          className="navbar-item"
+                        >
+                          <NavLink
+                            activeClassName="active"
+                            aria-current="page"
+                            exact={true}
+                            to="/most_recent"
+                          >
+                            View Recent
+                          </NavLink>
+                        </a>
+                        <a
+                          className="navbar-item"
+                        >
+                          <NavLink
+                            activeClassName="active"
+                            aria-current="page"
+                            exact={true}
+                            to="/lobbyists"
+                          >
+                            View Lobbyists
+                          </NavLink>
+                        </a>
+                        <span
+                          className="navbar-item"
+                        >
+                          <a
+                            className="button is-primary is-inverted"
+                            href="https://www.propublica.org/"
+                          >
+                            <span
+                              className="icon"
+                            >
+                              <i
+                                className="fab fa-product-hunt"
+                              />
+                            </span>
+                            <span>
+                              ProPublica
+                            </span>
+                          </a>
+                        </span>
+                      </div>,
+                      "className": "navbar-menu",
+                      "id": "navbarMenuHeroA",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <a
+                            className="navbar-item"
+                          >
+                            <NavLink
+                              activeClassName="active"
+                              aria-current="page"
+                              exact={true}
+                              to="/issues"
+                            >
+                              View Issues
+                            </NavLink>
+                          </a>,
+                          <a
+                            className="navbar-item"
+                          >
+                            <NavLink
+                              activeClassName="active"
+                              aria-current="page"
+                              exact={true}
+                              to="/most_recent"
+                            >
+                              View Recent
+                            </NavLink>
+                          </a>,
+                          <a
+                            className="navbar-item"
+                          >
+                            <NavLink
+                              activeClassName="active"
+                              aria-current="page"
+                              exact={true}
+                              to="/lobbyists"
+                            >
+                              View Lobbyists
+                            </NavLink>
+                          </a>,
+                          <span
+                            className="navbar-item"
+                          >
+                            <a
+                              className="button is-primary is-inverted"
+                              href="https://www.propublica.org/"
+                            >
+                              <span
+                                className="icon"
+                              >
+                                <i
+                                  className="fab fa-product-hunt"
+                                />
+                              </span>
+                              <span>
+                                ProPublica
+                              </span>
+                            </a>
+                          </span>,
+                        ],
+                        "className": "navbar-end",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <NavLink
+                              activeClassName="active"
+                              aria-current="page"
+                              exact={true}
+                              to="/issues"
+                            >
+                              View Issues
+                            </NavLink>,
+                            "className": "navbar-item",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "function",
+                            "props": Object {
+                              "activeClassName": "active",
+                              "aria-current": "page",
+                              "children": "View Issues",
+                              "exact": true,
+                              "to": "/issues",
+                            },
+                            "ref": null,
+                            "rendered": "View Issues",
+                            "type": [Function],
+                          },
+                          "type": "a",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <NavLink
+                              activeClassName="active"
+                              aria-current="page"
+                              exact={true}
+                              to="/most_recent"
+                            >
+                              View Recent
+                            </NavLink>,
+                            "className": "navbar-item",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "function",
+                            "props": Object {
+                              "activeClassName": "active",
+                              "aria-current": "page",
+                              "children": "View Recent",
+                              "exact": true,
+                              "to": "/most_recent",
+                            },
+                            "ref": null,
+                            "rendered": "View Recent",
+                            "type": [Function],
+                          },
+                          "type": "a",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <NavLink
+                              activeClassName="active"
+                              aria-current="page"
+                              exact={true}
+                              to="/lobbyists"
+                            >
+                              View Lobbyists
+                            </NavLink>,
+                            "className": "navbar-item",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "function",
+                            "props": Object {
+                              "activeClassName": "active",
+                              "aria-current": "page",
+                              "children": "View Lobbyists",
+                              "exact": true,
+                              "to": "/lobbyists",
+                            },
+                            "ref": null,
+                            "rendered": "View Lobbyists",
+                            "type": [Function],
+                          },
+                          "type": "a",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <a
+                              className="button is-primary is-inverted"
+                              href="https://www.propublica.org/"
+                            >
+                              <span
+                                className="icon"
+                              >
+                                <i
+                                  className="fab fa-product-hunt"
+                                />
+                              </span>
+                              <span>
+                                ProPublica
+                              </span>
+                            </a>,
+                            "className": "navbar-item",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": Array [
+                                <span
+                                  className="icon"
+                                >
+                                  <i
+                                    className="fab fa-product-hunt"
+                                  />
+                                </span>,
+                                <span>
+                                  ProPublica
+                                </span>,
+                              ],
+                              "className": "button is-primary is-inverted",
+                              "href": "https://www.propublica.org/",
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": <i
+                                    className="fab fa-product-hunt"
+                                  />,
+                                  "className": "icon",
+                                },
+                                "ref": null,
+                                "rendered": Object {
+                                  "instance": null,
+                                  "key": undefined,
+                                  "nodeType": "host",
+                                  "props": Object {
+                                    "className": "fab fa-product-hunt",
+                                  },
+                                  "ref": null,
+                                  "rendered": null,
+                                  "type": "i",
+                                },
+                                "type": "span",
+                              },
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": "ProPublica",
+                                },
+                                "ref": null,
+                                "rendered": "ProPublica",
+                                "type": "span",
+                              },
+                            ],
+                            "type": "a",
+                          },
+                          "type": "span",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": "nav",
+            },
+            "type": "div",
+          },
+          "type": "section",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="hero-body"
+            >
+              <div
+                className="hero-body"
+              >
+                <div
+                  className="container has-text-centered"
+                >
+                  <Switch>
+                    <Route
+                      exact={true}
+                      path="/"
+                      render={[Function]}
+                    />
+                    <Route
+                      exact={true}
+                      path="/most_recent"
+                      render={[Function]}
+                    />
+                    <Route
+                      exact={true}
+                      path="/lobbyists"
+                      render={[Function]}
+                    />
+                    <Route
+                      exact={true}
+                      path="/issues"
+                      render={[Function]}
+                    />
+                    <Route
+                      exact={true}
+                      path="/lobbyists/"
+                      render={[Function]}
+                    />
+                  </Switch>
+                </div>
+                <div
+                  className="modal "
+                  onClick={[Function]}
+                >
+                  <div
+                    className="modal-background"
+                  />
+                  <div
+                    className="modal-content"
+                  >
+                    <ModalContainer
+                      modal={Array []}
+                    />
+                  </div>
+                  <button
+                    aria-label="close"
+                    className="modal-close is-large"
+                  />
+                </div>
+              </div>
+            </div>,
+            "className": "hero is-fullheight",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="hero-body"
+              >
+                <div
+                  className="container has-text-centered"
+                >
+                  <Switch>
+                    <Route
+                      exact={true}
+                      path="/"
+                      render={[Function]}
+                    />
+                    <Route
+                      exact={true}
+                      path="/most_recent"
+                      render={[Function]}
+                    />
+                    <Route
+                      exact={true}
+                      path="/lobbyists"
+                      render={[Function]}
+                    />
+                    <Route
+                      exact={true}
+                      path="/issues"
+                      render={[Function]}
+                    />
+                    <Route
+                      exact={true}
+                      path="/lobbyists/"
+                      render={[Function]}
+                    />
+                  </Switch>
+                </div>
+                <div
+                  className="modal "
+                  onClick={[Function]}
+                >
+                  <div
+                    className="modal-background"
+                  />
+                  <div
+                    className="modal-content"
+                  >
+                    <ModalContainer
+                      modal={Array []}
+                    />
+                  </div>
+                  <button
+                    aria-label="close"
+                    className="modal-close is-large"
+                  />
+                </div>
+              </div>,
+              "className": "hero-body",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="container has-text-centered"
+                  >
+                    <Switch>
+                      <Route
+                        exact={true}
+                        path="/"
+                        render={[Function]}
+                      />
+                      <Route
+                        exact={true}
+                        path="/most_recent"
+                        render={[Function]}
+                      />
+                      <Route
+                        exact={true}
+                        path="/lobbyists"
+                        render={[Function]}
+                      />
+                      <Route
+                        exact={true}
+                        path="/issues"
+                        render={[Function]}
+                      />
+                      <Route
+                        exact={true}
+                        path="/lobbyists/"
+                        render={[Function]}
+                      />
+                    </Switch>
+                  </div>,
+                  <div
+                    className="modal "
+                    onClick={[Function]}
+                  >
+                    <div
+                      className="modal-background"
+                    />
+                    <div
+                      className="modal-content"
+                    >
+                      <ModalContainer
+                        modal={Array []}
+                      />
+                    </div>
+                    <button
+                      aria-label="close"
+                      className="modal-close is-large"
+                    />
+                  </div>,
+                ],
+                "className": "hero-body",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Switch>
+                      <Route
+                        exact={true}
+                        path="/"
+                        render={[Function]}
+                      />
+                      <Route
+                        exact={true}
+                        path="/most_recent"
+                        render={[Function]}
+                      />
+                      <Route
+                        exact={true}
+                        path="/lobbyists"
+                        render={[Function]}
+                      />
+                      <Route
+                        exact={true}
+                        path="/issues"
+                        render={[Function]}
+                      />
+                      <Route
+                        exact={true}
+                        path="/lobbyists/"
+                        render={[Function]}
+                      />
+                    </Switch>,
+                    "className": "container has-text-centered",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": Array [
+                        <Route
+                          exact={true}
+                          path="/"
+                          render={[Function]}
+                        />,
+                        <Route
+                          exact={true}
+                          path="/most_recent"
+                          render={[Function]}
+                        />,
+                        <Route
+                          exact={true}
+                          path="/lobbyists"
+                          render={[Function]}
+                        />,
+                        <Route
+                          exact={true}
+                          path="/issues"
+                          render={[Function]}
+                        />,
+                        <Route
+                          exact={true}
+                          path="/lobbyists/"
+                          render={[Function]}
+                        />,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "exact": true,
+                          "path": "/",
+                          "render": [Function],
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "exact": true,
+                          "path": "/most_recent",
+                          "render": [Function],
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "exact": true,
+                          "path": "/lobbyists",
+                          "render": [Function],
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "exact": true,
+                          "path": "/issues",
+                          "render": [Function],
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "exact": true,
+                          "path": "/lobbyists/",
+                          "render": [Function],
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                    ],
+                    "type": [Function],
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        className="modal-background"
+                      />,
+                      <div
+                        className="modal-content"
+                      >
+                        <ModalContainer
+                          modal={Array []}
+                        />
+                      </div>,
+                      <button
+                        aria-label="close"
+                        className="modal-close is-large"
+                      />,
+                    ],
+                    "className": "modal ",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "modal-background",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <ModalContainer
+                          modal={Array []}
+                        />,
+                        "className": "modal-content",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {
+                          "modal": Array [],
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "aria-label": "close",
+                        "className": "modal-close is-large",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "button",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            "type": "div",
+          },
+          "type": "section",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
