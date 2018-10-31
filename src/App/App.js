@@ -73,14 +73,16 @@ class App extends Component {
   };
 
   fetchLobbyistList = async id => {
-    try {
-      const showLobbyists = await lobbyistListFetchCall(id);
-      this.setState({
-        showLobbyists,
-        loading: false
-      });
-    } catch (error) {
-      this.setState({ error: error.message });
+    if (!this.state.showLobbyists.length) {
+      try {
+        const showLobbyists = await lobbyistListFetchCall(id);
+        this.setState({
+          showLobbyists,
+          loading: false
+        });
+      } catch (error) {
+        this.setState({ error: error.message });
+      }
     }
   };
 
@@ -107,14 +109,14 @@ class App extends Component {
   render() {
     return (
       <div>
-        <section className="hero is-primary is-small">
+        <section className="hero is-dark is-small">
           <div className="hero-head">
             <nav className="navbar">
               <div className="container">
                 <div className="navbar-brand">
                   <a href="http://localhost:3000/" className="navbar-item">
                     <NavLink exact to="/">
-                      INFORMANT
+                      POLITIC
                     </NavLink>
                   </a>
                   <span
@@ -133,7 +135,7 @@ class App extends Component {
                       className="navbar-item"
                     >
                       <NavLink exact to="/issues">
-                        View Issues
+                        Words
                       </NavLink>
                     </a>
                     <a
@@ -141,15 +143,15 @@ class App extends Component {
                       className="navbar-item"
                     >
                       <NavLink exact to="/most_recent">
-                        View Recent
+                        List
                       </NavLink>
                     </a>
                     <a
-                      href="http://localhost:3000/lobbyists"
+                      href="http://localhost:3000/about"
                       className="navbar-item"
                     >
-                      <NavLink exact to="/lobbyists">
-                        View Lobbyists
+                      <NavLink exact to="/about">
+                        About
                       </NavLink>
                     </a>
                     <span className="navbar-item">
@@ -178,54 +180,13 @@ class App extends Component {
                     exact
                     path="/"
                     render={() => {
-                      return (
-                        <h1>
-                          Welcome to informant. This website is here to track
-                          lobbyist activity within the Federal Government. You
-                          can view the 30 most recent lobbyist filings. You can
-                          view the most commonly referenced issues based on word
-                          frequency. An archive of all existing lobbyist memos
-                          is available below via the archive link.
-                        </h1>
-                      );
-                    }}
-                  />
-                  <Route
-                    exact
-                    path="/most_recent"
-                    render={() => {
-                      this.setInitialState();
-                      return (
-                        <RecentTopicsContainer
-                          recentTopicsCategory={this.state.recentTopics}
-                          setCurrentId={this.setCurrentId}
-                          fetchLobbyData={this.fetchLobbyistList}
-                        />
-                      );
-                    }}
-                  />
-                  <Route
-                    exact
-                    path="/lobbyists"
-                    render={() => {
-                      this.fetchLobbyists();
-                      return (
-                        <LobbyistListContainer
-                          lobbyistListCategory={this.state.lobbyistList}
-                        />
-                      );
-                    }}
-                  />
-                  <Route
-                    exact
-                    path="/issues"
-                    render={() => {
                       this.setWordCloud();
                       return (
                         <div>
-                          <h1 className="title">Frequently Mentioned Words</h1>
+                          <h1 className="title">High Frequency Words</h1>
                           <h1 className="subtitle">
-                            Click on a word to view related lobbying filings
+                            Click on a word to view lobbyist filings sorted by
+                            most recent
                           </h1>
                           <WordCloud
                             data={this.state.wordCloud}
@@ -236,6 +197,50 @@ class App extends Component {
                             padding={5}
                           />
                         </div>
+                      );
+                    }}
+                  />
+                  <Route
+                    exact
+                    path={`/most_recent/${this.state.currentId}`}
+                    render={() => {
+                      this.setInitialState();
+                      this.fetchLobbyists();
+                      return (
+                        <div>
+                          <RecentTopicsContainer
+                            recentTopicsCategory={this.state.recentTopics}
+                            setCurrentId={this.setCurrentId}
+                            fetchLobbyData={this.fetchLobbyistList}
+                          />
+                          <LobbyistListContainer
+                            lobbyistListCategory={this.state.lobbyistList}
+                          />
+                        </div>
+                      );
+                    }}
+                  />
+                  <Route
+                    exact
+                    path="/about"
+                    render={() => {
+                      return <h1>PLACEHOLDER</h1>;
+                    }}
+                  />
+                  <Route
+                    exact
+                    path="/issues"
+                    render={() => {
+                      this.setWordCloud();
+                      return (
+                        <WordCloud
+                          data={this.state.wordCloud}
+                          fontSizeMapper={this.fontSizeMapper}
+                          width={1320}
+                          height={900}
+                          onWordClick={this.onWordClick}
+                          padding={5}
+                        />
                       );
                     }}
                   />
