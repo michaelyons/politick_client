@@ -14,8 +14,10 @@ const LobbyCard = ({
   fetchLobbyData
 }) => {
   const handleClick = async () => {
+    // const poop = lobbyists.find(id => id === id);
+    // console.log(poop.id);
     const id = await setCurrentId();
-    await fetchLobbyData(id);
+    fetchLobbyData(id);
   };
 
   const lobbyistLinks = lobbyists.map(person => (
@@ -33,11 +35,6 @@ const LobbyCard = ({
     <div className="card">
       <header className="card-header">
         <p className="card-header-title">Filing ID: {filingId}</p>
-        <a
-          href="http://localhost:3000/issues"
-          className="card-header-icon"
-          aria-label="more options"
-        />
       </header>
       <div className="media">
         <div className="card-content">

@@ -73,14 +73,16 @@ class App extends Component {
   };
 
   fetchLobbyistList = async id => {
-    try {
-      const showLobbyists = await lobbyistListFetchCall(id);
-      this.setState({
-        showLobbyists,
-        loading: false
-      });
-    } catch (error) {
-      this.setState({ error: error.message });
+    if (!this.state.showLobbyists.length) {
+      try {
+        const showLobbyists = await lobbyistListFetchCall(id);
+        this.setState({
+          showLobbyists,
+          loading: false
+        });
+      } catch (error) {
+        this.setState({ error: error.message });
+      }
     }
   };
 
@@ -114,7 +116,7 @@ class App extends Component {
                 <div className="navbar-brand">
                   <a href="http://localhost:3000/" className="navbar-item">
                     <NavLink exact to="/">
-                      POLITICK
+                      POLITIC
                     </NavLink>
                   </a>
                   <span
@@ -200,7 +202,7 @@ class App extends Component {
                   />
                   <Route
                     exact
-                    path="/most_recent"
+                    path={`/most_recent/${this.state.currentId}`}
                     render={() => {
                       this.setInitialState();
                       this.fetchLobbyists();
@@ -222,13 +224,7 @@ class App extends Component {
                     exact
                     path="/about"
                     render={() => {
-                      // this.fetchLobbyists();
-                      return (
-                        // <LobbyistListContainer
-                        //   lobbyistListCategory={this.state.lobbyistList}
-                        // />
-                        <h1>PLACEHOLDER</h1>
-                      );
+                      return <h1>PLACEHOLDER</h1>;
                     }}
                   />
                   <Route

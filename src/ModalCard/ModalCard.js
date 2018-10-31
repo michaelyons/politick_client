@@ -9,11 +9,6 @@ const ModalCard = ({ filingId, clientName, topic, register }) => {
     <div className="card">
       <header className="card-header">
         <p className="card-header-title">Filing ID: {filingId}</p>
-        <a
-          href="http://localhost:3000/issues"
-          className="card-header-icon"
-          aria-label="more options"
-        />
       </header>
       <div className="media">
         <div className="card-content">
@@ -30,7 +25,9 @@ const ModalCard = ({ filingId, clientName, topic, register }) => {
 
 ModalCard.propTypes = {
   filingId: PropTypes.number,
-  topic: PropTypes.string
+  topic: PropTypes.string,
+  clientName: PropTypes.string,
+  register: PropTypes.string
 };
 
 export default ModalCard;
