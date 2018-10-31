@@ -4,7 +4,7 @@ import LobbyistListContainer from '../LobbyistListContainer/LobbyistListContaine
 import LobbyistShow from '../LobbyistShow/LobbyistShow';
 import { Route, Switch, NavLink } from 'react-router-dom';
 import {
-  initialFetchCall,
+  recentTopicsFetchCall,
   lobbyistFetchCall,
   wordCloudFetch,
   lobbyistListFetchCall,
@@ -34,7 +34,7 @@ class App extends Component {
   setInitialState = async () => {
     if (!this.state.recentTopics.length) {
       try {
-        const recentTopics = await initialFetchCall();
+        const recentTopics = await recentTopicsFetchCall();
         this.setState({ recentTopics, loading: false });
       } catch (error) {
         this.setState({ errors: error.message });
@@ -129,6 +129,11 @@ class App extends Component {
                 <div id="navbarMenuHeroA" className="navbar-menu">
                   <div className="navbar-end">
                     <a className="navbar-item">
+                      <NavLink exact to="/issues">
+                        View Issues
+                      </NavLink>
+                    </a>
+                    <a className="navbar-item">
                       <NavLink exact to="/most_recent">
                         View Recent
                       </NavLink>
@@ -136,11 +141,6 @@ class App extends Component {
                     <a className="navbar-item">
                       <NavLink exact to="/lobbyists">
                         View Lobbyists
-                      </NavLink>
-                    </a>
-                    <a className="navbar-item">
-                      <NavLink exact to="/issues">
-                        View Issues
                       </NavLink>
                     </a>
                     <span className="navbar-item">
