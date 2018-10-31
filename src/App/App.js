@@ -22,6 +22,7 @@ class App extends Component {
       recentTopics: [],
       lobbyistList: [],
       wordCloud: [],
+      filteredWordCloud: [],
       showLobbyists: [],
       showWords: [],
       currentId: '',
@@ -47,11 +48,31 @@ class App extends Component {
       try {
         const wordCloud = await wordCloudFetch();
         this.setState({ wordCloud, loading: false });
+        const filteredWordCloud = wordCloud;
+        this.setState({ filteredWordCloud, loading: false });
       } catch (error) {
         this.setState({ errors: error.message });
       }
     }
   };
+
+  filterWordCloud = async (event) => {
+    console.log(this.state.wordCloud.length)
+    let text = event.target.value;
+    let filteredWordCloud = [];
+    if(text != "") {
+      this.state.wordCloud.forEach(function (word) {
+        if(typeof word == "object") {
+          if(word.text.includes(text)) {
+            filteredWordCloud.push(word);
+          }
+        }
+      });
+    } else {
+      filteredWordCloud = this.state.wordCloud;
+    }
+    this.setState({ filteredWordCloud, loading: false} );
+  }
 
   setCurrentId = () => {
     return setTimeout(() => {
@@ -233,14 +254,21 @@ class App extends Component {
                     render={() => {
                       this.setWordCloud();
                       return (
-                        <WordCloud
-                          data={this.state.wordCloud}
-                          fontSizeMapper={this.fontSizeMapper}
-                          width={1320}
-                          height={900}
-                          onWordClick={this.onWordClick}
-                          padding={5}
-                        />
+                        <div>
+                          <h1 className="title">Frequently Mentioned Words</h1>
+                          <h1 className="subtitle">
+                            Click on a word to view related lobbying filings
+                          </h1>
+                          <input type="text" onChange={this.filterWordCloud} placeholder="Filter words"></input>
+                          <WordCloud
+                            data={this.state.filteredWordCloud}
+                            fontSizeMapper={this.fontSizeMapper}
+                            width={1320}
+                            height={900}
+                            onWordClick={this.onWordClick}
+                            padding={5}
+                          />
+                        </div>
                       );
                     }}
                   />
