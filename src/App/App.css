@@ -1,3 +1,7 @@
 text {
   cursor: pointer;
 }
+
+div .hero-body {
+  padding-top: 0.5rem;
+}

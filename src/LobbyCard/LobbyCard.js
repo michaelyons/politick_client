@@ -31,28 +31,24 @@ const LobbyCard = ({
 
   return (
     <div className="card">
-      <div className="card-content">
-        <p className="title">{topic}</p>
-        <p className="subtitle">{filingId}</p>
-        <p className="subtitle">{clientName}</p>
-        <p className="subtitle">{register}</p>
-        <p className="subtitle">{lobbyistLinks}</p>
+      <header className="card-header">
+        <p className="card-header-title">Filing ID: {filingId}</p>
+        <a href="#" className="card-header-icon" aria-label="more options">
+          <span className="icon">
+            <i className="fas fa-angle-down" aria-hidden="true" />
+          </span>
+        </a>
+      </header>
+      <div className="media">
+        <div className="card-content">
+          <div className="media-content">
+            <p className="title is-size-6">Lobbyist(s): {lobbyistLinks}</p>
+            <p className="subtitle">{clientName}</p>
+            <p className="subtitle">{register}</p>
+          </div>
+          <div className="content">{topic}</div>
+        </div>
       </div>
-      <footer className="card-footer">
-        <p className="card-footer-item">
-          <span>
-            View on{' '}
-            <a href="https://twitter.com/codinghorror/status/506010907021828096">
-              Twitter
-            </a>
-          </span>
-        </p>
-        <p className="card-footer-item">
-          <span>
-            Share on <a href="#">Facebook</a>
-          </span>
-        </p>
-      </footer>
     </div>
   );
 };

@@ -171,9 +171,12 @@ class App extends Component {
                     render={() => {
                       return (
                         <h1>
-                          Welcome to informant lobby, the premier location for
-                          current and historical lobbying representations in
-                          America
+                          Welcome to informant. This website is here to track
+                          lobbyist activity within the Federal Government. You
+                          can view the 30 most recent lobbyist filings. You can
+                          view the most commonly referenced issues based on word
+                          frequency. An archive of all existing lobbyist memos
+                          is available below via the archive link.
                         </h1>
                       );
                     }}
@@ -211,7 +214,10 @@ class App extends Component {
                       this.setWordCloud();
                       return (
                         <div>
-                          <h1>Most Common Words ATM</h1>
+                          <h1 className="title">Frequently Mentioned Words</h1>
+                          <h1 className="subtitle">
+                            Click on a word to view related lobbying filings
+                          </h1>
                           <WordCloud
                             data={this.state.wordCloud}
                             fontSizeMapper={this.fontSizeMapper}
@@ -245,6 +251,32 @@ class App extends Component {
                 <button className="modal-close is-large" aria-label="close" />
               </div>
             </div>
+          </div>
+          <div className="hero-foot">
+            <nav className="tabs">
+              <div className="container">
+                <ul>
+                  <li className="is-active">
+                    <a>Overview</a>
+                  </li>
+                  <li>
+                    <a>Modifiers</a>
+                  </li>
+                  <li>
+                    <a>Grid</a>
+                  </li>
+                  <li>
+                    <a>Elements</a>
+                  </li>
+                  <li>
+                    <a>Components</a>
+                  </li>
+                  <li>
+                    <a>Layout</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
           </div>
         </section>
       </div>
