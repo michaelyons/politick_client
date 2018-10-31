@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import RecentTopicsContainer from '../RecentTopicsContainer/RecentTopicsContainer';
-import LobbyistListContainer from '../LobbyistListContainer/LobbyistListContainer';
 import LobbyistShow from '../LobbyistShow/LobbyistShow';
 import { Route, Switch, NavLink } from 'react-router-dom';
 import {
@@ -237,9 +236,6 @@ class App extends Component {
                             recentTopicsCategory={this.state.recentTopics}
                             setCurrentId={this.setCurrentId}
                             fetchLobbyData={this.fetchLobbyistList}
-                          />
-                          <LobbyistListContainer
-                            lobbyistListCategory={this.state.lobbyistList}
                           />
                         </div>
                       );
