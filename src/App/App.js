@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import RecentTopicsContainer from '../RecentTopicsContainer/RecentTopicsContainer';
 import LobbyistShow from '../LobbyistShow/LobbyistShow';
+import About from '../About/About';
 import { Route, Switch, NavLink } from 'react-router-dom';
 import {
   recentTopicsFetchCall,
@@ -135,7 +136,7 @@ class App extends Component {
                 <div className="navbar-brand">
                   <a href="http://localhost:3000/" className="navbar-item">
                     <NavLink exact to="/">
-                      POLITIC
+                      <img src="/politik_logo.png" alt="fuck" />
                     </NavLink>
                   </a>
                   <span
@@ -154,7 +155,7 @@ class App extends Component {
                       className="navbar-item"
                     >
                       <NavLink exact to="/issues">
-                        Words
+                        WORDS
                       </NavLink>
                     </a>
                     <a
@@ -162,7 +163,7 @@ class App extends Component {
                       className="navbar-item"
                     >
                       <NavLink exact to="/most_recent">
-                        List
+                        LIST
                       </NavLink>
                     </a>
                     <a
@@ -170,20 +171,10 @@ class App extends Component {
                       className="navbar-item"
                     >
                       <NavLink exact to="/about">
-                        About
+                        ABOUT
                       </NavLink>
                     </a>
-                    <span className="navbar-item">
-                      <a
-                        className="button is-primary is-inverted"
-                        href="https://www.propublica.org/"
-                      >
-                        <span className="icon">
-                          <i className="fab fa-product-hunt" />
-                        </span>
-                        <span>ProPublica</span>
-                      </a>
-                    </span>
+                    <span className="navbar-item" />
                   </div>
                 </div>
               </div>
@@ -245,7 +236,7 @@ class App extends Component {
                     exact
                     path="/about"
                     render={() => {
-                      return <h1>PLACEHOLDER</h1>;
+                      return <About />;
                     }}
                   />
                   <Route
