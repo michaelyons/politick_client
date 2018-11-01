@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import LoadingGif from '../LoadingGif/LoadingGif';
 
 const LobbyistShow = ({ lobbyist }) => {
   if (!lobbyist.length) {
-    return <h1>Nothing Found</h1>;
+    return <LoadingGif />;
   } else {
     return lobbyist.map((item, index) => (
       <div key={index}>

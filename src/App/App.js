@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import RecentTopicsContainer from '../RecentTopicsContainer/RecentTopicsContainer';
 import LobbyistShow from '../LobbyistShow/LobbyistShow';
+// import LoadingGif from '../LoadingGif/LoadingGif';
 import About from '../About/About';
 import { Route, Switch, NavLink } from 'react-router-dom';
 import {
@@ -200,18 +201,29 @@ class App extends Component {
                       this.setWordCloud();
                       return (
                         <div>
-                          <h1 className="title">High Frequency Words</h1>
-                          <h1 className="subtitle">
-                            Click on a word to view lobbyist filings sorted by
-                            most recent
+                          <h1 className="title">
+                            What are lobbyists talking about?
                           </h1>
+                          <h6 className="subtitle john-head">
+                            Below are the most commonly occuring words from
+                            issues presented by Lobbyists to the US Government
+                            <br /> Click on a word to see Lobbyist
+                            representations filed into public record
+                          </h6>
                           <input
                             type="text"
                             value={this.state.filterText}
                             onChange={this.filterWordCloud}
-                            placeholder="Filter words"
+                            placeholder="Filter Words"
+                            className="input-home-field"
                           />
-                          <button onClick={this.clearFilter}>reset</button>
+                          <a
+                            href="http://localhost:3000/"
+                            className="reset-btn-home"
+                            onClick={this.clearFilter}
+                          >
+                            Reset
+                          </a>
                           <WordCloud
                             data={this.state.filteredWordCloud}
                             fontSizeMapper={this.fontSizeMapper}
@@ -264,8 +276,15 @@ class App extends Component {
                             value={this.state.filterText}
                             onChange={this.filterWordCloud}
                             placeholder="Filter words"
+                            className="wordcloud-input"
                           />
-                          <button onClick={this.clearFilter}>reset</button>
+                          <a
+                            href="http://localhost:3000/issues"
+                            className="reset-btn-cloud"
+                            onClick={this.clearFilter}
+                          >
+                            Reset
+                          </a>
                           <WordCloud
                             data={this.state.filteredWordCloud}
                             fontSizeMapper={this.fontSizeMapper}
