@@ -57,7 +57,7 @@ const About = () => {
         Politik was created by{' '}
         <a href="https://github.com/michaelyons">Michael Lyons,</a>{' '}
         <a href="https://github.com/letsdothis64">Connon Osburn,</a> and{' '}
-        <a href="github.com/jtrtj">John Roemer</a>
+        <a href="https://github.com/jtrtj">John Roemer</a>
       </h2>
     </div>
   );
