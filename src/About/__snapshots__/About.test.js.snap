@@ -109,7 +109,7 @@ ShallowWrapper {
            and
            
           <a
-            href="github.com/jtrtj"
+            href="https://github.com/jtrtj"
           >
             John Roemer
           </a>
@@ -376,7 +376,7 @@ ShallowWrapper {
             " and",
             " ",
             <a
-              href="github.com/jtrtj"
+              href="https://github.com/jtrtj"
             >
               John Roemer
             </a>,
@@ -420,7 +420,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "John Roemer",
-              "href": "github.com/jtrtj",
+              "href": "https://github.com/jtrtj",
             },
             "ref": null,
             "rendered": "John Roemer",
@@ -530,7 +530,7 @@ ShallowWrapper {
              and
              
             <a
-              href="github.com/jtrtj"
+              href="https://github.com/jtrtj"
             >
               John Roemer
             </a>
@@ -797,7 +797,7 @@ ShallowWrapper {
               " and",
               " ",
               <a
-                href="github.com/jtrtj"
+                href="https://github.com/jtrtj"
               >
                 John Roemer
               </a>,
@@ -841,7 +841,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": "John Roemer",
-                "href": "github.com/jtrtj",
+                "href": "https://github.com/jtrtj",
               },
               "ref": null,
               "rendered": "John Roemer",

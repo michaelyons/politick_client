@@ -37,6 +37,7 @@ class App extends Component {
     if (!this.state.recentTopics.length) {
       try {
         const recentTopics = await recentTopicsFetchCall();
+        console.log(recentTopics);
         this.setState({ recentTopics, loading: false });
       } catch (error) {
         this.setState({ errors: error.message });
