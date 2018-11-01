@@ -20,7 +20,7 @@ Politik automatically gathers data from the ProPublica API each day as Lobbyists
 ### Technologies
 
 React
-React Router
+Router
 Jest/Enzyme 
 Python
 
