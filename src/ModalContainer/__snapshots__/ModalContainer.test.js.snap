@@ -1,0 +1,1302 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalContainer Component snapshot should match the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ModalContainer
+    modal={
+      Array [
+        Object {
+          "clientName": "Weber County Sheriff's Office",
+          "date": "2018-10-30",
+          "filingId": 301018450,
+          "register": "The Summerill Law Firm",
+          "topic": "Assist the Weber County Sheriff's Office with its re-negotiation of its US Marshals Service Intergovernmental Agreement for housing federal prisoners.",
+        },
+        Object {
+          "clientName": "Newaygo County Sheriff's Office",
+          "date": "2018-10-30",
+          "filingId": 301019298,
+          "register": "The Summerill Law Firm",
+          "topic": "Assist the Newaygo County Sheriff's Office with its re-negotiation of its US Marshals Service Intergovernmental Service Agreement to house federal prisoners.",
+        },
+        Object {
+          "clientName": "St. Louis City Justice Center",
+          "date": "2018-10-30",
+          "filingId": 301019301,
+          "register": "The Summerill Group LLC",
+          "topic": "Assist the St. Louis City Justice Center with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.",
+        },
+        Object {
+          "clientName": "Bechtel Global Corporation",
+          "date": "2018-10-30",
+          "filingId": 301017458,
+          "register": "BGR Government Affairs",
+          "topic": "U.S. Civil Nuclear Cooperation Agreements (Section 123 agreements)', 'International business development",
+        },
+        Object {
+          "clientName": "Overseas Shipholding Group, Inc.",
+          "date": "2018-10-30",
+          "filingId": 301017466,
+          "register": "BGR Government Affairs",
+          "topic": "US-Israel trade agreement",
+        },
+        Object {
+          "clientName": "SAZERAC COMPANY INC.",
+          "date": "2018-10-30",
+          "filingId": 301018184,
+          "register": "Jones Walker, LLP",
+          "topic": "Internet sales of alcohol, duty drawback and free trade agreements.",
+        },
+        Object {
+          "clientName": "The Immigration Hub LLC",
+          "date": "2018-10-30",
+          "filingId": 301018924,
+          "register": "The Immigration Hub LLC",
+          "topic": "FY19 Aped Alien Children Nomination of Ron Vitiello as Assistant Secretary of ICE",
+        },
+        Object {
+          "clientName": "American Federation of Government Employees, Council 118",
+          "date": "2018-10-30",
+          "filingId": 301019063,
+          "register": "ATRIO CONSULTING GROUP, LLC",
+          "topic": "Federal employees; pprropurity Appropriations Act, 2019) & (S. 3109 - Department of Homeland Security Appropriations Act, 2019).",
+        },
+        Object {
+          "clientName": "Independent Lubricant Manufacturers Association",
+          "date": "2018-10-30",
+          "filingId": 300928721,
+          "register": "Bassman, Mitchell, Alfano & Leiter Chtd.",
+          "topic": "Implementation of and Chinese tariffs.",
+        },
+        Object {
+          "clientName": "Gregg County Sheriff's Office",
+          "date": "2018-10-30",
+          "filingId": 301016471,
+          "register": "The Summerill Group LLC",
+          "topic": "Assist the Gregg County Sheriff's Office with the re-negotiation of its USMS Intergovernmental Agreement for housing federal prisoners.",
+        },
+        Object {
+          "clientName": "Lubbock County Sheriff's Office",
+          "date": "2018-10-30",
+          "filingId": 301017495,
+          "register": "The Summerill Group LLC",
+          "topic": "Assist the Lubbock County Sheriff's Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.",
+        },
+        Object {
+          "clientName": "Greene County Sheriff's Office",
+          "date": "2018-10-30",
+          "filingId": 301018432,
+          "register": "The Summerill Group LLC",
+          "topic": "Assist Greene County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.",
+        },
+        Object {
+          "clientName": "Merrimack County Department of Corrections",
+          "date": "2018-10-30",
+          "filingId": 301018435,
+          "register": "The Summerill Group LLC",
+          "topic": "Assist Merrimack County Department of Corrections with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.",
+        },
+        Object {
+          "clientName": "Alamance County Sheriff's Office",
+          "date": "2018-10-30",
+          "filingId": 301018440,
+          "register": "The Summerill Group LLC",
+          "topic": "Assist Alamance County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.",
+        },
+        Object {
+          "clientName": "Randall County Sheriffs Office",
+          "date": "2018-10-30",
+          "filingId": 301018443,
+          "register": "The Summerill Group LLC",
+          "topic": "Assist Randall County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.",
+        },
+        Object {
+          "clientName": "Sandoval County Detention Center",
+          "date": "2018-10-30",
+          "filingId": 301018446,
+          "register": "The Summerill Law Firm",
+          "topic": "Assist Sandoval County Detention Center with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.",
+        },
+        Object {
+          "clientName": "Columbia County Sheriff's Office",
+          "date": "2018-10-30",
+          "filingId": 301018447,
+          "register": "The Summerill Law Firm",
+          "topic": "Assist Columbia County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.",
+        },
+        Object {
+          "clientName": "Charleston County Sheriff's Office",
+          "date": "2018-10-30",
+          "filingId": 301018448,
+          "register": "The Summerill Law Firm",
+          "topic": "Assist Charleston County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          Related Issues Filed by Date
+        </h1>,
+        <div
+          className="notification"
+        >
+          <ModalCard
+            clientName="Weber County Sheriff's Office"
+            date="2018-10-30"
+            filingId={301018450}
+            register="The Summerill Law Firm"
+            topic="Assist the Weber County Sheriff's Office with its re-negotiation of its US Marshals Service Intergovernmental Agreement for housing federal prisoners."
+          />
+          <ModalCard
+            clientName="Newaygo County Sheriff's Office"
+            date="2018-10-30"
+            filingId={301019298}
+            register="The Summerill Law Firm"
+            topic="Assist the Newaygo County Sheriff's Office with its re-negotiation of its US Marshals Service Intergovernmental Service Agreement to house federal prisoners."
+          />
+          <ModalCard
+            clientName="St. Louis City Justice Center"
+            date="2018-10-30"
+            filingId={301019301}
+            register="The Summerill Group LLC"
+            topic="Assist the St. Louis City Justice Center with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners."
+          />
+          <ModalCard
+            clientName="Bechtel Global Corporation"
+            date="2018-10-30"
+            filingId={301017458}
+            register="BGR Government Affairs"
+            topic="U.S. Civil Nuclear Cooperation Agreements (Section 123 agreements)', 'International business development"
+          />
+          <ModalCard
+            clientName="Overseas Shipholding Group, Inc."
+            date="2018-10-30"
+            filingId={301017466}
+            register="BGR Government Affairs"
+            topic="US-Israel trade agreement"
+          />
+          <ModalCard
+            clientName="SAZERAC COMPANY INC."
+            date="2018-10-30"
+            filingId={301018184}
+            register="Jones Walker, LLP"
+            topic="Internet sales of alcohol, duty drawback and free trade agreements."
+          />
+          <ModalCard
+            clientName="The Immigration Hub LLC"
+            date="2018-10-30"
+            filingId={301018924}
+            register="The Immigration Hub LLC"
+            topic="FY19 Aped Alien Children Nomination of Ron Vitiello as Assistant Secretary of ICE"
+          />
+          <ModalCard
+            clientName="American Federation of Government Employees, Council 118"
+            date="2018-10-30"
+            filingId={301019063}
+            register="ATRIO CONSULTING GROUP, LLC"
+            topic="Federal employees; pprropurity Appropriations Act, 2019) & (S. 3109 - Department of Homeland Security Appropriations Act, 2019)."
+          />
+          <ModalCard
+            clientName="Independent Lubricant Manufacturers Association"
+            date="2018-10-30"
+            filingId={300928721}
+            register="Bassman, Mitchell, Alfano & Leiter Chtd."
+            topic="Implementation of and Chinese tariffs."
+          />
+          <ModalCard
+            clientName="Gregg County Sheriff's Office"
+            date="2018-10-30"
+            filingId={301016471}
+            register="The Summerill Group LLC"
+            topic="Assist the Gregg County Sheriff's Office with the re-negotiation of its USMS Intergovernmental Agreement for housing federal prisoners."
+          />
+          <ModalCard
+            clientName="Lubbock County Sheriff's Office"
+            date="2018-10-30"
+            filingId={301017495}
+            register="The Summerill Group LLC"
+            topic="Assist the Lubbock County Sheriff's Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners."
+          />
+          <ModalCard
+            clientName="Greene County Sheriff's Office"
+            date="2018-10-30"
+            filingId={301018432}
+            register="The Summerill Group LLC"
+            topic="Assist Greene County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners."
+          />
+          <ModalCard
+            clientName="Merrimack County Department of Corrections"
+            date="2018-10-30"
+            filingId={301018435}
+            register="The Summerill Group LLC"
+            topic="Assist Merrimack County Department of Corrections with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners."
+          />
+          <ModalCard
+            clientName="Alamance County Sheriff's Office"
+            date="2018-10-30"
+            filingId={301018440}
+            register="The Summerill Group LLC"
+            topic="Assist Alamance County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners."
+          />
+          <ModalCard
+            clientName="Randall County Sheriffs Office"
+            date="2018-10-30"
+            filingId={301018443}
+            register="The Summerill Group LLC"
+            topic="Assist Randall County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners."
+          />
+          <ModalCard
+            clientName="Sandoval County Detention Center"
+            date="2018-10-30"
+            filingId={301018446}
+            register="The Summerill Law Firm"
+            topic="Assist Sandoval County Detention Center with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners."
+          />
+          <ModalCard
+            clientName="Columbia County Sheriff's Office"
+            date="2018-10-30"
+            filingId={301018447}
+            register="The Summerill Law Firm"
+            topic="Assist Columbia County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners."
+          />
+          <ModalCard
+            clientName="Charleston County Sheriff's Office"
+            date="2018-10-30"
+            filingId={301018448}
+            register="The Summerill Law Firm"
+            topic="Assist Charleston County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners."
+          />
+        </div>,
+      ],
+      "className": "container is-fluid",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Related Issues Filed by Date",
+        },
+        "ref": null,
+        "rendered": "Related Issues Filed by Date",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <ModalCard
+              clientName="Weber County Sheriff's Office"
+              date="2018-10-30"
+              filingId={301018450}
+              register="The Summerill Law Firm"
+              topic="Assist the Weber County Sheriff's Office with its re-negotiation of its US Marshals Service Intergovernmental Agreement for housing federal prisoners."
+            />,
+            <ModalCard
+              clientName="Newaygo County Sheriff's Office"
+              date="2018-10-30"
+              filingId={301019298}
+              register="The Summerill Law Firm"
+              topic="Assist the Newaygo County Sheriff's Office with its re-negotiation of its US Marshals Service Intergovernmental Service Agreement to house federal prisoners."
+            />,
+            <ModalCard
+              clientName="St. Louis City Justice Center"
+              date="2018-10-30"
+              filingId={301019301}
+              register="The Summerill Group LLC"
+              topic="Assist the St. Louis City Justice Center with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners."
+            />,
+            <ModalCard
+              clientName="Bechtel Global Corporation"
+              date="2018-10-30"
+              filingId={301017458}
+              register="BGR Government Affairs"
+              topic="U.S. Civil Nuclear Cooperation Agreements (Section 123 agreements)', 'International business development"
+            />,
+            <ModalCard
+              clientName="Overseas Shipholding Group, Inc."
+              date="2018-10-30"
+              filingId={301017466}
+              register="BGR Government Affairs"
+              topic="US-Israel trade agreement"
+            />,
+            <ModalCard
+              clientName="SAZERAC COMPANY INC."
+              date="2018-10-30"
+              filingId={301018184}
+              register="Jones Walker, LLP"
+              topic="Internet sales of alcohol, duty drawback and free trade agreements."
+            />,
+            <ModalCard
+              clientName="The Immigration Hub LLC"
+              date="2018-10-30"
+              filingId={301018924}
+              register="The Immigration Hub LLC"
+              topic="FY19 Aped Alien Children Nomination of Ron Vitiello as Assistant Secretary of ICE"
+            />,
+            <ModalCard
+              clientName="American Federation of Government Employees, Council 118"
+              date="2018-10-30"
+              filingId={301019063}
+              register="ATRIO CONSULTING GROUP, LLC"
+              topic="Federal employees; pprropurity Appropriations Act, 2019) & (S. 3109 - Department of Homeland Security Appropriations Act, 2019)."
+            />,
+            <ModalCard
+              clientName="Independent Lubricant Manufacturers Association"
+              date="2018-10-30"
+              filingId={300928721}
+              register="Bassman, Mitchell, Alfano & Leiter Chtd."
+              topic="Implementation of and Chinese tariffs."
+            />,
+            <ModalCard
+              clientName="Gregg County Sheriff's Office"
+              date="2018-10-30"
+              filingId={301016471}
+              register="The Summerill Group LLC"
+              topic="Assist the Gregg County Sheriff's Office with the re-negotiation of its USMS Intergovernmental Agreement for housing federal prisoners."
+            />,
+            <ModalCard
+              clientName="Lubbock County Sheriff's Office"
+              date="2018-10-30"
+              filingId={301017495}
+              register="The Summerill Group LLC"
+              topic="Assist the Lubbock County Sheriff's Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners."
+            />,
+            <ModalCard
+              clientName="Greene County Sheriff's Office"
+              date="2018-10-30"
+              filingId={301018432}
+              register="The Summerill Group LLC"
+              topic="Assist Greene County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners."
+            />,
+            <ModalCard
+              clientName="Merrimack County Department of Corrections"
+              date="2018-10-30"
+              filingId={301018435}
+              register="The Summerill Group LLC"
+              topic="Assist Merrimack County Department of Corrections with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners."
+            />,
+            <ModalCard
+              clientName="Alamance County Sheriff's Office"
+              date="2018-10-30"
+              filingId={301018440}
+              register="The Summerill Group LLC"
+              topic="Assist Alamance County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners."
+            />,
+            <ModalCard
+              clientName="Randall County Sheriffs Office"
+              date="2018-10-30"
+              filingId={301018443}
+              register="The Summerill Group LLC"
+              topic="Assist Randall County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners."
+            />,
+            <ModalCard
+              clientName="Sandoval County Detention Center"
+              date="2018-10-30"
+              filingId={301018446}
+              register="The Summerill Law Firm"
+              topic="Assist Sandoval County Detention Center with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners."
+            />,
+            <ModalCard
+              clientName="Columbia County Sheriff's Office"
+              date="2018-10-30"
+              filingId={301018447}
+              register="The Summerill Law Firm"
+              topic="Assist Columbia County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners."
+            />,
+            <ModalCard
+              clientName="Charleston County Sheriff's Office"
+              date="2018-10-30"
+              filingId={301018448}
+              register="The Summerill Law Firm"
+              topic="Assist Charleston County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners."
+            />,
+          ],
+          "className": "notification",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "function",
+            "props": Object {
+              "clientName": "Weber County Sheriff's Office",
+              "date": "2018-10-30",
+              "filingId": 301018450,
+              "register": "The Summerill Law Firm",
+              "topic": "Assist the Weber County Sheriff's Office with its re-negotiation of its US Marshals Service Intergovernmental Agreement for housing federal prisoners.",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "function",
+            "props": Object {
+              "clientName": "Newaygo County Sheriff's Office",
+              "date": "2018-10-30",
+              "filingId": 301019298,
+              "register": "The Summerill Law Firm",
+              "topic": "Assist the Newaygo County Sheriff's Office with its re-negotiation of its US Marshals Service Intergovernmental Service Agreement to house federal prisoners.",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "function",
+            "props": Object {
+              "clientName": "St. Louis City Justice Center",
+              "date": "2018-10-30",
+              "filingId": 301019301,
+              "register": "The Summerill Group LLC",
+              "topic": "Assist the St. Louis City Justice Center with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "3",
+            "nodeType": "function",
+            "props": Object {
+              "clientName": "Bechtel Global Corporation",
+              "date": "2018-10-30",
+              "filingId": 301017458,
+              "register": "BGR Government Affairs",
+              "topic": "U.S. Civil Nuclear Cooperation Agreements (Section 123 agreements)', 'International business development",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "4",
+            "nodeType": "function",
+            "props": Object {
+              "clientName": "Overseas Shipholding Group, Inc.",
+              "date": "2018-10-30",
+              "filingId": 301017466,
+              "register": "BGR Government Affairs",
+              "topic": "US-Israel trade agreement",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5",
+            "nodeType": "function",
+            "props": Object {
+              "clientName": "SAZERAC COMPANY INC.",
+              "date": "2018-10-30",
+              "filingId": 301018184,
+              "register": "Jones Walker, LLP",
+              "topic": "Internet sales of alcohol, duty drawback and free trade agreements.",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "6",
+            "nodeType": "function",
+            "props": Object {
+              "clientName": "The Immigration Hub LLC",
+              "date": "2018-10-30",
+              "filingId": 301018924,
+              "register": "The Immigration Hub LLC",
+              "topic": "FY19 Aped Alien Children Nomination of Ron Vitiello as Assistant Secretary of ICE",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "7",
+            "nodeType": "function",
+            "props": Object {
+              "clientName": "American Federation of Government Employees, Council 118",
+              "date": "2018-10-30",
+              "filingId": 301019063,
+              "register": "ATRIO CONSULTING GROUP, LLC",
+              "topic": "Federal employees; pprropurity Appropriations Act, 2019) & (S. 3109 - Department of Homeland Security Appropriations Act, 2019).",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "8",
+            "nodeType": "function",
+            "props": Object {
+              "clientName": "Independent Lubricant Manufacturers Association",
+              "date": "2018-10-30",
+              "filingId": 300928721,
+              "register": "Bassman, Mitchell, Alfano & Leiter Chtd.",
+              "topic": "Implementation of and Chinese tariffs.",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "9",
+            "nodeType": "function",
+            "props": Object {
+              "clientName": "Gregg County Sheriff's Office",
+              "date": "2018-10-30",
+              "filingId": 301016471,
+              "register": "The Summerill Group LLC",
+              "topic": "Assist the Gregg County Sheriff's Office with the re-negotiation of its USMS Intergovernmental Agreement for housing federal prisoners.",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "10",
+            "nodeType": "function",
+            "props": Object {
+              "clientName": "Lubbock County Sheriff's Office",
+              "date": "2018-10-30",
+              "filingId": 301017495,
+              "register": "The Summerill Group LLC",
+              "topic": "Assist the Lubbock County Sheriff's Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "11",
+            "nodeType": "function",
+            "props": Object {
+              "clientName": "Greene County Sheriff's Office",
+              "date": "2018-10-30",
+              "filingId": 301018432,
+              "register": "The Summerill Group LLC",
+              "topic": "Assist Greene County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "12",
+            "nodeType": "function",
+            "props": Object {
+              "clientName": "Merrimack County Department of Corrections",
+              "date": "2018-10-30",
+              "filingId": 301018435,
+              "register": "The Summerill Group LLC",
+              "topic": "Assist Merrimack County Department of Corrections with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "13",
+            "nodeType": "function",
+            "props": Object {
+              "clientName": "Alamance County Sheriff's Office",
+              "date": "2018-10-30",
+              "filingId": 301018440,
+              "register": "The Summerill Group LLC",
+              "topic": "Assist Alamance County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "14",
+            "nodeType": "function",
+            "props": Object {
+              "clientName": "Randall County Sheriffs Office",
+              "date": "2018-10-30",
+              "filingId": 301018443,
+              "register": "The Summerill Group LLC",
+              "topic": "Assist Randall County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "15",
+            "nodeType": "function",
+            "props": Object {
+              "clientName": "Sandoval County Detention Center",
+              "date": "2018-10-30",
+              "filingId": 301018446,
+              "register": "The Summerill Law Firm",
+              "topic": "Assist Sandoval County Detention Center with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "16",
+            "nodeType": "function",
+            "props": Object {
+              "clientName": "Columbia County Sheriff's Office",
+              "date": "2018-10-30",
+              "filingId": 301018447,
+              "register": "The Summerill Law Firm",
+              "topic": "Assist Columbia County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "17",
+            "nodeType": "function",
+            "props": Object {
+              "clientName": "Charleston County Sheriff's Office",
+              "date": "2018-10-30",
+              "filingId": 301018448,
+              "register": "The Summerill Law Firm",
+              "topic": "Assist Charleston County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            Related Issues Filed by Date
+          </h1>,
+          <div
+            className="notification"
+          >
+            <ModalCard
+              clientName="Weber County Sheriff's Office"
+              date="2018-10-30"
+              filingId={301018450}
+              register="The Summerill Law Firm"
+              topic="Assist the Weber County Sheriff's Office with its re-negotiation of its US Marshals Service Intergovernmental Agreement for housing federal prisoners."
+            />
+            <ModalCard
+              clientName="Newaygo County Sheriff's Office"
+              date="2018-10-30"
+              filingId={301019298}
+              register="The Summerill Law Firm"
+              topic="Assist the Newaygo County Sheriff's Office with its re-negotiation of its US Marshals Service Intergovernmental Service Agreement to house federal prisoners."
+            />
+            <ModalCard
+              clientName="St. Louis City Justice Center"
+              date="2018-10-30"
+              filingId={301019301}
+              register="The Summerill Group LLC"
+              topic="Assist the St. Louis City Justice Center with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners."
+            />
+            <ModalCard
+              clientName="Bechtel Global Corporation"
+              date="2018-10-30"
+              filingId={301017458}
+              register="BGR Government Affairs"
+              topic="U.S. Civil Nuclear Cooperation Agreements (Section 123 agreements)', 'International business development"
+            />
+            <ModalCard
+              clientName="Overseas Shipholding Group, Inc."
+              date="2018-10-30"
+              filingId={301017466}
+              register="BGR Government Affairs"
+              topic="US-Israel trade agreement"
+            />
+            <ModalCard
+              clientName="SAZERAC COMPANY INC."
+              date="2018-10-30"
+              filingId={301018184}
+              register="Jones Walker, LLP"
+              topic="Internet sales of alcohol, duty drawback and free trade agreements."
+            />
+            <ModalCard
+              clientName="The Immigration Hub LLC"
+              date="2018-10-30"
+              filingId={301018924}
+              register="The Immigration Hub LLC"
+              topic="FY19 Aped Alien Children Nomination of Ron Vitiello as Assistant Secretary of ICE"
+            />
+            <ModalCard
+              clientName="American Federation of Government Employees, Council 118"
+              date="2018-10-30"
+              filingId={301019063}
+              register="ATRIO CONSULTING GROUP, LLC"
+              topic="Federal employees; pprropurity Appropriations Act, 2019) & (S. 3109 - Department of Homeland Security Appropriations Act, 2019)."
+            />
+            <ModalCard
+              clientName="Independent Lubricant Manufacturers Association"
+              date="2018-10-30"
+              filingId={300928721}
+              register="Bassman, Mitchell, Alfano & Leiter Chtd."
+              topic="Implementation of and Chinese tariffs."
+            />
+            <ModalCard
+              clientName="Gregg County Sheriff's Office"
+              date="2018-10-30"
+              filingId={301016471}
+              register="The Summerill Group LLC"
+              topic="Assist the Gregg County Sheriff's Office with the re-negotiation of its USMS Intergovernmental Agreement for housing federal prisoners."
+            />
+            <ModalCard
+              clientName="Lubbock County Sheriff's Office"
+              date="2018-10-30"
+              filingId={301017495}
+              register="The Summerill Group LLC"
+              topic="Assist the Lubbock County Sheriff's Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners."
+            />
+            <ModalCard
+              clientName="Greene County Sheriff's Office"
+              date="2018-10-30"
+              filingId={301018432}
+              register="The Summerill Group LLC"
+              topic="Assist Greene County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners."
+            />
+            <ModalCard
+              clientName="Merrimack County Department of Corrections"
+              date="2018-10-30"
+              filingId={301018435}
+              register="The Summerill Group LLC"
+              topic="Assist Merrimack County Department of Corrections with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners."
+            />
+            <ModalCard
+              clientName="Alamance County Sheriff's Office"
+              date="2018-10-30"
+              filingId={301018440}
+              register="The Summerill Group LLC"
+              topic="Assist Alamance County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners."
+            />
+            <ModalCard
+              clientName="Randall County Sheriffs Office"
+              date="2018-10-30"
+              filingId={301018443}
+              register="The Summerill Group LLC"
+              topic="Assist Randall County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners."
+            />
+            <ModalCard
+              clientName="Sandoval County Detention Center"
+              date="2018-10-30"
+              filingId={301018446}
+              register="The Summerill Law Firm"
+              topic="Assist Sandoval County Detention Center with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners."
+            />
+            <ModalCard
+              clientName="Columbia County Sheriff's Office"
+              date="2018-10-30"
+              filingId={301018447}
+              register="The Summerill Law Firm"
+              topic="Assist Columbia County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners."
+            />
+            <ModalCard
+              clientName="Charleston County Sheriff's Office"
+              date="2018-10-30"
+              filingId={301018448}
+              register="The Summerill Law Firm"
+              topic="Assist Charleston County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners."
+            />
+          </div>,
+        ],
+        "className": "container is-fluid",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Related Issues Filed by Date",
+          },
+          "ref": null,
+          "rendered": "Related Issues Filed by Date",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <ModalCard
+                clientName="Weber County Sheriff's Office"
+                date="2018-10-30"
+                filingId={301018450}
+                register="The Summerill Law Firm"
+                topic="Assist the Weber County Sheriff's Office with its re-negotiation of its US Marshals Service Intergovernmental Agreement for housing federal prisoners."
+              />,
+              <ModalCard
+                clientName="Newaygo County Sheriff's Office"
+                date="2018-10-30"
+                filingId={301019298}
+                register="The Summerill Law Firm"
+                topic="Assist the Newaygo County Sheriff's Office with its re-negotiation of its US Marshals Service Intergovernmental Service Agreement to house federal prisoners."
+              />,
+              <ModalCard
+                clientName="St. Louis City Justice Center"
+                date="2018-10-30"
+                filingId={301019301}
+                register="The Summerill Group LLC"
+                topic="Assist the St. Louis City Justice Center with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners."
+              />,
+              <ModalCard
+                clientName="Bechtel Global Corporation"
+                date="2018-10-30"
+                filingId={301017458}
+                register="BGR Government Affairs"
+                topic="U.S. Civil Nuclear Cooperation Agreements (Section 123 agreements)', 'International business development"
+              />,
+              <ModalCard
+                clientName="Overseas Shipholding Group, Inc."
+                date="2018-10-30"
+                filingId={301017466}
+                register="BGR Government Affairs"
+                topic="US-Israel trade agreement"
+              />,
+              <ModalCard
+                clientName="SAZERAC COMPANY INC."
+                date="2018-10-30"
+                filingId={301018184}
+                register="Jones Walker, LLP"
+                topic="Internet sales of alcohol, duty drawback and free trade agreements."
+              />,
+              <ModalCard
+                clientName="The Immigration Hub LLC"
+                date="2018-10-30"
+                filingId={301018924}
+                register="The Immigration Hub LLC"
+                topic="FY19 Aped Alien Children Nomination of Ron Vitiello as Assistant Secretary of ICE"
+              />,
+              <ModalCard
+                clientName="American Federation of Government Employees, Council 118"
+                date="2018-10-30"
+                filingId={301019063}
+                register="ATRIO CONSULTING GROUP, LLC"
+                topic="Federal employees; pprropurity Appropriations Act, 2019) & (S. 3109 - Department of Homeland Security Appropriations Act, 2019)."
+              />,
+              <ModalCard
+                clientName="Independent Lubricant Manufacturers Association"
+                date="2018-10-30"
+                filingId={300928721}
+                register="Bassman, Mitchell, Alfano & Leiter Chtd."
+                topic="Implementation of and Chinese tariffs."
+              />,
+              <ModalCard
+                clientName="Gregg County Sheriff's Office"
+                date="2018-10-30"
+                filingId={301016471}
+                register="The Summerill Group LLC"
+                topic="Assist the Gregg County Sheriff's Office with the re-negotiation of its USMS Intergovernmental Agreement for housing federal prisoners."
+              />,
+              <ModalCard
+                clientName="Lubbock County Sheriff's Office"
+                date="2018-10-30"
+                filingId={301017495}
+                register="The Summerill Group LLC"
+                topic="Assist the Lubbock County Sheriff's Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners."
+              />,
+              <ModalCard
+                clientName="Greene County Sheriff's Office"
+                date="2018-10-30"
+                filingId={301018432}
+                register="The Summerill Group LLC"
+                topic="Assist Greene County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners."
+              />,
+              <ModalCard
+                clientName="Merrimack County Department of Corrections"
+                date="2018-10-30"
+                filingId={301018435}
+                register="The Summerill Group LLC"
+                topic="Assist Merrimack County Department of Corrections with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners."
+              />,
+              <ModalCard
+                clientName="Alamance County Sheriff's Office"
+                date="2018-10-30"
+                filingId={301018440}
+                register="The Summerill Group LLC"
+                topic="Assist Alamance County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners."
+              />,
+              <ModalCard
+                clientName="Randall County Sheriffs Office"
+                date="2018-10-30"
+                filingId={301018443}
+                register="The Summerill Group LLC"
+                topic="Assist Randall County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners."
+              />,
+              <ModalCard
+                clientName="Sandoval County Detention Center"
+                date="2018-10-30"
+                filingId={301018446}
+                register="The Summerill Law Firm"
+                topic="Assist Sandoval County Detention Center with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners."
+              />,
+              <ModalCard
+                clientName="Columbia County Sheriff's Office"
+                date="2018-10-30"
+                filingId={301018447}
+                register="The Summerill Law Firm"
+                topic="Assist Columbia County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners."
+              />,
+              <ModalCard
+                clientName="Charleston County Sheriff's Office"
+                date="2018-10-30"
+                filingId={301018448}
+                register="The Summerill Law Firm"
+                topic="Assist Charleston County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners."
+              />,
+            ],
+            "className": "notification",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "function",
+              "props": Object {
+                "clientName": "Weber County Sheriff's Office",
+                "date": "2018-10-30",
+                "filingId": 301018450,
+                "register": "The Summerill Law Firm",
+                "topic": "Assist the Weber County Sheriff's Office with its re-negotiation of its US Marshals Service Intergovernmental Agreement for housing federal prisoners.",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "function",
+              "props": Object {
+                "clientName": "Newaygo County Sheriff's Office",
+                "date": "2018-10-30",
+                "filingId": 301019298,
+                "register": "The Summerill Law Firm",
+                "topic": "Assist the Newaygo County Sheriff's Office with its re-negotiation of its US Marshals Service Intergovernmental Service Agreement to house federal prisoners.",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "function",
+              "props": Object {
+                "clientName": "St. Louis City Justice Center",
+                "date": "2018-10-30",
+                "filingId": 301019301,
+                "register": "The Summerill Group LLC",
+                "topic": "Assist the St. Louis City Justice Center with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "3",
+              "nodeType": "function",
+              "props": Object {
+                "clientName": "Bechtel Global Corporation",
+                "date": "2018-10-30",
+                "filingId": 301017458,
+                "register": "BGR Government Affairs",
+                "topic": "U.S. Civil Nuclear Cooperation Agreements (Section 123 agreements)', 'International business development",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "4",
+              "nodeType": "function",
+              "props": Object {
+                "clientName": "Overseas Shipholding Group, Inc.",
+                "date": "2018-10-30",
+                "filingId": 301017466,
+                "register": "BGR Government Affairs",
+                "topic": "US-Israel trade agreement",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5",
+              "nodeType": "function",
+              "props": Object {
+                "clientName": "SAZERAC COMPANY INC.",
+                "date": "2018-10-30",
+                "filingId": 301018184,
+                "register": "Jones Walker, LLP",
+                "topic": "Internet sales of alcohol, duty drawback and free trade agreements.",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "6",
+              "nodeType": "function",
+              "props": Object {
+                "clientName": "The Immigration Hub LLC",
+                "date": "2018-10-30",
+                "filingId": 301018924,
+                "register": "The Immigration Hub LLC",
+                "topic": "FY19 Aped Alien Children Nomination of Ron Vitiello as Assistant Secretary of ICE",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "7",
+              "nodeType": "function",
+              "props": Object {
+                "clientName": "American Federation of Government Employees, Council 118",
+                "date": "2018-10-30",
+                "filingId": 301019063,
+                "register": "ATRIO CONSULTING GROUP, LLC",
+                "topic": "Federal employees; pprropurity Appropriations Act, 2019) & (S. 3109 - Department of Homeland Security Appropriations Act, 2019).",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "8",
+              "nodeType": "function",
+              "props": Object {
+                "clientName": "Independent Lubricant Manufacturers Association",
+                "date": "2018-10-30",
+                "filingId": 300928721,
+                "register": "Bassman, Mitchell, Alfano & Leiter Chtd.",
+                "topic": "Implementation of and Chinese tariffs.",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "9",
+              "nodeType": "function",
+              "props": Object {
+                "clientName": "Gregg County Sheriff's Office",
+                "date": "2018-10-30",
+                "filingId": 301016471,
+                "register": "The Summerill Group LLC",
+                "topic": "Assist the Gregg County Sheriff's Office with the re-negotiation of its USMS Intergovernmental Agreement for housing federal prisoners.",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "10",
+              "nodeType": "function",
+              "props": Object {
+                "clientName": "Lubbock County Sheriff's Office",
+                "date": "2018-10-30",
+                "filingId": 301017495,
+                "register": "The Summerill Group LLC",
+                "topic": "Assist the Lubbock County Sheriff's Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "11",
+              "nodeType": "function",
+              "props": Object {
+                "clientName": "Greene County Sheriff's Office",
+                "date": "2018-10-30",
+                "filingId": 301018432,
+                "register": "The Summerill Group LLC",
+                "topic": "Assist Greene County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "12",
+              "nodeType": "function",
+              "props": Object {
+                "clientName": "Merrimack County Department of Corrections",
+                "date": "2018-10-30",
+                "filingId": 301018435,
+                "register": "The Summerill Group LLC",
+                "topic": "Assist Merrimack County Department of Corrections with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "13",
+              "nodeType": "function",
+              "props": Object {
+                "clientName": "Alamance County Sheriff's Office",
+                "date": "2018-10-30",
+                "filingId": 301018440,
+                "register": "The Summerill Group LLC",
+                "topic": "Assist Alamance County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "14",
+              "nodeType": "function",
+              "props": Object {
+                "clientName": "Randall County Sheriffs Office",
+                "date": "2018-10-30",
+                "filingId": 301018443,
+                "register": "The Summerill Group LLC",
+                "topic": "Assist Randall County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "15",
+              "nodeType": "function",
+              "props": Object {
+                "clientName": "Sandoval County Detention Center",
+                "date": "2018-10-30",
+                "filingId": 301018446,
+                "register": "The Summerill Law Firm",
+                "topic": "Assist Sandoval County Detention Center with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "16",
+              "nodeType": "function",
+              "props": Object {
+                "clientName": "Columbia County Sheriff's Office",
+                "date": "2018-10-30",
+                "filingId": 301018447,
+                "register": "The Summerill Law Firm",
+                "topic": "Assist Columbia County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "17",
+              "nodeType": "function",
+              "props": Object {
+                "clientName": "Charleston County Sheriff's Office",
+                "date": "2018-10-30",
+                "filingId": 301018448,
+                "register": "The Summerill Law Firm",
+                "topic": "Assist Charleston County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

@@ -10379,3 +10379,1528 @@ export const mockWordCloudFetch = [
     value: 586
   }
 ];
+
+export const mockLobbyistShowFetch = [
+  {
+    filingId: 301016805,
+    date: '2018-10-30',
+    clientName: 'Online Lenders Alliance',
+    topic:
+      'Federal regulation of online lending; impact of Operation Choke Point on nondepository lenders; Consumer Financial',
+    register: 'EMERGENT STRATEGIES'
+  },
+  {
+    filingId: 301016807,
+    date: '2018-10-30',
+    clientName: 'AWL Inc.',
+    topic: 'Federal regulation of online lending',
+    register: 'EMERGENT STRATEGIES'
+  },
+  {
+    filingId: 301016811,
+    date: '2018-10-30',
+    clientName: 'Metrolina Landscaping',
+    topic: 'labor issues',
+    register: 'EMERGENT STRATEGIES'
+  },
+  {
+    filingId: 301016948,
+    date: '2018-10-30',
+    clientName: 'General Atomics Aeronautical Systems, Inc.',
+    topic:
+      'FY2019 Department of Defense Appropriationspriations Act; funding issues related to unmanned aerial vehicles (UAVs) and unmanned aerial systems (UASs)',
+    register: 'EMERGENT STRATEGIES'
+  },
+  {
+    filingId: 301017163,
+    date: '2018-10-30',
+    clientName: 'Air Methods Corporation',
+    topic:
+      'Monitor Issues pertain1 - Ensuring Accourism. Specific bills include S.1405 - Federal Aviation Reauthorization Act and H.R. 2997 - 21st Century AIRR Act',
+    register: 'EMERGENT STRATEGIES'
+  },
+  {
+    filingId: 301017289,
+    date: '2018-10-30',
+    clientName: 'Orr Contracting Company',
+    topic: 'general labor issues',
+    register: 'EMERGENT STRATEGIES'
+  },
+  {
+    filingId: 301017290,
+    date: '2018-10-30',
+    clientName: 'Lovin Contracting Company',
+    topic: 'general labor issues',
+    register: 'EMERGENT STRATEGIES'
+  },
+  {
+    filingId: 301018264,
+    date: '2018-10-30',
+    clientName: 'Lexington Law',
+    topic: 'legislative issues related to tection Act of 2018',
+    register: 'EMERGENT STRATEGIES'
+  },
+  {
+    filingId: 301018268,
+    date: '2018-10-30',
+    clientName: 'Progrexion ASG',
+    topic:
+      'legislative issues related to credit report error correction; H.R. 6192 - Credit Services Protection Act of 2018',
+    register: 'EMERGENT STRATEGIES'
+  },
+  {
+    filingId: 301018327,
+    date: '2018-10-30',
+    clientName: 'Japan Tobaco International USA, Inc.',
+    topic: 'Trade related legislation',
+    register: 'EMERGENT STRATEGIES'
+  }
+];
+
+export const mockModalFetch = [
+  {
+    filingId: 301018450,
+    date: '2018-10-30',
+    clientName: "Weber County Sheriff's Office",
+    topic:
+      "Assist the Weber County Sheriff's Office with its re-negotiation of its US Marshals Service Intergovernmental Agreement for housing federal prisoners.",
+    register: 'The Summerill Law Firm'
+  },
+  {
+    filingId: 301019298,
+    date: '2018-10-30',
+    clientName: "Newaygo County Sheriff's Office",
+    topic:
+      "Assist the Newaygo County Sheriff's Office with its re-negotiation of its US Marshals Service Intergovernmental Service Agreement to house federal prisoners.",
+    register: 'The Summerill Law Firm'
+  },
+  {
+    filingId: 301019301,
+    date: '2018-10-30',
+    clientName: 'St. Louis City Justice Center',
+    topic:
+      'Assist the St. Louis City Justice Center with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.',
+    register: 'The Summerill Group LLC'
+  },
+  {
+    filingId: 301017458,
+    date: '2018-10-30',
+    clientName: 'Bechtel Global Corporation',
+    topic:
+      "U.S. Civil Nuclear Cooperation Agreements (Section 123 agreements)', 'International business development",
+    register: 'BGR Government Affairs'
+  },
+  {
+    filingId: 301017466,
+    date: '2018-10-30',
+    clientName: 'Overseas Shipholding Group, Inc.',
+    topic: 'US-Israel trade agreement',
+    register: 'BGR Government Affairs'
+  },
+  {
+    filingId: 301018184,
+    date: '2018-10-30',
+    clientName: 'SAZERAC COMPANY INC.',
+    topic:
+      'Internet sales of alcohol, duty drawback and free trade agreements.',
+    register: 'Jones Walker, LLP'
+  },
+  {
+    filingId: 301018924,
+    date: '2018-10-30',
+    clientName: 'The Immigration Hub LLC',
+    topic:
+      'FY19 Aped Alien Children Nomination of Ron Vitiello as Assistant Secretary of ICE',
+    register: 'The Immigration Hub LLC'
+  },
+  {
+    filingId: 301019063,
+    date: '2018-10-30',
+    clientName: 'American Federation of Government Employees, Council 118',
+    topic:
+      'Federal employees; pprropurity Appropriations Act, 2019) & (S. 3109 - Department of Homeland Security Appropriations Act, 2019).',
+    register: 'ATRIO CONSULTING GROUP, LLC'
+  },
+  {
+    filingId: 300928721,
+    date: '2018-10-30',
+    clientName: 'Independent Lubricant Manufacturers Association',
+    topic: 'Implementation of and Chinese tariffs.',
+    register: 'Bassman, Mitchell, Alfano & Leiter Chtd.'
+  },
+  {
+    filingId: 301016471,
+    date: '2018-10-30',
+    clientName: "Gregg County Sheriff's Office",
+    topic:
+      "Assist the Gregg County Sheriff's Office with the re-negotiation of its USMS Intergovernmental Agreement for housing federal prisoners.",
+    register: 'The Summerill Group LLC'
+  },
+  {
+    filingId: 301017495,
+    date: '2018-10-30',
+    clientName: "Lubbock County Sheriff's Office",
+    topic:
+      "Assist the Lubbock County Sheriff's Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.",
+    register: 'The Summerill Group LLC'
+  },
+  {
+    filingId: 301018432,
+    date: '2018-10-30',
+    clientName: "Greene County Sheriff's Office",
+    topic:
+      'Assist Greene County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.',
+    register: 'The Summerill Group LLC'
+  },
+  {
+    filingId: 301018435,
+    date: '2018-10-30',
+    clientName: 'Merrimack County Department of Corrections',
+    topic:
+      'Assist Merrimack County Department of Corrections with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.',
+    register: 'The Summerill Group LLC'
+  },
+  {
+    filingId: 301018440,
+    date: '2018-10-30',
+    clientName: "Alamance County Sheriff's Office",
+    topic:
+      'Assist Alamance County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.',
+    register: 'The Summerill Group LLC'
+  },
+  {
+    filingId: 301018443,
+    date: '2018-10-30',
+    clientName: 'Randall County Sheriffs Office',
+    topic:
+      'Assist Randall County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.',
+    register: 'The Summerill Group LLC'
+  },
+  {
+    filingId: 301018446,
+    date: '2018-10-30',
+    clientName: 'Sandoval County Detention Center',
+    topic:
+      'Assist Sandoval County Detention Center with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.',
+    register: 'The Summerill Law Firm'
+  },
+  {
+    filingId: 301018447,
+    date: '2018-10-30',
+    clientName: "Columbia County Sheriff's Office",
+    topic:
+      'Assist Columbia County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.',
+    register: 'The Summerill Law Firm'
+  },
+  {
+    filingId: 301018448,
+    date: '2018-10-30',
+    clientName: "Charleston County Sheriff's Office",
+    topic:
+      'Assist Charleston County Sheriffs Office with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.',
+    register: 'The Summerill Law Firm'
+  }
+];
+
+export const mockRecentTopicsCategoryFetch = [
+  {
+    filingId: 300933345,
+    date: '2018-10-31',
+    clientName: 'National Public Finance Guarantee Corporation',
+    topic:
+      'S.1774 Puerto Rico Chapter 9 Uniformity Act of 2015  and HR 870 Puerto Rico Chapter 9 Uniformity Act of 2015 Issues related to energy production on the island of Puerto Rico',
+    lobbyists: [
+      {
+        name: 'Graham Haile',
+        id: 1249
+      },
+      {
+        name: 'Stephen Aaron',
+        id: 1248
+      },
+      {
+        name: 'Tyler Threadgill',
+        id: 1247
+      },
+      {
+        name: 'Denny Rehbergh',
+        id: 1246
+      },
+      {
+        name: 'Jennifer Kaufman',
+        id: 1245
+      },
+      {
+        name: 'Jennifer Kaufmann',
+        id: 1244
+      },
+      {
+        name: 'Mike McSherry',
+        id: 1243
+      },
+      {
+        name: 'Denny Rehberg',
+        id: 1242
+      },
+      {
+        name: 'Ed Kutler',
+        id: 124
+      },
+      {
+        name: 'Vince Frillici',
+        id: 1241
+      },
+      {
+        name: 'vin Weber',
+        id: 1240
+      }
+    ],
+    register: 'Mercury'
+  },
+  {
+    filingId: 300932700,
+    date: '2018-10-31',
+    clientName: 'Tauzin Strategic Networks (on behalf of Corning Inc.)',
+    topic:
+      'Issues related to pharmaceutical supply chain and S.2852 and HR 6378 (both entitled the Pandemic and All-Hazards Preparedness and Advancing Innovation Act of 2018). Work related to H.R.5961 and S.2976, the Agriculture, Rural Development, Food and Drug Administration, and Related Agencies Appropriations Bill.',
+    lobbyists: [
+      {
+        name: 'Mimi Simoneaux Kneuer',
+        id: 1239
+      },
+      {
+        name: 'Michael Meirovitz',
+        id: 1238
+      },
+      {
+        name: 'Thomas Tauzin',
+        id: 1237
+      }
+    ],
+    register: 'Tauzin Consultants, LLC'
+  },
+  {
+    filingId: 300941790,
+    date: '2018-10-31',
+    clientName: 'American Clinical Laboratory Assn',
+    topic:
+      'regulation and oversight of clinical laboratories, including laboratory developed test services, the Diagnostic Accuracy and Innovation Act; reimbursement and coverage issues for and related to clinical laboratory services, including the Medicare clinical laboratory fee schedule, physician fee schedule, new test coding and pricing, TRICARE coverage and reimbursement, and implementation of the Protecting Access to Medicare Act (P.L. 113-93); reauthorization of FDA user fees;  narrowing the in-office ancillary services exception to the federal self-referral statute to remove anatomic pathology, advanced diagnostic imaging, physical therapy, and radiation therapy; Medicare physician signature documentation requirements; National Diabetes Prevention Program; commercial laboratory surge capacity issues for response to pandemic/epidemic/public health crises, Pandemic and All-Hazards Preparedness and Advancing Innovation Act of 2018 (S 2852/HR 6378); Agriculture, Rural Development, Food and Drug Administration, and Related Agencies Appropriations Act, FY2018 and FY2019;  Departments of Labor, Health and Human Services, and Education, and Related Agencies Appropriations Act, FY2018 and FY2019 (S3158); H.R.1625 Vehicle for Consolidated Appropriations Act 2018; Medicare reimbursement of clinical laboratory services reimbursement and coverage issues for and related to clinical laboratory services, including the Medicare clinical laboratory fee schedule, physician fee schedule, new test coding and pricing, implementation of the Protecting Access to Medicare Act (P.L. 113-93); reauthorization of FDA user fees;  narrowing the in-office ancillary services exception to the federal self-referral statute to remove anatomic pathology, advanced diagnostic imaging, physical therapy, and radiation therapy; Medicare physician signature documentation requirements; National Diabetes Prevention Program; Departments of Labor, Health and Human Services, and Education, and Related Agencies Appropriations Act, FY2018 and FY2019 (S3158); H.R.1625 Vehicle for Consolidated Appropriations Act 2018; Medicare reimbursement of clinical laboratory services regulation and oversight of clinical laboratories, including laboratory developed test services, the Diagnostic Accuracy and Innovation Act; reimbursement and coverage issues for and related to clinical laboratory services, including the Medicare clinical laboratory fee schedule, physician fee schedule, new test coding and pricing, TRICARE coverage and reimbursement, and implementation of the Protecting Access to Medicare Act (P.L. 113-93); reauthorization of FDA user fees;  narrowing the in-office ancillary services exception to the federal self-referral statute to remove anatomic pathology, advanced diagnostic imaging, physical therapy, and radiation therapy; Medicare physician signature documentation requirements; National Diabetes Prevention Program; Agriculture, Rural Development, Food and Drug Administration, and Related Agencies Appropriations Act, FY2018 and FY2019;  Departments of Labor, Health and Human Services, and Education, and Related Agencies Appropriations Act, FY2018 and FY2019 (S3158); H.R.1625 Vehicle for Consolidated Appropriations Act 2018; Medicare reimbursement of clinical laboratory services commercial laboratory surge capacity issues for response to pandemic/epidemic/public health crises, Pandemic and All-Hazards Preparedness and Advancing Innovation Act of 2018 (S 2852/HR 6378)',
+    lobbyists: [
+      {
+        name: 'Francesa O&#39;Reilly',
+        id: 1236
+      },
+      {
+        name: 'Charlene MacDonald',
+        id: 1235
+      },
+      {
+        name: 'Jennifer Madsen',
+        id: 1234
+      },
+      {
+        name: 'Jennifer Bowman',
+        id: 1233
+      },
+      {
+        name: 'Francesca O&#39;Reilly',
+        id: 1232
+      },
+      {
+        name: 'Jennifer Bullard Bowman',
+        id: 1231
+      },
+      {
+        name: 'David Mongillo',
+        id: 1230
+      },
+      {
+        name: 'Julie Khani',
+        id: 1229
+      },
+      {
+        name: 'David Cooling',
+        id: 1228
+      },
+      {
+        name: 'Thomas Sparkman',
+        id: 1227
+      },
+      {
+        name: 'Scott McGoohan',
+        id: 1226
+      },
+      {
+        name: 'Jennifer Bullard Madsen',
+        id: 1225
+      },
+      {
+        name: 'Francesca Fierro O&#39;Reilly',
+        id: 1224
+      },
+      {
+        name: 'Jason DuBois',
+        id: 1223
+      },
+      {
+        name: 'JoAnne Glisson',
+        id: 1222
+      },
+      {
+        name: 'Alan Mertz',
+        id: 1221
+      }
+    ],
+    register: 'American Clinical Laboratory Assn'
+  },
+  {
+    filingId: 301016716,
+    date: '2018-10-31',
+    clientName: 'The Science Coalition',
+    topic: 'Issues related to federal funding for scientific research.',
+    lobbyists: [
+      {
+        name: 'Ryan Welch',
+        id: 598
+      },
+      {
+        name: 'Adrienne Schweer',
+        id: 600
+      },
+      {
+        name: 'Jeffrey Sadosky',
+        id: 1220
+      },
+      {
+        name: 'Rachel Miller',
+        id: 597
+      },
+      {
+        name: 'Jeff Forbes',
+        id: 844
+      },
+      {
+        name: 'Frank Steinberg',
+        id: 596
+      }
+    ],
+    register: 'Forbes-Tate'
+  },
+  {
+    filingId: 300952351,
+    date: '2018-10-31',
+    clientName:
+      'Health Care Service Corporation, a Mutual Legal Reserve Company (HCSC)',
+    topic:
+      "S. 2680, \"The Opioid Crisis Response Act of 2018\", regarding all provisions. ', '', 'S. 2902, \"Better Data Sharing to Combat the Opioid Crisis Act\" regarding all provisions. ', '', 'S. 3042, \"Agriculture Improvement Act of 2018\", regarding federal funding for AHPs. ', '', 'S. 974, \"CREATES Act\", regarding all provisions. ', '', 'S.3063, \"Health Insurance Tax Relief Act of 2018\", regarding all provisions. ', '', 'HR 246, \"To repeal the annual fee on health insurance providers enacted by the Patient Protection and Affordable Care Act\", regarding all provisions. ', '', 'HR 1101, \"Small Business Health Fairness Act of 2017\", regarding all provisions. ', '', 'HR 314, \"Health Care Choice Act of 2017\", regarding all provisions.', '', 'HR 1628, \"American Health Care Act of 2017\", regarding all provisions.', '', 'HR 2051, \"FAST Generics Act of 2017\", regarding all provisions.', '', 'HR 2400, \"To amend title 5, United States Code, to allow individuals who are not Federal employees to enroll in the Federal Employees Health Benefits Program, and for other purposes\", regarding all provisions.', '', 'HR 2212, \"CREATES Act of 2017\", regarding all provisions.', '', 'HR 3976, \"Access to Marketplace Insurance Act\", regarding all provisions.', '', 'S 1835, \"Lower Premiums Through Reinsurance Act of 2017\", regarding all provisions.', '', 'Issues relating to the Health Insurance Tax.', '', 'Issues relating to the Alexander/Murray legislation to stabilize the health insurance market.', '', 'HR 195, \"Making further continuing appropriations for the fiscal year ending September 30, 2018, and for other purposes\", regarding all provisions.', '', 'Affordable Care Act; Reinsurance; Cost Sharing Reductions (CSRs); Special Needs Plans (SNPs); Third Party Payment Premiums (TPPs); Drug Pricing; Individual Market, Health insurance Tax, Short Term Limited Duration Plans.        ', '', 'FAA Reauthorization Act of 2018.', '', 'Issues regarding Opioids. Issues relating to CHIP Reform; Medicare Access and CHIP Reauthorization Act of 2015 (MACRA); Rate Notice and Call Letter.",
+    lobbyists: [
+      {
+        name: 'Dan Jones',
+        id: 1219
+      },
+      {
+        name: 'Melissa Bartlet',
+        id: 1218
+      },
+      {
+        name: 'SUE ROHAN',
+        id: 1217
+      },
+      {
+        name: 'Melissa Bartlett',
+        id: 1216
+      },
+      {
+        name: 'Jerry Steffl',
+        id: 1215
+      },
+      {
+        name: 'Theresa Doyle',
+        id: 1214
+      },
+      {
+        name: 'John Gleason',
+        id: 1213
+      }
+    ],
+    register:
+      'Health Care Service Corporation, a Mutual Legal Reserve Company (HCSC)'
+  },
+  {
+    filingId: 300985896,
+    date: '2018-10-31',
+    clientName: 'Enterprise Community Partners, Inc. .',
+    topic:
+      'H.R. 3160, "To transform neighborhoods of extreme poverty by reforming the public housing demolition and disposition rules to require one-for-one replacement and tenant protections, and to provide public housing agencies with additional resources and flexibility to preserve public housing units, and for other purposes"\', \'S.1344 "Family Self-Sufficiency Act" H.R.1098, "New Markets Tax Credit Extension Act of 2017"\', \'H.R.3679, "National Disaster Tax Relief Act of 2017"\', \'H.R.1661, "Affordable Housing Credit Improvement Act of 2017"\', \'S.384, "New Markets Tax Credit Extension Act of 2017"\', \'S.548, Affordable Housing Credit Improvement Act of 2017" H.R. XXXX, "Making appropriations for the Departments of Transportation, and Housing and Urban Development, and related agencies for the fiscal year ending September 30, 2018, and for other purposes"\', \'H.R. 601, "The Continuing Appropriations Act, 2018 and Supplemental Appropriations for Disaster Relief Requirements Act, 2017"',
+    lobbyists: [
+      {
+        name: 'Stockton Williams',
+        id: 1212
+      },
+      {
+        name: 'Angela Flores',
+        id: 1211
+      },
+      {
+        name: 'Ali Solis',
+        id: 1210
+      },
+      {
+        name: 'Dvora Lovinger',
+        id: 1209
+      },
+      {
+        name: 'Peter Lwarence',
+        id: 1208
+      },
+      {
+        name: 'Peter Lawrence',
+        id: 1207
+      },
+      {
+        name: 'Dinae Yentel',
+        id: 1206
+      },
+      {
+        name: 'E Cadik',
+        id: 1205
+      },
+      {
+        name: 'Diane Yentel',
+        id: 1204
+      },
+      {
+        name: 'Liz Osborn',
+        id: 1203
+      },
+      {
+        name: 'Emily Cadik',
+        id: 1202
+      },
+      {
+        name: 'Marion McFadden',
+        id: 1201
+      }
+    ],
+    register: 'Enterprise Community Partners, Inc. .'
+  },
+  {
+    filingId: 301017928,
+    date: '2018-10-31',
+    clientName: 'City of Santa Rosa',
+    topic: 'FEMA - Stafford ACT',
+    lobbyists: [
+      {
+        name: 'Kyriakos Pagonis',
+        id: 1200
+      },
+      {
+        name: 'John O&#39;Donnell',
+        id: 1199
+      }
+    ],
+    register: "Murray, Montgomery & O'Donnell"
+  },
+  {
+    filingId: 301018591,
+    date: '2018-10-31',
+    clientName: 'LVMH Moet Hennessy Louis Vuitton Inc.',
+    topic:
+      'Federal policy relating to intellectual property, consumer protection, and general regulatory matters impacting the fashion, wines and spirits, perfume and cosmetic, watch and jewelry, and related luxury products industry.',
+    lobbyists: [
+      {
+        name: 'Kate Dickens',
+        id: 226
+      },
+      {
+        name: 'Arjun Mody',
+        id: 254
+      },
+      {
+        name: 'Todd Wooten',
+        id: 227
+      },
+      {
+        name: 'John Scofield',
+        id: 229
+      },
+      {
+        name: 'Rob Collins',
+        id: 253
+      }
+    ],
+    register: 'S-3 Group'
+  },
+  {
+    filingId: 301019310,
+    date: '2018-10-31',
+    clientName: 'Dahua Technology USA',
+    topic:
+      'Introducing Dahua Technology USA, its new technologies, and business practices in the fields of video surveillance products and technology, security cameras, network camerasto the U.S. Senate, U.S. House of Representatives, and the U.S. Departments of Commerce, State, and Treasury.',
+    lobbyists: [
+      {
+        name: 'Lawrence Casey',
+        id: 1198
+      },
+      {
+        name: 'Jeffrey Taylor',
+        id: 1197
+      }
+    ],
+    register: 'U.S. Government Relations Intl.'
+  },
+  {
+    filingId: 301019311,
+    date: '2018-10-31',
+    clientName: 'K12, Inc',
+    topic: 'Education issues',
+    lobbyists: [
+      {
+        name: 'Darrel Thompson',
+        id: 1196
+      }
+    ],
+    register: 'TheGROUP DC, LLC'
+  },
+  {
+    filingId: 301019312,
+    date: '2018-10-31',
+    clientName: 'Brownstein Hyatt Farber Schreck, LLP on behalf of Starbucks',
+    topic: 'Tax reform; education tax provisions, NAFTA; international tax',
+    lobbyists: [
+      {
+        name: 'Patrick Martin',
+        id: 1195
+      }
+    ],
+    register: "Cozen O'Connor Public Strategies"
+  },
+  {
+    filingId: 301019313,
+    date: '2018-10-31',
+    clientName: 'American Principles Project',
+    topic:
+      "Current legislation: support the Child Welfare Provider Inclusion Act and the Civil Rights Uniformity Act. ', '', 'Anticipated issue areas in 2019 and beyond: religious freedom, opposition to common core/federal control over education, tax deductions/credits for families, return to gold standard, respect for 10th amendment/federalism",
+    lobbyists: [
+      {
+        name: 'Jonathan Schweppe',
+        id: 1194
+      }
+    ],
+    register: 'American Principles Project'
+  },
+  {
+    filingId: 300926510,
+    date: '2018-10-31',
+    clientName: 'National Association of Clean Water Agencies',
+    topic:
+      'Issues related to water conservation and quality in H.R. 2/S. 3042, Agriculture Improvement Act of 2018.',
+    lobbyists: [
+      {
+        name: 'Savannah Block',
+        id: 1193
+      },
+      {
+        name: 'Karla Thieman',
+        id: 1192
+      },
+      {
+        name: 'Andrew Harker',
+        id: 1191
+      },
+      {
+        name: 'Tyson Redpath',
+        id: 1190
+      },
+      {
+        name: 'Randy Russell',
+        id: 1189
+      }
+    ],
+    register: 'The Russell Group, Inc.'
+  },
+  {
+    filingId: 300926727,
+    date: '2018-10-31',
+    clientName: 'FAIRVOTE',
+    topic: 'Election law and policy, legislative process',
+    lobbyists: [
+      {
+        name: 'Ra Shad Gaines',
+        id: 1188
+      }
+    ],
+    register: 'FAIRVOTE'
+  },
+  {
+    filingId: 300935388,
+    date: '2018-10-31',
+    clientName: 'Qual-Tron, Inc.',
+    topic: 'Border Security',
+    lobbyists: [
+      {
+        name: 'Stuart McCalman',
+        id: 1187
+      },
+      {
+        name: 'G.T. Bynum',
+        id: 1186
+      }
+    ],
+    register: 'Capitol Ventures Government Relations, LLC'
+  },
+  {
+    filingId: 300986729,
+    date: '2018-10-31',
+    clientName: 'JBI LTD',
+    topic: 'Correctional Reimbursement Programs',
+    lobbyists: [
+      {
+        name: 'Micahel Moore',
+        id: 1185
+      },
+      {
+        name: 'Michael Moore',
+        id: 1041
+      }
+    ],
+    register: 'JBI LTD'
+  },
+  {
+    filingId: 300978758,
+    date: '2018-10-30',
+    clientName: 'PSEG',
+    topic: 'Energy issues',
+    lobbyists: [
+      {
+        name: 'Michael McKenna',
+        id: 47
+      }
+    ],
+    register: 'MWR Strategies, Inc.'
+  },
+  {
+    filingId: 301017871,
+    date: '2018-10-30',
+    clientName: 'Project Support Services',
+    topic: 'Over site in supplying  personnel, and system IT.',
+    lobbyists: [
+      {
+        name: 'Mark Kopec',
+        id: 1154
+      }
+    ],
+    register: 'Mr. MARK KOPEC'
+  },
+  {
+    filingId: 301017060,
+    date: '2018-10-30',
+    clientName: 'City of Birmingham, Alabama',
+    topic:
+      'Discussed municipal environment issues with congressional staff Discussed municipal tax issues with congressional staff Discussed municipal banking issues with congressional staff Discussed municipal housing issues with congressional staff Discussed municipal economic development issues with congressional staff Discussed municipal transportation issues with congressional staff',
+    lobbyists: [
+      {
+        name: 'Donald Calloway',
+        id: 1184
+      },
+      {
+        name: 'Jarrod Loadholt',
+        id: 1183
+      },
+      {
+        name: 'Donald Calloway Jr.',
+        id: 1181
+      }
+    ],
+    register: 'PINE STREET STRATEGIES'
+  },
+  {
+    filingId: 301018662,
+    date: '2018-10-30',
+    clientName: 'Environmental Defense Action Fund',
+    topic:
+      'Clean air and clean water policy recommendations Clean air and water policy recommendations via contact with members of Congress',
+    lobbyists: [
+      {
+        name: 'Jarrod Loadholt Sr.',
+        id: 1182
+      },
+      {
+        name: 'Donald Calloway Jr.',
+        id: 1181
+      }
+    ],
+    register: 'PINE STREET STRATEGIES'
+  },
+  {
+    filingId: 300927866,
+    date: '2018-10-30',
+    clientName: 'AGRU America Inc.',
+    topic:
+      'Pushing for legislative and regulatory measures to support the use of specialty engineered products aimed at increasing the lifespan of\\u200b \\u200bpublic infrastructure\\u200b \\u200butilities.',
+    lobbyists: [
+      {
+        name: 'James Roberts II',
+        id: 1180
+      }
+    ],
+    register: 'WR CONSULTING LLC'
+  },
+  {
+    filingId: 300939848,
+    date: '2018-10-30',
+    clientName: 'American Fuel & Petrochemical Manufacturers',
+    topic: 'Renewable Fuels Standard',
+    lobbyists: [
+      {
+        name: 'Kevin O&#39;Donovan',
+        id: 1179
+      }
+    ],
+    register: "O'Donovan Strategies, LLC"
+  },
+  {
+    filingId: 300941922,
+    date: '2018-10-30',
+    clientName: 'WASHINGTON SUBURBAN SANITARY COMMISSION',
+    topic: 'Utilities',
+    lobbyists: [
+      {
+        name: 'ARTHUR ROGERS',
+        id: 1178
+      },
+      {
+        name: 'ERIC JOHNSTON III',
+        id: 1177
+      },
+      {
+        name: 'Major F. Riddick Jr.',
+        id: 1176
+      },
+      {
+        name: 'Eric L. Johnston III',
+        id: 1175
+      },
+      {
+        name: 'ERIC L JOHNSTON III',
+        id: 1174
+      },
+      {
+        name: 'ARTHUR D ROGERS',
+        id: 1173
+      },
+      {
+        name: 'MAJOR F RIDDICK JR',
+        id: 1172
+      }
+    ],
+    register: 'Strategic Solutions Center, LLC'
+  },
+  {
+    filingId: 300945322,
+    date: '2018-10-30',
+    clientName: 'Myriad Genetics, Inc. (formerly Myriad Genetics Laboratories)',
+    topic: '-Medicare payment and coverage for clinical laboratory tests.',
+    lobbyists: [
+      {
+        name: 'Brian Carey',
+        id: 97
+      },
+      {
+        name: 'Maia Larsson',
+        id: 1171
+      },
+      {
+        name: '- -',
+        id: 95
+      },
+      {
+        name: 'Kevin Brennan',
+        id: 92
+      }
+    ],
+    register: 'FOLEY HOAG LLP'
+  },
+  {
+    filingId: 300973076,
+    date: '2018-10-30',
+    clientName: 'NUCOR CORPORATION',
+    topic:
+      'Interested in any cap and trade legislation that would impact the global competitiveness of the U.S. Steel Industry',
+    lobbyists: [
+      {
+        name: 'JAMES BREW',
+        id: 1170
+      }
+    ],
+    register: 'STONE MATTHEIS XENOPOULOS AND BREW, PC'
+  },
+  {
+    filingId: 300985259,
+    date: '2018-10-30',
+    clientName: 'STEEL MANUFACTURERS ASSOCIATION',
+    topic:
+      "Interested in any legislation that promotes the use of demand side management.', 'Have met with FERC Commissioners to discuss wholesale power policies and energy efficiency issues. Interested in any green house gas emissions, cap and trade legislation that would impact the global competitiveness of the U.S. steel industry.",
+    lobbyists: [
+      {
+        name: 'JAMES BREW',
+        id: 1170
+      }
+    ],
+    register: 'STONE MATTHEIS XENOPOULOS AND BREW, PC'
+  },
+  {
+    filingId: 301018450,
+    date: '2018-10-30',
+    clientName: "Weber County Sheriff's Office",
+    topic:
+      "Assist the Weber County Sheriff's Office with its re-negotiation of its US Marshals Service Intergovernmental Agreement for housing federal prisoners.",
+    lobbyists: [
+      {
+        name: 'Joseph Summerill',
+        id: 1
+      }
+    ],
+    register: 'The Summerill Law Firm'
+  },
+  {
+    filingId: 301018732,
+    date: '2018-10-30',
+    clientName: 'Western Michigan University',
+    topic:
+      'Issues pertaining to PFAS legislation and grant funding Issues related to Opioid legislation and grant funding',
+    lobbyists: [
+      {
+        name: 'Jeffrey Breneman',
+        id: 27
+      }
+    ],
+    register: 'Spectrum Public Affairs'
+  },
+  {
+    filingId: 301018970,
+    date: '2018-10-30',
+    clientName: 'Intercontinental Construction Contracting Inc.',
+    topic: 'construction',
+    lobbyists: [
+      {
+        name: 'George Sigalos',
+        id: 60
+      }
+    ],
+    register: 'GPSLLC'
+  },
+  {
+    filingId: 301019285,
+    date: '2018-10-30',
+    clientName: 'Strauns Customhouse Brokers, LLC',
+    topic: 'Cross-border trade and commerce and transportation',
+    lobbyists: [
+      {
+        name: 'Britton Clarke',
+        id: 1169
+      }
+    ],
+    register: 'BC CONSULTING, LLC'
+  },
+  {
+    filingId: 301019298,
+    date: '2018-10-30',
+    clientName: "Newaygo County Sheriff's Office",
+    topic:
+      "Assist the Newaygo County Sheriff's Office with its re-negotiation of its US Marshals Service Intergovernmental Service Agreement to house federal prisoners.",
+    lobbyists: [
+      {
+        name: 'Joseph Summerill',
+        id: 1
+      }
+    ],
+    register: 'The Summerill Law Firm'
+  },
+  {
+    filingId: 301019299,
+    date: '2018-10-30',
+    clientName: 'Danieli Corporation',
+    topic: 'A tariff matter pursuant to Section 301 of the Trade Act of 1974.',
+    lobbyists: [
+      {
+        name: 'James Smith',
+        id: 1168
+      },
+      {
+        name: 'Gabriel Neville',
+        id: 1167
+      },
+      {
+        name: 'Layth Elhassani',
+        id: 261
+      }
+    ],
+    register: 'Covington & Burling LLP'
+  },
+  {
+    filingId: 301019300,
+    date: '2018-10-30',
+    clientName: 'Structured Finance Industry Group',
+    topic: 'Structured finance issues',
+    lobbyists: [
+      {
+        name: 'Ben Turner',
+        id: 1163
+      },
+      {
+        name: 'Bryan Blom',
+        id: 1164
+      },
+      {
+        name: 'Dawn Sears',
+        id: 1162
+      },
+      {
+        name: 'Dwight Fettig',
+        id: 1161
+      },
+      {
+        name: 'Lendell Porterfield',
+        id: 1160
+      }
+    ],
+    register: 'PORTERFIELD, FETTIG & SEARS, LLC'
+  },
+  {
+    filingId: 301019301,
+    date: '2018-10-30',
+    clientName: 'St. Louis City Justice Center',
+    topic:
+      'Assist the St. Louis City Justice Center with the re-negotiation of its US Marshals Service Intergovernmental Agreement to house federal prisoners.',
+    lobbyists: [
+      {
+        name: 'Joseph Summerill',
+        id: 1
+      }
+    ],
+    register: 'The Summerill Group LLC'
+  },
+  {
+    filingId: 301019302,
+    date: '2018-10-30',
+    clientName: 'Viasat',
+    topic: 'Satellite Broadband',
+    lobbyists: [
+      {
+        name: 'Geoffrey Yoste',
+        id: 1166
+      }
+    ],
+    register: 'YOSTE STRATEGIC PARTNERS, LLC'
+  },
+  {
+    filingId: 301019303,
+    date: '2018-10-30',
+    clientName: 'Independent Dealer Trade Association',
+    topic: 'Dodd-Frank Capital Markets Regulation',
+    lobbyists: [
+      {
+        name: 'Micah Green',
+        id: 1165
+      }
+    ],
+    register: 'Steptoe & Johnson LLP'
+  },
+  {
+    filingId: 301019304,
+    date: '2018-10-30',
+    clientName: 'Coalition for Sustainable Multifamily Housing',
+    topic: 'multifamily housing finance issues',
+    lobbyists: [
+      {
+        name: 'Bryan Blom',
+        id: 1164
+      },
+      {
+        name: 'Ben Turner',
+        id: 1163
+      },
+      {
+        name: 'Dawn Sears',
+        id: 1162
+      },
+      {
+        name: 'Dwight Fettig',
+        id: 1161
+      },
+      {
+        name: 'Lendell Porterfield',
+        id: 1160
+      }
+    ],
+    register: 'PORTERFIELD, FETTIG & SEARS, LLC'
+  },
+  {
+    filingId: 301019305,
+    date: '2018-10-30',
+    clientName:
+      'Keller & Heckman on behalf of Responsible Science Policy Coalition',
+    topic: 'Federal science policy and PFAS',
+    lobbyists: [
+      {
+        name: 'James Rollins',
+        id: 28
+      },
+      {
+        name: 'Jonathan Gledhill',
+        id: 11
+      }
+    ],
+    register: 'Policy Navigation Group'
+  },
+  {
+    filingId: 301019306,
+    date: '2018-10-30',
+    clientName: 'Fair Credit Coalition',
+    topic: 'Issues relating to corporate tax reform.',
+    lobbyists: [
+      {
+        name: 'Kathryn Rimpfel',
+        id: 1159
+      },
+      {
+        name: 'Alexandra Minkovich',
+        id: 1158
+      },
+      {
+        name: 'Joshua Odintz',
+        id: 1157
+      }
+    ],
+    register: 'Baker & McKenzie, LLP'
+  },
+  {
+    filingId: 301019307,
+    date: '2018-10-30',
+    clientName: 'Expedia, Inc.',
+    topic:
+      'Tax reform issues affecting the online travel and tourism industry.',
+    lobbyists: [
+      {
+        name: 'Alexandra Minkovich',
+        id: 1158
+      },
+      {
+        name: 'Joshua Odintz',
+        id: 1157
+      }
+    ],
+    register: 'Baker & McKenzie, LLP'
+  },
+  {
+    filingId: 301019308,
+    date: '2018-10-30',
+    clientName: 'Organization for International Investment',
+    topic: 'Issues relating to corporate tax reform.',
+    lobbyists: [
+      {
+        name: 'Alexandra Minkovich',
+        id: 1158
+      },
+      {
+        name: 'Joshua Odintz',
+        id: 1157
+      }
+    ],
+    register: 'Baker & McKenzie, LLP'
+  },
+  {
+    filingId: 300929282,
+    date: '2018-10-30',
+    clientName: 'Powermers Inc.',
+    topic: 'Us Army looking at powermer for battery in drones life',
+    lobbyists: [
+      {
+        name: 'Mark Kopec',
+        id: 1154
+      },
+      {
+        name: 'Mark Kopec Mr',
+        id: 1155
+      }
+    ],
+    register: 'Mr. MARK KOPEC'
+  },
+  {
+    filingId: 300947178,
+    date: '2018-10-30',
+    clientName: 'Via Verde',
+    topic: 'micro-turbine for FOB',
+    lobbyists: [
+      {
+        name: 'Mark Kopec Mr',
+        id: 1155
+      },
+      {
+        name: 'Mark Kopec',
+        id: 1154
+      },
+      {
+        name: 'Mark Kopec Mr.',
+        id: 1156
+      }
+    ],
+    register: 'Mr. MARK KOPEC'
+  },
+  {
+    filingId: 300974893,
+    date: '2018-10-30',
+    clientName: 'Procedyne',
+    topic: 'security',
+    lobbyists: [
+      {
+        name: 'Mark Kopec Mr.',
+        id: 1156
+      },
+      {
+        name: 'Mark Kopec Mr',
+        id: 1155
+      },
+      {
+        name: 'Mark Kopec',
+        id: 1154
+      },
+      {
+        name: 'MARK A. KOPEC',
+        id: 1153
+      }
+    ],
+    register: 'Mr. MARK KOPEC'
+  },
+  {
+    filingId: 300978759,
+    date: '2018-10-30',
+    clientName: 'TECO',
+    topic: 'Energy Issues',
+    lobbyists: [
+      {
+        name: 'Michael McKenna',
+        id: 47
+      }
+    ],
+    register: 'MWR Strategies, Inc.'
+  },
+  {
+    filingId: 301019309,
+    date: '2018-10-30',
+    clientName: 'MM-Law LLC on behalf of Military Families',
+    topic:
+      'US military who are victims of terrorism under Victims Compensation Fund',
+    lobbyists: [
+      {
+        name: 'Matthew Freedman',
+        id: 1152
+      }
+    ],
+    register: 'GLOBAL IMPACT INC'
+  },
+  {
+    filingId: 301017171,
+    date: '2018-10-30',
+    clientName: 'Equator Capital Management',
+    topic:
+      'Lobbying regarding land use and commercial real estate issues in New York.',
+    lobbyists: [
+      {
+        name: 'Michael Rossetti',
+        id: 1151
+      },
+      {
+        name: 'Geoff Verhoff',
+        id: 548
+      }
+    ],
+    register: 'AKIN GUMP STRAUSS HAUER & FELD'
+  },
+  {
+    filingId: 301017178,
+    date: '2018-10-30',
+    clientName: 'Global Tel*Link Corporation',
+    topic:
+      'Legislative and regulatory issues pertaining to telecommunications, particularly involving correctional facilities.',
+    lobbyists: [
+      {
+        name: 'Edward P. Ayoob',
+        id: 1051
+      },
+      {
+        name: 'Edward Ayoob',
+        id: 1150
+      },
+      {
+        name: 'D. William Moreau',
+        id: 1149
+      }
+    ],
+    register: 'Barnes & Thornburg, LLP'
+  },
+  {
+    filingId: 301017187,
+    date: '2018-10-30',
+    clientName: 'Kurdistan Regional Government, Ministry of Interior',
+    topic:
+      'Humanitarian Affairs, International Aid, International Donors Conference for the Kurdistan Region of Iraq. No specific bill number or title.',
+    lobbyists: [
+      {
+        name: 'Daniel Puls',
+        id: 1148
+      },
+      {
+        name: 'Mark Goff',
+        id: 1147
+      }
+    ],
+    register: 'PASS LLC'
+  },
+  {
+    filingId: 301017188,
+    date: '2018-10-30',
+    clientName: 'Credit Suisse Securities (USA) LLC',
+    topic:
+      'Modifications to Public Law No: 115-97 (Tax Reform); S. 2155, the Economic Growth, Regulatory Relief, and Consumer Protection Act; CFIUS; 2018 Farm Bill.',
+    lobbyists: [
+      {
+        name: 'Karl Koch',
+        id: 1146
+      },
+      {
+        name: 'Norma Krayem',
+        id: 1145
+      },
+      {
+        name: 'Kerry Feehery',
+        id: 1144
+      },
+      {
+        name: 'Kathryn Lehman',
+        id: 1143
+      },
+      {
+        name: 'Scott Mason',
+        id: 1142
+      },
+      {
+        name: 'Paul Bock',
+        id: 1141
+      }
+    ],
+    register: 'HOLLAND & KNIGHT LLP'
+  },
+  {
+    filingId: 301017189,
+    date: '2018-10-30',
+    clientName: 'American Waging Inc. DBA William Hill US',
+    topic: 'Professional and Amateur Sports Protection Act of 1992.',
+    lobbyists: [
+      {
+        name: 'Christopher Wilcox',
+        id: 1140
+      },
+      {
+        name: 'Melinda Maxfield',
+        id: 1139
+      },
+      {
+        name: 'Karina Lynch',
+        id: 1138
+      },
+      {
+        name: 'Matthew Hoekstra',
+        id: 1137
+      },
+      {
+        name: 'Susan Hirschmann',
+        id: 1136
+      }
+    ],
+    register: 'Williams and Jensen, PLLC'
+  },
+  {
+    filingId: 301017193,
+    date: '2018-10-30',
+    clientName: 'RIETH-RILEY CONSTRUCTION CO.',
+    topic: 'Federal grants related to transportation projects.',
+    lobbyists: [
+      {
+        name: 'Brandt Hershman',
+        id: 927
+      },
+      {
+        name: 'Robert T. Grand',
+        id: 453
+      }
+    ],
+    register: 'Barnes & Thornburg, LLP'
+  },
+  {
+    filingId: 301017195,
+    date: '2018-10-30',
+    clientName: 'ILLUMINA, INC.',
+    topic:
+      'H.R.5062: Advancing Access to Precision Medicine Act; All provisions of the bill',
+    lobbyists: [
+      {
+        name: 'Kathleen Lynch',
+        id: 1135
+      }
+    ],
+    register: 'ILLUMINA, INC.'
+  },
+  {
+    filingId: 301017196,
+    date: '2018-10-30',
+    clientName: 'Novum Pharma',
+    topic:
+      'Federal government relations service and strategy relating to pricing issues affecting the pharmaceutical industry',
+    lobbyists: [
+      {
+        name: 'Elizabeth Westbrook',
+        id: 1086
+      },
+      {
+        name: 'Timothy Costa',
+        id: 1134
+      },
+      {
+        name: 'Michael Strazzella',
+        id: 1047
+      }
+    ],
+    register: 'BUCHANAN INGERSOLL & ROONEY PC'
+  },
+  {
+    filingId: 301017199,
+    date: '2018-10-30',
+    clientName: 'Comrod Inc.',
+    topic: 'issues pertaining to defense-related communications equipment',
+    lobbyists: [
+      {
+        name: 'David Rudd',
+        id: 1133
+      },
+      {
+        name: 'Patrick Pettey',
+        id: 1132
+      },
+      {
+        name: 'Leo Jardot',
+        id: 1131
+      },
+      {
+        name: 'Jenny DiJames',
+        id: 1130
+      },
+      {
+        name: 'Bert Carp',
+        id: 1129
+      },
+      {
+        name: 'Michael Beer',
+        id: 1128
+      },
+      {
+        name: 'Rebecca Anderson',
+        id: 1127
+      }
+    ],
+    register: 'Alignment Government Strategies'
+  },
+  {
+    filingId: 301017200,
+    date: '2018-10-30',
+    clientName: 'Celgene Corporation',
+    topic: 'Medicare Coverage and Reimbursement for Transformative Therapies',
+    lobbyists: [
+      {
+        name: 'Jonathon Jones',
+        id: 946
+      },
+      {
+        name: 'John Michael Gonzalez',
+        id: 708
+      }
+    ],
+    register: 'Peck Madigan Jones'
+  },
+  {
+    filingId: 301017201,
+    date: '2018-10-30',
+    clientName: 'Peck Madigan Jones (on behalf of Celgene Corporation)',
+    topic:
+      'Medicare Coverage and Reimbursement for Transformative Therapies. Medicare Coverage and Reimbursement for Transformative Therapies',
+    lobbyists: [
+      {
+        name: 'Bryant Hall',
+        id: 905
+      }
+    ],
+    register: 'Tiber Creek Health Strategies, Inc.'
+  },
+  {
+    filingId: 301017202,
+    date: '2018-10-30',
+    clientName: 'The Business Roundtable, Inc.',
+    topic:
+      'Issues related to transportation and infrastructure policies (no specific bill).',
+    lobbyists: [
+      {
+        name: 'Stephen Martinko',
+        id: 914
+      }
+    ],
+    register: 'K&L GATES LLP'
+  },
+  {
+    filingId: 301017203,
+    date: '2018-10-30',
+    clientName: 'Q30 Innovations, LLC',
+    topic: 'Defense policy and acquisition matters',
+    lobbyists: [
+      {
+        name: 'Matthew Friesen',
+        id: 826
+      },
+      {
+        name: 'Stephanie ​Sanok Kostro',
+        id: 1126
+      },
+      {
+        name: 'David OBrien',
+        id: 825
+      },
+      {
+        name: 'Stephanie Sanok Kostro',
+        id: 544
+      },
+      {
+        name: 'Shannon Scott-Paul',
+        id: 824
+      },
+      {
+        name: 'James Gentry',
+        id: 543
+      }
+    ],
+    register: "O'Brien, Gentry & Scott, LLC"
+  },
+  {
+    filingId: 301017207,
+    date: '2018-10-30',
+    clientName: 'Nammo, Inc.',
+    topic:
+      'Issues relating to weapon systems and advanced rocket propulsion technology.',
+    lobbyists: [
+      {
+        name: 'Todd Harmer',
+        id: 895
+      }
+    ],
+    register: 'AMERICAN DEFENSE INTERNATIONAL, INC.'
+  }
+];

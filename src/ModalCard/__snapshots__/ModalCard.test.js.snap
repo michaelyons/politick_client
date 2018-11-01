@@ -1,0 +1,631 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalCard Component snapshot should match the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ModalCard />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="card"
+      >
+        <header
+          className="card-header"
+        >
+          <p
+            className="card-header-title"
+          >
+            Filing ID 
+          </p>
+          <p
+            className="card-header-icon is-italic"
+          >
+            Filed 
+          </p>
+        </header>
+        <div
+          className="media"
+        >
+          <div
+            className="card-content"
+          >
+            <div
+              className="media-content"
+            >
+              <p
+                className="subtitle"
+              >
+                Registered by 
+              </p>
+              <p
+                className="title is-size-6"
+              >
+                For Client 
+              </p>
+              <p
+                className="subtitle"
+              />
+            </div>
+          </div>
+        </div>
+      </div>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <header
+            className="card-header"
+          >
+            <p
+              className="card-header-title"
+            >
+              Filing ID 
+            </p>
+            <p
+              className="card-header-icon is-italic"
+            >
+              Filed 
+            </p>
+          </header>,
+          <div
+            className="media"
+          >
+            <div
+              className="card-content"
+            >
+              <div
+                className="media-content"
+              >
+                <p
+                  className="subtitle"
+                >
+                  Registered by 
+                </p>
+                <p
+                  className="title is-size-6"
+                >
+                  For Client 
+                </p>
+                <p
+                  className="subtitle"
+                />
+              </div>
+            </div>
+          </div>,
+        ],
+        "className": "card",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p
+                className="card-header-title"
+              >
+                Filing ID 
+              </p>,
+              <p
+                className="card-header-icon is-italic"
+              >
+                Filed 
+              </p>,
+            ],
+            "className": "card-header",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Filing ID ",
+                  undefined,
+                ],
+                "className": "card-header-title",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Filing ID ",
+                undefined,
+              ],
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Filed ",
+                  undefined,
+                ],
+                "className": "card-header-icon is-italic",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Filed ",
+                undefined,
+              ],
+              "type": "p",
+            },
+          ],
+          "type": "header",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="card-content"
+            >
+              <div
+                className="media-content"
+              >
+                <p
+                  className="subtitle"
+                >
+                  Registered by 
+                </p>
+                <p
+                  className="title is-size-6"
+                >
+                  For Client 
+                </p>
+                <p
+                  className="subtitle"
+                />
+              </div>
+            </div>,
+            "className": "media",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="media-content"
+              >
+                <p
+                  className="subtitle"
+                >
+                  Registered by 
+                </p>
+                <p
+                  className="title is-size-6"
+                >
+                  For Client 
+                </p>
+                <p
+                  className="subtitle"
+                />
+              </div>,
+              "className": "card-content",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <p
+                    className="subtitle"
+                  >
+                    Registered by 
+                  </p>,
+                  <p
+                    className="title is-size-6"
+                  >
+                    For Client 
+                  </p>,
+                  <p
+                    className="subtitle"
+                  />,
+                ],
+                "className": "media-content",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Registered by ",
+                      undefined,
+                    ],
+                    "className": "subtitle",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Registered by ",
+                    undefined,
+                  ],
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "For Client ",
+                      undefined,
+                    ],
+                    "className": "title is-size-6",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "For Client ",
+                    undefined,
+                  ],
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": undefined,
+                    "className": "subtitle",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+            "type": "div",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="card"
+        >
+          <header
+            className="card-header"
+          >
+            <p
+              className="card-header-title"
+            >
+              Filing ID 
+            </p>
+            <p
+              className="card-header-icon is-italic"
+            >
+              Filed 
+            </p>
+          </header>
+          <div
+            className="media"
+          >
+            <div
+              className="card-content"
+            >
+              <div
+                className="media-content"
+              >
+                <p
+                  className="subtitle"
+                >
+                  Registered by 
+                </p>
+                <p
+                  className="title is-size-6"
+                >
+                  For Client 
+                </p>
+                <p
+                  className="subtitle"
+                />
+              </div>
+            </div>
+          </div>
+        </div>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <header
+              className="card-header"
+            >
+              <p
+                className="card-header-title"
+              >
+                Filing ID 
+              </p>
+              <p
+                className="card-header-icon is-italic"
+              >
+                Filed 
+              </p>
+            </header>,
+            <div
+              className="media"
+            >
+              <div
+                className="card-content"
+              >
+                <div
+                  className="media-content"
+                >
+                  <p
+                    className="subtitle"
+                  >
+                    Registered by 
+                  </p>
+                  <p
+                    className="title is-size-6"
+                  >
+                    For Client 
+                  </p>
+                  <p
+                    className="subtitle"
+                  />
+                </div>
+              </div>
+            </div>,
+          ],
+          "className": "card",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p
+                  className="card-header-title"
+                >
+                  Filing ID 
+                </p>,
+                <p
+                  className="card-header-icon is-italic"
+                >
+                  Filed 
+                </p>,
+              ],
+              "className": "card-header",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Filing ID ",
+                    undefined,
+                  ],
+                  "className": "card-header-title",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Filing ID ",
+                  undefined,
+                ],
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Filed ",
+                    undefined,
+                  ],
+                  "className": "card-header-icon is-italic",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Filed ",
+                  undefined,
+                ],
+                "type": "p",
+              },
+            ],
+            "type": "header",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="card-content"
+              >
+                <div
+                  className="media-content"
+                >
+                  <p
+                    className="subtitle"
+                  >
+                    Registered by 
+                  </p>
+                  <p
+                    className="title is-size-6"
+                  >
+                    For Client 
+                  </p>
+                  <p
+                    className="subtitle"
+                  />
+                </div>
+              </div>,
+              "className": "media",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="media-content"
+                >
+                  <p
+                    className="subtitle"
+                  >
+                    Registered by 
+                  </p>
+                  <p
+                    className="title is-size-6"
+                  >
+                    For Client 
+                  </p>
+                  <p
+                    className="subtitle"
+                  />
+                </div>,
+                "className": "card-content",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <p
+                      className="subtitle"
+                    >
+                      Registered by 
+                    </p>,
+                    <p
+                      className="title is-size-6"
+                    >
+                      For Client 
+                    </p>,
+                    <p
+                      className="subtitle"
+                    />,
+                  ],
+                  "className": "media-content",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "Registered by ",
+                        undefined,
+                      ],
+                      "className": "subtitle",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Registered by ",
+                      undefined,
+                    ],
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "For Client ",
+                        undefined,
+                      ],
+                      "className": "title is-size-6",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "For Client ",
+                      undefined,
+                    ],
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": undefined,
+                      "className": "subtitle",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": "div",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

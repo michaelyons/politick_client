@@ -1,0 +1,875 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About Component snapshot should match the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <About />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1
+          className="title"
+        >
+          Welcome to Politik
+        </h1>,
+        <h2
+          className="subtitle"
+        >
+          This website is here to try and make sense of what is currently being lobbied for within the United States Government. Politik automatically gathers data from the ProPublica API each day as Lobbyists file their issues for the public record
+        </h2>,
+        <h2
+          className="subtitle"
+        >
+          <a
+            href="/issues"
+          >
+            Words
+          </a>
+           gives you a cloud of words mentioned in Lobbyist filings. Click a word to view representations associated with that word.
+        </h2>,
+        <h2
+          className="subtitle"
+        >
+          <a
+            href="/most_recent"
+          >
+            List
+          </a>
+           allows you to view a directory of Lobbyists and what/who they represent. Clicking a Lobbyists name will show only filings associated with that lobbyist.
+        </h2>,
+        <h2
+          className="subtitle"
+        >
+          What is Lobbying?
+          <br />
+          <a
+            href="https://en.wikipedia.org/wiki/Lobbying"
+          >
+            Wikipedia
+          </a>
+           defines Lobbying is a persuasion, or interest representation is the act of attempting to influence the actions, policies, or decisions of officials in their daily life, most often legislators or members of regulatory agencies. Lobbying is done by many types of people, associations and organized groups, including individuals in the private sector, corporations, fellow legislators or government officials, or advocacy groups (interest groups).
+        </h2>,
+        <h2
+          className="subtitle"
+        >
+          Heres a quick 6 minute video from
+           
+          <a
+            href="https://represent.us/about/"
+          >
+            RepresentUs
+          </a>
+           that outlines how Lobbying affects politics in the US.
+          <iframe
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen={true}
+            frameBorder="0"
+            height="315"
+            src="https://www.youtube.com/embed/5tu32CCA_Ig"
+            title="youtube-vid"
+            width="560"
+          />
+        </h2>,
+        <h2>
+          All data presented on this website comes from the
+           
+          <a
+            href="https://www.propublica.org/datastore/apis"
+          >
+            ProPublica Data Store
+          </a>
+           
+        </h2>,
+        <h2>
+           
+          Politik was created by
+           
+          <a
+            href="https://github.com/michaelyons"
+          >
+            Michael Lyons,
+          </a>
+           
+          <a
+            href="https://github.com/letsdothis64"
+          >
+            Connon Osburn,
+          </a>
+           and
+           
+          <a
+            href="github.com/jtrtj"
+          >
+            John Roemer
+          </a>
+        </h2>,
+      ],
+      "className": "container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Welcome to Politik",
+          "className": "title",
+        },
+        "ref": null,
+        "rendered": "Welcome to Politik",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "This website is here to try and make sense of what is currently being lobbied for within the United States Government. Politik automatically gathers data from the ProPublica API each day as Lobbyists file their issues for the public record",
+          "className": "subtitle",
+        },
+        "ref": null,
+        "rendered": "This website is here to try and make sense of what is currently being lobbied for within the United States Government. Politik automatically gathers data from the ProPublica API each day as Lobbyists file their issues for the public record",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <a
+              href="/issues"
+            >
+              Words
+            </a>,
+            " gives you a cloud of words mentioned in Lobbyist filings. Click a word to view representations associated with that word.",
+          ],
+          "className": "subtitle",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Words",
+              "href": "/issues",
+            },
+            "ref": null,
+            "rendered": "Words",
+            "type": "a",
+          },
+          " gives you a cloud of words mentioned in Lobbyist filings. Click a word to view representations associated with that word.",
+        ],
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <a
+              href="/most_recent"
+            >
+              List
+            </a>,
+            " allows you to view a directory of Lobbyists and what/who they represent. Clicking a Lobbyists name will show only filings associated with that lobbyist.",
+          ],
+          "className": "subtitle",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "List",
+              "href": "/most_recent",
+            },
+            "ref": null,
+            "rendered": "List",
+            "type": "a",
+          },
+          " allows you to view a directory of Lobbyists and what/who they represent. Clicking a Lobbyists name will show only filings associated with that lobbyist.",
+        ],
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "What is Lobbying?",
+            <br />,
+            <a
+              href="https://en.wikipedia.org/wiki/Lobbying"
+            >
+              Wikipedia
+            </a>,
+            " defines Lobbying is a persuasion, or interest representation is the act of attempting to influence the actions, policies, or decisions of officials in their daily life, most often legislators or members of regulatory agencies. Lobbying is done by many types of people, associations and organized groups, including individuals in the private sector, corporations, fellow legislators or government officials, or advocacy groups (interest groups).",
+          ],
+          "className": "subtitle",
+        },
+        "ref": null,
+        "rendered": Array [
+          "What is Lobbying?",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Wikipedia",
+              "href": "https://en.wikipedia.org/wiki/Lobbying",
+            },
+            "ref": null,
+            "rendered": "Wikipedia",
+            "type": "a",
+          },
+          " defines Lobbying is a persuasion, or interest representation is the act of attempting to influence the actions, policies, or decisions of officials in their daily life, most often legislators or members of regulatory agencies. Lobbying is done by many types of people, associations and organized groups, including individuals in the private sector, corporations, fellow legislators or government officials, or advocacy groups (interest groups).",
+        ],
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Heres a quick 6 minute video from",
+            " ",
+            <a
+              href="https://represent.us/about/"
+            >
+              RepresentUs
+            </a>,
+            " that outlines how Lobbying affects politics in the US.",
+            <iframe
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen={true}
+              frameBorder="0"
+              height="315"
+              src="https://www.youtube.com/embed/5tu32CCA_Ig"
+              title="youtube-vid"
+              width="560"
+            />,
+          ],
+          "className": "subtitle",
+        },
+        "ref": null,
+        "rendered": Array [
+          "Heres a quick 6 minute video from",
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "RepresentUs",
+              "href": "https://represent.us/about/",
+            },
+            "ref": null,
+            "rendered": "RepresentUs",
+            "type": "a",
+          },
+          " that outlines how Lobbying affects politics in the US.",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "allow": "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+              "allowFullScreen": true,
+              "frameBorder": "0",
+              "height": "315",
+              "src": "https://www.youtube.com/embed/5tu32CCA_Ig",
+              "title": "youtube-vid",
+              "width": "560",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "iframe",
+          },
+        ],
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "All data presented on this website comes from the",
+            " ",
+            <a
+              href="https://www.propublica.org/datastore/apis"
+            >
+              ProPublica Data Store
+            </a>,
+            " ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "All data presented on this website comes from the",
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "ProPublica Data Store",
+              "href": "https://www.propublica.org/datastore/apis",
+            },
+            "ref": null,
+            "rendered": "ProPublica Data Store",
+            "type": "a",
+          },
+          " ",
+        ],
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            " ",
+            "Politik was created by",
+            " ",
+            <a
+              href="https://github.com/michaelyons"
+            >
+              Michael Lyons,
+            </a>,
+            " ",
+            <a
+              href="https://github.com/letsdothis64"
+            >
+              Connon Osburn,
+            </a>,
+            " and",
+            " ",
+            <a
+              href="github.com/jtrtj"
+            >
+              John Roemer
+            </a>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          "Politik was created by",
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Michael Lyons,",
+              "href": "https://github.com/michaelyons",
+            },
+            "ref": null,
+            "rendered": "Michael Lyons,",
+            "type": "a",
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Connon Osburn,",
+              "href": "https://github.com/letsdothis64",
+            },
+            "ref": null,
+            "rendered": "Connon Osburn,",
+            "type": "a",
+          },
+          " and",
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "John Roemer",
+              "href": "github.com/jtrtj",
+            },
+            "ref": null,
+            "rendered": "John Roemer",
+            "type": "a",
+          },
+        ],
+        "type": "h2",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1
+            className="title"
+          >
+            Welcome to Politik
+          </h1>,
+          <h2
+            className="subtitle"
+          >
+            This website is here to try and make sense of what is currently being lobbied for within the United States Government. Politik automatically gathers data from the ProPublica API each day as Lobbyists file their issues for the public record
+          </h2>,
+          <h2
+            className="subtitle"
+          >
+            <a
+              href="/issues"
+            >
+              Words
+            </a>
+             gives you a cloud of words mentioned in Lobbyist filings. Click a word to view representations associated with that word.
+          </h2>,
+          <h2
+            className="subtitle"
+          >
+            <a
+              href="/most_recent"
+            >
+              List
+            </a>
+             allows you to view a directory of Lobbyists and what/who they represent. Clicking a Lobbyists name will show only filings associated with that lobbyist.
+          </h2>,
+          <h2
+            className="subtitle"
+          >
+            What is Lobbying?
+            <br />
+            <a
+              href="https://en.wikipedia.org/wiki/Lobbying"
+            >
+              Wikipedia
+            </a>
+             defines Lobbying is a persuasion, or interest representation is the act of attempting to influence the actions, policies, or decisions of officials in their daily life, most often legislators or members of regulatory agencies. Lobbying is done by many types of people, associations and organized groups, including individuals in the private sector, corporations, fellow legislators or government officials, or advocacy groups (interest groups).
+          </h2>,
+          <h2
+            className="subtitle"
+          >
+            Heres a quick 6 minute video from
+             
+            <a
+              href="https://represent.us/about/"
+            >
+              RepresentUs
+            </a>
+             that outlines how Lobbying affects politics in the US.
+            <iframe
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen={true}
+              frameBorder="0"
+              height="315"
+              src="https://www.youtube.com/embed/5tu32CCA_Ig"
+              title="youtube-vid"
+              width="560"
+            />
+          </h2>,
+          <h2>
+            All data presented on this website comes from the
+             
+            <a
+              href="https://www.propublica.org/datastore/apis"
+            >
+              ProPublica Data Store
+            </a>
+             
+          </h2>,
+          <h2>
+             
+            Politik was created by
+             
+            <a
+              href="https://github.com/michaelyons"
+            >
+              Michael Lyons,
+            </a>
+             
+            <a
+              href="https://github.com/letsdothis64"
+            >
+              Connon Osburn,
+            </a>
+             and
+             
+            <a
+              href="github.com/jtrtj"
+            >
+              John Roemer
+            </a>
+          </h2>,
+        ],
+        "className": "container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Welcome to Politik",
+            "className": "title",
+          },
+          "ref": null,
+          "rendered": "Welcome to Politik",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "This website is here to try and make sense of what is currently being lobbied for within the United States Government. Politik automatically gathers data from the ProPublica API each day as Lobbyists file their issues for the public record",
+            "className": "subtitle",
+          },
+          "ref": null,
+          "rendered": "This website is here to try and make sense of what is currently being lobbied for within the United States Government. Politik automatically gathers data from the ProPublica API each day as Lobbyists file their issues for the public record",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <a
+                href="/issues"
+              >
+                Words
+              </a>,
+              " gives you a cloud of words mentioned in Lobbyist filings. Click a word to view representations associated with that word.",
+            ],
+            "className": "subtitle",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Words",
+                "href": "/issues",
+              },
+              "ref": null,
+              "rendered": "Words",
+              "type": "a",
+            },
+            " gives you a cloud of words mentioned in Lobbyist filings. Click a word to view representations associated with that word.",
+          ],
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <a
+                href="/most_recent"
+              >
+                List
+              </a>,
+              " allows you to view a directory of Lobbyists and what/who they represent. Clicking a Lobbyists name will show only filings associated with that lobbyist.",
+            ],
+            "className": "subtitle",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "List",
+                "href": "/most_recent",
+              },
+              "ref": null,
+              "rendered": "List",
+              "type": "a",
+            },
+            " allows you to view a directory of Lobbyists and what/who they represent. Clicking a Lobbyists name will show only filings associated with that lobbyist.",
+          ],
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "What is Lobbying?",
+              <br />,
+              <a
+                href="https://en.wikipedia.org/wiki/Lobbying"
+              >
+                Wikipedia
+              </a>,
+              " defines Lobbying is a persuasion, or interest representation is the act of attempting to influence the actions, policies, or decisions of officials in their daily life, most often legislators or members of regulatory agencies. Lobbying is done by many types of people, associations and organized groups, including individuals in the private sector, corporations, fellow legislators or government officials, or advocacy groups (interest groups).",
+            ],
+            "className": "subtitle",
+          },
+          "ref": null,
+          "rendered": Array [
+            "What is Lobbying?",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Wikipedia",
+                "href": "https://en.wikipedia.org/wiki/Lobbying",
+              },
+              "ref": null,
+              "rendered": "Wikipedia",
+              "type": "a",
+            },
+            " defines Lobbying is a persuasion, or interest representation is the act of attempting to influence the actions, policies, or decisions of officials in their daily life, most often legislators or members of regulatory agencies. Lobbying is done by many types of people, associations and organized groups, including individuals in the private sector, corporations, fellow legislators or government officials, or advocacy groups (interest groups).",
+          ],
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Heres a quick 6 minute video from",
+              " ",
+              <a
+                href="https://represent.us/about/"
+              >
+                RepresentUs
+              </a>,
+              " that outlines how Lobbying affects politics in the US.",
+              <iframe
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen={true}
+                frameBorder="0"
+                height="315"
+                src="https://www.youtube.com/embed/5tu32CCA_Ig"
+                title="youtube-vid"
+                width="560"
+              />,
+            ],
+            "className": "subtitle",
+          },
+          "ref": null,
+          "rendered": Array [
+            "Heres a quick 6 minute video from",
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "RepresentUs",
+                "href": "https://represent.us/about/",
+              },
+              "ref": null,
+              "rendered": "RepresentUs",
+              "type": "a",
+            },
+            " that outlines how Lobbying affects politics in the US.",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "allow": "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+                "allowFullScreen": true,
+                "frameBorder": "0",
+                "height": "315",
+                "src": "https://www.youtube.com/embed/5tu32CCA_Ig",
+                "title": "youtube-vid",
+                "width": "560",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "iframe",
+            },
+          ],
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "All data presented on this website comes from the",
+              " ",
+              <a
+                href="https://www.propublica.org/datastore/apis"
+              >
+                ProPublica Data Store
+              </a>,
+              " ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "All data presented on this website comes from the",
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "ProPublica Data Store",
+                "href": "https://www.propublica.org/datastore/apis",
+              },
+              "ref": null,
+              "rendered": "ProPublica Data Store",
+              "type": "a",
+            },
+            " ",
+          ],
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              " ",
+              "Politik was created by",
+              " ",
+              <a
+                href="https://github.com/michaelyons"
+              >
+                Michael Lyons,
+              </a>,
+              " ",
+              <a
+                href="https://github.com/letsdothis64"
+              >
+                Connon Osburn,
+              </a>,
+              " and",
+              " ",
+              <a
+                href="github.com/jtrtj"
+              >
+                John Roemer
+              </a>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            "Politik was created by",
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Michael Lyons,",
+                "href": "https://github.com/michaelyons",
+              },
+              "ref": null,
+              "rendered": "Michael Lyons,",
+              "type": "a",
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Connon Osburn,",
+                "href": "https://github.com/letsdothis64",
+              },
+              "ref": null,
+              "rendered": "Connon Osburn,",
+              "type": "a",
+            },
+            " and",
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "John Roemer",
+                "href": "github.com/jtrtj",
+              },
+              "ref": null,
+              "rendered": "John Roemer",
+              "type": "a",
+            },
+          ],
+          "type": "h2",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
