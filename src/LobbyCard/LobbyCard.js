@@ -15,8 +15,6 @@ const LobbyCard = ({
   fetchLobbyData
 }) => {
   const handleClick = async () => {
-    // const poop = lobbyists.find(id => id === id);
-    // console.log(poop.id);
     const id = await setCurrentId();
     fetchLobbyData(id);
   };
@@ -59,7 +57,8 @@ LobbyCard.propTypes = {
   register: PropTypes.string,
   topic: PropTypes.string,
   setCurrentId: PropTypes.func,
-  fetchLobbyData: PropTypes.func
+  fetchLobbyData: PropTypes.func,
+  date: PropTypes.string
 };
 
 export default LobbyCard;

@@ -141,11 +141,11 @@ class App extends Component {
             <nav className="navbar">
               <div className="container">
                 <div className="navbar-brand">
-                  <a href="http://localhost:3000/" className="navbar-item">
+                  <div href="http://localhost:3000/" className="navbar-item">
                     <NavLink exact to="/">
                       <img src="https://i.imgur.com/5kT7Vl7.png" alt="fuck" />
                     </NavLink>
-                  </a>
+                  </div>
                   <span
                     className="navbar-burger burger"
                     data-target="navbarMenuHeroA"
@@ -157,30 +157,30 @@ class App extends Component {
                 </div>
                 <div id="navbarMenuHeroA" className="navbar-menu">
                   <div className="navbar-end">
-                    <a
+                    <div
                       href="http://localhost:3000/issues"
                       className="navbar-item"
                     >
                       <NavLink exact to="/issues">
                         WORDS
                       </NavLink>
-                    </a>
-                    <a
+                    </div>
+                    <div
                       href="http://localhost:3000/most_recent"
                       className="navbar-item"
                     >
                       <NavLink exact to="/most_recent">
                         LIST
                       </NavLink>
-                    </a>
-                    <a
+                    </div>
+                    <div
                       href="http://localhost:3000/about"
                       className="navbar-item"
                     >
                       <NavLink exact to="/about">
                         ABOUT
                       </NavLink>
-                    </a>
+                    </div>
                     <span className="navbar-item" />
                   </div>
                 </div>
