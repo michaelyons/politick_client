@@ -1,6 +1,8 @@
-# Informant Lobby
+# Politick
 
 [![Build Status](https://travis-ci.org/michaelyons/informant-client.svg?branch=master)](https://travis-ci.org/michaelyons/informant-client)
+
+[Politick](https://informant-lobby.herokuapp.com/)
 
 ## About
 
