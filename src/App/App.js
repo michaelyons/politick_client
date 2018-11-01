@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import RecentTopicsContainer from '../RecentTopicsContainer/RecentTopicsContainer';
 import LobbyistShow from '../LobbyistShow/LobbyistShow';
-// import LoadingGif from '../LoadingGif/LoadingGif';
 import About from '../About/About';
 import { Route, Switch, NavLink } from 'react-router-dom';
 import {
@@ -269,7 +268,8 @@ class App extends Component {
                         <div>
                           <h1 className="title">Frequently Mentioned Words</h1>
                           <h1 className="subtitle">
-                            Click on a word to view related lobbying filings
+                            Click on a word to view related lobbying filings or
+                            search by topic of interest
                           </h1>
                           <input
                             type="text"

@@ -44,7 +44,7 @@ const LobbyCard = ({
             <div className="media-content">
               <p className="title is-size-6">Lobbyist(s): {lobbyistLinks}</p>
               <p className="subtitle">{clientName}</p>
-              <p className="subtitle">{register}</p>
+              <p className="subtitle">Registered by: {register}</p>
             </div>
             <div className="content">{topic}</div>
           </div>

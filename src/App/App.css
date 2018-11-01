@@ -33,6 +33,7 @@ div .hero-body {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  margin-bottom: 1.5rem;
 }
 
 .input-home-field {
@@ -42,6 +43,7 @@ div .hero-body {
   width: 30%;
   height: 37.5px;
   font-size: 16px;
+  margin-bottom: 1.5rem;
 }
 
 .reset-btn-cloud {
@@ -54,6 +56,7 @@ div .hero-body {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  margin-bottom: 1rem;
 }
 
 .wordcloud-input {
@@ -63,4 +66,14 @@ div .hero-body {
   width: 30%;
   height: 37.5px;
   font-size: 16px;
+  margin-bottom: 1rem;
+}
+
+iframe {
+  margin-top: 1.5rem;
+  margin-left: 20rem;
+}
+
+.lobbyist-name {
+  margin-right: 1rem;
 }

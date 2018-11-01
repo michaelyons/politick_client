@@ -8,6 +8,7 @@ const ModalContainer = ({ modal }) => {
   ));
   return (
     <div className="container is-fluid">
+      <h1>Related Issues Filed by Date</h1>
       <div className="notification">{modalCard}</div>
     </div>
   );

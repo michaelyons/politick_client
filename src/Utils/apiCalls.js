@@ -60,6 +60,7 @@ const cleanWordFetch = data => {
   return data.map(object => {
     return {
       filingId: object.filing_id,
+      date: object.created_at,
       clientName: object.client.name,
       topic: object.issue.slice(2, object.issue.length - 2),
       register: object.registrant.name
