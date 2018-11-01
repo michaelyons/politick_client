@@ -133,7 +133,7 @@ ShallowWrapper {
                   />
                   <Route
                     exact={true}
-                    path="/most_recent/"
+                    path="/most_recent"
                     render={[Function]}
                   />
                   <Route
@@ -945,7 +945,7 @@ ShallowWrapper {
                   />
                   <Route
                     exact={true}
-                    path="/most_recent/"
+                    path="/most_recent"
                     render={[Function]}
                   />
                   <Route
@@ -1008,7 +1008,7 @@ ShallowWrapper {
                   />
                   <Route
                     exact={true}
-                    path="/most_recent/"
+                    path="/most_recent"
                     render={[Function]}
                   />
                   <Route
@@ -1068,7 +1068,7 @@ ShallowWrapper {
                     />
                     <Route
                       exact={true}
-                      path="/most_recent/"
+                      path="/most_recent"
                       render={[Function]}
                     />
                     <Route
@@ -1125,7 +1125,7 @@ ShallowWrapper {
                     />
                     <Route
                       exact={true}
-                      path="/most_recent/"
+                      path="/most_recent"
                       render={[Function]}
                     />
                     <Route
@@ -1160,7 +1160,7 @@ ShallowWrapper {
                       />,
                       <Route
                         exact={true}
-                        path="/most_recent/"
+                        path="/most_recent"
                         render={[Function]}
                       />,
                       <Route
@@ -1201,7 +1201,7 @@ ShallowWrapper {
                       "nodeType": "class",
                       "props": Object {
                         "exact": true,
-                        "path": "/most_recent/",
+                        "path": "/most_recent",
                         "render": [Function],
                       },
                       "ref": null,
@@ -1460,7 +1460,7 @@ ShallowWrapper {
                     />
                     <Route
                       exact={true}
-                      path="/most_recent/"
+                      path="/most_recent"
                       render={[Function]}
                     />
                     <Route
@@ -2272,7 +2272,7 @@ ShallowWrapper {
                     />
                     <Route
                       exact={true}
-                      path="/most_recent/"
+                      path="/most_recent"
                       render={[Function]}
                     />
                     <Route
@@ -2335,7 +2335,7 @@ ShallowWrapper {
                     />
                     <Route
                       exact={true}
-                      path="/most_recent/"
+                      path="/most_recent"
                       render={[Function]}
                     />
                     <Route
@@ -2395,7 +2395,7 @@ ShallowWrapper {
                       />
                       <Route
                         exact={true}
-                        path="/most_recent/"
+                        path="/most_recent"
                         render={[Function]}
                       />
                       <Route
@@ -2452,7 +2452,7 @@ ShallowWrapper {
                       />
                       <Route
                         exact={true}
-                        path="/most_recent/"
+                        path="/most_recent"
                         render={[Function]}
                       />
                       <Route
@@ -2487,7 +2487,7 @@ ShallowWrapper {
                         />,
                         <Route
                           exact={true}
-                          path="/most_recent/"
+                          path="/most_recent"
                           render={[Function]}
                         />,
                         <Route
@@ -2528,7 +2528,7 @@ ShallowWrapper {
                         "nodeType": "class",
                         "props": Object {
                           "exact": true,
-                          "path": "/most_recent/",
+                          "path": "/most_recent",
                           "render": [Function],
                         },
                         "ref": null,
