@@ -216,13 +216,12 @@ class App extends Component {
                             placeholder="Filter Words"
                             className="input-home-field"
                           />
-                          <a
-                            href="http://localhost:3000/"
+                          <div
                             className="reset-btn-home"
                             onClick={this.clearFilter}
                           >
                             Reset
-                          </a>
+                          </div>
                           <WordCloud
                             data={this.state.filteredWordCloud}
                             fontSizeMapper={this.fontSizeMapper}
@@ -278,13 +277,12 @@ class App extends Component {
                             placeholder="Filter words"
                             className="wordcloud-input"
                           />
-                          <a
-                            href="http://localhost:3000/issues"
+                          <div
                             className="reset-btn-cloud"
                             onClick={this.clearFilter}
                           >
                             Reset
-                          </a>
+                          </div>
                           <WordCloud
                             data={this.state.filteredWordCloud}
                             fontSizeMapper={this.fontSizeMapper}
