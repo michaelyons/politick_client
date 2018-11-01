@@ -237,7 +237,7 @@ class App extends Component {
                   />
                   <Route
                     exact
-                    path={`/most_recent/${this.state.currentId}`}
+                    path="/most_recent"
                     render={() => {
                       this.setInitialState();
                       this.fetchLobbyists();
