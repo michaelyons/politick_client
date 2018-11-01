@@ -10,3 +10,11 @@ div .hero-body {
   color: black;
   background-color: whitesmoke;
 }
+
+.card-header-title {
+  background-color: rgba(5, 0, 0, 0.2);
+}
+
+.notification {
+  padding-left: 0;
+}

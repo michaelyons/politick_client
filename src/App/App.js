@@ -58,14 +58,13 @@ class App extends Component {
   };
 
   filterWordCloud = async event => {
-    this.setState({ filterText: event.target.value});
+    this.setState({ filterText: event.target.value });
     let text = event.target.value;
     let filteredCloud = [];
     if (text !== '') {
       this.state.wordCloud.forEach(function(word) {
         if (typeof word === 'object') {
           if (word.text.includes(text)) {
-            console.log(word.text + ' contains ' + text)
             filteredCloud.push(word);
           }
         }
@@ -144,7 +143,7 @@ class App extends Component {
                 <div className="navbar-brand">
                   <a href="http://localhost:3000/" className="navbar-item">
                     <NavLink exact to="/">
-                      <img src="/politik_logo.png" alt="fuck" />
+                      <img src="https://i.imgur.com/5kT7Vl7.png" alt="fuck" />
                     </NavLink>
                   </a>
                   <span
@@ -192,7 +191,7 @@ class App extends Component {
         <section className="hero is-fullheight">
           <div className="hero-body">
             <div className="hero-body">
-              <div className="container has-text-centered">
+              <div className="container">
                 <Switch>
                   <Route
                     exact
@@ -212,9 +211,7 @@ class App extends Component {
                             onChange={this.filterWordCloud}
                             placeholder="Filter words"
                           />
-                          <button onClick={this.clearFilter}>
-                            reset
-                          </button>
+                          <button onClick={this.clearFilter}>reset</button>
                           <WordCloud
                             data={this.state.filteredWordCloud}
                             fontSizeMapper={this.fontSizeMapper}
@@ -268,9 +265,7 @@ class App extends Component {
                             onChange={this.filterWordCloud}
                             placeholder="Filter words"
                           />
-                          <button onClick={this.clearFilter}>
-                            reset
-                          </button>
+                          <button onClick={this.clearFilter}>reset</button>
                           <WordCloud
                             data={this.state.filteredWordCloud}
                             fontSizeMapper={this.fontSizeMapper}
