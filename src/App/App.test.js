@@ -26,7 +26,7 @@ describe('App Component', () => {
 
       await wrapper.instance().setInitialState();
       expect(window.fetch).toHaveBeenCalledWith(
-        'https://whispering-fjord-31037.herokuapp.com/api/v1/lobbying_representations?start=0&end=30'
+        'https://whispering-fjord-31037.herokuapp.com/api/v1/lobbying_representations?start=0&end=60'
       );
       // expect(wrapper.state().recentTopics.length).toEqual(0);
     });
