@@ -24,7 +24,7 @@ const About = () => {
         What is Lobbying?
         <br />
         <a href="https://en.wikipedia.org/wiki/Lobbying">Wikipedia</a> defines
-        Lobbying is a persuasion, or interest representation is the act of
+        Lobbying as a persuasion, or interest representation in the act of
         attempting to influence the actions, policies, or decisions of officials
         in their daily life, most often legislators or members of regulatory
         agencies. Lobbying is done by many types of people, associations and
@@ -38,8 +38,8 @@ const About = () => {
         Lobbying affects politics in the US.
         <iframe
           title="youtube-vid"
-          width="560"
-          height="315"
+          width="1320"
+          height="915"
           src="https://www.youtube.com/embed/5tu32CCA_Ig"
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

@@ -15,9 +15,9 @@ const ModalCard = ({ filingId, clientName, topic, register, date }) => {
         <div className="media">
           <div className="card-content">
             <div className="media-content">
+              <p className="title is-size-6">{topic}</p>
+              <p className="subtitle">For Client {clientName}</p>
               <p className="subtitle">Registered by {register}</p>
-              <p className="title is-size-6">For Client {clientName}</p>
-              <p className="subtitle">{topic}</p>
             </div>
           </div>
         </div>

@@ -1,4 +1,19 @@
 h1 {
   color: white;
   font-size: 2rem;
+  text-decoration-color: blueviolet;
+}
+
+p.card-header-title {
+  font-size: 1.5rem;
+}
+
+p.subtitle {
+  font-size: 0.7rem;
+  margin-top: -1rem;
+}
+
+.title {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }

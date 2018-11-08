@@ -2,6 +2,10 @@ text {
   cursor: pointer;
 }
 
+text:hover {
+  font-weight: 900;
+}
+
 div .hero-body {
   padding-top: 0.5rem;
 }
@@ -34,6 +38,7 @@ div .hero-body {
   display: inline-block;
   font-size: 16px;
   margin-bottom: 1.5rem;
+  cursor: pointer;
 }
 
 .input-home-field {
@@ -57,6 +62,7 @@ div .hero-body {
   display: inline-block;
   font-size: 16px;
   margin-bottom: 1rem;
+  cursor: pointer;
 }
 
 .wordcloud-input {
@@ -71,7 +77,6 @@ div .hero-body {
 
 iframe {
   margin-top: 1.5rem;
-  margin-left: 20rem;
 }
 
 .lobbyist-name {
