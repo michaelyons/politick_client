@@ -58,7 +58,7 @@ ShallowWrapper {
           >
             Wikipedia
           </a>
-           defines Lobbying is a persuasion, or interest representation is the act of attempting to influence the actions, policies, or decisions of officials in their daily life, most often legislators or members of regulatory agencies. Lobbying is done by many types of people, associations and organized groups, including individuals in the private sector, corporations, fellow legislators or government officials, or advocacy groups (interest groups).
+           defines Lobbying as a persuasion, or interest representation in the act of attempting to influence the actions, policies, or decisions of officials in their daily life, most often legislators or members of regulatory agencies. Lobbying is done by many types of people, associations and organized groups, including individuals in the private sector, corporations, fellow legislators or government officials, or advocacy groups (interest groups).
         </h2>,
         <h2
           className="subtitle"
@@ -75,10 +75,10 @@ ShallowWrapper {
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen={true}
             frameBorder="0"
-            height="315"
+            height="915"
             src="https://www.youtube.com/embed/5tu32CCA_Ig"
             title="youtube-vid"
-            width="560"
+            width="1320"
           />
         </h2>,
         <h2>
@@ -222,7 +222,7 @@ ShallowWrapper {
             >
               Wikipedia
             </a>,
-            " defines Lobbying is a persuasion, or interest representation is the act of attempting to influence the actions, policies, or decisions of officials in their daily life, most often legislators or members of regulatory agencies. Lobbying is done by many types of people, associations and organized groups, including individuals in the private sector, corporations, fellow legislators or government officials, or advocacy groups (interest groups).",
+            " defines Lobbying as a persuasion, or interest representation in the act of attempting to influence the actions, policies, or decisions of officials in their daily life, most often legislators or members of regulatory agencies. Lobbying is done by many types of people, associations and organized groups, including individuals in the private sector, corporations, fellow legislators or government officials, or advocacy groups (interest groups).",
           ],
           "className": "subtitle",
         },
@@ -250,7 +250,7 @@ ShallowWrapper {
             "rendered": "Wikipedia",
             "type": "a",
           },
-          " defines Lobbying is a persuasion, or interest representation is the act of attempting to influence the actions, policies, or decisions of officials in their daily life, most often legislators or members of regulatory agencies. Lobbying is done by many types of people, associations and organized groups, including individuals in the private sector, corporations, fellow legislators or government officials, or advocacy groups (interest groups).",
+          " defines Lobbying as a persuasion, or interest representation in the act of attempting to influence the actions, policies, or decisions of officials in their daily life, most often legislators or members of regulatory agencies. Lobbying is done by many types of people, associations and organized groups, including individuals in the private sector, corporations, fellow legislators or government officials, or advocacy groups (interest groups).",
         ],
         "type": "h2",
       },
@@ -272,10 +272,10 @@ ShallowWrapper {
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen={true}
               frameBorder="0"
-              height="315"
+              height="915"
               src="https://www.youtube.com/embed/5tu32CCA_Ig"
               title="youtube-vid"
-              width="560"
+              width="1320"
             />,
           ],
           "className": "subtitle",
@@ -305,10 +305,10 @@ ShallowWrapper {
               "allow": "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
               "allowFullScreen": true,
               "frameBorder": "0",
-              "height": "315",
+              "height": "915",
               "src": "https://www.youtube.com/embed/5tu32CCA_Ig",
               "title": "youtube-vid",
-              "width": "560",
+              "width": "1320",
             },
             "ref": null,
             "rendered": null,
@@ -479,7 +479,7 @@ ShallowWrapper {
             >
               Wikipedia
             </a>
-             defines Lobbying is a persuasion, or interest representation is the act of attempting to influence the actions, policies, or decisions of officials in their daily life, most often legislators or members of regulatory agencies. Lobbying is done by many types of people, associations and organized groups, including individuals in the private sector, corporations, fellow legislators or government officials, or advocacy groups (interest groups).
+             defines Lobbying as a persuasion, or interest representation in the act of attempting to influence the actions, policies, or decisions of officials in their daily life, most often legislators or members of regulatory agencies. Lobbying is done by many types of people, associations and organized groups, including individuals in the private sector, corporations, fellow legislators or government officials, or advocacy groups (interest groups).
           </h2>,
           <h2
             className="subtitle"
@@ -496,10 +496,10 @@ ShallowWrapper {
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen={true}
               frameBorder="0"
-              height="315"
+              height="915"
               src="https://www.youtube.com/embed/5tu32CCA_Ig"
               title="youtube-vid"
-              width="560"
+              width="1320"
             />
           </h2>,
           <h2>
@@ -643,7 +643,7 @@ ShallowWrapper {
               >
                 Wikipedia
               </a>,
-              " defines Lobbying is a persuasion, or interest representation is the act of attempting to influence the actions, policies, or decisions of officials in their daily life, most often legislators or members of regulatory agencies. Lobbying is done by many types of people, associations and organized groups, including individuals in the private sector, corporations, fellow legislators or government officials, or advocacy groups (interest groups).",
+              " defines Lobbying as a persuasion, or interest representation in the act of attempting to influence the actions, policies, or decisions of officials in their daily life, most often legislators or members of regulatory agencies. Lobbying is done by many types of people, associations and organized groups, including individuals in the private sector, corporations, fellow legislators or government officials, or advocacy groups (interest groups).",
             ],
             "className": "subtitle",
           },
@@ -671,7 +671,7 @@ ShallowWrapper {
               "rendered": "Wikipedia",
               "type": "a",
             },
-            " defines Lobbying is a persuasion, or interest representation is the act of attempting to influence the actions, policies, or decisions of officials in their daily life, most often legislators or members of regulatory agencies. Lobbying is done by many types of people, associations and organized groups, including individuals in the private sector, corporations, fellow legislators or government officials, or advocacy groups (interest groups).",
+            " defines Lobbying as a persuasion, or interest representation in the act of attempting to influence the actions, policies, or decisions of officials in their daily life, most often legislators or members of regulatory agencies. Lobbying is done by many types of people, associations and organized groups, including individuals in the private sector, corporations, fellow legislators or government officials, or advocacy groups (interest groups).",
           ],
           "type": "h2",
         },
@@ -693,10 +693,10 @@ ShallowWrapper {
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen={true}
                 frameBorder="0"
-                height="315"
+                height="915"
                 src="https://www.youtube.com/embed/5tu32CCA_Ig"
                 title="youtube-vid"
-                width="560"
+                width="1320"
               />,
             ],
             "className": "subtitle",
@@ -726,10 +726,10 @@ ShallowWrapper {
                 "allow": "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
                 "allowFullScreen": true,
                 "frameBorder": "0",
-                "height": "315",
+                "height": "915",
                 "src": "https://www.youtube.com/embed/5tu32CCA_Ig",
                 "title": "youtube-vid",
-                "width": "560",
+                "width": "1320",
               },
               "ref": null,
               "rendered": null,
