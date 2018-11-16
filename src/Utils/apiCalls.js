@@ -24,6 +24,13 @@ export const tweetPostRequest = async infoPayload => {
   return response;
 };
 
+export const getCurrentUser = async id => {
+  const url = `https://ml-politick-server.herokuapp.com/api/user/${id}`;
+  const response = fetch(url);
+  const user = await response.json();
+  return user;
+};
+
 export const lobbyistListFetchCall = async () => {
   const url = `https://whispering-fjord-31037.herokuapp.com/api/v1/lobbying_representations?lobbyist=1435`;
   const response = await fetch(url);

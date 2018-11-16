@@ -184,6 +184,14 @@ class App extends Component {
                         ABOUT
                       </NavLink>
                     </div>
+                    <div
+                      href="https://ml-politick-server.herokuapp.com/twitter/login"
+                      className="navbar-item"
+                    >
+                      <NavLink exact to="/tweet">
+                        LOGIN TO TWITTER
+                      </NavLink>
+                    </div>
                     <span className="navbar-item" />
                   </div>
                 </div>
