@@ -143,7 +143,10 @@ class App extends Component {
                 <div className="navbar-brand">
                   <div href="http://localhost:3000/" className="navbar-item">
                     <NavLink exact to="/">
-                      <img src="https://i.imgur.com/5kT7Vl7.png" alt="fuck" />
+                      <img
+                        src="https://i.imgur.com/5kT7Vl7.png"
+                        alt="title-img"
+                      />
                     </NavLink>
                   </div>
                   <span
