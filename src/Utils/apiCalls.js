@@ -12,6 +12,18 @@ export const lobbyistFetchCall = async () => {
   return data;
 };
 
+export const tweetPostRequest = async infoPayload => {
+  const url = 'https://ml-politick-server.herokuapp.com/twitter/posttweet';
+  const response = await fetch(url, {
+    method: 'POST',
+    body: JSON.stringify(infoPayload),
+    headers: {
+      'Content-Type': 'application-json'
+    }
+  });
+  return response;
+};
+
 export const lobbyistListFetchCall = async () => {
   const url = `https://whispering-fjord-31037.herokuapp.com/api/v1/lobbying_representations?lobbyist=1435`;
   const response = await fetch(url);
