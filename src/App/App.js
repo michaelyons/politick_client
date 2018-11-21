@@ -48,7 +48,8 @@ class App extends Component {
   };
 
   setCurrentUser = async () => {
-    const currentUser = await grabTwitterUsername();
+    const id = window.location.search.slice(6);
+    const currentUser = await grabTwitterUsername(id);
     const user = currentUser.find(user => user.username);
     this.setState({ currentUser: user });
   };

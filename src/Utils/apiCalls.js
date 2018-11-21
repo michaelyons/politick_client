@@ -24,8 +24,8 @@ export const tweetPostRequest = async infoPayload => {
   return response;
 };
 
-export const grabTwitterUsername = async () => {
-  const url = `https://ml-politick-server.herokuapp.com/api/users/`;
+export const grabTwitterUsername = async id => {
+  const url = `https://ml-politick-server.herokuapp.com/api/users/${id}`;
   const response = await fetch(url);
   const user = await response.json();
   return user.username;
