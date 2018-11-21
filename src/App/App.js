@@ -36,11 +36,9 @@ class App extends Component {
     };
   }
 
-  componentDidMount() {
+  componentDidUpdate() {
     if (window.location.search.length > 4) {
       this.setCurrentUser();
-    } else {
-      return;
     }
   }
 
