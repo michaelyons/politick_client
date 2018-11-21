@@ -201,7 +201,7 @@ class App extends Component {
                     <a
                       href="https://ml-politick-server.herokuapp.com/twitter/login"
                       className="navbar-item"
-                      onClick={this.setCurrentUser()}
+                      onClick={this.setCurrentUser}
                     >
                       LOGIN TO YOUR TWITTER <i className="fab fa-twitter" />
                     </a>
