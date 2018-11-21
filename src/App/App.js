@@ -2,13 +2,15 @@ import React, { Component } from 'react';
 import RecentTopicsContainer from '../RecentTopicsContainer/RecentTopicsContainer';
 import LobbyistShow from '../LobbyistShow/LobbyistShow';
 import About from '../About/About';
+// import PostTweet from '../PostTweet/PostTweet';
 import { Route, Switch, NavLink } from 'react-router-dom';
 import {
   recentTopicsFetchCall,
   lobbyistFetchCall,
   wordCloudFetch,
   lobbyistListFetchCall,
-  specificWordFetch
+  specificWordFetch,
+  grabTwitterUsername
 } from '../Utils/apiCalls';
 import ModalContainer from '../ModalContainer/ModalContainer';
 import WordCloud from 'react-d3-cloud';
@@ -29,7 +31,8 @@ class App extends Component {
       currentId: '',
       errors: '',
       active: false,
-      loading: true
+      loading: true,
+      currentUser: ''
     };
   }
 
@@ -38,6 +41,17 @@ class App extends Component {
       try {
         const recentTopics = await recentTopicsFetchCall();
         this.setState({ recentTopics, loading: false });
+      } catch (error) {
+        this.setState({ errors: error.message });
+      }
+    }
+  };
+
+  setCurrentUser = async () => {
+    if (!this.state.currentUser) {
+      try {
+        const currentUser = await grabTwitterUsername();
+        this.setState({ currentUser });
       } catch (error) {
         this.setState({ errors: error.message });
       }
@@ -184,6 +198,13 @@ class App extends Component {
                         ABOUT
                       </NavLink>
                     </div>
+                    <a
+                      href="https://ml-politick-server.herokuapp.com/twitter/login"
+                      className="navbar-item"
+                      onClick={this.setCurrentUser}
+                    >
+                      LOGIN TO YOUR TWITTER <i className="fab fa-twitter" />
+                    </a>
                     <span className="navbar-item" />
                   </div>
                 </div>
