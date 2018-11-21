@@ -36,6 +36,14 @@ class App extends Component {
     };
   }
 
+  componentDidMount() {
+    if (window.location.search.length > 4) {
+      this.setCurrentUser();
+    } else {
+      return;
+    }
+  }
+
   setInitialState = async () => {
     if (!this.state.recentTopics.length) {
       try {
@@ -196,7 +204,6 @@ class App extends Component {
                     <a
                       href="https://ml-politick-server.herokuapp.com/twitter/login"
                       className="navbar-item"
-                      onClick={this.setCurrentUser}
                     >
                       LOGIN TO YOUR TWITTER <i className="fab fa-twitter" />
                     </a>
