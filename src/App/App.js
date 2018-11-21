@@ -50,8 +50,7 @@ class App extends Component {
   setCurrentUser = async () => {
     const id = window.location.search.slice(5);
     const currentUser = await grabTwitterUsername(id);
-    const user = currentUser.find(user => user.username);
-    this.setState({ currentUser: user });
+    this.setState({ currentUser });
   };
 
   setWordCloud = async () => {
