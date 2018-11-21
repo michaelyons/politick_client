@@ -48,14 +48,9 @@ class App extends Component {
   };
 
   setCurrentUser = async () => {
-    if (!this.state.currentUser) {
-      try {
-        const currentUser = await grabTwitterUsername();
-        this.setState({ currentUser });
-      } catch (error) {
-        this.setState({ errors: error.message });
-      }
-    }
+    const currentUser = await grabTwitterUsername();
+    const user = currentUser.find(user => user.username);
+    this.setState({ currentUser: user });
   };
 
   setWordCloud = async () => {
