@@ -38,7 +38,7 @@ class App extends Component {
     };
   }
 
-  componentDidUpdate() {
+  componentDidMount() {
     const userNameParams = window.location.search;
     console.log(userNameParams);
     if (userNameParams.includes('?user')) {
@@ -61,7 +61,9 @@ class App extends Component {
 
   setCurrentUser = async () => {
     const id = window.location.search.slice(5);
+    console.log(id);
     const currentUser = await grabTwitterUsername(id);
+    console.log(currentUser);
     this.setState({ currentUser });
   };
 
