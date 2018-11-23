@@ -206,7 +206,11 @@ class App extends Component {
                       </NavLink>
                     </div>
                   </div>
-                  {this.state.currentUser ? <LoginSuccess /> : <TwitterLogin />}
+                  {this.state.currentUser ? (
+                    <LoginSuccess currentUser={this.state.currentUser} />
+                  ) : (
+                    <TwitterLogin />
+                  )}
                 </div>
               </div>
             </nav>
