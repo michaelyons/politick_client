@@ -1,6 +1,7 @@
 import React from 'react';
 
 const LoginSuccess = currentUser => {
+  console.log(currentUser);
   return (
     <div>
       <a
@@ -8,7 +9,6 @@ const LoginSuccess = currentUser => {
         className="navbar-item"
       >
         {`LOGOUT ${currentUser}`} <i className="fab fa-twitter" />
-        <i className="fab fa-twitter" />
       </a>
     </div>
   );
