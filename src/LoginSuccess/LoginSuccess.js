@@ -8,7 +8,7 @@ const LoginSuccess = currentUser => {
         href="https://ml-politick-server.herokuapp.com/twitter/logout"
         className="navbar-item"
       >
-        {`WELCOME ${currentUser.username}`} <i className="fab fa-twitter" />
+        {`WELCOME ${currentUser}`} <i className="fab fa-twitter" />
       </a>
     </div>
   );
