@@ -37,9 +37,7 @@ class App extends Component {
   }
 
   componentDidUpdate() {
-    if (window.location.search.length > 4) {
-      this.setCurrentUser();
-    }
+    console.log(window.location.search);
   }
 
   setInitialState = async () => {
