@@ -37,6 +37,9 @@ const LobbyCard = ({
       <div className="card">
         <header className="card-header">
           <p className="card-header-title">Filing ID: {filingId}</p>
+          <button>
+            <i className="fab fa-twitter" />
+          </button>
           <p className="card-header-icon is-italic">Filed: {date}</p>
         </header>
         <div className="media">
