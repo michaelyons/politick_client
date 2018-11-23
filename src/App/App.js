@@ -39,8 +39,8 @@ class App extends Component {
   }
 
   componentDidMount() {
+    this.setCurrentUser();
     const userNameParams = window.location.search;
-    console.log(userNameParams);
     if (userNameParams.includes('?user')) {
       return <LoginSuccess currentUser={this.state.currentUser} />;
     } else {
@@ -61,9 +61,7 @@ class App extends Component {
 
   setCurrentUser = async () => {
     const id = window.location.search.slice(6);
-    console.log(id);
     const currentUser = await grabTwitterUsername(id);
-    console.log(currentUser);
     this.setState({ currentUser });
   };
 
@@ -223,7 +221,6 @@ class App extends Component {
                     exact
                     path="/"
                     render={() => {
-                      this.setCurrentUser();
                       this.setWordCloud();
                       return (
                         <div>
