@@ -60,7 +60,7 @@ class App extends Component {
   };
 
   setCurrentUser = async () => {
-    const id = window.location.search.slice(5);
+    const id = window.location.search.slice(6);
     console.log(id);
     const currentUser = await grabTwitterUsername(id);
     console.log(currentUser);
