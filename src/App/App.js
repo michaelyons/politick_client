@@ -3,6 +3,8 @@ import RecentTopicsContainer from '../RecentTopicsContainer/RecentTopicsContaine
 import LobbyistShow from '../LobbyistShow/LobbyistShow';
 import About from '../About/About';
 // import PostTweet from '../PostTweet/PostTweet';
+import TwitterLogin from '../TwitterLogin/TwitterLogin';
+import LoginSuccess from '../LoginSuccess/LoginSuccess';
 import { Route, Switch, NavLink } from 'react-router-dom';
 import {
   recentTopicsFetchCall,
@@ -37,7 +39,13 @@ class App extends Component {
   }
 
   componentDidUpdate() {
-    console.log(window.location.search);
+    const userNameParams = window.location.search;
+    console.log(userNameParams);
+    if (userNameParams.includes('?user')) {
+      return <LoginSuccess currentUser={this.state.currentUser} />;
+    } else {
+      return <TwitterLogin />;
+    }
   }
 
   setInitialState = async () => {
@@ -197,14 +205,8 @@ class App extends Component {
                         ABOUT
                       </NavLink>
                     </div>
-                    <a
-                      href="https://ml-politick-server.herokuapp.com/twitter/login"
-                      className="navbar-item"
-                    >
-                      LOGIN TO YOUR TWITTER <i className="fab fa-twitter" />
-                    </a>
-                    <span className="navbar-item" />
                   </div>
+                  {this.state.currentUser ? <LoginSuccess /> : <TwitterLogin />}
                 </div>
               </div>
             </nav>
