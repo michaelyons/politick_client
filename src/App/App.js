@@ -223,6 +223,7 @@ class App extends Component {
                     exact
                     path="/"
                     render={() => {
+                      this.setCurrentUser();
                       this.setWordCloud();
                       return (
                         <div>
