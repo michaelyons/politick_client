@@ -7,12 +7,14 @@ class PostTweet extends Component {
     super(props);
     this.state = {
       tweetText: '',
+      twitterUserId: '',
       error: ''
     };
   }
 
   componentDidMount() {
-    console.log(this.props.currentTwitterUser);
+    const id = window.location.search.slice(6);
+    this.setState({ twitterUserId: id });
     this.populateTweet();
   }
 
@@ -39,7 +41,7 @@ class PostTweet extends Component {
 
   postTweet = () => {
     const infoPayload = {
-      userId: this.props.currentTwitterUser,
+      userId: this.state.twitterUserId,
       status: this.state.tweetText
     };
     tweetPostRequest(infoPayload);

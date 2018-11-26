@@ -10,7 +10,6 @@ const RecentTopicsContainer = ({
   fetchLobbyData,
   currentTwitterUser
 }) => {
-  console.log(currentTwitterUser);
   const lobbyCard = recentTopicsCategory.map((topic, index) => (
     <LobbyCard
       setCurrentId={setCurrentId}
