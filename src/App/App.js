@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import RecentTopicsContainer from '../RecentTopicsContainer/RecentTopicsContainer';
 import LobbyistShow from '../LobbyistShow/LobbyistShow';
 import About from '../About/About';
-// import PostTweet from '../PostTweet/PostTweet';
 import TwitterLogin from '../TwitterLogin/TwitterLogin';
 import LoginSuccess from '../LoginSuccess/LoginSuccess';
 import { Route, Switch, NavLink } from 'react-router-dom';
@@ -345,16 +344,6 @@ class App extends Component {
                 </div>
                 <button className="modal-close is-large" aria-label="close" />
               </div>
-              {/* <div
-                className={`modal ${this.state.active ? 'is-active' : ''}`}
-                onClick={this.toggleClass}
-              >
-                <div className="modal-background" />
-                <div className="modal-content">
-                  <PostTweet modal={this.state.showWords} />
-                </div>
-                <button className="modal-close is-large" aria-label="close" />
-              </div> */}
             </div>
           </div>
         </section>
