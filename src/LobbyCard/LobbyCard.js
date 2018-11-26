@@ -15,7 +15,6 @@ class LobbyCard extends Component {
 
   toggleTweetButton = () => {
     const currentState = this.state.tweetRecent;
-    console.log('hiiiii');
     this.setState({ tweetRecent: !currentState });
   };
 

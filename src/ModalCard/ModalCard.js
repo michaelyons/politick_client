@@ -13,7 +13,6 @@ class ModalCard extends Component {
 
   toggleTwitterClass = () => {
     const currentState = this.state.tweetActive;
-    console.log('hiiiii');
     this.setState({ tweetActive: !currentState });
   };
 

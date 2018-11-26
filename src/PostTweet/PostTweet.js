@@ -12,6 +12,7 @@ class PostTweet extends Component {
   }
 
   componentDidMount() {
+    console.log(this.props.currentTwitterUser);
     this.populateTweet();
   }
 
