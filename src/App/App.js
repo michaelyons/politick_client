@@ -33,7 +33,8 @@ class App extends Component {
       errors: '',
       active: false,
       loading: true,
-      currentUser: ''
+      currentUser: '',
+      twitterUserId: ''
     };
   }
 
@@ -61,7 +62,7 @@ class App extends Component {
   setCurrentUser = async () => {
     const id = window.location.search.slice(6);
     const currentUser = await grabTwitterUsername(id);
-    this.setState({ currentUser });
+    this.setState({ currentUser, twitterUserId: id });
   };
 
   setWordCloud = async () => {
@@ -275,7 +276,7 @@ class App extends Component {
                             recentTopicsCategory={this.state.recentTopics}
                             setCurrentId={this.setCurrentId}
                             fetchLobbyData={this.fetchLobbyistList}
-                            currentTwitterUser={this.state.currentUser}
+                            currentTwitterUser={this.state.twitterUserId}
                           />
                         </div>
                       );
