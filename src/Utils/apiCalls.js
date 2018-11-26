@@ -18,7 +18,7 @@ export const tweetPostRequest = async infoPayload => {
     method: 'POST',
     body: JSON.stringify(infoPayload),
     headers: {
-      'Content-Type': 'application-json'
+      'Content-Type': 'application/json'
     }
   });
   return response;
