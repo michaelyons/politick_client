@@ -3,10 +3,7 @@ import React from 'react';
 const LoginSuccess = currentUser => {
   return (
     <div>
-      <a
-        href="https://ml-politick-server.herokuapp.com/twitter/logout"
-        className="navbar-item"
-      >
+      <a href="https://ml-politick-server.herokuapp.com/twitter/">
         {`WELCOME ${currentUser.currentUser}`} <i className="fab fa-twitter" />
       </a>
     </div>
