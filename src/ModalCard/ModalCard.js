@@ -29,13 +29,6 @@ class ModalCard extends Component {
             </button>
             <p className="card-header-icon is-italic">Filed {date}</p>
           </header>
-          {/* <div className={`modal ${this.state.tweetActive ? 'is-active' : ''}`}>
-            <div className="modal-background" />
-            <div className="modal-content">
-              <PostTweet />
-            </div>
-            <button className="modal-close is-large" aria-label="close" />
-          </div> */}
           <div className="media">
             <div className="card-content">
               <div className="media-content">

@@ -16,7 +16,8 @@ class PostTweet extends Component {
     this.populateTweet();
   }
 
-  handleSubmit = () => {
+  handleSubmit = event => {
+    event.preventDefault();
     this.postTweet();
     this.setState({
       tweetText: 'Tweet Sent Successfully!'
