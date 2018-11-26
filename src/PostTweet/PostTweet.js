@@ -37,6 +37,7 @@ class PostTweet extends Component {
   };
 
   postTweet = () => {
+    console.log(this.props.currentTwitterUser);
     const infoPayload = {
       userId: this.props.currentTwitterUser,
       status: this.state.tweetText
