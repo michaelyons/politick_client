@@ -14,8 +14,18 @@ class LobbyCard extends Component {
   }
 
   toggleTweetButton = () => {
-    const currentState = this.state.tweetRecent;
-    this.setState({ tweetRecent: !currentState });
+    setTimeout(() => {
+      const currentState = this.state.tweetRecent;
+      this.setState({ tweetRecent: !currentState });
+    }, 1500);
+  };
+
+  setCurrentId = () => {
+    return setTimeout(() => {
+      const { pathname } = window.location;
+      const pathValue = pathname.split('/').pop();
+      this.setState({ currentId: pathValue }, () => pathValue);
+    }, 1);
   };
 
   render() {
