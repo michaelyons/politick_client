@@ -7,7 +7,8 @@ class PostTweet extends Component {
     super(props);
     this.state = {
       tweetText: '',
-      error: ''
+      error: '',
+      tweetRecent: false
     };
   }
 
@@ -17,9 +18,11 @@ class PostTweet extends Component {
 
   handleSubmit = event => {
     event.preventDefault();
+    const currentState = this.state.tweetRecent;
     this.postTweet();
     this.setState({
-      tweetText: 'Tweet Sent Successfully!'
+      tweetText: 'Tweet Sent Successfully!',
+      tweetRecent: !currentState
     });
   };
 
