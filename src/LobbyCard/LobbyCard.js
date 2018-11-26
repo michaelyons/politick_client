@@ -28,7 +28,8 @@ class LobbyCard extends Component {
       register,
       topic,
       setCurrentId,
-      fetchLobbyData
+      fetchLobbyData,
+      currentTwitterUser
     } = this.props;
     if (!lobbyists) {
       return <LoadingGif />;
@@ -61,7 +62,7 @@ class LobbyCard extends Component {
           <div className={`modal ${this.state.tweetRecent ? 'is-active' : ''}`}>
             <div className="modal-background" />
             <div className="modal-content">
-              <PostTweet />
+              <PostTweet currentTwitterUser={currentTwitterUser} />
             </div>
             <button className="modal-close is-large" aria-label="close" />
           </div>
@@ -89,7 +90,8 @@ LobbyCard.propTypes = {
   topic: PropTypes.string,
   setCurrentId: PropTypes.func,
   fetchLobbyData: PropTypes.func,
-  date: PropTypes.string
+  date: PropTypes.string,
+  currentTwitterUser: PropTypes.string
 };
 
 export default LobbyCard;

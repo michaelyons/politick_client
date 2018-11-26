@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import PostTweet from '../PostTweet/PostTweet';
+// import PostTweet from '../PostTweet/PostTweet';
 import PropTypes from 'prop-types';
 import './ModalCard.css';
 

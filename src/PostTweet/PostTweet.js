@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import { tweetPostRequest } from '../Utils/apiCalls';
 
 class PostTweet extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       tweetText: '',
       error: ''
@@ -38,7 +38,7 @@ class PostTweet extends Component {
 
   postTweet = () => {
     const infoPayload = {
-      userId: this.props.currentUser._id,
+      userId: this.props.currentTwitterUser,
       status: this.state.tweetText
     };
     tweetPostRequest(infoPayload);
@@ -71,7 +71,7 @@ class PostTweet extends Component {
 }
 
 PostTweet.propTypes = {
-  currentUser: PropTypes.object
+  currentTwitterUser: PropTypes.object
 };
 
 export default PostTweet;

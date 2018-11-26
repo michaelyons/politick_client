@@ -275,6 +275,7 @@ class App extends Component {
                             recentTopicsCategory={this.state.recentTopics}
                             setCurrentId={this.setCurrentId}
                             fetchLobbyData={this.fetchLobbyistList}
+                            currentTwitterUser={this.state.currentUser}
                           />
                         </div>
                       );
