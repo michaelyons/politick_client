@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import RecentTopicsContainer from '../RecentTopicsContainer/RecentTopicsContainer';
 import LobbyistShow from '../LobbyistShow/LobbyistShow';
 import About from '../About/About';
-import PostTweet from '../PostTweet/PostTweet';
+// import PostTweet from '../PostTweet/PostTweet';
 import TwitterLogin from '../TwitterLogin/TwitterLogin';
 import LoginSuccess from '../LoginSuccess/LoginSuccess';
 import { Route, Switch, NavLink } from 'react-router-dom';
@@ -206,11 +206,13 @@ class App extends Component {
                       </NavLink>
                     </div>
                   </div>
-                  {this.state.currentUser ? (
-                    <LoginSuccess currentUser={this.state.currentUser} />
-                  ) : (
-                    <TwitterLogin />
-                  )}
+                  <div className="twitter-login-btn">
+                    {this.state.currentUser ? (
+                      <LoginSuccess currentUser={this.state.currentUser} />
+                    ) : (
+                      <TwitterLogin />
+                    )}
+                  </div>
                 </div>
               </div>
             </nav>

@@ -10,6 +10,10 @@ div .hero-body {
   padding-top: 0.5rem;
 }
 
+.twitter-login-btn {
+  margin-top: 0.9rem;
+}
+
 .modal-content {
   color: black;
   background-color: rgba(0, 0, 0, 0.01);
