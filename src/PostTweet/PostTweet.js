@@ -47,25 +47,23 @@ class PostTweet extends Component {
 
   render() {
     return (
-      <div>
-        <div className="card">
-          <header className="card-header">
-            <h2 className="card-header-title">Send Tweet</h2>
-          </header>
-          <form className="card-content" onSubmit={this.handleSubmit}>
-            <div className="media">
-              <div className="media-content">
-                <textarea
-                  name="tweetText"
-                  rows="10"
-                  onChange={this.handleChange}
-                  value={this.state.tweetText}
-                />
-                <button onClick={this.postTweet}>Send Tweet</button>
-              </div>
+      <div className="card">
+        <header className="card-header">
+          <h2 className="card-header-title">Send Tweet</h2>
+        </header>
+        <form className="card-content" onSubmit={this.handleSubmit}>
+          <div className="media">
+            <div className="media-content">
+              <textarea
+                name="tweetText"
+                rows="10"
+                onChange={this.handleChange}
+                value={this.state.tweetText}
+              />
+              <button onClick={this.postTweet}>Send Tweet</button>
             </div>
-          </form>
-        </div>
+          </div>
+        </form>
       </div>
     );
   }
