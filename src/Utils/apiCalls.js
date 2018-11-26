@@ -68,7 +68,7 @@ const cleanInitialFetch = data => {
       filingId: object.filing_id,
       date: object.created_at,
       clientName: object.client.name,
-      topic: object.issue.slice(2, object.issue.length - 5),
+      topic: object.issue.slice(2, object.issue.length - 2),
       lobbyists: cleanLobbyists,
       register: object.registrant.name
     };
