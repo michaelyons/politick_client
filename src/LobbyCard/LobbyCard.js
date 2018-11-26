@@ -58,7 +58,10 @@ class LobbyCard extends Component {
             </button>
             <p className="card-header-icon is-italic">Filed: {date}</p>
           </header>
-          <div className={`modal ${this.state.tweetRecent ? 'is-active' : ''}`}>
+          <div
+            className={`modal ${this.state.tweetRecent ? 'is-active' : ''}`}
+            onClick={this.toggleTweetButton}
+          >
             <div className="modal-background" />
             <div className="modal-content">
               <PostTweet currentTwitterUser={currentTwitterUser} />
