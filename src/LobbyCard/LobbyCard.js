@@ -60,7 +60,7 @@ class LobbyCard extends Component {
           </header>
           <div
             className={`modal ${this.state.tweetRecent ? 'is-active' : ''}`}
-            onClick={this.toggleTweetButton}
+            onSubmit={this.toggleTweetButton}
           >
             <div className="modal-background" />
             <div className="modal-content">
