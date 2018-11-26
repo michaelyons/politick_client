@@ -7,7 +7,8 @@ import './RecentTopicsContainer.css';
 const RecentTopicsContainer = ({
   recentTopicsCategory,
   setCurrentId,
-  fetchLobbyData
+  fetchLobbyData,
+  currentTwitterUser
 }) => {
   const lobbyCard = recentTopicsCategory.map((topic, index) => (
     <LobbyCard
@@ -15,6 +16,7 @@ const RecentTopicsContainer = ({
       {...topic}
       key={index}
       fetchLobbyData={fetchLobbyData}
+      currentTwitterUser={currentTwitterUser}
     />
   ));
   return (
@@ -28,7 +30,8 @@ const RecentTopicsContainer = ({
 RecentTopicsContainer.propTypes = {
   recentTopicsCategory: PropTypes.array,
   setCurrentId: PropTypes.func,
-  fetchLobbyData: PropTypes.func
+  fetchLobbyData: PropTypes.func,
+  currentTwitterUser: PropTypes.string
 };
 
 export default RecentTopicsContainer;
