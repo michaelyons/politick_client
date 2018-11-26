@@ -25,7 +25,7 @@ class PostTweet extends Component {
 
   handleChange = event => {
     this.setState({
-      [event.target.name]: event.tager.value
+      [event.target.name]: event.target.value
     });
   };
 
@@ -71,7 +71,7 @@ class PostTweet extends Component {
 }
 
 PostTweet.propTypes = {
-  currentTwitterUser: PropTypes.object
+  currentTwitterUser: PropTypes.string
 };
 
 export default PostTweet;
