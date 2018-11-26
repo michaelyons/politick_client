@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import PostTweet from '../PostTweet/PostTweet';
 import PropTypes from 'prop-types';
 import './ModalCard.css';
 
@@ -23,10 +22,6 @@ class ModalCard extends Component {
         <div className="card">
           <header className="card-header">
             <p className="card-header-title">Filing ID {filingId}</p>
-            <button onClick={this.toggleTwitterClass}>
-              Tweet This Issue
-              <i className="fab fa-twitter" />
-            </button>
             <p className="card-header-icon is-italic">Filed {date}</p>
           </header>
           <div className="media">
