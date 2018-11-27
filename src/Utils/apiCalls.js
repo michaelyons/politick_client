@@ -12,6 +12,16 @@ export const lobbyistFetchCall = async () => {
   return data;
 };
 
+export const congressMemberFetch = async zipcode => {
+  const url = `https://www.googleapis.com/civicinfo/v2/representatives?key=${
+    process.env.REACT_APP_CONGRESS_KEY
+  }&address=${zipcode}&roles=legislatorLowerBody`;
+  const response = await fetch(url);
+  const data = await response.json();
+  console.log(data);
+  return data;
+};
+
 export const tweetPostRequest = async infoPayload => {
   const url = 'https://ml-politick-server.herokuapp.com/twitter/posttweet';
   const response = await fetch(url, {
