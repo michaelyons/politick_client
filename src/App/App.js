@@ -64,6 +64,12 @@ class App extends Component {
     }
   };
 
+  getRepresentative = async zipcodeObject => {
+    const zip = zipcodeObject.zipcode;
+    const currentRep = await congressMemberFetch(zip);
+    console.log(currentRep);
+  };
+
   setCurrentUser = async () => {
     const id = window.location.search.slice(6);
     const currentUser = await grabTwitterUsername(id);
@@ -192,7 +198,9 @@ class App extends Component {
                           representative={this.state.representativeRealName}
                         />
                       ) : (
-                        <FindRepresentative />
+                        <FindRepresentative
+                          getRepresentative={this.getRepresentative}
+                        />
                       )}
                     </div>
                     <div
