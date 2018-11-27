@@ -32,7 +32,7 @@ export const grabTwitterUsername = async id => {
 };
 
 export const lobbyistListFetchCall = async () => {
-  const url = `https://whispering-fjord-31037.herokuapp.com/api/v1/lobbying_representations?lobbyist=1435`;
+  const url = `https://whispering-fjord-31037.herokuapp.com/api/v1/lobbying_representations?lobbyist=1827`;
   const response = await fetch(url);
   const data = await response.json();
   return cleanWordFetch(data);

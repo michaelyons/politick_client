@@ -336,15 +336,16 @@ class App extends Component {
                   />
                 </Switch>
               </div>
-              <div
-                className={`modal ${this.state.active ? 'is-active' : ''}`}
-                onClick={this.toggleClass}
-              >
+              <div className={`modal ${this.state.active ? 'is-active' : ''}`}>
                 <div className="modal-background" />
                 <div className="modal-content">
                   <ModalContainer modal={this.state.showWords} />
                 </div>
-                <button className="modal-close is-large" aria-label="close" />
+                <button
+                  onClick={this.toggleClass}
+                  className="modal-close is-large"
+                  aria-label="close"
+                />
               </div>
             </div>
           </div>
