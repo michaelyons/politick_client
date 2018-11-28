@@ -10,19 +10,18 @@ Politik automatically gathers data from the ProPublica API each day as Lobbyists
 
 ### Screenshots
 
-<img src="https://github.com/michaelyons/Informant-Client/blob/master/Screen%20Shot%202018-11-01%20at%207.56.07%20AM.png" alt="heading" width="800" height="400"/>
+<img src="https://github.com/michaelyons/Informant-Client/blob/master/Screen%20Shot%202018-11-01%20at%207.56.07%20AM.png" alt="heading" width="400" height="400"/>
 
-<img src="https://github.com/michaelyons/Informant-Client/blob/master/Screen%20Shot%202018-11-01%20at%207.56.42%20AM.png" alt="heading" width="800" height="400"/>
+<img src="https://github.com/michaelyons/Informant-Client/blob/master/Screen%20Shot%202018-11-01%20at%207.56.42%20AM.png" alt="heading" width="400" height="400"/>
 
-<img src="https://github.com/michaelyons/Informant-Client/blob/master/Screen%20Shot%202018-11-01%20at%207.56.55%20AM.png" alt="heading" width="800" height="400"/>
-
+<img src="https://github.com/michaelyons/Informant-Client/blob/master/Screen%20Shot%202018-11-01%20at%207.56.55%20AM.png" alt="heading" width="400" height="400"/>
 
 ### Technologies
 
-* React
-* Router
-* Jest/Enzyme 
-* Python
+- React
+- Router
+- Jest/Enzyme
+- Python
 
 ### APIs
 

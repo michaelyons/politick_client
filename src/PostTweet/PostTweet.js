@@ -59,6 +59,7 @@ class PostTweet extends Component {
                   className="subtitle"
                   name="tweetText"
                   rows="10"
+                  cols="58"
                   onChange={this.handleChange}
                   value={this.state.tweetText}
                 />
