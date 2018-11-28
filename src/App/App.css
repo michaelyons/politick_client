@@ -21,7 +21,7 @@ h2 {
 .rep-area {
   display: flex;
   justify-content: flex-end;
-  width: 92%;
+  width: 93.5%;
 }
 
 input {
@@ -55,6 +55,7 @@ div .hero-body {
 
 .twitter-login-btn {
   margin-top: 0.88rem;
+  padding-left: 0.75rem;
 }
 
 .modal-content {
