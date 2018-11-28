@@ -404,7 +404,12 @@ class App extends Component {
               <div className={`modal ${this.state.active ? 'is-active' : ''}`}>
                 <div className="modal-background" />
                 <div className="modal-content">
-                  <ModalContainer modal={this.state.showWords} />
+                  <ModalContainer
+                    modal={this.state.showWords}
+                    currentTwitterUser={this.state.twitterUserId}
+                    congressTwitterName={this.state.representativeTwitter}
+                    congressRealName={this.state.representativeRealName}
+                  />
                 </div>
                 <button
                   onClick={this.toggleClass}

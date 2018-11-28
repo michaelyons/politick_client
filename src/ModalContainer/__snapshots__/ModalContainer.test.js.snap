@@ -441,6 +441,9 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "clientName": "Weber County Sheriff's Office",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "filingId": 301018450,
               "register": "The Summerill Law Firm",
@@ -456,6 +459,9 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "clientName": "Newaygo County Sheriff's Office",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "filingId": 301019298,
               "register": "The Summerill Law Firm",
@@ -471,6 +477,9 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "clientName": "St. Louis City Justice Center",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "filingId": 301019301,
               "register": "The Summerill Group LLC",
@@ -486,6 +495,9 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "clientName": "Bechtel Global Corporation",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "filingId": 301017458,
               "register": "BGR Government Affairs",
@@ -501,6 +513,9 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "clientName": "Overseas Shipholding Group, Inc.",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "filingId": 301017466,
               "register": "BGR Government Affairs",
@@ -516,6 +531,9 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "clientName": "SAZERAC COMPANY INC.",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "filingId": 301018184,
               "register": "Jones Walker, LLP",
@@ -531,6 +549,9 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "clientName": "The Immigration Hub LLC",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "filingId": 301018924,
               "register": "The Immigration Hub LLC",
@@ -546,6 +567,9 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "clientName": "American Federation of Government Employees, Council 118",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "filingId": 301019063,
               "register": "ATRIO CONSULTING GROUP, LLC",
@@ -561,6 +585,9 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "clientName": "Independent Lubricant Manufacturers Association",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "filingId": 300928721,
               "register": "Bassman, Mitchell, Alfano & Leiter Chtd.",
@@ -576,6 +603,9 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "clientName": "Gregg County Sheriff's Office",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "filingId": 301016471,
               "register": "The Summerill Group LLC",
@@ -591,6 +621,9 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "clientName": "Lubbock County Sheriff's Office",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "filingId": 301017495,
               "register": "The Summerill Group LLC",
@@ -606,6 +639,9 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "clientName": "Greene County Sheriff's Office",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "filingId": 301018432,
               "register": "The Summerill Group LLC",
@@ -621,6 +657,9 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "clientName": "Merrimack County Department of Corrections",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "filingId": 301018435,
               "register": "The Summerill Group LLC",
@@ -636,6 +675,9 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "clientName": "Alamance County Sheriff's Office",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "filingId": 301018440,
               "register": "The Summerill Group LLC",
@@ -651,6 +693,9 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "clientName": "Randall County Sheriffs Office",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "filingId": 301018443,
               "register": "The Summerill Group LLC",
@@ -666,6 +711,9 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "clientName": "Sandoval County Detention Center",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "filingId": 301018446,
               "register": "The Summerill Law Firm",
@@ -681,6 +729,9 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "clientName": "Columbia County Sheriff's Office",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "filingId": 301018447,
               "register": "The Summerill Law Firm",
@@ -696,6 +747,9 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "clientName": "Charleston County Sheriff's Office",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "filingId": 301018448,
               "register": "The Summerill Law Firm",
@@ -1010,6 +1064,9 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "clientName": "Weber County Sheriff's Office",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "filingId": 301018450,
                 "register": "The Summerill Law Firm",
@@ -1025,6 +1082,9 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "clientName": "Newaygo County Sheriff's Office",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "filingId": 301019298,
                 "register": "The Summerill Law Firm",
@@ -1040,6 +1100,9 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "clientName": "St. Louis City Justice Center",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "filingId": 301019301,
                 "register": "The Summerill Group LLC",
@@ -1055,6 +1118,9 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "clientName": "Bechtel Global Corporation",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "filingId": 301017458,
                 "register": "BGR Government Affairs",
@@ -1070,6 +1136,9 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "clientName": "Overseas Shipholding Group, Inc.",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "filingId": 301017466,
                 "register": "BGR Government Affairs",
@@ -1085,6 +1154,9 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "clientName": "SAZERAC COMPANY INC.",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "filingId": 301018184,
                 "register": "Jones Walker, LLP",
@@ -1100,6 +1172,9 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "clientName": "The Immigration Hub LLC",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "filingId": 301018924,
                 "register": "The Immigration Hub LLC",
@@ -1115,6 +1190,9 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "clientName": "American Federation of Government Employees, Council 118",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "filingId": 301019063,
                 "register": "ATRIO CONSULTING GROUP, LLC",
@@ -1130,6 +1208,9 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "clientName": "Independent Lubricant Manufacturers Association",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "filingId": 300928721,
                 "register": "Bassman, Mitchell, Alfano & Leiter Chtd.",
@@ -1145,6 +1226,9 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "clientName": "Gregg County Sheriff's Office",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "filingId": 301016471,
                 "register": "The Summerill Group LLC",
@@ -1160,6 +1244,9 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "clientName": "Lubbock County Sheriff's Office",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "filingId": 301017495,
                 "register": "The Summerill Group LLC",
@@ -1175,6 +1262,9 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "clientName": "Greene County Sheriff's Office",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "filingId": 301018432,
                 "register": "The Summerill Group LLC",
@@ -1190,6 +1280,9 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "clientName": "Merrimack County Department of Corrections",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "filingId": 301018435,
                 "register": "The Summerill Group LLC",
@@ -1205,6 +1298,9 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "clientName": "Alamance County Sheriff's Office",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "filingId": 301018440,
                 "register": "The Summerill Group LLC",
@@ -1220,6 +1316,9 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "clientName": "Randall County Sheriffs Office",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "filingId": 301018443,
                 "register": "The Summerill Group LLC",
@@ -1235,6 +1334,9 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "clientName": "Sandoval County Detention Center",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "filingId": 301018446,
                 "register": "The Summerill Law Firm",
@@ -1250,6 +1352,9 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "clientName": "Columbia County Sheriff's Office",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "filingId": 301018447,
                 "register": "The Summerill Law Firm",
@@ -1265,6 +1370,9 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "clientName": "Charleston County Sheriff's Office",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "filingId": 301018448,
                 "register": "The Summerill Law Firm",

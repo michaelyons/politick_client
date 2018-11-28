@@ -28,12 +28,37 @@ ShallowWrapper {
           >
             Filing ID 
           </p>
+          <button
+            onClick={[Function]}
+          >
+            Tweet This Issue
+            <i
+              className="fab fa-twitter"
+            />
+          </button>
           <p
             className="card-header-icon is-italic"
           >
             Filed 
           </p>
         </header>
+        <div
+          className="modal "
+          onSubmit={[Function]}
+        >
+          <div
+            className="modal-background"
+          />
+          <div
+            className="modal-content"
+          >
+            <PostTweet />
+          </div>
+          <button
+            aria-label="close"
+            className="modal-close is-large"
+          />
+        </div>
         <div
           className="media"
         >
@@ -76,12 +101,37 @@ ShallowWrapper {
             >
               Filing ID 
             </p>
+            <button
+              onClick={[Function]}
+            >
+              Tweet This Issue
+              <i
+                className="fab fa-twitter"
+              />
+            </button>
             <p
               className="card-header-icon is-italic"
             >
               Filed 
             </p>
           </header>,
+          <div
+            className="modal "
+            onSubmit={[Function]}
+          >
+            <div
+              className="modal-background"
+            />
+            <div
+              className="modal-content"
+            >
+              <PostTweet />
+            </div>
+            <button
+              aria-label="close"
+              className="modal-close is-large"
+            />
+          </div>,
           <div
             className="media"
           >
@@ -123,6 +173,14 @@ ShallowWrapper {
               >
                 Filing ID 
               </p>,
+              <button
+                onClick={[Function]}
+              >
+                Tweet This Issue
+                <i
+                  className="fab fa-twitter"
+                />
+              </button>,
               <p
                 className="card-header-icon is-italic"
               >
@@ -157,6 +215,36 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": Array [
+                  "Tweet This Issue",
+                  <i
+                    className="fab fa-twitter"
+                  />,
+                ],
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Tweet This Issue",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "fab fa-twitter",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
+              ],
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
                   "Filed ",
                   undefined,
                 ],
@@ -171,6 +259,81 @@ ShallowWrapper {
             },
           ],
           "type": "header",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="modal-background"
+              />,
+              <div
+                className="modal-content"
+              >
+                <PostTweet />
+              </div>,
+              <button
+                aria-label="close"
+                className="modal-close is-large"
+              />,
+            ],
+            "className": "modal ",
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "modal-background",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <PostTweet />,
+                "className": "modal-content",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "congressRealName": undefined,
+                  "congressTwitterName": undefined,
+                  "currentTwitterUser": undefined,
+                  "filingId": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "aria-label": "close",
+                "className": "modal-close is-large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "button",
+            },
+          ],
+          "type": "div",
         },
         Object {
           "instance": null,
@@ -327,12 +490,37 @@ ShallowWrapper {
             >
               Filing ID 
             </p>
+            <button
+              onClick={[Function]}
+            >
+              Tweet This Issue
+              <i
+                className="fab fa-twitter"
+              />
+            </button>
             <p
               className="card-header-icon is-italic"
             >
               Filed 
             </p>
           </header>
+          <div
+            className="modal "
+            onSubmit={[Function]}
+          >
+            <div
+              className="modal-background"
+            />
+            <div
+              className="modal-content"
+            >
+              <PostTweet />
+            </div>
+            <button
+              aria-label="close"
+              className="modal-close is-large"
+            />
+          </div>
           <div
             className="media"
           >
@@ -375,12 +563,37 @@ ShallowWrapper {
               >
                 Filing ID 
               </p>
+              <button
+                onClick={[Function]}
+              >
+                Tweet This Issue
+                <i
+                  className="fab fa-twitter"
+                />
+              </button>
               <p
                 className="card-header-icon is-italic"
               >
                 Filed 
               </p>
             </header>,
+            <div
+              className="modal "
+              onSubmit={[Function]}
+            >
+              <div
+                className="modal-background"
+              />
+              <div
+                className="modal-content"
+              >
+                <PostTweet />
+              </div>
+              <button
+                aria-label="close"
+                className="modal-close is-large"
+              />
+            </div>,
             <div
               className="media"
             >
@@ -422,6 +635,14 @@ ShallowWrapper {
                 >
                   Filing ID 
                 </p>,
+                <button
+                  onClick={[Function]}
+                >
+                  Tweet This Issue
+                  <i
+                    className="fab fa-twitter"
+                  />
+                </button>,
                 <p
                   className="card-header-icon is-italic"
                 >
@@ -456,6 +677,36 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": Array [
+                    "Tweet This Issue",
+                    <i
+                      className="fab fa-twitter"
+                    />,
+                  ],
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Tweet This Issue",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "fab fa-twitter",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "i",
+                  },
+                ],
+                "type": "button",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
                     "Filed ",
                     undefined,
                   ],
@@ -470,6 +721,81 @@ ShallowWrapper {
               },
             ],
             "type": "header",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="modal-background"
+                />,
+                <div
+                  className="modal-content"
+                >
+                  <PostTweet />
+                </div>,
+                <button
+                  aria-label="close"
+                  className="modal-close is-large"
+                />,
+              ],
+              "className": "modal ",
+              "onSubmit": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "modal-background",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <PostTweet />,
+                  "className": "modal-content",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "congressRealName": undefined,
+                    "congressTwitterName": undefined,
+                    "currentTwitterUser": undefined,
+                    "filingId": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "aria-label": "close",
+                  "className": "modal-close is-large",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "button",
+              },
+            ],
+            "type": "div",
           },
           Object {
             "instance": null,

@@ -183,6 +183,9 @@ ShallowWrapper {
                   className="modal-content"
                 >
                   <ModalContainer
+                    congressRealName=""
+                    congressTwitterName=""
+                    currentTwitterUser=""
                     modal={Array []}
                   />
                 </div>
@@ -1101,6 +1104,9 @@ ShallowWrapper {
                   className="modal-content"
                 >
                   <ModalContainer
+                    congressRealName=""
+                    congressTwitterName=""
+                    currentTwitterUser=""
                     modal={Array []}
                   />
                 </div>
@@ -1164,6 +1170,9 @@ ShallowWrapper {
                   className="modal-content"
                 >
                   <ModalContainer
+                    congressRealName=""
+                    congressTwitterName=""
+                    currentTwitterUser=""
                     modal={Array []}
                   />
                 </div>
@@ -1224,6 +1233,9 @@ ShallowWrapper {
                     className="modal-content"
                   >
                     <ModalContainer
+                      congressRealName=""
+                      congressTwitterName=""
+                      currentTwitterUser=""
                       modal={Array []}
                     />
                   </div>
@@ -1391,6 +1403,9 @@ ShallowWrapper {
                       className="modal-content"
                     >
                       <ModalContainer
+                        congressRealName=""
+                        congressTwitterName=""
+                        currentTwitterUser=""
                         modal={Array []}
                       />
                     </div>,
@@ -1421,6 +1436,9 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": <ModalContainer
+                        congressRealName=""
+                        congressTwitterName=""
+                        currentTwitterUser=""
                         modal={Array []}
                       />,
                       "className": "modal-content",
@@ -1431,6 +1449,9 @@ ShallowWrapper {
                       "key": undefined,
                       "nodeType": "function",
                       "props": Object {
+                        "congressRealName": "",
+                        "congressTwitterName": "",
+                        "currentTwitterUser": "",
                         "modal": Array [],
                       },
                       "ref": null,
@@ -1637,6 +1658,9 @@ ShallowWrapper {
                     className="modal-content"
                   >
                     <ModalContainer
+                      congressRealName=""
+                      congressTwitterName=""
+                      currentTwitterUser=""
                       modal={Array []}
                     />
                   </div>
@@ -2555,6 +2579,9 @@ ShallowWrapper {
                     className="modal-content"
                   >
                     <ModalContainer
+                      congressRealName=""
+                      congressTwitterName=""
+                      currentTwitterUser=""
                       modal={Array []}
                     />
                   </div>
@@ -2618,6 +2645,9 @@ ShallowWrapper {
                     className="modal-content"
                   >
                     <ModalContainer
+                      congressRealName=""
+                      congressTwitterName=""
+                      currentTwitterUser=""
                       modal={Array []}
                     />
                   </div>
@@ -2678,6 +2708,9 @@ ShallowWrapper {
                       className="modal-content"
                     >
                       <ModalContainer
+                        congressRealName=""
+                        congressTwitterName=""
+                        currentTwitterUser=""
                         modal={Array []}
                       />
                     </div>
@@ -2845,6 +2878,9 @@ ShallowWrapper {
                         className="modal-content"
                       >
                         <ModalContainer
+                          congressRealName=""
+                          congressTwitterName=""
+                          currentTwitterUser=""
                           modal={Array []}
                         />
                       </div>,
@@ -2875,6 +2911,9 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": <ModalContainer
+                          congressRealName=""
+                          congressTwitterName=""
+                          currentTwitterUser=""
                           modal={Array []}
                         />,
                         "className": "modal-content",
@@ -2885,6 +2924,9 @@ ShallowWrapper {
                         "key": undefined,
                         "nodeType": "function",
                         "props": Object {
+                          "congressRealName": "",
+                          "congressTwitterName": "",
+                          "currentTwitterUser": "",
                           "modal": Array [],
                         },
                         "ref": null,
