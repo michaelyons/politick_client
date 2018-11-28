@@ -67,7 +67,12 @@ class App extends Component {
   getRepresentative = async zipcodeObject => {
     const zip = zipcodeObject.zipcode;
     const currentRep = await congressMemberFetch(zip);
-    console.log(currentRep);
+    const twitter = currentRep[0].twitterName;
+    const name = currentRep[0].repName;
+    this.setState({
+      representativeTwitter: twitter,
+      representativeRealName: name
+    });
   };
 
   setCurrentUser = async () => {
@@ -299,6 +304,10 @@ class App extends Component {
                             setCurrentId={this.setCurrentId}
                             fetchLobbyData={this.fetchLobbyistList}
                             currentTwitterUser={this.state.twitterUserId}
+                            congressTwitterName={
+                              this.state.representativeTwitter
+                            }
+                            congressRealName={this.state.representativeRealName}
                           />
                         </div>
                       );

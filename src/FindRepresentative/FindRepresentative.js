@@ -12,6 +12,9 @@ class FindRepresentative extends Component {
   handleSubmit = event => {
     event.preventDefault();
     this.props.getRepresentative(this.state);
+    this.setState({
+      zipcode: ''
+    });
   };
 
   handleChange = event => {
@@ -31,6 +34,7 @@ class FindRepresentative extends Component {
             max="99999"
             placeholder="Enter Zip Code to Find Your Local Member of Congress"
             onChange={this.handleChange}
+            value={this.state.zipcode}
           />
           <button>Find My Representative</button>
         </form>

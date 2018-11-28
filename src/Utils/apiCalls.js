@@ -18,7 +18,7 @@ export const congressMemberFetch = async zipcode => {
   }&address=${zipcode}&roles=legislatorLowerBody`;
   const response = await fetch(url);
   const data = await response.json();
-  return data;
+  return cleanCongressMembers(data.officials);
 };
 
 export const tweetPostRequest = async infoPayload => {
@@ -59,6 +59,18 @@ export const specificWordFetch = async word => {
   const response = await fetch(url);
   const data = await response.json();
   return cleanWordFetch(data);
+};
+
+const cleanCongressMembers = data => {
+  return data.map(congressMember => {
+    const twitter = congressMember.channels.find(
+      object => object.type === 'Twitter'
+    );
+    return {
+      repName: congressMember.name,
+      twitterName: twitter.id
+    };
+  });
 };
 
 const cleanInitialFetch = data => {
