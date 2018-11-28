@@ -36,7 +36,7 @@ class FindRepresentative extends Component {
             onChange={this.handleChange}
             value={this.state.zipcode}
           />
-          <button>Find My Rep</button>
+          <button className="find-rep-button">Find My Rep</button>
         </form>
       </div>
     );
