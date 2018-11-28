@@ -1,7 +1,5 @@
 # Politick
 
-[![Build Status](https://travis-ci.org/michaelyons/Informant-Client.svg?branch=master)](https://travis-ci.org/michaelyons/Informant-Client)
-
 [Politick Live Site](https://politik-client.herokuapp.com/)
 
 ## About
