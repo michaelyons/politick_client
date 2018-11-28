@@ -31,7 +31,9 @@ class PostTweet extends Component {
   };
 
   populateTweet = () => {
-    const tweetText = `@${this.props.congressTwitterName}`;
+    const tweetText = `@${this.props.congressTwitterName}\n Topic Filing ID:${
+      this.props.filingId
+    }`;
     this.setState({
       tweetText
     });
@@ -59,7 +61,7 @@ class PostTweet extends Component {
                   className="subtitle"
                   name="tweetText"
                   rows="10"
-                  cols="45"
+                  cols="50"
                   onChange={this.handleChange}
                   value={this.state.tweetText}
                 />
@@ -78,7 +80,8 @@ class PostTweet extends Component {
 PostTweet.propTypes = {
   currentTwitterUser: PropTypes.string,
   congressTwitterName: PropTypes.string,
-  congressRealName: PropTypes.string
+  congressRealName: PropTypes.string,
+  filingId: PropTypes.string
 };
 
 export default PostTweet;

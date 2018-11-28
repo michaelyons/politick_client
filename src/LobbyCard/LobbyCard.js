@@ -80,6 +80,7 @@ class LobbyCard extends Component {
                 congressRealName={congressRealName}
                 congressTwitterName={congressTwitterName}
                 currentTwitterUser={currentTwitterUser}
+                filingId={filingId}
               />
             </div>
             <button className="modal-close is-large" aria-label="close" />
