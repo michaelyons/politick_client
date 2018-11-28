@@ -215,23 +215,6 @@ class App extends Component {
                 </div>
                 <div id="navbarMenuHeroA" className="navbar-menu">
                   <div className="navbar-end">
-                    <div className="rep-finder">
-                      {this.state.representativeRealName ? (
-                        <FoundRepresentative
-                          representative={this.state.representativeRealName}
-                        />
-                      ) : (
-                        <div className="rep-not-found">
-                          <h2>
-                            Find and Tweet your local Congressional
-                            Representative
-                          </h2>
-                          <FindRepresentative
-                            getRepresentative={this.getRepresentative}
-                          />
-                        </div>
-                      )}
-                    </div>
                     <div
                       href="http://localhost:3000/most_recent"
                       className="navbar-item"
@@ -267,6 +250,22 @@ class App extends Component {
                 </div>
               </div>
             </nav>
+          </div>
+        </section>
+        <section className="rep-area">
+          <div className="rep-finder">
+            {this.state.representativeRealName ? (
+              <FoundRepresentative
+                representative={this.state.representativeRealName}
+              />
+            ) : (
+              <div className="rep-not-found">
+                <h2>Find and Tweet your local Congressional Rep</h2>
+                <FindRepresentative
+                  getRepresentative={this.getRepresentative}
+                />
+              </div>
+            )}
           </div>
         </section>
         <section className="hero is-fullheight">
