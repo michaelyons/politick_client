@@ -4107,9 +4107,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "0",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "National Public Finance Guarantee Corporation",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-31",
               "fetchLobbyData": undefined,
               "filingId": 300933345,
@@ -4170,9 +4173,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "1",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Tauzin Strategic Networks (on behalf of Corning Inc.)",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-31",
               "fetchLobbyData": undefined,
               "filingId": 300932700,
@@ -4201,9 +4207,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "2",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "American Clinical Laboratory Assn",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-31",
               "fetchLobbyData": undefined,
               "filingId": 300941790,
@@ -4284,9 +4293,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "3",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "The Science Coalition",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-31",
               "fetchLobbyData": undefined,
               "filingId": 301016716,
@@ -4327,9 +4339,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "4",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Health Care Service Corporation, a Mutual Legal Reserve Company (HCSC)",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-31",
               "fetchLobbyData": undefined,
               "filingId": 300952351,
@@ -4374,9 +4389,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "5",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Enterprise Community Partners, Inc. .",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-31",
               "fetchLobbyData": undefined,
               "filingId": 300985896,
@@ -4441,9 +4459,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "6",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "City of Santa Rosa",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-31",
               "fetchLobbyData": undefined,
               "filingId": 301017928,
@@ -4468,9 +4489,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "7",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "LVMH Moet Hennessy Louis Vuitton Inc.",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-31",
               "fetchLobbyData": undefined,
               "filingId": 301018591,
@@ -4507,9 +4531,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "8",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Dahua Technology USA",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-31",
               "fetchLobbyData": undefined,
               "filingId": 301019310,
@@ -4534,9 +4561,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "9",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "K12, Inc",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-31",
               "fetchLobbyData": undefined,
               "filingId": 301019311,
@@ -4557,9 +4587,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "10",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Brownstein Hyatt Farber Schreck, LLP on behalf of Starbucks",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-31",
               "fetchLobbyData": undefined,
               "filingId": 301019312,
@@ -4580,9 +4613,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "11",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "American Principles Project",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-31",
               "fetchLobbyData": undefined,
               "filingId": 301019313,
@@ -4603,9 +4639,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "12",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "National Association of Clean Water Agencies",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-31",
               "fetchLobbyData": undefined,
               "filingId": 300926510,
@@ -4642,9 +4681,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "13",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "FAIRVOTE",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-31",
               "fetchLobbyData": undefined,
               "filingId": 300926727,
@@ -4665,9 +4707,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "14",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Qual-Tron, Inc.",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-31",
               "fetchLobbyData": undefined,
               "filingId": 300935388,
@@ -4692,9 +4737,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "15",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "JBI LTD",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-31",
               "fetchLobbyData": undefined,
               "filingId": 300986729,
@@ -4719,9 +4767,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "16",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "PSEG",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 300978758,
@@ -4742,9 +4793,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "17",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Project Support Services",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 301017871,
@@ -4765,9 +4819,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "18",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "City of Birmingham, Alabama",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 301017060,
@@ -4796,9 +4853,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "19",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Environmental Defense Action Fund",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 301018662,
@@ -4823,9 +4883,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "20",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "AGRU America Inc.",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 300927866,
@@ -4846,9 +4909,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "21",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "American Fuel & Petrochemical Manufacturers",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 300939848,
@@ -4869,9 +4935,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "22",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "WASHINGTON SUBURBAN SANITARY COMMISSION",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 300941922,
@@ -4916,9 +4985,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "23",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Myriad Genetics, Inc. (formerly Myriad Genetics Laboratories)",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 300945322,
@@ -4951,9 +5023,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "24",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "NUCOR CORPORATION",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 300973076,
@@ -4974,9 +5049,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "25",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "STEEL MANUFACTURERS ASSOCIATION",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 300985259,
@@ -4997,9 +5075,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "26",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Weber County Sheriff's Office",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 301018450,
@@ -5020,9 +5101,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "27",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Western Michigan University",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 301018732,
@@ -5043,9 +5127,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "28",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Intercontinental Construction Contracting Inc.",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 301018970,
@@ -5066,9 +5153,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "29",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Strauns Customhouse Brokers, LLC",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 301019285,
@@ -5089,9 +5179,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "30",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Newaygo County Sheriff's Office",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 301019298,
@@ -5112,9 +5205,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "31",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Danieli Corporation",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 301019299,
@@ -5143,9 +5239,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "32",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Structured Finance Industry Group",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 301019300,
@@ -5182,9 +5281,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "33",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "St. Louis City Justice Center",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 301019301,
@@ -5205,9 +5307,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "34",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Viasat",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 301019302,
@@ -5228,9 +5333,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "35",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Independent Dealer Trade Association",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 301019303,
@@ -5251,9 +5359,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "36",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Coalition for Sustainable Multifamily Housing",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 301019304,
@@ -5290,9 +5401,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "37",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Keller & Heckman on behalf of Responsible Science Policy Coalition",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 301019305,
@@ -5317,9 +5431,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "38",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Fair Credit Coalition",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 301019306,
@@ -5348,9 +5465,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "39",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Expedia, Inc.",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 301019307,
@@ -5375,9 +5495,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "40",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Organization for International Investment",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 301019308,
@@ -5402,9 +5525,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "41",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Powermers Inc.",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 300929282,
@@ -5429,9 +5555,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "42",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Via Verde",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 300947178,
@@ -5460,9 +5589,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "43",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Procedyne",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 300974893,
@@ -5495,9 +5627,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "44",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "TECO",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 300978759,
@@ -5518,9 +5653,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "45",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "MM-Law LLC on behalf of Military Families",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 301019309,
@@ -5541,9 +5679,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "46",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Equator Capital Management",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 301017171,
@@ -5568,9 +5709,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "47",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Global Tel*Link Corporation",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 301017178,
@@ -5599,9 +5743,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "48",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Kurdistan Regional Government, Ministry of Interior",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 301017187,
@@ -5626,9 +5773,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "49",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Credit Suisse Securities (USA) LLC",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 301017188,
@@ -5669,9 +5819,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "50",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "American Waging Inc. DBA William Hill US",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 301017189,
@@ -5708,9 +5861,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "51",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "RIETH-RILEY CONSTRUCTION CO.",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 301017193,
@@ -5735,9 +5891,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "52",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "ILLUMINA, INC.",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 301017195,
@@ -5758,9 +5917,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "53",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Novum Pharma",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 301017196,
@@ -5789,9 +5951,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "54",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Comrod Inc.",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 301017199,
@@ -5836,9 +6001,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "55",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Celgene Corporation",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 301017200,
@@ -5863,9 +6031,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "56",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Peck Madigan Jones (on behalf of Celgene Corporation)",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 301017201,
@@ -5886,9 +6057,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "57",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "The Business Roundtable, Inc.",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 301017202,
@@ -5909,9 +6083,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "58",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Q30 Innovations, LLC",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 301017203,
@@ -5952,9 +6129,12 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "59",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Nammo, Inc.",
+              "congressRealName": undefined,
+              "congressTwitterName": undefined,
+              "currentTwitterUser": undefined,
               "date": "2018-10-30",
               "fetchLobbyData": undefined,
               "filingId": 301017207,
@@ -8801,9 +8981,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "0",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "National Public Finance Guarantee Corporation",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-31",
                 "fetchLobbyData": undefined,
                 "filingId": 300933345,
@@ -8864,9 +9047,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "1",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Tauzin Strategic Networks (on behalf of Corning Inc.)",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-31",
                 "fetchLobbyData": undefined,
                 "filingId": 300932700,
@@ -8895,9 +9081,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "2",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "American Clinical Laboratory Assn",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-31",
                 "fetchLobbyData": undefined,
                 "filingId": 300941790,
@@ -8978,9 +9167,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "3",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "The Science Coalition",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-31",
                 "fetchLobbyData": undefined,
                 "filingId": 301016716,
@@ -9021,9 +9213,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "4",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Health Care Service Corporation, a Mutual Legal Reserve Company (HCSC)",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-31",
                 "fetchLobbyData": undefined,
                 "filingId": 300952351,
@@ -9068,9 +9263,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "5",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Enterprise Community Partners, Inc. .",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-31",
                 "fetchLobbyData": undefined,
                 "filingId": 300985896,
@@ -9135,9 +9333,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "6",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "City of Santa Rosa",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-31",
                 "fetchLobbyData": undefined,
                 "filingId": 301017928,
@@ -9162,9 +9363,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "7",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "LVMH Moet Hennessy Louis Vuitton Inc.",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-31",
                 "fetchLobbyData": undefined,
                 "filingId": 301018591,
@@ -9201,9 +9405,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "8",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Dahua Technology USA",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-31",
                 "fetchLobbyData": undefined,
                 "filingId": 301019310,
@@ -9228,9 +9435,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "9",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "K12, Inc",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-31",
                 "fetchLobbyData": undefined,
                 "filingId": 301019311,
@@ -9251,9 +9461,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "10",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Brownstein Hyatt Farber Schreck, LLP on behalf of Starbucks",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-31",
                 "fetchLobbyData": undefined,
                 "filingId": 301019312,
@@ -9274,9 +9487,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "11",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "American Principles Project",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-31",
                 "fetchLobbyData": undefined,
                 "filingId": 301019313,
@@ -9297,9 +9513,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "12",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "National Association of Clean Water Agencies",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-31",
                 "fetchLobbyData": undefined,
                 "filingId": 300926510,
@@ -9336,9 +9555,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "13",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "FAIRVOTE",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-31",
                 "fetchLobbyData": undefined,
                 "filingId": 300926727,
@@ -9359,9 +9581,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "14",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Qual-Tron, Inc.",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-31",
                 "fetchLobbyData": undefined,
                 "filingId": 300935388,
@@ -9386,9 +9611,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "15",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "JBI LTD",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-31",
                 "fetchLobbyData": undefined,
                 "filingId": 300986729,
@@ -9413,9 +9641,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "16",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "PSEG",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 300978758,
@@ -9436,9 +9667,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "17",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Project Support Services",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 301017871,
@@ -9459,9 +9693,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "18",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "City of Birmingham, Alabama",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 301017060,
@@ -9490,9 +9727,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "19",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Environmental Defense Action Fund",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 301018662,
@@ -9517,9 +9757,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "20",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "AGRU America Inc.",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 300927866,
@@ -9540,9 +9783,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "21",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "American Fuel & Petrochemical Manufacturers",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 300939848,
@@ -9563,9 +9809,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "22",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "WASHINGTON SUBURBAN SANITARY COMMISSION",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 300941922,
@@ -9610,9 +9859,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "23",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Myriad Genetics, Inc. (formerly Myriad Genetics Laboratories)",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 300945322,
@@ -9645,9 +9897,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "24",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "NUCOR CORPORATION",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 300973076,
@@ -9668,9 +9923,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "25",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "STEEL MANUFACTURERS ASSOCIATION",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 300985259,
@@ -9691,9 +9949,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "26",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Weber County Sheriff's Office",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 301018450,
@@ -9714,9 +9975,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "27",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Western Michigan University",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 301018732,
@@ -9737,9 +10001,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "28",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Intercontinental Construction Contracting Inc.",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 301018970,
@@ -9760,9 +10027,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "29",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Strauns Customhouse Brokers, LLC",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 301019285,
@@ -9783,9 +10053,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "30",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Newaygo County Sheriff's Office",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 301019298,
@@ -9806,9 +10079,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "31",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Danieli Corporation",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 301019299,
@@ -9837,9 +10113,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "32",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Structured Finance Industry Group",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 301019300,
@@ -9876,9 +10155,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "33",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "St. Louis City Justice Center",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 301019301,
@@ -9899,9 +10181,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "34",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Viasat",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 301019302,
@@ -9922,9 +10207,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "35",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Independent Dealer Trade Association",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 301019303,
@@ -9945,9 +10233,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "36",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Coalition for Sustainable Multifamily Housing",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 301019304,
@@ -9984,9 +10275,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "37",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Keller & Heckman on behalf of Responsible Science Policy Coalition",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 301019305,
@@ -10011,9 +10305,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "38",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Fair Credit Coalition",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 301019306,
@@ -10042,9 +10339,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "39",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Expedia, Inc.",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 301019307,
@@ -10069,9 +10369,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "40",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Organization for International Investment",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 301019308,
@@ -10096,9 +10399,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "41",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Powermers Inc.",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 300929282,
@@ -10123,9 +10429,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "42",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Via Verde",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 300947178,
@@ -10154,9 +10463,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "43",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Procedyne",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 300974893,
@@ -10189,9 +10501,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "44",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "TECO",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 300978759,
@@ -10212,9 +10527,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "45",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "MM-Law LLC on behalf of Military Families",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 301019309,
@@ -10235,9 +10553,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "46",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Equator Capital Management",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 301017171,
@@ -10262,9 +10583,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "47",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Global Tel*Link Corporation",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 301017178,
@@ -10293,9 +10617,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "48",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Kurdistan Regional Government, Ministry of Interior",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 301017187,
@@ -10320,9 +10647,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "49",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Credit Suisse Securities (USA) LLC",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 301017188,
@@ -10363,9 +10693,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "50",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "American Waging Inc. DBA William Hill US",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 301017189,
@@ -10402,9 +10735,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "51",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "RIETH-RILEY CONSTRUCTION CO.",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 301017193,
@@ -10429,9 +10765,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "52",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "ILLUMINA, INC.",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 301017195,
@@ -10452,9 +10791,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "53",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Novum Pharma",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 301017196,
@@ -10483,9 +10825,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "54",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Comrod Inc.",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 301017199,
@@ -10530,9 +10875,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "55",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Celgene Corporation",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 301017200,
@@ -10557,9 +10905,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "56",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Peck Madigan Jones (on behalf of Celgene Corporation)",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 301017201,
@@ -10580,9 +10931,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "57",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "The Business Roundtable, Inc.",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 301017202,
@@ -10603,9 +10957,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "58",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Q30 Innovations, LLC",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 301017203,
@@ -10646,9 +11003,12 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "59",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Nammo, Inc.",
+                "congressRealName": undefined,
+                "congressTwitterName": undefined,
+                "currentTwitterUser": undefined,
                 "date": "2018-10-30",
                 "fetchLobbyData": undefined,
                 "filingId": 301017207,

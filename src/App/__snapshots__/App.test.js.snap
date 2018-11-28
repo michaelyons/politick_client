@@ -44,7 +44,7 @@ ShallowWrapper {
                       to="/"
                     >
                       <img
-                        alt="fuck"
+                        alt="title-img"
                         src="https://i.imgur.com/5kT7Vl7.png"
                       />
                     </NavLink>
@@ -65,19 +65,6 @@ ShallowWrapper {
                   <div
                     className="navbar-end"
                   >
-                    <div
-                      className="navbar-item"
-                      href="http://localhost:3000/issues"
-                    >
-                      <NavLink
-                        activeClassName="active"
-                        aria-current="page"
-                        exact={true}
-                        to="/issues"
-                      >
-                        WORDS
-                      </NavLink>
-                    </div>
                     <div
                       className="navbar-item"
                       href="http://localhost:3000/most_recent"
@@ -104,13 +91,46 @@ ShallowWrapper {
                         ABOUT
                       </NavLink>
                     </div>
-                    <span
+                    <div
                       className="navbar-item"
-                    />
+                      href="http://localhost:3000/issues"
+                    >
+                      <NavLink
+                        activeClassName="active"
+                        aria-current="page"
+                        exact={true}
+                        to="/issues"
+                      >
+                        WORDS
+                      </NavLink>
+                    </div>
+                  </div>
+                  <div
+                    className="twitter-login-btn"
+                  >
+                    <TwitterLogin />
                   </div>
                 </div>
               </div>
             </nav>
+          </div>
+        </section>,
+        <section
+          className="rep-area"
+        >
+          <div
+            className="rep-finder"
+          >
+            <div
+              className="rep-not-found"
+            >
+              <h2>
+                Find and Tweet your local Congressional Rep
+              </h2>
+              <FindRepresentative
+                getRepresentative={[Function]}
+              />
+            </div>
           </div>
         </section>,
         <section
@@ -155,7 +175,6 @@ ShallowWrapper {
               </div>
               <div
                 className="modal "
-                onClick={[Function]}
               >
                 <div
                   className="modal-background"
@@ -170,6 +189,7 @@ ShallowWrapper {
                 <button
                   aria-label="close"
                   className="modal-close is-large"
+                  onClick={[Function]}
                 />
               </div>
             </div>
@@ -207,7 +227,7 @@ ShallowWrapper {
                       to="/"
                     >
                       <img
-                        alt="fuck"
+                        alt="title-img"
                         src="https://i.imgur.com/5kT7Vl7.png"
                       />
                     </NavLink>
@@ -228,19 +248,6 @@ ShallowWrapper {
                   <div
                     className="navbar-end"
                   >
-                    <div
-                      className="navbar-item"
-                      href="http://localhost:3000/issues"
-                    >
-                      <NavLink
-                        activeClassName="active"
-                        aria-current="page"
-                        exact={true}
-                        to="/issues"
-                      >
-                        WORDS
-                      </NavLink>
-                    </div>
                     <div
                       className="navbar-item"
                       href="http://localhost:3000/most_recent"
@@ -267,9 +274,24 @@ ShallowWrapper {
                         ABOUT
                       </NavLink>
                     </div>
-                    <span
+                    <div
                       className="navbar-item"
-                    />
+                      href="http://localhost:3000/issues"
+                    >
+                      <NavLink
+                        activeClassName="active"
+                        aria-current="page"
+                        exact={true}
+                        to="/issues"
+                      >
+                        WORDS
+                      </NavLink>
+                    </div>
+                  </div>
+                  <div
+                    className="twitter-login-btn"
+                  >
+                    <TwitterLogin />
                   </div>
                 </div>
               </div>
@@ -303,7 +325,7 @@ ShallowWrapper {
                       to="/"
                     >
                       <img
-                        alt="fuck"
+                        alt="title-img"
                         src="https://i.imgur.com/5kT7Vl7.png"
                       />
                     </NavLink>
@@ -324,19 +346,6 @@ ShallowWrapper {
                   <div
                     className="navbar-end"
                   >
-                    <div
-                      className="navbar-item"
-                      href="http://localhost:3000/issues"
-                    >
-                      <NavLink
-                        activeClassName="active"
-                        aria-current="page"
-                        exact={true}
-                        to="/issues"
-                      >
-                        WORDS
-                      </NavLink>
-                    </div>
                     <div
                       className="navbar-item"
                       href="http://localhost:3000/most_recent"
@@ -363,9 +372,24 @@ ShallowWrapper {
                         ABOUT
                       </NavLink>
                     </div>
-                    <span
+                    <div
                       className="navbar-item"
-                    />
+                      href="http://localhost:3000/issues"
+                    >
+                      <NavLink
+                        activeClassName="active"
+                        aria-current="page"
+                        exact={true}
+                        to="/issues"
+                      >
+                        WORDS
+                      </NavLink>
+                    </div>
+                  </div>
+                  <div
+                    className="twitter-login-btn"
+                  >
+                    <TwitterLogin />
                   </div>
                 </div>
               </div>
@@ -395,7 +419,7 @@ ShallowWrapper {
                       to="/"
                     >
                       <img
-                        alt="fuck"
+                        alt="title-img"
                         src="https://i.imgur.com/5kT7Vl7.png"
                       />
                     </NavLink>
@@ -416,19 +440,6 @@ ShallowWrapper {
                   <div
                     className="navbar-end"
                   >
-                    <div
-                      className="navbar-item"
-                      href="http://localhost:3000/issues"
-                    >
-                      <NavLink
-                        activeClassName="active"
-                        aria-current="page"
-                        exact={true}
-                        to="/issues"
-                      >
-                        WORDS
-                      </NavLink>
-                    </div>
                     <div
                       className="navbar-item"
                       href="http://localhost:3000/most_recent"
@@ -455,9 +466,24 @@ ShallowWrapper {
                         ABOUT
                       </NavLink>
                     </div>
-                    <span
+                    <div
                       className="navbar-item"
-                    />
+                      href="http://localhost:3000/issues"
+                    >
+                      <NavLink
+                        activeClassName="active"
+                        aria-current="page"
+                        exact={true}
+                        to="/issues"
+                      >
+                        WORDS
+                      </NavLink>
+                    </div>
+                  </div>
+                  <div
+                    className="twitter-login-btn"
+                  >
+                    <TwitterLogin />
                   </div>
                 </div>
               </div>,
@@ -484,7 +510,7 @@ ShallowWrapper {
                         to="/"
                       >
                         <img
-                          alt="fuck"
+                          alt="title-img"
                           src="https://i.imgur.com/5kT7Vl7.png"
                         />
                       </NavLink>
@@ -505,19 +531,6 @@ ShallowWrapper {
                     <div
                       className="navbar-end"
                     >
-                      <div
-                        className="navbar-item"
-                        href="http://localhost:3000/issues"
-                      >
-                        <NavLink
-                          activeClassName="active"
-                          aria-current="page"
-                          exact={true}
-                          to="/issues"
-                        >
-                          WORDS
-                        </NavLink>
-                      </div>
                       <div
                         className="navbar-item"
                         href="http://localhost:3000/most_recent"
@@ -544,9 +557,24 @@ ShallowWrapper {
                           ABOUT
                         </NavLink>
                       </div>
-                      <span
+                      <div
                         className="navbar-item"
-                      />
+                        href="http://localhost:3000/issues"
+                      >
+                        <NavLink
+                          activeClassName="active"
+                          aria-current="page"
+                          exact={true}
+                          to="/issues"
+                        >
+                          WORDS
+                        </NavLink>
+                      </div>
+                    </div>
+                    <div
+                      className="twitter-login-btn"
+                    >
+                      <TwitterLogin />
                     </div>
                   </div>,
                 ],
@@ -571,7 +599,7 @@ ShallowWrapper {
                           to="/"
                         >
                           <img
-                            alt="fuck"
+                            alt="title-img"
                             src="https://i.imgur.com/5kT7Vl7.png"
                           />
                         </NavLink>
@@ -601,7 +629,7 @@ ShallowWrapper {
                           to="/"
                         >
                           <img
-                            alt="fuck"
+                            alt="title-img"
                             src="https://i.imgur.com/5kT7Vl7.png"
                           />
                         </NavLink>,
@@ -617,7 +645,7 @@ ShallowWrapper {
                           "activeClassName": "active",
                           "aria-current": "page",
                           "children": <img
-                            alt="fuck"
+                            alt="title-img"
                             src="https://i.imgur.com/5kT7Vl7.png"
                           />,
                           "exact": true,
@@ -629,7 +657,7 @@ ShallowWrapper {
                           "key": undefined,
                           "nodeType": "host",
                           "props": Object {
-                            "alt": "fuck",
+                            "alt": "title-img",
                             "src": "https://i.imgur.com/5kT7Vl7.png",
                           },
                           "ref": null,
@@ -693,75 +721,10 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": <div
-                      className="navbar-end"
-                    >
+                    "children": Array [
                       <div
-                        className="navbar-item"
-                        href="http://localhost:3000/issues"
+                        className="navbar-end"
                       >
-                        <NavLink
-                          activeClassName="active"
-                          aria-current="page"
-                          exact={true}
-                          to="/issues"
-                        >
-                          WORDS
-                        </NavLink>
-                      </div>
-                      <div
-                        className="navbar-item"
-                        href="http://localhost:3000/most_recent"
-                      >
-                        <NavLink
-                          activeClassName="active"
-                          aria-current="page"
-                          exact={true}
-                          to="/most_recent"
-                        >
-                          LIST
-                        </NavLink>
-                      </div>
-                      <div
-                        className="navbar-item"
-                        href="http://localhost:3000/about"
-                      >
-                        <NavLink
-                          activeClassName="active"
-                          aria-current="page"
-                          exact={true}
-                          to="/about"
-                        >
-                          ABOUT
-                        </NavLink>
-                      </div>
-                      <span
-                        className="navbar-item"
-                      />
-                    </div>,
-                    "className": "navbar-menu",
-                    "id": "navbarMenuHeroA",
-                  },
-                  "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": Array [
-                        <div
-                          className="navbar-item"
-                          href="http://localhost:3000/issues"
-                        >
-                          <NavLink
-                            activeClassName="active"
-                            aria-current="page"
-                            exact={true}
-                            to="/issues"
-                          >
-                            WORDS
-                          </NavLink>
-                        </div>,
                         <div
                           className="navbar-item"
                           href="http://localhost:3000/most_recent"
@@ -774,7 +737,7 @@ ShallowWrapper {
                           >
                             LIST
                           </NavLink>
-                        </div>,
+                        </div>
                         <div
                           className="navbar-item"
                           href="http://localhost:3000/about"
@@ -787,137 +750,300 @@ ShallowWrapper {
                           >
                             ABOUT
                           </NavLink>
-                        </div>,
-                        <span
+                        </div>
+                        <div
                           className="navbar-item"
-                        />,
-                      ],
-                      "className": "navbar-end",
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": <NavLink
+                          href="http://localhost:3000/issues"
+                        >
+                          <NavLink
                             activeClassName="active"
                             aria-current="page"
                             exact={true}
                             to="/issues"
                           >
                             WORDS
-                          </NavLink>,
-                          "className": "navbar-item",
-                          "href": "http://localhost:3000/issues",
-                        },
-                        "ref": null,
-                        "rendered": Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "function",
-                          "props": Object {
-                            "activeClassName": "active",
-                            "aria-current": "page",
-                            "children": "WORDS",
-                            "exact": true,
-                            "to": "/issues",
-                          },
-                          "ref": null,
-                          "rendered": "WORDS",
-                          "type": [Function],
-                        },
-                        "type": "div",
-                      },
-                      Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": <NavLink
-                            activeClassName="active"
-                            aria-current="page"
-                            exact={true}
-                            to="/most_recent"
+                          </NavLink>
+                        </div>
+                      </div>,
+                      <div
+                        className="twitter-login-btn"
+                      >
+                        <TwitterLogin />
+                      </div>,
+                    ],
+                    "className": "navbar-menu",
+                    "id": "navbarMenuHeroA",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <div
+                            className="navbar-item"
+                            href="http://localhost:3000/most_recent"
                           >
-                            LIST
-                          </NavLink>,
-                          "className": "navbar-item",
-                          "href": "http://localhost:3000/most_recent",
-                        },
-                        "ref": null,
-                        "rendered": Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "function",
-                          "props": Object {
-                            "activeClassName": "active",
-                            "aria-current": "page",
-                            "children": "LIST",
-                            "exact": true,
-                            "to": "/most_recent",
-                          },
-                          "ref": null,
-                          "rendered": "LIST",
-                          "type": [Function],
-                        },
-                        "type": "div",
-                      },
-                      Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": <NavLink
-                            activeClassName="active"
-                            aria-current="page"
-                            exact={true}
-                            to="/about"
+                            <NavLink
+                              activeClassName="active"
+                              aria-current="page"
+                              exact={true}
+                              to="/most_recent"
+                            >
+                              LIST
+                            </NavLink>
+                          </div>,
+                          <div
+                            className="navbar-item"
+                            href="http://localhost:3000/about"
                           >
-                            ABOUT
-                          </NavLink>,
-                          "className": "navbar-item",
-                          "href": "http://localhost:3000/about",
-                        },
-                        "ref": null,
-                        "rendered": Object {
+                            <NavLink
+                              activeClassName="active"
+                              aria-current="page"
+                              exact={true}
+                              to="/about"
+                            >
+                              ABOUT
+                            </NavLink>
+                          </div>,
+                          <div
+                            className="navbar-item"
+                            href="http://localhost:3000/issues"
+                          >
+                            <NavLink
+                              activeClassName="active"
+                              aria-current="page"
+                              exact={true}
+                              to="/issues"
+                            >
+                              WORDS
+                            </NavLink>
+                          </div>,
+                        ],
+                        "className": "navbar-end",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
                           "instance": null,
                           "key": undefined,
-                          "nodeType": "function",
+                          "nodeType": "host",
                           "props": Object {
-                            "activeClassName": "active",
-                            "aria-current": "page",
-                            "children": "ABOUT",
-                            "exact": true,
-                            "to": "/about",
+                            "children": <NavLink
+                              activeClassName="active"
+                              aria-current="page"
+                              exact={true}
+                              to="/most_recent"
+                            >
+                              LIST
+                            </NavLink>,
+                            "className": "navbar-item",
+                            "href": "http://localhost:3000/most_recent",
                           },
                           "ref": null,
-                          "rendered": "ABOUT",
-                          "type": [Function],
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "function",
+                            "props": Object {
+                              "activeClassName": "active",
+                              "aria-current": "page",
+                              "children": "LIST",
+                              "exact": true,
+                              "to": "/most_recent",
+                            },
+                            "ref": null,
+                            "rendered": "LIST",
+                            "type": [Function],
+                          },
+                          "type": "div",
                         },
-                        "type": "div",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <NavLink
+                              activeClassName="active"
+                              aria-current="page"
+                              exact={true}
+                              to="/about"
+                            >
+                              ABOUT
+                            </NavLink>,
+                            "className": "navbar-item",
+                            "href": "http://localhost:3000/about",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "function",
+                            "props": Object {
+                              "activeClassName": "active",
+                              "aria-current": "page",
+                              "children": "ABOUT",
+                              "exact": true,
+                              "to": "/about",
+                            },
+                            "ref": null,
+                            "rendered": "ABOUT",
+                            "type": [Function],
+                          },
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <NavLink
+                              activeClassName="active"
+                              aria-current="page"
+                              exact={true}
+                              to="/issues"
+                            >
+                              WORDS
+                            </NavLink>,
+                            "className": "navbar-item",
+                            "href": "http://localhost:3000/issues",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "function",
+                            "props": Object {
+                              "activeClassName": "active",
+                              "aria-current": "page",
+                              "children": "WORDS",
+                              "exact": true,
+                              "to": "/issues",
+                            },
+                            "ref": null,
+                            "rendered": "WORDS",
+                            "type": [Function],
+                          },
+                          "type": "div",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <TwitterLogin />,
+                        "className": "twitter-login-btn",
                       },
-                      Object {
+                      "ref": null,
+                      "rendered": Object {
                         "instance": null,
                         "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "className": "navbar-item",
-                        },
+                        "nodeType": "function",
+                        "props": Object {},
                         "ref": null,
                         "rendered": null,
-                        "type": "span",
+                        "type": [Function],
                       },
-                    ],
-                    "type": "div",
-                  },
+                      "type": "div",
+                    },
+                  ],
                   "type": "div",
                 },
               ],
               "type": "div",
             },
             "type": "nav",
+          },
+          "type": "div",
+        },
+        "type": "section",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="rep-finder"
+          >
+            <div
+              className="rep-not-found"
+            >
+              <h2>
+                Find and Tweet your local Congressional Rep
+              </h2>
+              <FindRepresentative
+                getRepresentative={[Function]}
+              />
+            </div>
+          </div>,
+          "className": "rep-area",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="rep-not-found"
+            >
+              <h2>
+                Find and Tweet your local Congressional Rep
+              </h2>
+              <FindRepresentative
+                getRepresentative={[Function]}
+              />
+            </div>,
+            "className": "rep-finder",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h2>
+                  Find and Tweet your local Congressional Rep
+                </h2>,
+                <FindRepresentative
+                  getRepresentative={[Function]}
+                />,
+              ],
+              "className": "rep-not-found",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Find and Tweet your local Congressional Rep",
+                },
+                "ref": null,
+                "rendered": "Find and Tweet your local Congressional Rep",
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "getRepresentative": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
           },
           "type": "div",
         },
@@ -967,7 +1093,6 @@ ShallowWrapper {
               </div>
               <div
                 className="modal "
-                onClick={[Function]}
               >
                 <div
                   className="modal-background"
@@ -982,6 +1107,7 @@ ShallowWrapper {
                 <button
                   aria-label="close"
                   className="modal-close is-large"
+                  onClick={[Function]}
                 />
               </div>
             </div>
@@ -1030,7 +1156,6 @@ ShallowWrapper {
               </div>
               <div
                 className="modal "
-                onClick={[Function]}
               >
                 <div
                   className="modal-background"
@@ -1045,6 +1170,7 @@ ShallowWrapper {
                 <button
                   aria-label="close"
                   className="modal-close is-large"
+                  onClick={[Function]}
                 />
               </div>
             </div>,
@@ -1090,7 +1216,6 @@ ShallowWrapper {
                 </div>,
                 <div
                   className="modal "
-                  onClick={[Function]}
                 >
                   <div
                     className="modal-background"
@@ -1105,6 +1230,7 @@ ShallowWrapper {
                   <button
                     aria-label="close"
                     className="modal-close is-large"
+                    onClick={[Function]}
                   />
                 </div>,
               ],
@@ -1271,10 +1397,10 @@ ShallowWrapper {
                     <button
                       aria-label="close"
                       className="modal-close is-large"
+                      onClick={[Function]}
                     />,
                   ],
                   "className": "modal ",
-                  "onClick": [Function],
                 },
                 "ref": null,
                 "rendered": Array [
@@ -1320,6 +1446,7 @@ ShallowWrapper {
                     "props": Object {
                       "aria-label": "close",
                       "className": "modal-close is-large",
+                      "onClick": [Function],
                     },
                     "ref": null,
                     "rendered": null,
@@ -1371,7 +1498,7 @@ ShallowWrapper {
                         to="/"
                       >
                         <img
-                          alt="fuck"
+                          alt="title-img"
                           src="https://i.imgur.com/5kT7Vl7.png"
                         />
                       </NavLink>
@@ -1392,19 +1519,6 @@ ShallowWrapper {
                     <div
                       className="navbar-end"
                     >
-                      <div
-                        className="navbar-item"
-                        href="http://localhost:3000/issues"
-                      >
-                        <NavLink
-                          activeClassName="active"
-                          aria-current="page"
-                          exact={true}
-                          to="/issues"
-                        >
-                          WORDS
-                        </NavLink>
-                      </div>
                       <div
                         className="navbar-item"
                         href="http://localhost:3000/most_recent"
@@ -1431,13 +1545,46 @@ ShallowWrapper {
                           ABOUT
                         </NavLink>
                       </div>
-                      <span
+                      <div
                         className="navbar-item"
-                      />
+                        href="http://localhost:3000/issues"
+                      >
+                        <NavLink
+                          activeClassName="active"
+                          aria-current="page"
+                          exact={true}
+                          to="/issues"
+                        >
+                          WORDS
+                        </NavLink>
+                      </div>
+                    </div>
+                    <div
+                      className="twitter-login-btn"
+                    >
+                      <TwitterLogin />
                     </div>
                   </div>
                 </div>
               </nav>
+            </div>
+          </section>,
+          <section
+            className="rep-area"
+          >
+            <div
+              className="rep-finder"
+            >
+              <div
+                className="rep-not-found"
+              >
+                <h2>
+                  Find and Tweet your local Congressional Rep
+                </h2>
+                <FindRepresentative
+                  getRepresentative={[Function]}
+                />
+              </div>
             </div>
           </section>,
           <section
@@ -1482,7 +1629,6 @@ ShallowWrapper {
                 </div>
                 <div
                   className="modal "
-                  onClick={[Function]}
                 >
                   <div
                     className="modal-background"
@@ -1497,6 +1643,7 @@ ShallowWrapper {
                   <button
                     aria-label="close"
                     className="modal-close is-large"
+                    onClick={[Function]}
                   />
                 </div>
               </div>
@@ -1534,7 +1681,7 @@ ShallowWrapper {
                         to="/"
                       >
                         <img
-                          alt="fuck"
+                          alt="title-img"
                           src="https://i.imgur.com/5kT7Vl7.png"
                         />
                       </NavLink>
@@ -1555,19 +1702,6 @@ ShallowWrapper {
                     <div
                       className="navbar-end"
                     >
-                      <div
-                        className="navbar-item"
-                        href="http://localhost:3000/issues"
-                      >
-                        <NavLink
-                          activeClassName="active"
-                          aria-current="page"
-                          exact={true}
-                          to="/issues"
-                        >
-                          WORDS
-                        </NavLink>
-                      </div>
                       <div
                         className="navbar-item"
                         href="http://localhost:3000/most_recent"
@@ -1594,9 +1728,24 @@ ShallowWrapper {
                           ABOUT
                         </NavLink>
                       </div>
-                      <span
+                      <div
                         className="navbar-item"
-                      />
+                        href="http://localhost:3000/issues"
+                      >
+                        <NavLink
+                          activeClassName="active"
+                          aria-current="page"
+                          exact={true}
+                          to="/issues"
+                        >
+                          WORDS
+                        </NavLink>
+                      </div>
+                    </div>
+                    <div
+                      className="twitter-login-btn"
+                    >
+                      <TwitterLogin />
                     </div>
                   </div>
                 </div>
@@ -1630,7 +1779,7 @@ ShallowWrapper {
                         to="/"
                       >
                         <img
-                          alt="fuck"
+                          alt="title-img"
                           src="https://i.imgur.com/5kT7Vl7.png"
                         />
                       </NavLink>
@@ -1651,19 +1800,6 @@ ShallowWrapper {
                     <div
                       className="navbar-end"
                     >
-                      <div
-                        className="navbar-item"
-                        href="http://localhost:3000/issues"
-                      >
-                        <NavLink
-                          activeClassName="active"
-                          aria-current="page"
-                          exact={true}
-                          to="/issues"
-                        >
-                          WORDS
-                        </NavLink>
-                      </div>
                       <div
                         className="navbar-item"
                         href="http://localhost:3000/most_recent"
@@ -1690,9 +1826,24 @@ ShallowWrapper {
                           ABOUT
                         </NavLink>
                       </div>
-                      <span
+                      <div
                         className="navbar-item"
-                      />
+                        href="http://localhost:3000/issues"
+                      >
+                        <NavLink
+                          activeClassName="active"
+                          aria-current="page"
+                          exact={true}
+                          to="/issues"
+                        >
+                          WORDS
+                        </NavLink>
+                      </div>
+                    </div>
+                    <div
+                      className="twitter-login-btn"
+                    >
+                      <TwitterLogin />
                     </div>
                   </div>
                 </div>
@@ -1722,7 +1873,7 @@ ShallowWrapper {
                         to="/"
                       >
                         <img
-                          alt="fuck"
+                          alt="title-img"
                           src="https://i.imgur.com/5kT7Vl7.png"
                         />
                       </NavLink>
@@ -1743,19 +1894,6 @@ ShallowWrapper {
                     <div
                       className="navbar-end"
                     >
-                      <div
-                        className="navbar-item"
-                        href="http://localhost:3000/issues"
-                      >
-                        <NavLink
-                          activeClassName="active"
-                          aria-current="page"
-                          exact={true}
-                          to="/issues"
-                        >
-                          WORDS
-                        </NavLink>
-                      </div>
                       <div
                         className="navbar-item"
                         href="http://localhost:3000/most_recent"
@@ -1782,9 +1920,24 @@ ShallowWrapper {
                           ABOUT
                         </NavLink>
                       </div>
-                      <span
+                      <div
                         className="navbar-item"
-                      />
+                        href="http://localhost:3000/issues"
+                      >
+                        <NavLink
+                          activeClassName="active"
+                          aria-current="page"
+                          exact={true}
+                          to="/issues"
+                        >
+                          WORDS
+                        </NavLink>
+                      </div>
+                    </div>
+                    <div
+                      className="twitter-login-btn"
+                    >
+                      <TwitterLogin />
                     </div>
                   </div>
                 </div>,
@@ -1811,7 +1964,7 @@ ShallowWrapper {
                           to="/"
                         >
                           <img
-                            alt="fuck"
+                            alt="title-img"
                             src="https://i.imgur.com/5kT7Vl7.png"
                           />
                         </NavLink>
@@ -1832,19 +1985,6 @@ ShallowWrapper {
                       <div
                         className="navbar-end"
                       >
-                        <div
-                          className="navbar-item"
-                          href="http://localhost:3000/issues"
-                        >
-                          <NavLink
-                            activeClassName="active"
-                            aria-current="page"
-                            exact={true}
-                            to="/issues"
-                          >
-                            WORDS
-                          </NavLink>
-                        </div>
                         <div
                           className="navbar-item"
                           href="http://localhost:3000/most_recent"
@@ -1871,9 +2011,24 @@ ShallowWrapper {
                             ABOUT
                           </NavLink>
                         </div>
-                        <span
+                        <div
                           className="navbar-item"
-                        />
+                          href="http://localhost:3000/issues"
+                        >
+                          <NavLink
+                            activeClassName="active"
+                            aria-current="page"
+                            exact={true}
+                            to="/issues"
+                          >
+                            WORDS
+                          </NavLink>
+                        </div>
+                      </div>
+                      <div
+                        className="twitter-login-btn"
+                      >
+                        <TwitterLogin />
                       </div>
                     </div>,
                   ],
@@ -1898,7 +2053,7 @@ ShallowWrapper {
                             to="/"
                           >
                             <img
-                              alt="fuck"
+                              alt="title-img"
                               src="https://i.imgur.com/5kT7Vl7.png"
                             />
                           </NavLink>
@@ -1928,7 +2083,7 @@ ShallowWrapper {
                             to="/"
                           >
                             <img
-                              alt="fuck"
+                              alt="title-img"
                               src="https://i.imgur.com/5kT7Vl7.png"
                             />
                           </NavLink>,
@@ -1944,7 +2099,7 @@ ShallowWrapper {
                             "activeClassName": "active",
                             "aria-current": "page",
                             "children": <img
-                              alt="fuck"
+                              alt="title-img"
                               src="https://i.imgur.com/5kT7Vl7.png"
                             />,
                             "exact": true,
@@ -1956,7 +2111,7 @@ ShallowWrapper {
                             "key": undefined,
                             "nodeType": "host",
                             "props": Object {
-                              "alt": "fuck",
+                              "alt": "title-img",
                               "src": "https://i.imgur.com/5kT7Vl7.png",
                             },
                             "ref": null,
@@ -2020,75 +2175,10 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "children": <div
-                        className="navbar-end"
-                      >
+                      "children": Array [
                         <div
-                          className="navbar-item"
-                          href="http://localhost:3000/issues"
+                          className="navbar-end"
                         >
-                          <NavLink
-                            activeClassName="active"
-                            aria-current="page"
-                            exact={true}
-                            to="/issues"
-                          >
-                            WORDS
-                          </NavLink>
-                        </div>
-                        <div
-                          className="navbar-item"
-                          href="http://localhost:3000/most_recent"
-                        >
-                          <NavLink
-                            activeClassName="active"
-                            aria-current="page"
-                            exact={true}
-                            to="/most_recent"
-                          >
-                            LIST
-                          </NavLink>
-                        </div>
-                        <div
-                          className="navbar-item"
-                          href="http://localhost:3000/about"
-                        >
-                          <NavLink
-                            activeClassName="active"
-                            aria-current="page"
-                            exact={true}
-                            to="/about"
-                          >
-                            ABOUT
-                          </NavLink>
-                        </div>
-                        <span
-                          className="navbar-item"
-                        />
-                      </div>,
-                      "className": "navbar-menu",
-                      "id": "navbarMenuHeroA",
-                    },
-                    "ref": null,
-                    "rendered": Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": Array [
-                          <div
-                            className="navbar-item"
-                            href="http://localhost:3000/issues"
-                          >
-                            <NavLink
-                              activeClassName="active"
-                              aria-current="page"
-                              exact={true}
-                              to="/issues"
-                            >
-                              WORDS
-                            </NavLink>
-                          </div>,
                           <div
                             className="navbar-item"
                             href="http://localhost:3000/most_recent"
@@ -2101,7 +2191,7 @@ ShallowWrapper {
                             >
                               LIST
                             </NavLink>
-                          </div>,
+                          </div>
                           <div
                             className="navbar-item"
                             href="http://localhost:3000/about"
@@ -2114,137 +2204,300 @@ ShallowWrapper {
                             >
                               ABOUT
                             </NavLink>
-                          </div>,
-                          <span
+                          </div>
+                          <div
                             className="navbar-item"
-                          />,
-                        ],
-                        "className": "navbar-end",
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": <NavLink
+                            href="http://localhost:3000/issues"
+                          >
+                            <NavLink
                               activeClassName="active"
                               aria-current="page"
                               exact={true}
                               to="/issues"
                             >
                               WORDS
-                            </NavLink>,
-                            "className": "navbar-item",
-                            "href": "http://localhost:3000/issues",
-                          },
-                          "ref": null,
-                          "rendered": Object {
-                            "instance": null,
-                            "key": undefined,
-                            "nodeType": "function",
-                            "props": Object {
-                              "activeClassName": "active",
-                              "aria-current": "page",
-                              "children": "WORDS",
-                              "exact": true,
-                              "to": "/issues",
-                            },
-                            "ref": null,
-                            "rendered": "WORDS",
-                            "type": [Function],
-                          },
-                          "type": "div",
-                        },
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": <NavLink
-                              activeClassName="active"
-                              aria-current="page"
-                              exact={true}
-                              to="/most_recent"
+                            </NavLink>
+                          </div>
+                        </div>,
+                        <div
+                          className="twitter-login-btn"
+                        >
+                          <TwitterLogin />
+                        </div>,
+                      ],
+                      "className": "navbar-menu",
+                      "id": "navbarMenuHeroA",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <div
+                              className="navbar-item"
+                              href="http://localhost:3000/most_recent"
                             >
-                              LIST
-                            </NavLink>,
-                            "className": "navbar-item",
-                            "href": "http://localhost:3000/most_recent",
-                          },
-                          "ref": null,
-                          "rendered": Object {
-                            "instance": null,
-                            "key": undefined,
-                            "nodeType": "function",
-                            "props": Object {
-                              "activeClassName": "active",
-                              "aria-current": "page",
-                              "children": "LIST",
-                              "exact": true,
-                              "to": "/most_recent",
-                            },
-                            "ref": null,
-                            "rendered": "LIST",
-                            "type": [Function],
-                          },
-                          "type": "div",
-                        },
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": <NavLink
-                              activeClassName="active"
-                              aria-current="page"
-                              exact={true}
-                              to="/about"
+                              <NavLink
+                                activeClassName="active"
+                                aria-current="page"
+                                exact={true}
+                                to="/most_recent"
+                              >
+                                LIST
+                              </NavLink>
+                            </div>,
+                            <div
+                              className="navbar-item"
+                              href="http://localhost:3000/about"
                             >
-                              ABOUT
-                            </NavLink>,
-                            "className": "navbar-item",
-                            "href": "http://localhost:3000/about",
-                          },
-                          "ref": null,
-                          "rendered": Object {
+                              <NavLink
+                                activeClassName="active"
+                                aria-current="page"
+                                exact={true}
+                                to="/about"
+                              >
+                                ABOUT
+                              </NavLink>
+                            </div>,
+                            <div
+                              className="navbar-item"
+                              href="http://localhost:3000/issues"
+                            >
+                              <NavLink
+                                activeClassName="active"
+                                aria-current="page"
+                                exact={true}
+                                to="/issues"
+                              >
+                                WORDS
+                              </NavLink>
+                            </div>,
+                          ],
+                          "className": "navbar-end",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
                             "instance": null,
                             "key": undefined,
-                            "nodeType": "function",
+                            "nodeType": "host",
                             "props": Object {
-                              "activeClassName": "active",
-                              "aria-current": "page",
-                              "children": "ABOUT",
-                              "exact": true,
-                              "to": "/about",
+                              "children": <NavLink
+                                activeClassName="active"
+                                aria-current="page"
+                                exact={true}
+                                to="/most_recent"
+                              >
+                                LIST
+                              </NavLink>,
+                              "className": "navbar-item",
+                              "href": "http://localhost:3000/most_recent",
                             },
                             "ref": null,
-                            "rendered": "ABOUT",
-                            "type": [Function],
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "function",
+                              "props": Object {
+                                "activeClassName": "active",
+                                "aria-current": "page",
+                                "children": "LIST",
+                                "exact": true,
+                                "to": "/most_recent",
+                              },
+                              "ref": null,
+                              "rendered": "LIST",
+                              "type": [Function],
+                            },
+                            "type": "div",
                           },
-                          "type": "div",
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": <NavLink
+                                activeClassName="active"
+                                aria-current="page"
+                                exact={true}
+                                to="/about"
+                              >
+                                ABOUT
+                              </NavLink>,
+                              "className": "navbar-item",
+                              "href": "http://localhost:3000/about",
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "function",
+                              "props": Object {
+                                "activeClassName": "active",
+                                "aria-current": "page",
+                                "children": "ABOUT",
+                                "exact": true,
+                                "to": "/about",
+                              },
+                              "ref": null,
+                              "rendered": "ABOUT",
+                              "type": [Function],
+                            },
+                            "type": "div",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": <NavLink
+                                activeClassName="active"
+                                aria-current="page"
+                                exact={true}
+                                to="/issues"
+                              >
+                                WORDS
+                              </NavLink>,
+                              "className": "navbar-item",
+                              "href": "http://localhost:3000/issues",
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "function",
+                              "props": Object {
+                                "activeClassName": "active",
+                                "aria-current": "page",
+                                "children": "WORDS",
+                                "exact": true,
+                                "to": "/issues",
+                              },
+                              "ref": null,
+                              "rendered": "WORDS",
+                              "type": [Function],
+                            },
+                            "type": "div",
+                          },
+                        ],
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <TwitterLogin />,
+                          "className": "twitter-login-btn",
                         },
-                        Object {
+                        "ref": null,
+                        "rendered": Object {
                           "instance": null,
                           "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "className": "navbar-item",
-                          },
+                          "nodeType": "function",
+                          "props": Object {},
                           "ref": null,
                           "rendered": null,
-                          "type": "span",
+                          "type": [Function],
                         },
-                      ],
-                      "type": "div",
-                    },
+                        "type": "div",
+                      },
+                    ],
                     "type": "div",
                   },
                 ],
                 "type": "div",
               },
               "type": "nav",
+            },
+            "type": "div",
+          },
+          "type": "section",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="rep-finder"
+            >
+              <div
+                className="rep-not-found"
+              >
+                <h2>
+                  Find and Tweet your local Congressional Rep
+                </h2>
+                <FindRepresentative
+                  getRepresentative={[Function]}
+                />
+              </div>
+            </div>,
+            "className": "rep-area",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="rep-not-found"
+              >
+                <h2>
+                  Find and Tweet your local Congressional Rep
+                </h2>
+                <FindRepresentative
+                  getRepresentative={[Function]}
+                />
+              </div>,
+              "className": "rep-finder",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h2>
+                    Find and Tweet your local Congressional Rep
+                  </h2>,
+                  <FindRepresentative
+                    getRepresentative={[Function]}
+                  />,
+                ],
+                "className": "rep-not-found",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Find and Tweet your local Congressional Rep",
+                  },
+                  "ref": null,
+                  "rendered": "Find and Tweet your local Congressional Rep",
+                  "type": "h2",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "getRepresentative": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
             },
             "type": "div",
           },
@@ -2294,7 +2547,6 @@ ShallowWrapper {
                 </div>
                 <div
                   className="modal "
-                  onClick={[Function]}
                 >
                   <div
                     className="modal-background"
@@ -2309,6 +2561,7 @@ ShallowWrapper {
                   <button
                     aria-label="close"
                     className="modal-close is-large"
+                    onClick={[Function]}
                   />
                 </div>
               </div>
@@ -2357,7 +2610,6 @@ ShallowWrapper {
                 </div>
                 <div
                   className="modal "
-                  onClick={[Function]}
                 >
                   <div
                     className="modal-background"
@@ -2372,6 +2624,7 @@ ShallowWrapper {
                   <button
                     aria-label="close"
                     className="modal-close is-large"
+                    onClick={[Function]}
                   />
                 </div>
               </div>,
@@ -2417,7 +2670,6 @@ ShallowWrapper {
                   </div>,
                   <div
                     className="modal "
-                    onClick={[Function]}
                   >
                     <div
                       className="modal-background"
@@ -2432,6 +2684,7 @@ ShallowWrapper {
                     <button
                       aria-label="close"
                       className="modal-close is-large"
+                      onClick={[Function]}
                     />
                   </div>,
                 ],
@@ -2598,10 +2851,10 @@ ShallowWrapper {
                       <button
                         aria-label="close"
                         className="modal-close is-large"
+                        onClick={[Function]}
                       />,
                     ],
                     "className": "modal ",
-                    "onClick": [Function],
                   },
                   "ref": null,
                   "rendered": Array [
@@ -2647,6 +2900,7 @@ ShallowWrapper {
                       "props": Object {
                         "aria-label": "close",
                         "className": "modal-close is-large",
+                        "onClick": [Function],
                       },
                       "ref": null,
                       "rendered": null,

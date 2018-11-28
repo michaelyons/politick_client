@@ -438,7 +438,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "0",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Weber County Sheriff's Office",
               "date": "2018-10-30",
@@ -453,7 +453,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "1",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Newaygo County Sheriff's Office",
               "date": "2018-10-30",
@@ -468,7 +468,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "2",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "St. Louis City Justice Center",
               "date": "2018-10-30",
@@ -483,7 +483,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "3",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Bechtel Global Corporation",
               "date": "2018-10-30",
@@ -498,7 +498,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "4",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Overseas Shipholding Group, Inc.",
               "date": "2018-10-30",
@@ -513,7 +513,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "5",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "SAZERAC COMPANY INC.",
               "date": "2018-10-30",
@@ -528,7 +528,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "6",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "The Immigration Hub LLC",
               "date": "2018-10-30",
@@ -543,7 +543,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "7",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "American Federation of Government Employees, Council 118",
               "date": "2018-10-30",
@@ -558,7 +558,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "8",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Independent Lubricant Manufacturers Association",
               "date": "2018-10-30",
@@ -573,7 +573,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "9",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Gregg County Sheriff's Office",
               "date": "2018-10-30",
@@ -588,7 +588,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "10",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Lubbock County Sheriff's Office",
               "date": "2018-10-30",
@@ -603,7 +603,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "11",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Greene County Sheriff's Office",
               "date": "2018-10-30",
@@ -618,7 +618,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "12",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Merrimack County Department of Corrections",
               "date": "2018-10-30",
@@ -633,7 +633,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "13",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Alamance County Sheriff's Office",
               "date": "2018-10-30",
@@ -648,7 +648,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "14",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Randall County Sheriffs Office",
               "date": "2018-10-30",
@@ -663,7 +663,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "15",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Sandoval County Detention Center",
               "date": "2018-10-30",
@@ -678,7 +678,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "16",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Columbia County Sheriff's Office",
               "date": "2018-10-30",
@@ -693,7 +693,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "17",
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "clientName": "Charleston County Sheriff's Office",
               "date": "2018-10-30",
@@ -1007,7 +1007,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "0",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Weber County Sheriff's Office",
                 "date": "2018-10-30",
@@ -1022,7 +1022,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "1",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Newaygo County Sheriff's Office",
                 "date": "2018-10-30",
@@ -1037,7 +1037,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "2",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "St. Louis City Justice Center",
                 "date": "2018-10-30",
@@ -1052,7 +1052,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "3",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Bechtel Global Corporation",
                 "date": "2018-10-30",
@@ -1067,7 +1067,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "4",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Overseas Shipholding Group, Inc.",
                 "date": "2018-10-30",
@@ -1082,7 +1082,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "5",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "SAZERAC COMPANY INC.",
                 "date": "2018-10-30",
@@ -1097,7 +1097,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "6",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "The Immigration Hub LLC",
                 "date": "2018-10-30",
@@ -1112,7 +1112,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "7",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "American Federation of Government Employees, Council 118",
                 "date": "2018-10-30",
@@ -1127,7 +1127,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "8",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Independent Lubricant Manufacturers Association",
                 "date": "2018-10-30",
@@ -1142,7 +1142,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "9",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Gregg County Sheriff's Office",
                 "date": "2018-10-30",
@@ -1157,7 +1157,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "10",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Lubbock County Sheriff's Office",
                 "date": "2018-10-30",
@@ -1172,7 +1172,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "11",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Greene County Sheriff's Office",
                 "date": "2018-10-30",
@@ -1187,7 +1187,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "12",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Merrimack County Department of Corrections",
                 "date": "2018-10-30",
@@ -1202,7 +1202,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "13",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Alamance County Sheriff's Office",
                 "date": "2018-10-30",
@@ -1217,7 +1217,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "14",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Randall County Sheriffs Office",
                 "date": "2018-10-30",
@@ -1232,7 +1232,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "15",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Sandoval County Detention Center",
                 "date": "2018-10-30",
@@ -1247,7 +1247,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "16",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Columbia County Sheriff's Office",
                 "date": "2018-10-30",
@@ -1262,7 +1262,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "17",
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "clientName": "Charleston County Sheriff's Office",
                 "date": "2018-10-30",
