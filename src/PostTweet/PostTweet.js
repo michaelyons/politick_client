@@ -31,7 +31,7 @@ class PostTweet extends Component {
   };
 
   populateTweet = () => {
-    const tweetText = `@${this.props.congressTwitterName}\n Topic Filing ID:${
+    const tweetText = `@${this.props.congressTwitterName}\n Topic Filing ID: ${
       this.props.filingId
     }`;
     this.setState({
@@ -61,7 +61,7 @@ class PostTweet extends Component {
                   className="subtitle"
                   name="tweetText"
                   rows="10"
-                  cols="50"
+                  cols="55"
                   onChange={this.handleChange}
                   value={this.state.tweetText}
                 />
