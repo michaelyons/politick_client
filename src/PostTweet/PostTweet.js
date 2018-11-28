@@ -31,9 +31,9 @@ class PostTweet extends Component {
   };
 
   populateTweet = () => {
-    const tweetText = `Please let this work @${
-      this.props.congressTwitterName
-    } ${this.props.congressRealName}`;
+    const tweetText = `@${this.props.congressTwitterName} ${
+      this.props.congressRealName
+    }`;
     this.setState({
       tweetText
     });
