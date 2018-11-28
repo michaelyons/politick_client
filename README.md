@@ -28,9 +28,9 @@ Politik automatically gathers data from the ProPublica API each day as Lobbyists
 
 ### APIs
 
-[Propublica Data Store](https://www.propublica.org/datastore/apis)
-[Twitter](https://developer.twitter.com/content/developer-twitter/en.html)
-[Google Civic Information API](https://developers.google.com/civic-information/)
+- [Propublica Data Store](https://www.propublica.org/datastore/apis)
+- [Twitter](https://developer.twitter.com/content/developer-twitter/en.html)
+- [Google Civic Information API](https://developers.google.com/civic-information/)
 
 ### Contributors
 
