@@ -4,6 +4,8 @@ import LobbyistShow from '../LobbyistShow/LobbyistShow';
 import About from '../About/About';
 import TwitterLogin from '../TwitterLogin/TwitterLogin';
 import LoginSuccess from '../LoginSuccess/LoginSuccess';
+import FoundRepresentative from '../FoundRepresentative/FoundRepresentative';
+import FindRepresentative from '../FindRepresentative/FindRepresentative';
 import { Route, Switch, NavLink } from 'react-router-dom';
 import {
   recentTopicsFetchCall,
@@ -11,7 +13,8 @@ import {
   wordCloudFetch,
   lobbyistListFetchCall,
   specificWordFetch,
-  grabTwitterUsername
+  grabTwitterUsername,
+  congressMemberFetch
 } from '../Utils/apiCalls';
 import ModalContainer from '../ModalContainer/ModalContainer';
 import WordCloud from 'react-d3-cloud';
@@ -34,7 +37,9 @@ class App extends Component {
       active: false,
       loading: true,
       currentUser: '',
-      twitterUserId: ''
+      twitterUserId: '',
+      representativeTwitter: '',
+      representativeRealName: ''
     };
   }
 
@@ -57,6 +62,17 @@ class App extends Component {
         this.setState({ errors: error.message });
       }
     }
+  };
+
+  getRepresentative = async zipcodeObject => {
+    const zip = zipcodeObject.zipcode;
+    const currentRep = await congressMemberFetch(zip);
+    const twitter = currentRep[0].twitterName;
+    const name = currentRep[0].repName;
+    this.setState({
+      representativeTwitter: twitter,
+      representativeRealName: name
+    });
   };
 
   setCurrentUser = async () => {
@@ -181,6 +197,17 @@ class App extends Component {
                 </div>
                 <div id="navbarMenuHeroA" className="navbar-menu">
                   <div className="navbar-end">
+                    <div className="rep-finder">
+                      {this.state.representativeRealName ? (
+                        <FoundRepresentative
+                          representative={this.state.representativeRealName}
+                        />
+                      ) : (
+                        <FindRepresentative
+                          getRepresentative={this.getRepresentative}
+                        />
+                      )}
+                    </div>
                     <div
                       href="http://localhost:3000/issues"
                       className="navbar-item"
@@ -277,6 +304,10 @@ class App extends Component {
                             setCurrentId={this.setCurrentId}
                             fetchLobbyData={this.fetchLobbyistList}
                             currentTwitterUser={this.state.twitterUserId}
+                            congressTwitterName={
+                              this.state.representativeTwitter
+                            }
+                            congressRealName={this.state.representativeRealName}
                           />
                         </div>
                       );

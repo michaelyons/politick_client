@@ -38,7 +38,9 @@ class LobbyCard extends Component {
       topic,
       setCurrentId,
       fetchLobbyData,
-      currentTwitterUser
+      currentTwitterUser,
+      congressTwitterName,
+      congressRealName
     } = this.props;
     if (!lobbyists) {
       return <LoadingGif />;
@@ -74,7 +76,11 @@ class LobbyCard extends Component {
           >
             <div className="modal-background" />
             <div className="modal-content">
-              <PostTweet currentTwitterUser={currentTwitterUser} />
+              <PostTweet
+                congressRealName={congressRealName}
+                congressTwitterName={congressTwitterName}
+                currentTwitterUser={currentTwitterUser}
+              />
             </div>
             <button className="modal-close is-large" aria-label="close" />
           </div>
@@ -103,7 +109,9 @@ LobbyCard.propTypes = {
   setCurrentId: PropTypes.func,
   fetchLobbyData: PropTypes.func,
   date: PropTypes.string,
-  currentTwitterUser: PropTypes.string
+  currentTwitterUser: PropTypes.string,
+  congressTwitterName: PropTypes.string,
+  congressRealName: PropTypes.string
 };
 
 export default LobbyCard;

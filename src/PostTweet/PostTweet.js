@@ -20,7 +20,7 @@ class PostTweet extends Component {
     event.preventDefault();
     this.postTweet();
     this.setState({
-      tweetText: 'Tweet Sent Successfully!'
+      tweetText: 'Successful Tweet!'
     });
   };
 
@@ -31,7 +31,9 @@ class PostTweet extends Component {
   };
 
   populateTweet = () => {
-    const tweetText = `Please let this work`;
+    const tweetText = `Please let this work @${
+      this.props.congressTwitterName
+    } ${this.props.congressRealName}`;
     this.setState({
       tweetText
     });
@@ -75,7 +77,9 @@ class PostTweet extends Component {
 }
 
 PostTweet.propTypes = {
-  currentTwitterUser: PropTypes.string
+  currentTwitterUser: PropTypes.string,
+  congressTwitterName: PropTypes.string,
+  congressRealName: PropTypes.string
 };
 
 export default PostTweet;

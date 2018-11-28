@@ -12,6 +12,15 @@ export const lobbyistFetchCall = async () => {
   return data;
 };
 
+export const congressMemberFetch = async zipcode => {
+  const url = `https://www.googleapis.com/civicinfo/v2/representatives?key=${
+    process.env.REACT_APP_CONGRESS_KEY
+  }&address=${zipcode}&roles=legislatorLowerBody`;
+  const response = await fetch(url);
+  const data = await response.json();
+  return cleanCongressMembers(data.officials);
+};
+
 export const tweetPostRequest = async infoPayload => {
   const url = 'https://ml-politick-server.herokuapp.com/twitter/posttweet';
   const response = await fetch(url, {
@@ -50,6 +59,18 @@ export const specificWordFetch = async word => {
   const response = await fetch(url);
   const data = await response.json();
   return cleanWordFetch(data);
+};
+
+const cleanCongressMembers = data => {
+  return data.map(congressMember => {
+    const twitter = congressMember.channels.find(
+      object => object.type === 'Twitter'
+    );
+    return {
+      repName: congressMember.name,
+      twitterName: twitter.id
+    };
+  });
 };
 
 const cleanInitialFetch = data => {
