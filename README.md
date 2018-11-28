@@ -6,7 +6,7 @@
 
 ## About
 
-Politik automatically gathers data from the ProPublica API each day as Lobbyists file their issues for the public record
+Politik automatically gathers data from the ProPublica API each day as Lobbyists file their issues for the public record. The issues are then displayed based on most commonly occuring words (via word cloud) or in chronological order issue cards.
 
 ### Screenshots
 
@@ -20,12 +20,17 @@ Politik automatically gathers data from the ProPublica API each day as Lobbyists
 
 - React
 - Router
+- Node
+- Express
 - Jest/Enzyme
 - Python
+- Rails
 
 ### APIs
 
 [Propublica Data Store](https://www.propublica.org/datastore/apis)
+[Twitter](https://developer.twitter.com/content/developer-twitter/en.html)
+[Google Civic Information API](https://developers.google.com/civic-information/)
 
 ### Contributors
 
