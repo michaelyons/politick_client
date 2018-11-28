@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import LobbyCard from '../LobbyCard/LobbyCard';
-
+import LoadingGif from '../LoadingGif/LoadingGif';
 import './RecentTopicsContainer.css';
 
 const RecentTopicsContainer = ({
@@ -12,23 +12,28 @@ const RecentTopicsContainer = ({
   congressTwitterName,
   congressRealName
 }) => {
-  const lobbyCard = recentTopicsCategory.map((topic, index) => (
-    <LobbyCard
-      setCurrentId={setCurrentId}
-      {...topic}
-      key={index}
-      fetchLobbyData={fetchLobbyData}
-      currentTwitterUser={currentTwitterUser}
-      congressTwitterName={congressTwitterName}
-      congressRealName={congressRealName}
-    />
-  ));
-  return (
-    <div className="container is-fluid">
-      <h1 className="title">Most Recent Lobby Filings</h1>
-      <div className="notification">{lobbyCard}</div>
-    </div>
-  );
+  let lobbyCard;
+  if (!recentTopicsCategory.length) {
+    return (lobbyCard = <LoadingGif />);
+  } else {
+    lobbyCard = recentTopicsCategory.map((topic, index) => (
+      <LobbyCard
+        setCurrentId={setCurrentId}
+        {...topic}
+        key={index}
+        fetchLobbyData={fetchLobbyData}
+        currentTwitterUser={currentTwitterUser}
+        congressTwitterName={congressTwitterName}
+        congressRealName={congressRealName}
+      />
+    ));
+    return (
+      <div className="container is-fluid">
+        <h1 className="title">Most Recent Lobby Filings</h1>
+        <div className="notification">{lobbyCard}</div>
+      </div>
+    );
+  }
 };
 
 RecentTopicsContainer.propTypes = {

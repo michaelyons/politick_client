@@ -4,6 +4,7 @@ import LobbyistShow from '../LobbyistShow/LobbyistShow';
 import About from '../About/About';
 import TwitterLogin from '../TwitterLogin/TwitterLogin';
 import LoginSuccess from '../LoginSuccess/LoginSuccess';
+import LoadingGif from '../LoadingGif/LoadingGif';
 import FoundRepresentative from '../FoundRepresentative/FoundRepresentative';
 import FindRepresentative from '../FindRepresentative/FindRepresentative';
 import { Route, Switch, NavLink } from 'react-router-dom';
@@ -278,40 +279,44 @@ class App extends Component {
                     path="/"
                     render={() => {
                       this.setWordCloud();
-                      return (
-                        <div>
-                          <h1 className="title">
-                            What are lobbyists talking about?
-                          </h1>
-                          <h6 className="subtitle john-head">
-                            Below are the most commonly occuring words from
-                            issues presented by Lobbyists to the US Government
-                            <br /> Click on a word to see Lobbyist
-                            representations filed into public record
-                          </h6>
-                          <input
-                            type="text"
-                            value={this.state.filterText}
-                            onChange={this.filterWordCloud}
-                            placeholder="Filter Words"
-                            className="input-home-field"
-                          />
-                          <div
-                            className="reset-btn-home"
-                            onClick={this.clearFilter}
-                          >
-                            Reset
+                      if (!this.state.wordCloud.length) {
+                        return <LoadingGif />;
+                      } else {
+                        return (
+                          <div>
+                            <h1 className="title">
+                              What are lobbyists talking about?
+                            </h1>
+                            <h6 className="subtitle john-head">
+                              Below are the most commonly occuring words from
+                              issues presented by Lobbyists to the US Government
+                              <br /> Click on a word to see Lobbyist
+                              representations filed into public record
+                            </h6>
+                            <input
+                              type="text"
+                              value={this.state.filterText}
+                              onChange={this.filterWordCloud}
+                              placeholder="Filter Words"
+                              className="input-home-field"
+                            />
+                            <div
+                              className="reset-btn-home"
+                              onClick={this.clearFilter}
+                            >
+                              Reset
+                            </div>
+                            <WordCloud
+                              data={this.state.filteredWordCloud}
+                              fontSizeMapper={this.fontSizeMapper}
+                              width={1320}
+                              height={900}
+                              onWordClick={this.onWordClick}
+                              padding={5}
+                            />
                           </div>
-                          <WordCloud
-                            data={this.state.filteredWordCloud}
-                            fontSizeMapper={this.fontSizeMapper}
-                            width={1320}
-                            height={900}
-                            onWordClick={this.onWordClick}
-                            padding={5}
-                          />
-                        </div>
-                      );
+                        );
+                      }
                     }}
                   />
                   <Route
@@ -348,36 +353,42 @@ class App extends Component {
                     path="/issues"
                     render={() => {
                       this.setWordCloud();
-                      return (
-                        <div>
-                          <h1 className="title">Frequently Mentioned Words</h1>
-                          <h1 className="subtitle">
-                            Click on a word to view related lobbying filings or
-                            search by topic of interest
-                          </h1>
-                          <input
-                            type="text"
-                            value={this.state.filterText}
-                            onChange={this.filterWordCloud}
-                            placeholder="Filter words"
-                            className="wordcloud-input"
-                          />
-                          <div
-                            className="reset-btn-cloud"
-                            onClick={this.clearFilter}
-                          >
-                            Reset
+                      if (!this.state.wordCloud.length) {
+                        return <LoadingGif />;
+                      } else {
+                        return (
+                          <div>
+                            <h1 className="title">
+                              Frequently Mentioned Words
+                            </h1>
+                            <h1 className="subtitle">
+                              Click on a word to view related lobbying filings
+                              or search by topic of interest
+                            </h1>
+                            <input
+                              type="text"
+                              value={this.state.filterText}
+                              onChange={this.filterWordCloud}
+                              placeholder="Filter words"
+                              className="wordcloud-input"
+                            />
+                            <div
+                              className="reset-btn-cloud"
+                              onClick={this.clearFilter}
+                            >
+                              Reset
+                            </div>
+                            <WordCloud
+                              data={this.state.filteredWordCloud}
+                              fontSizeMapper={this.fontSizeMapper}
+                              width={1320}
+                              height={900}
+                              onWordClick={this.onWordClick}
+                              padding={5}
+                            />
                           </div>
-                          <WordCloud
-                            data={this.state.filteredWordCloud}
-                            fontSizeMapper={this.fontSizeMapper}
-                            width={1320}
-                            height={900}
-                            onWordClick={this.onWordClick}
-                            padding={5}
-                          />
-                        </div>
-                      );
+                        );
+                      }
                     }}
                   />
                   <Route
