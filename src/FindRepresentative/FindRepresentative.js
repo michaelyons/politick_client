@@ -26,7 +26,6 @@ class FindRepresentative extends Component {
   render() {
     return (
       <div>
-        <h2>Find and Tweet your local Congressional Representative</h2>
         <form onSubmit={this.handleSubmit}>
           <input
             type="number"

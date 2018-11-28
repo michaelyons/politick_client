@@ -221,9 +221,15 @@ class App extends Component {
                           representative={this.state.representativeRealName}
                         />
                       ) : (
-                        <FindRepresentative
-                          getRepresentative={this.getRepresentative}
-                        />
+                        <div className="rep-not-found">
+                          <h2>
+                            Find and Tweet your local Congressional
+                            Representative
+                          </h2>
+                          <FindRepresentative
+                            getRepresentative={this.getRepresentative}
+                          />
+                        </div>
                       )}
                     </div>
                     <div
