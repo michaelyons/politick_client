@@ -49,7 +49,7 @@ class PostTweet extends Component {
     return (
       <div className="card">
         <header className="card-header">
-          <p className="card-header-title">Send Tweet</p>
+          <p className="card-header-title">Tweet your Representative</p>
         </header>
         <div className="media">
           <div className="card-content">
@@ -59,7 +59,7 @@ class PostTweet extends Component {
                   className="subtitle"
                   name="tweetText"
                   rows="10"
-                  cols="58"
+                  cols="45"
                   onChange={this.handleChange}
                   value={this.state.tweetText}
                 />
