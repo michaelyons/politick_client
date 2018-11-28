@@ -6,13 +6,21 @@ text:hover {
   font-weight: 900;
 }
 
+.rep-finder {
+  margin-top: 0.88rem;
+}
+
+input {
+  width: 8rem;
+  margin-right: 1rem;
+}
+
 div .hero-body {
   padding-top: 0.5rem;
 }
 
 .twitter-login-btn {
   margin-top: 0.88rem;
-  /* color: #0084b4; */
 }
 
 .modal-content {

@@ -6,8 +6,7 @@ class FoundRepresentative extends Component {
     const { representative } = this.props;
     return (
       <div>
-        <h2>Your Memeber of Congress is {representative}</h2>
-        <button>Reset</button>
+        <h2>Your Congressional Rep is {representative}</h2>
       </div>
     );
   }

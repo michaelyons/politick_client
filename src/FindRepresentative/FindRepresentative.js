@@ -26,17 +26,18 @@ class FindRepresentative extends Component {
   render() {
     return (
       <div>
+        <h2>Find and Tweet your local Congressional Representative</h2>
         <form onSubmit={this.handleSubmit}>
           <input
             type="number"
             name="zipcode"
             required
             max="99999"
-            placeholder="Enter Zip Code to Find Your Local Member of Congress"
+            placeholder="Enter Zip Code"
             onChange={this.handleChange}
             value={this.state.zipcode}
           />
-          <button>Find My Representative</button>
+          <button>Find My Rep</button>
         </form>
       </div>
     );

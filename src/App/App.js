@@ -45,6 +45,7 @@ class App extends Component {
 
   componentDidMount() {
     this.setCurrentUser();
+    this.checkForRepresentatives();
     const userNameParams = window.location.search;
     if (userNameParams.includes('?user')) {
       return <LoginSuccess currentUser={this.state.currentUser} />;
@@ -73,6 +74,23 @@ class App extends Component {
       representativeTwitter: twitter,
       representativeRealName: name
     });
+    localStorage.setItem('representativeTwitter', JSON.stringify(twitter));
+    localStorage.setItem('representativeRealName', JSON.stringify(name));
+  };
+
+  checkForRepresentatives = () => {
+    const representativeTwitter = JSON.parse(
+      localStorage.getItem('representativeTwitter')
+    );
+    const representativeRealName = JSON.parse(
+      localStorage.getItem('representativeRealName')
+    );
+    if (representativeTwitter && representativeRealName) {
+      this.setState({
+        representativeTwitter,
+        representativeRealName
+      });
+    }
   };
 
   setCurrentUser = async () => {
