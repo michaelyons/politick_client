@@ -17,6 +17,7 @@ text:hover {
 .rep-area {
   display: flex;
   justify-content: flex-end;
+  width: 90%;
 }
 
 input {
