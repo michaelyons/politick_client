@@ -209,14 +209,6 @@ class App extends Component {
                       )}
                     </div>
                     <div
-                      href="http://localhost:3000/issues"
-                      className="navbar-item"
-                    >
-                      <NavLink exact to="/issues">
-                        WORDS
-                      </NavLink>
-                    </div>
-                    <div
                       href="http://localhost:3000/most_recent"
                       className="navbar-item"
                     >
@@ -230,6 +222,14 @@ class App extends Component {
                     >
                       <NavLink exact to="/about">
                         ABOUT
+                      </NavLink>
+                    </div>
+                    <div
+                      href="http://localhost:3000/issues"
+                      className="navbar-item"
+                    >
+                      <NavLink exact to="/issues">
+                        WORDS
                       </NavLink>
                     </div>
                   </div>
