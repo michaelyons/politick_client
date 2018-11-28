@@ -81,7 +81,7 @@ PostTweet.propTypes = {
   currentTwitterUser: PropTypes.string,
   congressTwitterName: PropTypes.string,
   congressRealName: PropTypes.string,
-  filingId: PropTypes.string
+  filingId: PropTypes.number
 };
 
 export default PostTweet;

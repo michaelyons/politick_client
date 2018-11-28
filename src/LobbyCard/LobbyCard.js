@@ -42,15 +42,15 @@ class LobbyCard extends Component {
       congressTwitterName,
       congressRealName
     } = this.props;
+    const handleLobbyistClick = async () => {
+      const id = await setCurrentId();
+      fetchLobbyData(id);
+    };
+    let lobbyistLinks;
     if (!lobbyists) {
-      return <LoadingGif />;
+      return (lobbyistLinks = <LoadingGif />);
     } else {
-      const handleLobbyistClick = async () => {
-        const id = await setCurrentId();
-        fetchLobbyData(id);
-      };
-
-      const lobbyistLinks = lobbyists.map(person => (
+      lobbyistLinks = lobbyists.map(person => (
         <Link
           className="lobbyist-name"
           key={person.id}
