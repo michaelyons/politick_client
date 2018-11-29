@@ -20,7 +20,7 @@ ShallowWrapper {
       "children": <img
         alt="fire loading gif"
         className="fire-gif"
-        src="gif.gif"
+        src="gif2.gif"
       />,
     },
     "ref": null,
@@ -31,7 +31,7 @@ ShallowWrapper {
       "props": Object {
         "alt": "fire loading gif",
         "className": "fire-gif",
-        "src": "gif.gif",
+        "src": "gif2.gif",
       },
       "ref": null,
       "rendered": null,
@@ -48,7 +48,7 @@ ShallowWrapper {
         "children": <img
           alt="fire loading gif"
           className="fire-gif"
-          src="gif.gif"
+          src="gif2.gif"
         />,
       },
       "ref": null,
@@ -59,7 +59,7 @@ ShallowWrapper {
         "props": Object {
           "alt": "fire loading gif",
           "className": "fire-gif",
-          "src": "gif.gif",
+          "src": "gif2.gif",
         },
         "ref": null,
         "rendered": null,
