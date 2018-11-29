@@ -1,0 +1,11 @@
+.rep-link {
+  color: #3273dc !important;
+}
+
+.rep-link:hover {
+  color: black !important;
+}
+
+.rep-div {
+  display: inline;
+}
