@@ -40,7 +40,8 @@ class App extends Component {
       currentUser: '',
       twitterUserId: '',
       representativeTwitter: '',
-      representativeRealName: ''
+      representativeRealName: '',
+      representativeUrl: ''
     };
   }
 
@@ -71,12 +72,15 @@ class App extends Component {
     const currentRep = await congressMemberFetch(zip);
     const twitter = currentRep[0].twitterName;
     const name = currentRep[0].repName;
+    const url = currentRep[0].url;
     this.setState({
       representativeTwitter: twitter,
-      representativeRealName: name
+      representativeRealName: name,
+      representativeUrl: url
     });
     localStorage.setItem('representativeTwitter', JSON.stringify(twitter));
     localStorage.setItem('representativeRealName', JSON.stringify(name));
+    localStorage.setItem('representativeUrl', JSON.stringify(url));
   };
 
   checkForRepresentatives = () => {
@@ -86,10 +90,14 @@ class App extends Component {
     const representativeRealName = JSON.parse(
       localStorage.getItem('representativeRealName')
     );
-    if (representativeTwitter && representativeRealName) {
+    const representativeUrl = JSON.parse(
+      localStorage.getItem('representativeUrl')
+    );
+    if (representativeTwitter && representativeRealName && representativeUrl) {
       this.setState({
         representativeTwitter,
-        representativeRealName
+        representativeRealName,
+        representativeUrl
       });
     }
   };
@@ -248,6 +256,7 @@ class App extends Component {
             {this.state.representativeRealName ? (
               <FoundRepresentative
                 representative={this.state.representativeRealName}
+                url={this.state.representativeUrl}
               />
             ) : (
               <div className="rep-not-found">

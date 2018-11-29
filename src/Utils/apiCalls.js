@@ -68,7 +68,8 @@ const cleanCongressMembers = data => {
     );
     return {
       repName: congressMember.name,
-      twitterName: twitter.id
+      twitterName: twitter.id,
+      url: congressMember.urls[0]
     };
   });
 };
