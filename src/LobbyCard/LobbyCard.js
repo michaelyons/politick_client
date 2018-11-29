@@ -64,11 +64,13 @@ class LobbyCard extends Component {
         <div className="card">
           <header className="card-header">
             <p className="card-header-title">Filing ID: {filingId}</p>
-            <button onClick={this.toggleTweetButton}>
-              Tweet This Issue
-              <i className="fab fa-twitter" />
-            </button>
             <p className="card-header-icon is-italic">Filed: {date}</p>
+            <button
+              onClick={this.toggleTweetButton}
+              className="tweet-issue-btn"
+            >
+              Tweet This Issue
+            </button>
           </header>
           <div
             className={`modal ${this.state.tweetRecent ? 'is-active' : ''}`}

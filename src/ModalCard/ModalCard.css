@@ -17,3 +17,10 @@ p.subtitle {
   padding-bottom: 1rem;
   padding-top: 1rem;
 }
+
+.tweet-issue-btn {
+  background-color: #1da1f2;
+  color: #fff !important;
+  cursor: pointer;
+  font-size: 1rem;
+}
