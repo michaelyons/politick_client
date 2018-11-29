@@ -8,7 +8,12 @@ class FoundRepresentative extends Component {
     return (
       <div>
         <h2 className="rep-div">Your Congressional Rep is </h2>
-        <a className="rep-link" href={url}>
+        <a
+          className="rep-link"
+          href={url}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           {representative}
         </a>
       </div>
