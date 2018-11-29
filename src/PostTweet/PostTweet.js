@@ -32,7 +32,9 @@ class PostTweet extends Component {
   };
 
   populateTweet = () => {
-    const tweetText = `@${this.props.congressTwitterName}\n Topic Filing ID: ${
+    const tweetText = `@${
+      this.props.congressTwitterName
+    }\n https://projects.propublica.org/represent/lobbying/r/${
       this.props.filingId
     }`;
     this.setState({
