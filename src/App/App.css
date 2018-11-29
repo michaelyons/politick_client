@@ -12,6 +12,7 @@ text:hover {
 
 h2 {
   margin-top: 0.4rem;
+  height: 1.5rem;
 }
 .rep-not-found {
   display: flex;

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { tweetPostRequest } from '../Utils/apiCalls';
+import './PostTweet.css';
 
 class PostTweet extends Component {
   constructor(props) {
@@ -65,7 +66,10 @@ class PostTweet extends Component {
                   onChange={this.handleChange}
                   value={this.state.tweetText}
                 />
-                <button onClick={this.postTweet} className="subtitle">
+                <button
+                  onClick={this.postTweet}
+                  className="subtitle send-tweet"
+                >
                   Send Tweet
                 </button>
               </form>
