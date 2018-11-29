@@ -10,6 +10,10 @@ text:hover {
   margin-top: 0.88rem;
 }
 
+nav {
+  padding: 0 3rem 0 3rem;
+}
+
 h2 {
   margin-top: 0.4rem;
   height: 1.5rem;
@@ -22,7 +26,7 @@ h2 {
 .rep-area {
   display: flex;
   justify-content: flex-end;
-  width: 92.7%;
+  padding: 0 3rem 0 3rem;
 }
 
 input {
@@ -131,4 +135,12 @@ iframe {
 
 .lobbyist-name {
   margin-right: 1rem;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: gray;
 }

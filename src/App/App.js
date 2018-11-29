@@ -192,66 +192,56 @@ class App extends Component {
   render() {
     return (
       <div>
-        <section className="hero is-dark is-small">
-          <div className="hero-head">
-            <nav className="navbar">
-              <div className="container">
-                <div className="navbar-brand">
-                  <div href="http://localhost:3000/" className="navbar-item">
-                    <NavLink exact to="/">
-                      <img
-                        src="https://i.imgur.com/5kT7Vl7.png"
-                        alt="title-img"
-                      />
-                    </NavLink>
-                  </div>
-                  <span
-                    className="navbar-burger burger"
-                    data-target="navbarMenuHeroA"
-                  >
-                    <span />
-                    <span />
-                    <span />
-                  </span>
+        <section>
+          <nav className="navbar is-dark">
+            <div className="navbar-brand">
+              <div href="http://localhost:3000/" className="navbar-item">
+                <NavLink exact to="/">
+                  <img src="https://i.imgur.com/5kT7Vl7.png" alt="title-img" />
+                </NavLink>
+              </div>
+              <span
+                className="navbar-burger burger"
+                data-target="navbarMenuHeroA"
+              >
+                <span />
+                <span />
+                <span />
+              </span>
+            </div>
+            <div id="navbarMenuHeroA" className="navbar-menu">
+              <div className="navbar-end">
+                <div
+                  href="http://localhost:3000/most_recent"
+                  className="navbar-item"
+                >
+                  <NavLink exact to="/most_recent">
+                    LIST
+                  </NavLink>
                 </div>
-                <div id="navbarMenuHeroA" className="navbar-menu">
-                  <div className="navbar-end">
-                    <div
-                      href="http://localhost:3000/most_recent"
-                      className="navbar-item"
-                    >
-                      <NavLink exact to="/most_recent">
-                        LIST
-                      </NavLink>
-                    </div>
-                    <div
-                      href="http://localhost:3000/about"
-                      className="navbar-item"
-                    >
-                      <NavLink exact to="/about">
-                        ABOUT
-                      </NavLink>
-                    </div>
-                    <div
-                      href="http://localhost:3000/issues"
-                      className="navbar-item"
-                    >
-                      <NavLink exact to="/issues">
-                        WORDS
-                      </NavLink>
-                    </div>
-                  </div>
-                  <div className="twitter-login-btn">
-                    {this.state.currentUser ? (
-                      <LoginSuccess currentUser={this.state.currentUser} />
-                    ) : (
-                      <TwitterLogin />
-                    )}
-                  </div>
+                <div href="http://localhost:3000/about" className="navbar-item">
+                  <NavLink exact to="/about">
+                    ABOUT
+                  </NavLink>
+                </div>
+                <div
+                  href="http://localhost:3000/issues"
+                  className="navbar-item"
+                >
+                  <NavLink exact to="/issues">
+                    WORDS
+                  </NavLink>
                 </div>
               </div>
-            </nav>
-          </div>
+              <div className="twitter-login-btn">
+                {this.state.currentUser ? (
+                  <LoginSuccess currentUser={this.state.currentUser} />
+                ) : (
+                  <TwitterLogin />
+                )}
+              </div>
+            </div>
+          </nav>
         </section>
         <section className="rep-area">
           <div className="rep-finder">
