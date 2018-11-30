@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import RecentTopicsContainer from '../RecentTopicsContainer/RecentTopicsContainer';
 import LobbyistShow from '../LobbyistShow/LobbyistShow';
-import About from '../About/About';
+// import About from '../About/About';
 import TwitterLogin from '../TwitterLogin/TwitterLogin';
 import LoginSuccess from '../LoginSuccess/LoginSuccess';
 import LoadingGif from '../LoadingGif/LoadingGif';
@@ -227,11 +227,11 @@ class App extends Component {
                     LIST
                   </NavLink>
                 </div>
-                <div href="http://localhost:3000/about" className="navbar-item">
+                {/* <div href="http://localhost:3000/about" className="navbar-item">
                   <NavLink exact to="/about">
                     ABOUT
                   </NavLink>
-                </div>
+                </div> */}
                 <div
                   href="http://localhost:3000/issues"
                   className="navbar-item"
@@ -340,13 +340,13 @@ class App extends Component {
                       );
                     }}
                   />
-                  <Route
+                  {/* <Route
                     exact
                     path="/about"
                     render={() => {
                       return <About />;
                     }}
-                  />
+                  /> */}
                   <Route
                     exact
                     path="/issues"
